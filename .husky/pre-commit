@@ -1,0 +1,4 @@
+#!/usr/bin/env sh
+  . "$(dirname -- "$0")/_/husky.sh"
+  
+  FORCE_COLOR=1 "$(dirname -- "$0")/../node_modules/.bin/lint-staged" -c .lintstagedrc.json
