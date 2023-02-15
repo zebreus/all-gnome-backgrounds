@@ -15,3 +15,5 @@ lerna-debug.log*
 # typescript
 *.tsbuildinfo
 dist/
+# eslint
+.eslintcache
