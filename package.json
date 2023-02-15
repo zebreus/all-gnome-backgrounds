@@ -1,0 +1,15 @@
+{
+  "name": "all-gnome-backgrounds",
+  "version": "0.0.0",
+  "description": "Get all gnome backgrounds",
+  "author": {
+    "name": "Zebreus",
+    "email": "lennarteichhorn@googlemail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zebreus/all-gnome-backgrounds"
+  },
+  "license": "MIT",
+  "type": "module"
+}
