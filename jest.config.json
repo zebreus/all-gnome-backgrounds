@@ -1,0 +1,11 @@
+{
+  "extensionsToTreatAsEsm": [".ts"],
+  "transform": {
+    "^.+.m?tsx?$": "@zebreus/resolve-tspaths/jest"
+  },
+  "coverageThreshold": {
+    "global": {
+      "statements": 95
+    }
+  }
+}

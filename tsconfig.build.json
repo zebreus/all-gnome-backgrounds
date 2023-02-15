@@ -4,5 +4,6 @@
     "noEmit": false,
     "sourceMap": false,
     "declarationMap": false
-  }
+  },
+  "exclude": ["src/tests", "src/**/*.test.ts"]
 }
