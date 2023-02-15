@@ -8,7 +8,7 @@ stdenv.mkDerivation {
   src = ./.;
 
   nativeBuildInputs = [
-     imagemagickBig moreutils jq librsvg git libjxl gnumake perl findimagedupes
+     imagemagickBig moreutils jq librsvg git libjxl gnumake perl findimagedupes perl536Packages.XMLXPath
   ];
 
   buildInputs = [
