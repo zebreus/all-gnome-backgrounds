@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "wix.vscode-import-cost",
+    "orta.vscode-jest",
+    "esbenp.prettier-vscode"
+  ]
+}
