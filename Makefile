@@ -1,6 +1,6 @@
 .PRECIOUS: gnome-backgrounds
 gnome-backgrounds:
-	git clone git@ssh.gitlab.gnome.org:GNOME/gnome-backgrounds.git
+	git clone https://gitlab.gnome.org/GNOME/gnome-backgrounds.git
 
 .SECONDARY: gnome-backgrounds.rev
 gnome-backgrounds.rev: gnome-backgrounds
