@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 set -e
-exit 0
 GNOME_BG_DIR="gnome-backgrounds"
 RESULTS_DIR="./results"
 IMAGES_DIR="$RESULTS_DIR/images"
@@ -42,6 +41,9 @@ for commit in `jq  -c '.[]' "$COMMITS_JSON"`; do
 
     echo "Processing $hash ($date) - $subject"
     git -C $GNOME_BG_DIR checkout $hash
+
+    XML_FILES=$( find $GNOME_BG_DIR -iname '*.xml.i*' )
+
     for diff_tree_entry in `git  -C $GNOME_BG_DIR diff-tree --no-commit-id $hash -r --root | grep -P '((\.jpg)|(\.jpeg)|(\.tif)|(\.tiff)|(\.svg)|(\.jxl)|(\.gif)|(\.webp)|(\.webp)|(\.png))$'`; do
         creation=`echo $diff_tree_entry | grep -Po '^:000000' || true`
         deletion=`echo $diff_tree_entry | grep -Po '^:...... 000000' | grep -Po '000000$' || true`
@@ -61,6 +63,19 @@ for commit in `jq  -c '.[]' "$COMMITS_JSON"`; do
         fileextension="${filename##*.}"
         echo "Processing $filename"
 
+        LIGHT_JSON=./light.json
+        DARK_JSON=./dark.json
+        CONFIGS_JSON=./configs.json
+        echo '[]' > $LIGHT_JSON
+        echo '[]' > $DARK_JSON
+        echo '[]' > $CONFIGS_JSON
+        if [ -n "$XML_FILES" ] ; then
+            xpath -n -e "/wallpapers/wallpaper/filename[substring(text(), string-length(text()) - string-length('$filename') + 1)  = '$filename']/.." ${XML_FILES[@]} | tr -d '\n'  | sed -r 's/<!--.*-->//g' | sed -r 's/<[^\/]*\/>//g' | sed -r 's/"/\\"/g' | sed 's/<wallpaper[^>]*>//g' | sed 's/<\/wallpaper>/\n/g' | sed -r 's/<([^\/> ]+)>/"\1": "/g' | sed -r 's/<\/[^>]+>/",/g' | sed -r 's/,\s*$/}/g' | sed -r 's/^\s*/{/g' | sed -r 's/\s+/ /g' | jq -sc '.' > $LIGHT_JSON
+            xpath -n -e "/wallpapers/wallpaper/filename-dark[substring(text(), string-length(text()) - string-length('$filename') + 1)  = '$filename']/.." ${XML_FILES[@]} | tr -d '\n'  | sed -r 's/<!--.*-->//g' | sed -r 's/<[^\/]*\/>//g' | sed -r 's/"/\\"/g' | sed 's/<wallpaper[^>]*>//g' | sed 's/<\/wallpaper>/\n/g' | sed -r 's/<([^\/> ]+)>/"\1": "/g' | sed -r 's/<\/[^>]+>/",/g' | sed -r 's/,\s*$/}/g' | sed -r 's/^\s*/{/g' | sed -r 's/\s+/ /g' | jq -sc '.' > $DARK_JSON
+            cat $LIGHT_JSON $DARK_JSON | jq -sc '. | flatten' > $CONFIGS_JSON 
+        fi
+
+
         type="edit"
         if [ -n "$creation" ]; then
             type="add"
@@ -68,7 +83,7 @@ for commit in `jq  -c '.[]' "$COMMITS_JSON"`; do
         if [ -n "$deletion" ]; then
             type="delete"
             echo "Deleted $filename ($FILE_HASH)"
-            echo -n "{\"commit\": \"$hash\", \"date\": $date, $hashes_json \"originalRepoPath\": \"$file\",\"name\": \"$filestem\", \"message\": $subject, \"type\": \"$type\"}," >> "$RESULTS_JSON"
+            echo -n "{\"commit\": \"$hash\", \"date\": $date, $hashes_json \"originalRepoPath\": \"$file\",\"name\": \"$filestem\", \"message\": $subject, \"type\": \"$type\", \"configs\": "`cat $CONFIGS_JSON`"}," >> "$RESULTS_JSON"
         else
             FILE_HASH=$after_hash
             DESTINATION_FILE="$IMAGES_DIR/$filestem-$FILE_HASH.webp"
@@ -94,7 +109,7 @@ for commit in `jq  -c '.[]' "$COMMITS_JSON"`; do
                 convert $filepath -quality 95 $DESTINATION_FILE
             fi
             echo "Added or edited $filename ($FILE_HASH)"
-            echo -n "{\"commit\": \"$hash\", \"date\": $date, $hashes_json \"file\": \"images/$FILE_HASH.webp\",\"originalRepoPath\": \"$file\",\"name\": \"$filestem\", \"message\": $subject, \"type\": \"$type\"}," >> "$RESULTS_JSON"
+            echo -n "{\"commit\": \"$hash\", \"date\": $date, $hashes_json \"file\": \"images/$FILE_HASH.webp\",\"originalRepoPath\": \"$file\",\"name\": \"$filestem\", \"message\": $subject, \"type\": \"$type\", \"configs\": "`cat $CONFIGS_JSON`"}," >> "$RESULTS_JSON"
         fi
 
     done

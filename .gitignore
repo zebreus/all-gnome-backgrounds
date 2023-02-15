@@ -19,3 +19,6 @@ dist/
 .eslintcache
 results
 gnome-backgrounds
+configs.json
+light.json
+dark.json
