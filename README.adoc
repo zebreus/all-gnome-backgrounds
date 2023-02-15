@@ -1,0 +1,5 @@
+# all-gnome-backgrounds
+
+All backgrounds that are or have been part of the https://gitlab.gnome.org/GNOME/gnome-backgrounds/-/tree/main[GNOME Backgrounds] repository.
+
+The images are encoded as webp and can be found in the `data/images` directory. Some metadata about the images is available in json files in the `data` directory.

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-set -x
 set -e
+exit 0
 GNOME_BG_DIR="gnome-backgrounds"
 RESULTS_DIR="./results"
 IMAGES_DIR="$RESULTS_DIR/images"
@@ -102,4 +102,4 @@ done
 
 echo -n "]" >> "$RESULTS_JSON"
 
-cat "$RESULTS_JSON" | tr -d '[\n]' | sed  's/\(.*\),/\1 /' | jq . | sponge "$RESULTS_JSON"
+cat "$RESULTS_JSON" | tr -d '\n' | sed  's/\(.*\),/\1 /' | jq . | sponge "$RESULTS_JSON"
