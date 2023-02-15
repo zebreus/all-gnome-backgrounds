@@ -36,11 +36,24 @@
   },
   "scripts": {
     "lint": "tsc --noEmit && prettier . --check && eslint --cache --ignore-path .gitignore --ext ts,js,tsx,jsx .",
-    "build": "rm -rf dist && tsc -p tsconfig.build.json && resolve-tspaths -p tsconfig.build.json",
-    "prepack": "pinst --disable",
+    "build": "rm -rf dist && tsc -p tsconfig.build.json && resolve-tspaths -p tsconfig.build.json && sed '1s;^;#!/usr/bin/env node\\\\n;' dist/index.js -i && chmod a+x dist/index.js",
+    "prepack": "pinst --disable && sed '1s;^;#!/usr/bin/env node\\\\n;' dist/index.js -i && chmod a+x dist/index.js",
     "format": "prettier --write .",
     "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
     "postinstall": "husky install",
-    "postpack": "pinst --enable"
+    "postpack": "pinst --enable",
+    "start": "node --loader ts-node/esm --loader @zebreus/resolve-tspaths/esm 'index.js'"
+  },
+  "files": [
+    "dist/**"
+  ],
+  "keywords": [
+    "cli",
+    "application",
+    "interactive"
+  ],
+  "main": "dist/index.js",
+  "bin": {
+    "all-gnome-backgrounds": "dist/index.js"
   }
 }
