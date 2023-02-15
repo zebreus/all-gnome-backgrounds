@@ -1,0 +1,43 @@
+name: Update the data from the gnome screenshot repo
+
+on:
+  push:
+    branches: ["master"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "update"
+  cancel-in-progress: true
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Install Nix
+        uses: nixbuild/nix-quick-install-action@v21
+        with:
+          nix_conf: experimental-features = nix-command flakes
+      - name: Build data
+        run: |
+          touch results
+          touch data
+          nix develop -c make gnome-backgrounds.rev
+          nix develop -c make results
+          nix develop -c make data
+      - uses: EndBug/add-and-commit@v9 # You can change this to use a specific version.
+        name: Commit data
+        with:
+          add: "data gnome-backgrounds.rev"
+          commit: --signoff
+          default_author: github_actions
+          message: "Update background data"
+          push: true

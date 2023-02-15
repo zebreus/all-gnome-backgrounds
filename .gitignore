@@ -17,3 +17,5 @@ lerna-debug.log*
 dist/
 # eslint
 .eslintcache
+results
+gnome-backgrounds
