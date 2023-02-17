@@ -2891,7 +2891,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2020-10-20T12:45:58.000Z"),
-        name: "5",
+        name: "Acrylic",
         url: "Acrylic-96bc3f759a85ab67cb7df084b11cb70c0d448d3f.webp",
         message: "Refresh some photos",
         originalFile: "backgrounds/Acrylic.jpg",
@@ -2900,7 +2900,7 @@ export const processedData: WallpaperWithHistory[] = [
       },
       {
         date: new Date("2020-06-03T12:44:14.000Z"),
-        name: "5",
+        name: "Acrylic",
         url: "Acrylic-3f63c68caaeb76961f8b1c6928dc2dd1174a9c94.webp",
         message: "Acrylic: more flashy, vivid colors",
         originalFile: "backgrounds/Acrylic.jpg",
@@ -2909,7 +2909,7 @@ export const processedData: WallpaperWithHistory[] = [
       },
       {
         date: new Date("2020-03-09T10:46:27.000Z"),
-        name: "5",
+        name: "Acrylic",
         url: "Acrylic-701ba200c2396ec4a63f88c57172fe2ec9fdc139.webp",
         message: "optimize for size",
         originalFile: "backgrounds/Acrylic.jpg",
@@ -4393,7 +4393,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2020-11-10T12:44:38.000Z"),
-        name: "5",
+        name: "Lava",
         url: "Lava-295a1462c42854824a3684cc398058add86df13e.webp",
         message: "supplemental: added abstract lava shapes",
         originalFile: "backgrounds/Lava.png",
@@ -4409,7 +4409,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2020-12-02T09:53:05.000Z"),
-        name: "5",
+        name: "Lava",
         url: "Lava-79b7c565827df5bfbf6ac4c3b07b7262ac8f8023.webp",
         message: "Lava: more colorful",
         originalFile: "backgrounds/Lava.jpg",
@@ -4425,7 +4425,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2020-12-01T20:30:16.000Z"),
-        name: "4",
+        name: "DepthLava",
         url: "DepthLava-dd7211b09de213e2ecbc23515ce9d67be8809bdd.webp",
         message: "DepthLava: mo' saturated",
         originalFile: "backgrounds/DepthLava.png",
@@ -4434,7 +4434,7 @@ export const processedData: WallpaperWithHistory[] = [
       },
       {
         date: new Date("2020-12-01T14:50:50.000Z"),
-        name: "4",
+        name: "DepthLava",
         url: "DepthLava-05af1ef6b206d61bb4ad6e1c2864f4aef1c9770d.webp",
         message: "DepthLava: more pleasing color blends",
         originalFile: "backgrounds/DepthLava.png",
@@ -4443,7 +4443,7 @@ export const processedData: WallpaperWithHistory[] = [
       },
       {
         date: new Date("2020-11-10T13:24:01.000Z"),
-        name: "4",
+        name: "DepthLava",
         url: "DepthLava-5627ae3dea220c8384ea09d166231199cfe43b5a.webp",
         message: "supplemental: one more abstract",
         originalFile: "backgrounds/DepthLava.png",
@@ -4459,7 +4459,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2020-10-20T13:13:41.000Z"),
-        name: "8",
+        name: "Tree",
         url: "Tree-bd0ec7d2548c715d044876e3bdcb3e1ee27731c0.webp",
         message: "two more moody photos",
         originalFile: "backgrounds/Tree.jpg",
@@ -4475,7 +4475,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2020-10-20T12:45:58.000Z"),
-        name: "6",
+        name: "IceCrystals",
         url: "IceCrystals-1b07d0ae371d1a4d8698a766a87c1a198ce1e519.webp",
         message: "Refresh some photos",
         originalFile: "backgrounds/IceCrystals.jpg",
@@ -4491,7 +4491,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2021-04-09T10:16:59.000Z"),
-        name: "4",
+        name: "DiscoHex",
         url: "DiscoHex-bb700c7a4f0cd1b179459f82e1ee29b4d58e66f1.webp",
         message: "DiscoHex: replace depth lava",
         originalFile: "backgrounds/DiscoHex.jpg",
@@ -4507,7 +4507,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2021-04-20T09:12:09.000Z"),
-        name: "8",
+        name: "Blobs",
         url: "Blobs-917462cdd3ca9813748e191c37171fd6e5041f12.webp",
         message: "Blobs: first svg wallpaper!",
         originalFile: "backgrounds/Blobs.svg",
@@ -4523,7 +4523,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2021-04-15T10:24:16.000Z"),
-        name: "8",
+        name: "BrushStrokes",
         url: "BrushStrokes-83966a08d35bafcd0e4ed63f3a0286bf131f60d7.webp",
         message: "BrushStrokes: autumn palette",
         originalFile: "backgrounds/BrushStrokes.jpg",
@@ -4532,7 +4532,7 @@ export const processedData: WallpaperWithHistory[] = [
       },
       {
         date: new Date("2021-04-15T08:02:56.000Z"),
-        name: "8",
+        name: "BrushStrokes",
         url: "BrushStrokes-0f6376e956d00fed8ff3520aa984d7bc79133e55.webp",
         message: "Brush Strokes",
         originalFile: "backgrounds/BrushStrokes.jpg",
@@ -4573,7 +4573,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2021-04-09T09:55:31.000Z"),
-        name: "5",
+        name: "Disco",
         url: "Disco-d4c0403a2f37143d80cfa6c38f9d62a33d19dfc7.webp",
         message: "supplemental: Disco",
         originalFile: "backgrounds/Disco.jpg",
@@ -4589,7 +4589,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2021-05-25T10:13:29.000Z"),
-        name: "6",
+        name: "Frosty",
         url: "Frosty-be628d6e5a11c7f53af08bcbbb1e7ec694012466.webp",
         message: "Frosty: refresh the cold theme",
         originalFile: "backgrounds/Frosty.jpg",
@@ -4605,7 +4605,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2020-10-20T12:45:58.000Z"),
-        name: "1",
+        name: "Leaf",
         url: "Leaf-ee614bc4841018af0381a0cb6f28715bd871ae70.webp",
         message: "Refresh some photos",
         originalFile: "backgrounds/Leaf.jpg",
@@ -4621,7 +4621,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2020-10-20T13:17:05.000Z"),
-        name: "3",
+        name: "LightBulb",
         url: "LightBulb-4f4183c2790c22eca2f0192af4635cefefd35db3.webp",
         message: "replace darkness with light",
         originalFile: "backgrounds/LightBulb.jpg",
@@ -4637,7 +4637,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2020-10-20T13:13:41.000Z"),
-        name: "9",
+        name: "Loveles",
         url: "Loveles-bdd500412e62821257aa8ef73151963cee1db76a.webp",
         message: "two more moody photos",
         originalFile: "backgrounds/Loveles.jpg",
@@ -4653,7 +4653,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2021-07-16T17:51:53.000Z"),
-        name: "10",
+        name: "Symbolics 1",
         url: "Symbolics-1-b298241901116631c5dc0ec5a516c4c359795cd6.webp",
         message: "symbolic: considerably less repetition",
         originalFile: "backgrounds/Symbolics-1.png",
@@ -4662,7 +4662,7 @@ export const processedData: WallpaperWithHistory[] = [
       },
       {
         date: new Date("2021-01-26T12:09:52.000Z"),
-        name: "10",
+        name: "Symbolics 1",
         url: "Symbolics-1-24f14c4752c13eec50b1a01424a641b45c51e497.webp",
         message: "Symbolics: green and wavy",
         originalFile: "backgrounds/Symbolics-1.png",
@@ -4872,7 +4872,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2021-10-04T18:35:41.000Z"),
-        name: "4",
+        name: "pixels",
         url: "pixels-51351be92f8c983ec16e13a22ffdcd8e62537658.webp",
         message: "pixels: textured bg",
         originalFile: "backgrounds/pixels.png",
@@ -4881,7 +4881,7 @@ export const processedData: WallpaperWithHistory[] = [
       },
       {
         date: new Date("2021-10-04T14:12:14.000Z"),
-        name: "4",
+        name: "pixels",
         url: "pixels-9faf93dddfbc1d5f1618ec04dda1a34810500acf.webp",
         message: "pixel icons as a wallpaper",
         originalFile: "backgrounds/pixels.png",
@@ -4897,7 +4897,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2021-10-20T11:00:35.000Z"),
-        name: "10",
+        name: "archi-d",
         url: "archi-d-c3ec61759fe68a99bc908583c59a8facdc30b064.webp",
         message: "archi: neutral",
         originalFile: "backgrounds/archi-d.jpg",
@@ -4913,7 +4913,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2021-10-20T11:00:35.000Z"),
-        name: "10",
+        name: "archi-l",
         url: "archi-l-9abc0524fb9ecdfb227f2ec09e72a64dc1b36c54.webp",
         message: "archi: neutral",
         originalFile: "backgrounds/archi-l.jpg",
@@ -5150,7 +5150,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2021-10-05T11:38:49.000Z"),
-        name: "5",
+        name: "frosty-d",
         url: "frosty-d-e9c6dc74a0126bdce2ac8fc9b0b1c958b221eeed.webp",
         message: "dark/light variants of 42 wallpapers",
         originalFile: "backgrounds/frosty-d.jpg",
@@ -5166,7 +5166,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2021-10-05T11:38:49.000Z"),
-        name: "5",
+        name: "frosty-l",
         url: "frosty-l-e0cd1a9ee380d33ba23484efe5dff7f634051ac7.webp",
         message: "dark/light variants of 42 wallpapers",
         originalFile: "backgrounds/frosty-l.jpg",
@@ -5191,7 +5191,7 @@ export const processedData: WallpaperWithHistory[] = [
       },
       {
         date: new Date("2021-10-05T11:38:49.000Z"),
-        name: "2",
+        name: "Blobs",
         url: "blobs-d-8df5f7b2975a60f8ad7e525af8b7e6ae176e54b3.webp",
         message: "dark/light variants of 42 wallpapers",
         originalFile: "backgrounds/blobs-d.svg",
@@ -5216,7 +5216,7 @@ export const processedData: WallpaperWithHistory[] = [
       },
       {
         date: new Date("2021-10-05T11:38:49.000Z"),
-        name: "2",
+        name: "Blobs",
         url: "blobs-l-58c6f1448adb4883c18852b570b9d44450a25c69.webp",
         message: "dark/light variants of 42 wallpapers",
         originalFile: "backgrounds/blobs-l.svg",
@@ -5232,7 +5232,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2021-10-05T11:38:49.000Z"),
-        name: "4",
+        name: "disco-d",
         url: "disco-d-7a00e7d5f2fbf744f6888d5a634281ce7da9c671.webp",
         message: "dark/light variants of 42 wallpapers",
         originalFile: "backgrounds/disco-d.jpg",
@@ -5248,7 +5248,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2021-10-05T11:38:49.000Z"),
-        name: "4",
+        name: "disco-l",
         url: "disco-l-bbb2865e9631095fce974cf701d3d0c22226845f.webp",
         message: "dark/light variants of 42 wallpapers",
         originalFile: "backgrounds/disco-l.jpg",
@@ -5264,7 +5264,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2021-12-13T15:59:52.000Z"),
-        name: "10",
+        name: "libadwaita-d",
         url: "libadwaita-d-a6117838d8a8d2b0ab2144f25397f0e50ec678e3.webp",
         message: "same pattern for libadwaita",
         originalFile: "backgrounds/libadwaita-d.jpg",
@@ -5273,7 +5273,7 @@ export const processedData: WallpaperWithHistory[] = [
       },
       {
         date: new Date("2021-12-03T12:27:16.000Z"),
-        name: "10",
+        name: "libadwaita-d",
         url: "libadwaita-d-6d571e37c4cc774d98cb906b0903552f859b09ea.webp",
         message: "libadwaita iterations",
         originalFile: "backgrounds/libadwaita-d.jpg",
@@ -5282,7 +5282,7 @@ export const processedData: WallpaperWithHistory[] = [
       },
       {
         date: new Date("2021-12-02T21:16:09.000Z"),
-        name: "10",
+        name: "libadwaita-d",
         url: "libadwaita-d-82c42d1e5c1a7af70de8da168b0a30ad5805ad47.webp",
         message: "libadwaita rounded wallpaper",
         originalFile: "backgrounds/libadwaita-d.jpg",
@@ -5298,7 +5298,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2021-12-03T12:27:16.000Z"),
-        name: "10",
+        name: "libadwaita-l",
         url: "libadwaita-l-35bdc7ab84411e6b38006241972194ca353b8db2.webp",
         message: "libadwaita iterations",
         originalFile: "backgrounds/libadwaita-l.jpg",
@@ -5307,7 +5307,7 @@ export const processedData: WallpaperWithHistory[] = [
       },
       {
         date: new Date("2021-12-02T21:16:09.000Z"),
-        name: "10",
+        name: "libadwaita-l",
         url: "libadwaita-l-662bb55bf8848a69c92a0974a94ec6e1d90f72d2.webp",
         message: "libadwaita rounded wallpaper",
         originalFile: "backgrounds/libadwaita-l.jpg",
@@ -5323,7 +5323,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2021-10-05T11:38:49.000Z"),
-        name: "3",
+        name: "brush-strokes-d",
         url: "brush-strokes-d-c354832c2a4a5bad0d765ec654d2e4d98265d202.webp",
         message: "dark/light variants of 42 wallpapers",
         originalFile: "backgrounds/brush-strokes-d.jpg",
@@ -5339,7 +5339,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2021-10-05T11:38:49.000Z"),
-        name: "3",
+        name: "brush-strokes-l",
         url: "brush-strokes-l-3430e7fead2f082e663419a208a99ddccc6ad00a.webp",
         message: "dark/light variants of 42 wallpapers",
         originalFile: "backgrounds/brush-strokes-l.jpg",
@@ -5355,7 +5355,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2022-01-24T17:10:06.000Z"),
-        name: "10",
+        name: "adwaita-d",
         url: "adwaita-d-7365ea9d4dccab09d886bc975c4f83b2496dccef.webp",
         message: "default dark: use multiple lights",
         originalFile: "backgrounds/adwaita-d.jpg",
@@ -5364,7 +5364,7 @@ export const processedData: WallpaperWithHistory[] = [
       },
       {
         date: new Date("2022-01-24T16:00:08.000Z"),
-        name: "10",
+        name: "adwaita-d",
         url: "adwaita-d-244543a4c87277ff82dfcf9b4592a722ace8ed91.webp",
         message: "default dark: less red more purple",
         originalFile: "backgrounds/adwaita-d.jpg",
@@ -5373,7 +5373,7 @@ export const processedData: WallpaperWithHistory[] = [
       },
       {
         date: new Date("2021-12-14T21:35:30.000Z"),
-        name: "10",
+        name: "adwaita-d",
         url: "adwaita-d-e0927cb838e2b348a8bc3e0651891974bed7c7e7.webp",
         message: "default: less dull dark variant",
         originalFile: "backgrounds/adwaita-d.jpg",
@@ -5382,7 +5382,7 @@ export const processedData: WallpaperWithHistory[] = [
       },
       {
         date: new Date("2021-12-08T10:48:06.000Z"),
-        name: "10",
+        name: "adwaita-d",
         url: "adwaita-d-019c61dddde4025731b83a204875d08afb4f0c0a.webp",
         message: "default: more polish",
         originalFile: "backgrounds/adwaita-d.jpg",
@@ -5391,7 +5391,7 @@ export const processedData: WallpaperWithHistory[] = [
       },
       {
         date: new Date("2021-12-07T13:29:35.000Z"),
-        name: "10",
+        name: "adwaita-d",
         url: "adwaita-d-10ecca3e63daf65f80fcb590f7539f61e14bc070.webp",
         message: "default: less contrast, more green/blue light play",
         originalFile: "backgrounds/adwaita-d.jpg",
@@ -5400,7 +5400,7 @@ export const processedData: WallpaperWithHistory[] = [
       },
       {
         date: new Date("2021-12-03T15:21:58.000Z"),
-        name: "10",
+        name: "adwaita-d",
         url: "adwaita-d-bce7dcb9a69f205d945eef7a34f1026e8dfd890e.webp",
         message: "first stab at the default",
         originalFile: "backgrounds/adwaita-d.jpg",
@@ -5416,7 +5416,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2021-12-08T10:48:06.000Z"),
-        name: "10",
+        name: "adwaita-l",
         url: "adwaita-l-a8aa630897c36ca532e327a6aeeac17c063f48fa.webp",
         message: "default: more polish",
         originalFile: "backgrounds/adwaita-l.jpg",
@@ -5425,7 +5425,7 @@ export const processedData: WallpaperWithHistory[] = [
       },
       {
         date: new Date("2021-12-07T13:29:35.000Z"),
-        name: "10",
+        name: "adwaita-l",
         url: "adwaita-l-2875e2e0f008fcb13c799d04cfb69be4104434bc.webp",
         message: "default: less contrast, more green/blue light play",
         originalFile: "backgrounds/adwaita-l.jpg",
@@ -5434,7 +5434,7 @@ export const processedData: WallpaperWithHistory[] = [
       },
       {
         date: new Date("2021-12-03T15:21:58.000Z"),
-        name: "10",
+        name: "adwaita-l",
         url: "adwaita-l-6d79fd74627b42484f10448429c28b7d8e1cc35f.webp",
         message: "first stab at the default",
         originalFile: "backgrounds/adwaita-l.jpg",
@@ -5450,7 +5450,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2021-10-05T11:38:49.000Z"),
-        name: "7",
+        name: "symbolics-d",
         url: "symbolics-d-2c2603286dc0e2c9fd0a1458a3018cbd859343e7.webp",
         message: "dark/light variants of 42 wallpapers",
         originalFile: "backgrounds/symbolics-d.png",
@@ -5466,7 +5466,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2021-10-05T11:38:49.000Z"),
-        name: "7",
+        name: "symbolics-l",
         url: "symbolics-l-860889893d2e2aa333fb8934e6cf03bbc8af1c85.webp",
         message: "dark/light variants of 42 wallpapers",
         originalFile: "backgrounds/symbolics-l.png",
@@ -5673,7 +5673,7 @@ export const processedData: WallpaperWithHistory[] = [
       },
       {
         date: new Date("2021-10-05T11:38:49.000Z"),
-        name: "6",
+        name: "Pixels",
         url: "pixels-d-fc67acd2188c22773a8467c85338240b1d77a6de.webp",
         message: "dark/light variants of 42 wallpapers",
         originalFile: "backgrounds/pixels-d.png",
@@ -5698,7 +5698,7 @@ export const processedData: WallpaperWithHistory[] = [
       },
       {
         date: new Date("2021-10-05T11:38:49.000Z"),
-        name: "6",
+        name: "Pixels",
         url: "pixels-l-54bd44726051b657e8f3d15fda4c948dfab3b25b.webp",
         message: "dark/light variants of 42 wallpapers",
         originalFile: "backgrounds/pixels-l.png",
@@ -5714,7 +5714,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2022-01-19T08:43:08.000Z"),
-        name: "5",
+        name: "truchet-d",
         url: "truchet-d-c8dc6781f73470cb8bf5395d2949a9033b528e0b.webp",
         message: "replace frosty with truchet",
         originalFile: "backgrounds/truchet-d.jpg",
@@ -5730,7 +5730,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2022-01-19T08:54:10.000Z"),
-        name: "5",
+        name: "truchet-l",
         url: "truchet-l-0c3da4820ebcae465739a51d8e542b54d38536f7.webp",
         message: "truchet-l: boost some color variation",
         originalFile: "backgrounds/truchet-l.jpg",
@@ -5739,7 +5739,7 @@ export const processedData: WallpaperWithHistory[] = [
       },
       {
         date: new Date("2022-01-19T08:43:08.000Z"),
-        name: "5",
+        name: "truchet-l",
         url: "truchet-l-d7e9bef7aea74c28f54d92e93f7b0b30f9b71110.webp",
         message: "replace frosty with truchet",
         originalFile: "backgrounds/truchet-l.jpg",
@@ -5755,7 +5755,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2022-02-08T15:42:04.000Z"),
-        name: "8",
+        name: "vnc-d",
         url: "vnc-d-7d9432161002a7494ff05853bfacdf7b55277b74.webp",
         message: "dark mode for vnc",
         originalFile: "backgrounds/vnc-d.png",
@@ -5771,7 +5771,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2022-02-08T15:42:04.000Z"),
-        name: "8",
+        name: "vnc-l",
         url: "vnc-l-7b5275895e40dd8b494c15e640964fcc7d525d21.webp",
         message: "dark mode for vnc",
         originalFile: "backgrounds/vnc-l.png",
@@ -5780,7 +5780,7 @@ export const processedData: WallpaperWithHistory[] = [
       },
       {
         date: new Date("2020-04-15T21:26:16.000Z"),
-        name: "8",
+        name: "vnc-l",
         url: "VNC-7b5275895e40dd8b494c15e640964fcc7d525d21.webp",
         message: "backgrounds: solid color for VNC sessions",
         originalFile: "backgrounds/VNC.png",
@@ -5796,7 +5796,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2021-10-05T11:38:49.000Z"),
-        name: "9",
+        name: "wood-d",
         url: "wood-d-f6e386ce0afaac4204fe6b1dde7a5d7fd4fbe72a.webp",
         message: "dark/light variants of 42 wallpapers",
         originalFile: "backgrounds/wood-d.jpg",
@@ -5812,7 +5812,7 @@ export const processedData: WallpaperWithHistory[] = [
     snapshots: [
       {
         date: new Date("2021-10-05T11:38:49.000Z"),
-        name: "9",
+        name: "wood-l",
         url: "wood-l-cd325c2b5bebb2e2b254dfb5a980807276e0b728.webp",
         message: "dark/light variants of 42 wallpapers",
         originalFile: "backgrounds/wood-l.jpg",

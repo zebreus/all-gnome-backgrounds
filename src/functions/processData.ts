@@ -17,7 +17,10 @@ export type WallpaperWithHistory = {
   snapshots: Required<Snapshot>[]
 }
 
-const getHistory = (current: DataType, data: DataType[]): DataType[] => {
+/** Replace the configs array with an optional config field */
+type ConfigFixedDataType = Omit<DataType, "configs"> & { config?: Required<DataType["configs"]>[0] }
+
+const getHistory = (current: ConfigFixedDataType, data: ConfigFixedDataType[]): ConfigFixedDataType[] => {
   if (current.previousFileHash === undefined) {
     return []
   }
@@ -48,7 +51,7 @@ const getHistory = (current: DataType, data: DataType[]): DataType[] => {
   return [predecessor, ...getHistory(predecessor, data)]
 }
 
-const toSnapshot = (item: DataType): Snapshot => {
+const toSnapshot = (item: ConfigFixedDataType): Snapshot => {
   if (item.newFileHash === undefined) {
     throw new Error("Cannot convert commit that did not create a file to snapshot")
   }
@@ -58,7 +61,7 @@ const toSnapshot = (item: DataType): Snapshot => {
 
   return {
     date: new Date(item.date * 1000),
-    name: item.configs[0]?.name || item.configs[0]?._name,
+    name: assertReasonableName(item.config?.name) || assertReasonableName(item.config?._name),
     url: `${item.name}-${item.newFileHash}.webp`,
     message: item.message,
     originalFile: item.originalRepoPath,
@@ -67,7 +70,7 @@ const toSnapshot = (item: DataType): Snapshot => {
   }
 }
 
-const fixMoves = (snapshots: DataType[]): DataType[] => {
+const fixMoves = (snapshots: ConfigFixedDataType[]): ConfigFixedDataType[] => {
   const batchedIntoCommits = snapshots.reduce((batched, current) => {
     const commitPool = batched.find(batch => batch[0]?.commit === current.commit)
     if (commitPool) {
@@ -76,7 +79,7 @@ const fixMoves = (snapshots: DataType[]): DataType[] => {
     }
     batched.push([current])
     return batched
-  }, [] as DataType[][])
+  }, [] as ConfigFixedDataType[][])
 
   const batchedAndFixed = batchedIntoCommits.map(snapshots => {
     snapshots.sort((a, b) => (a.type > b.type ? -1 : a.type === b.type ? 0 : 1))
@@ -99,14 +102,14 @@ const fixMoves = (snapshots: DataType[]): DataType[] => {
       current.previousFileHash = current.newFileHash as string
       fixedSnapshots[matchingDelete] = current
       return fixedSnapshots
-    }, [] as DataType[])
+    }, [] as ConfigFixedDataType[])
   })
 
   const flattenedBackOut = batchedAndFixed.flat()
   return flattenedBackOut
 }
 /** Remove commits that edit the file but don't change the hash. Usually this happens if the mode is changed */
-const fixModeChanges = (snapshots: DataType[]): DataType[] => {
+const fixModeChanges = (snapshots: ConfigFixedDataType[]): ConfigFixedDataType[] => {
   return snapshots.reduce((fixedSnapshots, current) => {
     if (current.type !== "edit") {
       fixedSnapshots.push(current)
@@ -117,14 +120,14 @@ const fixModeChanges = (snapshots: DataType[]): DataType[] => {
       return fixedSnapshots
     }
     return fixedSnapshots
-  }, [] as DataType[])
+  }, [] as ConfigFixedDataType[])
 }
 
 /** Remove duplicate changes */
-const fixDuplicateChanges = (snapshots: DataType[]): DataType[] => {
+const fixDuplicateChanges = (snapshots: ConfigFixedDataType[]): ConfigFixedDataType[] => {
   return snapshots.reduce((fixedSnapshots, current) => {
     const duplicate = fixedSnapshots.find(
-      (possibleDuplicate: DataType) =>
+      (possibleDuplicate: ConfigFixedDataType) =>
         current.date === possibleDuplicate.date &&
         current.newFileHash === possibleDuplicate.newFileHash &&
         current.previousFileHash === possibleDuplicate.previousFileHash &&
@@ -135,14 +138,52 @@ const fixDuplicateChanges = (snapshots: DataType[]): DataType[] => {
       return fixedSnapshots
     }
     return fixedSnapshots
-  }, [] as DataType[])
+  }, [] as ConfigFixedDataType[])
+}
+
+/** Remove duplicate changes */
+const fixDuplicateConfigs = (snapshots: DataType[]): ConfigFixedDataType[] => {
+  return snapshots.map(snapshot => {
+    const { configs, ...snapshotWithoutConfigs } = snapshot
+    if (configs.length == 0) {
+      return snapshotWithoutConfigs
+    }
+    if (configs.length == 1) {
+      return {
+        ...snapshotWithoutConfigs,
+        ...(configs[0] ? { config: configs[0] } : {}),
+      }
+    }
+    const chosenConfigs = snapshot.configs.filter(
+      config => config.name === snapshot.name || config._name === snapshot.name
+    )
+    if (chosenConfigs.length > 1) {
+      throw new Error("More than one possibly correct config found for " + snapshot.name)
+    }
+    const chosenConfig = chosenConfigs[0]
+    return {
+      ...snapshot,
+      ...(chosenConfig ? { config: chosenConfig } : {}),
+    }
+  })
+}
+
+/** Check if a name is reasonable, as sometimes numbers were used as names */
+const assertReasonableName = (name: string | undefined): string | undefined => {
+  if (!name) {
+    return undefined
+  }
+  if (name.length < 3) {
+    return undefined
+  }
+  return name
 }
 
 /** Sometimes only some snapshots have metadata like the human readable name. This adds the missing data to snapshots. */
 const fillMissingInfo = (snapshots: Snapshot[]): Required<Snapshot>[] => {
   let name: string =
     snapshots.find(snapshot => snapshot.name)?.name ||
-    snapshots[0]?.originalFile.split("/")?.pop()?.split(".")?.[0] ||
+    assertReasonableName(snapshots[0]?.originalFile.split("/")?.pop()?.split(".")?.[0]) ||
     (() => {
       throw new Error("No name found")
     })()
@@ -158,7 +199,7 @@ const fillMissingInfo = (snapshots: Snapshot[]): Required<Snapshot>[] => {
 }
 
 export const processData = (data: DataType[]): WallpaperWithHistory[] => {
-  const fixedData = fixModeChanges(fixMoves(fixDuplicateChanges(data)))
+  const fixedData = fixModeChanges(fixMoves(fixDuplicateChanges(fixDuplicateConfigs(data))))
   const deleted = fixedData.filter(item => item.type === "delete")
   const wallpapers = deleted.map(lastChange => {
     const deletedDate = new Date(lastChange.date * 1000)
