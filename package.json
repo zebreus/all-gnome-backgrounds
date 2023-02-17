@@ -43,7 +43,10 @@
     "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
     "postinstall": "husky install",
     "postpack": "pinst --enable",
-    "start": "node --loader ts-node/esm --loader @zebreus/resolve-tspaths/esm 'index.js'"
+    "start": "node --loader ts-node/esm --loader @zebreus/resolve-tspaths/esm 'index.js'",
+    "prepareImages": "rm -rf public/images && mkdir -p public && cp -r data/images public/images && mogrify  -format gif -path public/thumbs -thumbnail 100x100 *.jpg",
+    "prepareThumbnails": "rm -rf public/thumbs300 && mkdir -p public/thumbs300 && mogrify -format webp -path public/thumbs300 -thumbnail 300x300 -quality 80 public/images/*.webp",
+    "prepareJson": "cp data.ts.template src/data.ts && cat data/results.json >> src/data.ts"
   },
   "files": [
     "dist/**"
