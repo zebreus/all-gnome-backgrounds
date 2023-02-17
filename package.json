@@ -44,7 +44,7 @@
     "postinstall": "husky install",
     "postpack": "pinst --enable",
     "start": "node --loader ts-node/esm --loader @zebreus/resolve-tspaths/esm 'index.js'",
-    "prepareImages": "rm -rf public/images && mkdir -p public && cp -r data/images public/images && mogrify  -format gif -path public/thumbs -thumbnail 100x100 *.jpg",
+    "prepareImages": "rm -rf public/images && mkdir -p public && cp -r data/images public/images",
     "prepareThumbnails": "rm -rf public/thumbs500 && mkdir -p public/thumbs500 && mogrify -format webp -path public/thumbs500 -thumbnail 500x500 -quality 90 public/images/*.webp",
     "prepareJson": "cp data.ts.template src/data.ts && cat data/results.json >> src/data.ts"
   },
