@@ -7308,5 +7308,15 @@
     "hash": "4a43eae8b1c06e79dd60a8920167590f2415eb2d",
     "date": 1676478574,
     "subject": "prepare a 43.1 hotfix release"
+  },
+  {
+    "hash": "5bbe20484922e7c6d9a4d0ef01f79f2d1eaf043a",
+    "date": 1676646891,
+    "subject": "prepare 44.beta release"
+  },
+  {
+    "hash": "da7adf84d4be45e5756bdb5123dec6eeb84775f6",
+    "date": 1676671116,
+    "subject": "Currently in gnome-backgrounds"
   }
 ]
