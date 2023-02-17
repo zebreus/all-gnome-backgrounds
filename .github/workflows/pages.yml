@@ -65,10 +65,6 @@ jobs:
           #
           # You may remove this line if you want to manage the configuration yourself.
           static_site_generator: next
-      - name: Prepare data
-        run: |
-          nix develop -c yarn prepareImages
-          nix develop -c yarn prepareThumbnails
       - name: Restore cache
         uses: actions/cache@v3
         with:
@@ -83,6 +79,12 @@ jobs:
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
+      - name: Prepare data
+        run: |
+          nix develop -c yarn prepareImages
+          nix develop -c yarn prepareThumbnails
+          nix develop -c yarn prepareJson
+          nix develop -c yarn start
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Static HTML export with Next.js
