@@ -11,7 +11,7 @@ export type OverviewProps = {
 
 export const Overview = ({ backgrounds }: OverviewProps) => {
   return (
-    <div>
+    <div style={{ display: "flex", flexWrap: "wrap" }}>
       {backgrounds.map(background => (
         <div key={background.name}>
           <h2>{background.name}</h2>
