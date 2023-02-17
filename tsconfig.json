@@ -28,7 +28,8 @@
     },
     "allowJs": true,
     "incremental": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "jsxImportSource": "@emotion/react"
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]

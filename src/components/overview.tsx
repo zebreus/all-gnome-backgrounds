@@ -1,22 +1,18 @@
-import { getThumbnailUrl } from "functions/getImageUrl"
-
-export type Background = {
-  url: string
-  name: string
-}
+import { OverviewWallpaper } from "components/overviewWallpaper"
+import { WallpaperWithHistory } from "functions/processData"
 
 export type OverviewProps = {
-  backgrounds: Background[]
+  wallpapers: WallpaperWithHistory[]
 }
 
-export const Overview = ({ backgrounds }: OverviewProps) => {
+export const Overview = ({ wallpapers }: OverviewProps) => {
   return (
     <div style={{ display: "flex", flexWrap: "wrap" }}>
-      {backgrounds.map(background => (
-        <div key={background.name}>
-          <h2>{background.name}</h2>
-          <img src={getThumbnailUrl(background.url)} alt={background.name} />
-        </div>
+      {wallpapers.map(wallpaper => (
+        <OverviewWallpaper
+          key={`${wallpaper.snapshots[0]?.name}${wallpaper.snapshots[0]?.url}`}
+          wallpaper={wallpaper}
+        ></OverviewWallpaper>
       ))}
     </div>
   )

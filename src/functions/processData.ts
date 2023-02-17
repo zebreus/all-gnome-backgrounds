@@ -2,12 +2,21 @@ import { DataType } from "dataType"
 
 export type Snapshot = {
   date: Date
-  name?: string | undefined
+  name?: string
   url: string
   message: string
   originalFile: string
+  fillMode?: "stretched" | "zoom" | "scaled" | "wallpaper" | "fill"
   commit: string
   type: "add" | "edit" | "rename"
+  dark?: boolean
+  alt?: boolean
+  morning?: boolean
+  night?: boolean
+  day?: boolean
+  primaryColor?: string
+  secondaryColor?: string
+  shadeType?: "solid" | "horizontal-gradient" | "vertical-gradient"
 }
 
 export type WallpaperWithHistory = {
@@ -59,14 +68,32 @@ const toSnapshot = (item: ConfigFixedDataType): Snapshot => {
     throw new Error("Cannot convert commit that did not create a file to snapshot")
   }
 
+  const dark =
+    item.config?.["filename-dark"]?.split("/").pop() === item.originalRepoPath.split("/").pop() ||
+    item.name.endsWith("-d") ||
+    undefined
+  const day = item.name.endsWith("-day") || undefined
+  const morning = item.name.endsWith("-morning") || undefined
+  const night = item.name.endsWith("-night") || undefined
+  const alt = item.name.endsWith("-alt") || undefined
+
   return {
     date: new Date(item.date * 1000),
-    name: assertReasonableName(item.config?.name) || assertReasonableName(item.config?._name),
+    name: assertReasonableName(item.config?.name) || (assertReasonableName(item.config?._name) as string),
     url: `${item.name}-${item.newFileHash}.webp`,
     message: item.message,
     originalFile: item.originalRepoPath,
     commit: item.commit,
     type: item.type,
+    fillMode: item.config?.options as Required<Snapshot>["fillMode"],
+    shadeType: item.config?.shade_type as Required<Snapshot>["shadeType"],
+    primaryColor: item.config?.pcolor as string,
+    secondaryColor: item.config?.scolor as string,
+    dark: dark as boolean,
+    day: day as boolean,
+    morning: morning as boolean,
+    night: night as boolean,
+    alt: alt as boolean,
   }
 }
 
@@ -187,11 +214,41 @@ const fillMissingInfo = (snapshots: Snapshot[]): Required<Snapshot>[] => {
     (() => {
       throw new Error("No name found")
     })()
+
+  let fillMode: Required<Snapshot>["fillMode"] = snapshots.find(snapshot => snapshot.fillMode)?.fillMode || "zoom"
+  let primaryColor: string = snapshots.find(snapshot => snapshot.primaryColor)?.primaryColor || "#3465a4"
+  let secondaryColor: string = snapshots.find(snapshot => snapshot.secondaryColor)?.secondaryColor || "#000000"
+  let shadeType: Required<Snapshot>["shadeType"] = snapshots.find(snapshot => snapshot.shadeType)?.shadeType || "solid"
+
+  const dark = !!snapshots.find(snapshot => snapshot.dark)
+  const day = !!snapshots.find(snapshot => snapshot.day)
+  const morning = !!snapshots.find(snapshot => snapshot.morning)
+  const night = !!snapshots.find(snapshot => snapshot.night)
+  const alt = !!snapshots.find(snapshot => snapshot.alt)
+  const moreThanOne =
+    [...[dark, day, morning, alt].filter(Boolean)].length > 1 ||
+    [...[night, day, morning, alt].filter(Boolean)].length > 1
+  if (moreThanOne) {
+    throw new Error("Wallpaper seems to be more than one variation")
+  }
   const snapshotsFixedName = snapshots.map(snapshot => {
     name = snapshot.name || name
+    fillMode = snapshot.fillMode || fillMode
+    shadeType = snapshot.shadeType || shadeType
+    primaryColor = snapshot.primaryColor || primaryColor
+    secondaryColor = snapshot.secondaryColor || secondaryColor
     return {
       ...snapshot,
       name,
+      fillMode,
+      shadeType,
+      dark,
+      day,
+      morning,
+      night,
+      alt,
+      primaryColor,
+      secondaryColor,
     }
   })
 
