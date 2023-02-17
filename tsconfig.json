@@ -25,7 +25,10 @@
     "baseUrl": ".",
     "paths": {
       "*": ["./src/*"]
-    }
+    },
+    "allowJs": true,
+    "incremental": true,
+    "jsx": "preserve"
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]
