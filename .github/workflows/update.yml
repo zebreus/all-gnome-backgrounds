@@ -1,8 +1,8 @@
 name: Update the data from the gnome screenshot repo
 
 on:
-  push:
-    branches: ["master"]
+  schedule:
+    - cron: "0 0 * * 1"
   workflow_dispatch:
 
 permissions:
