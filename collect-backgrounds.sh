@@ -17,7 +17,7 @@ fi
 PREVIOUS_COMMIT=`cat gnome-backgrounds.rev`
 git -C $GNOME_BG_DIR checkout $PREVIOUS_COMMIT
 find gnome-backgrounds | sed "s/^gnome-backgrounds\\///g" | grep -P '((\.jpg)|(\.jpeg)|(\.tif)|(\.tiff)|(\.svg)|(\.jxl)|(\.gif)|(\.webp)|(\.webp)|(\.png))$' | xargs -n1 git -C $GNOME_BG_DIR rm
-git -C $GNOME_BG_DIR commit -m "Currently in gnome-backgrounds"
+git -C $GNOME_BG_DIR -c user.email=email@address.com -c user.name='Author Name' commit --author="Author Name <email@address.com>" -m "Currently in gnome-backgrounds"
 
 echo -ne "[" > "$COMMITS_JSON"
 git -C $GNOME_BG_DIR log --all --no-decorate --date-order --format=format:'{>><<hash>><<: >><<%H>><<, >><<date>><<: %at, >><<subject>><<: >><<%s>><<},' --reverse | tr -d '\n' | sed  's/\(.*\),/\1 /' | sed 's/"/\\\"/g' | sed 's/>><</"/g' >> "$COMMITS_JSON"
