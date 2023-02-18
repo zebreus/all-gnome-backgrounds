@@ -71,18 +71,18 @@ export const OverviewWallpaper = ({ wallpaper }: OverviewProps) => {
               css={css`
                 font-size: 1rem;
               `}
-              title={"Commit: " + latestSnapshot?.message}
+              title={"Added in: " + latestSnapshot?.message}
             >
               {wallpaper.created.toLocaleDateString("de")}
             </span>
-            {" - "}
+            {"-"}
             <span
               css={css`
                 font-size: 1rem;
               `}
-              title={"Commit: " + wallpaper.deleteMessage}
+              title={wallpaper.current ? "Currently in gnome-backgrounds" : "Removed in: " + wallpaper.deleteMessage}
             >
-              {wallpaper.deleted.toLocaleDateString("de")}
+              {wallpaper.current ? "present" : wallpaper.deleted.toLocaleDateString("de")}
             </span>
           </span>
           <section>

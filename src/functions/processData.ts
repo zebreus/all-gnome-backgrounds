@@ -1,8 +1,12 @@
 import { DataType } from "dataType"
+import { fixDisplayName } from "functions/fixDisplayName"
 
 export type Snapshot = {
   date: Date
+  /** Formatted displayname */
   name?: string
+  /** Unprocessed name from config or file */
+  originalName?: string
   url: string
   message: string
   originalFile: string
@@ -23,8 +27,19 @@ export type Snapshot = {
 export type WallpaperWithHistory = {
   created: Date
   deleted: Date
+  current?: boolean
   deleteMessage: string
   snapshots: Required<Snapshot>[]
+}
+
+export const getSnapshotType = (snapshot: Snapshot): "light" | "dark" | "alt" => {
+  if (snapshot.dark || snapshot.night) {
+    return "dark"
+  }
+  if (snapshot.alt || snapshot.morning) {
+    return "alt"
+  }
+  return "light"
 }
 
 /** Replace the configs array with an optional config field */
@@ -80,7 +95,7 @@ const toSnapshot = (item: ConfigFixedDataType): Snapshot => {
 
   return {
     date: new Date(item.date * 1000),
-    name: assertReasonableName(item.config?.name) || (assertReasonableName(item.config?._name) as string),
+    originalName: assertReasonableName(item.config?.name) || (assertReasonableName(item.config?._name) as string),
     url: `${item.name}-${item.newFileHash}.webp`,
     message: item.message,
     originalFile: item.originalRepoPath,
@@ -210,11 +225,11 @@ const assertReasonableName = (name: string | undefined): string | undefined => {
 
 /** Sometimes only some snapshots have metadata like the human readable name. This adds the missing data to snapshots. */
 const fillMissingInfo = (snapshots: Snapshot[]): Required<Snapshot>[] => {
-  let name: string =
-    snapshots.find(snapshot => snapshot.name)?.name ||
+  let originalName: string =
+    snapshots.find(snapshot => snapshot.originalName)?.originalName ||
     assertReasonableName(snapshots[0]?.originalFile.split("/")?.pop()?.split(".")?.[0]) ||
     (() => {
-      throw new Error("No name found")
+      throw new Error("No originalName found")
     })()
 
   let fillMode: Required<Snapshot>["fillMode"] = snapshots.find(snapshot => snapshot.fillMode)?.fillMode || "zoom"
@@ -234,14 +249,15 @@ const fillMissingInfo = (snapshots: Snapshot[]): Required<Snapshot>[] => {
     throw new Error("Wallpaper seems to be more than one variation")
   }
   const snapshotsFixedName = snapshots.map(snapshot => {
-    name = snapshot.name || name
+    originalName = snapshot.originalName || originalName
     fillMode = snapshot.fillMode || fillMode
     shadeType = snapshot.shadeType || shadeType
     primaryColor = snapshot.primaryColor || primaryColor
     secondaryColor = snapshot.secondaryColor || secondaryColor
     return {
       ...snapshot,
-      name,
+      originalName,
+      name: fixDisplayName(originalName),
       fillMode,
       shadeType,
       dark,
@@ -279,17 +295,152 @@ export const processData = (data: DataType[]): WallpaperWithHistory[] => {
     }
     return result
   })
-  return wallpapers
+  const mergedWallpapers = sortWallpapersByDate(
+    mergeWallpapersByFilename(mergeWallpapersByDisplayName(removeNonWallpapers(wallpapers)))
+  )
+  return markCurrentWallpapers(mergedWallpapers)
 }
 
-// TODO: Combine data if the resulting filename is the same
+const sortSnapshotsByDate = <T extends Snapshot>(snapshots: T[]): T[] => {
+  return [...snapshots].sort((a, b) => {
+    return b.date.getTime() - a.date.getTime()
+  })
+}
 
-// const files = result.map(result => result.snapshots[0]?.originalFile)
-// const counted = files.reduce((acc, file) => {
-//   if (!file) return acc
+const sortWallpapersByDate = (snapshots: WallpaperWithHistory[]): WallpaperWithHistory[] => {
+  return [...snapshots].sort((a, b) => {
+    const timediff = b.deleted.getTime() - a.deleted.getTime()
+    if (timediff !== 0) {
+      return timediff
+    }
+    const snapshotA = a.snapshots[0]
+    const snapshotB = b.snapshots[0]
+    if (!snapshotA || !snapshotB) {
+      return 0
+    }
+    const namediff =
+      snapshotA.name.toLowerCase() > snapshotB.name.toLowerCase()
+        ? 0.5
+        : snapshotA.name.toLowerCase() == snapshotB.name.toLowerCase()
+        ? 0
+        : -0.5
+    if (namediff !== 0) {
+      return namediff
+    }
 
-//   acc[file] = (acc[file] ?? 0) + 1
+    const typeOrder = ["light", "dark", "alt"] as const
 
-//   return acc
-// }, {} as Record<string, number | undefined>)
-// console.log(counted)
+    const typeA = typeOrder.indexOf(getSnapshotType(snapshotA))
+    const typeB = typeOrder.indexOf(getSnapshotType(snapshotB))
+
+    const typediff = typeA - typeB
+
+    return typediff
+  })
+}
+
+const removeNonWallpapers = (wallpapers: WallpaperWithHistory[]): WallpaperWithHistory[] => {
+  return wallpapers.filter(
+    wallpaper =>
+      !wallpaper.snapshots.find(snapshot => {
+        const blacklist = ["defaults", "badscaling"]
+        return blacklist.includes(snapshot.name.toLowerCase())
+      })
+  )
+}
+
+const mergeWallpapers = (
+  wallpapers: WallpaperWithHistory[],
+  checker: (a: WallpaperWithHistory, b: WallpaperWithHistory) => boolean
+): WallpaperWithHistory[] => {
+  return wallpapers.reduce((merged, current) => {
+    const found = merged.find(mergedWallpaper => checker(mergedWallpaper, current))
+    if (found) {
+      found.snapshots = sortSnapshotsByDate([...found.snapshots, ...current.snapshots])
+      found.created = found.created < current.created ? found.created : current.created
+      found.deleted = found.deleted > current.deleted ? found.deleted : current.deleted
+      found.deleteMessage = found.deleteMessage || current.deleteMessage
+      return merged
+    }
+    merged.push(current)
+    return merged
+  }, [] as WallpaperWithHistory[])
+}
+
+const mergeWallpapersByDisplayName = (wallpapers: WallpaperWithHistory[]): WallpaperWithHistory[] => {
+  const checker = (a: WallpaperWithHistory, b: WallpaperWithHistory) => {
+    const snapshotA = a.snapshots[0]
+    const snapshotB = b.snapshots[0]
+    if (!snapshotA || !snapshotB) {
+      throw new Error("No snapshots found")
+    }
+    const typesMatch = getSnapshotType(snapshotA) === getSnapshotType(snapshotB)
+    if (!typesMatch) {
+      return false
+    }
+
+    // Compare lowercase names. The -l suffix is removed, because light wallpapers were the default
+    const displayNamesA = a.snapshots
+      .map(snapshot => snapshot.name.toLowerCase().replace(/-l$/, ""))
+      .filter((name, index, self) => self.indexOf(name) === index)
+    const displayNamesB = b.snapshots
+      .map(snapshot => snapshot.name.toLowerCase().replace(/-l$/, ""))
+      .filter((name, index, self) => self.indexOf(name) === index)
+    const displayNamesMatch = displayNamesA.some(nameA => displayNamesB.includes(nameA))
+
+    if (!displayNamesMatch) {
+      return false
+    }
+    return true
+  }
+
+  return mergeWallpapers(wallpapers, checker)
+}
+
+const mergeWallpapersByFilename = (wallpapers: WallpaperWithHistory[]): WallpaperWithHistory[] => {
+  const checker = (a: WallpaperWithHistory, b: WallpaperWithHistory) => {
+    const snapshotA = a.snapshots[0]
+    const snapshotB = b.snapshots[0]
+    if (!snapshotA || !snapshotB) {
+      throw new Error("No snapshots found")
+    }
+    const typesMatch = getSnapshotType(snapshotA) === getSnapshotType(snapshotB)
+    if (!typesMatch) {
+      return false
+    }
+
+    // Compare lowercase names. The -l suffix is removed, because light wallpapers were the default
+    const fileNamesA = a.snapshots
+      .map(snapshot => snapshot.originalFile.split("/").pop()?.split(".")[0]?.toLowerCase().replace(/-l$/, ""))
+      .flatMap(self => (self ? [self] : []))
+      .filter((name, index, self) => self.indexOf(name) === index)
+    const fileNamesB = b.snapshots
+      .map(snapshot => snapshot.originalFile.split("/").pop()?.split(".")[0]?.toLowerCase().replace(/-l$/, ""))
+      .flatMap(self => (self ? [self] : []))
+      .filter((name, index, self) => self.indexOf(name) === index)
+    const fileNamesMatch = fileNamesA.some(nameA => fileNamesB.includes(nameA))
+
+    if (!fileNamesMatch) {
+      return false
+    }
+    return true
+  }
+
+  return mergeWallpapers(wallpapers, checker)
+}
+
+const markCurrentWallpapers = (wallpapers: WallpaperWithHistory[]): WallpaperWithHistory[] => {
+  const lastChange = wallpapers
+    .reduce((lastChange, wallpaper) => {
+      return lastChange > wallpaper.deleted ? lastChange : wallpaper.deleted
+    }, new Date(0))
+    .getTime()
+
+  return wallpapers.map(wallpaper => {
+    const isCurrent = wallpaper.deleted.getTime() === lastChange
+    if (!isCurrent) {
+      return wallpaper
+    }
+    return { ...wallpaper, current: true }
+  })
+}
