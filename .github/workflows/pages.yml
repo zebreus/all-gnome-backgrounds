@@ -59,12 +59,6 @@ jobs:
       - name: Setup Pages
         id: configure-pages
         uses: actions/configure-pages@v2
-        with:
-          # Automatically inject basePath in your Next.js configuration file and disable
-          # server side image optimization (https://nextjs.org/docs/api-reference/next/image#unoptimized).
-          #
-          # You may remove this line if you want to manage the configuration yourself.
-          static_site_generator: next
       - name: Restore cache
         uses: actions/cache@v3
         with:
@@ -86,9 +80,13 @@ jobs:
           nix develop -c yarn prepareJson
           nix develop -c yarn start
       - name: Build with Next.js
-        run: ${{ steps.detect-package-manager.outputs.runner }} next build
+        run: |
+          export NEXT_PUBLIC_GITHUB_PAGES_BASE=${{ steps.configure-pages.outputs.base_path }}
+          ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Static HTML export with Next.js
-        run: ${{ steps.detect-package-manager.outputs.runner }} next export
+        run: |
+          export NEXT_PUBLIC_GITHUB_PAGES_BASE=${{ steps.configure-pages.outputs.base_path }}
+          ${{ steps.detect-package-manager.outputs.runner }} next export
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:

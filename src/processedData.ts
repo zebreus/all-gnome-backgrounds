@@ -22,6 +22,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "b4bf826b662e137f3dea8d5a128e26b68974c926",
       },
     ],
     deleteMessage: "Removed - No 1600x1200 version available",
@@ -47,6 +48,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "21ef581e3d04993a7700fb32711d15bf31311290",
       },
     ],
     deleteMessage: "Removed - No 1600x1200 version available",
@@ -72,6 +74,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "27259a8c40460802a5b0161099eb403250031b69",
       },
     ],
     deleteMessage: "XML files for gnome-background-properties added from patch by Andrew",
@@ -97,6 +100,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "1179d752998152320c83d097992496832b900525",
       },
     ],
     deleteMessage: "Added leather_skin-resynth-hig.png and removed grass.png",
@@ -122,6 +126,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: true,
+        hash: "8d5f0f5f41ecda535077ff8be2b780d88892363e",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -147,6 +152,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "2266496182ac363189fa5114b93fe94cefba2ac5",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -172,6 +178,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: true,
+        hash: "5fbbf7bf6c4a7c1cc684b315ded427b5e30dd5f5",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -197,6 +204,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "e8a1356b9874849e8e0f174de14ef30671575a2c",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -222,6 +230,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: true,
+        hash: "7f07ccedd0c46df129a86542cfe68a56d3b8c6e4",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -247,6 +256,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "c15d1a3e12039c2985f5db7d2f81ee7654246360",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -272,6 +282,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: true,
+        hash: "3aed5472593900f5af8bbd3be16b6b9e7b8e8127",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -297,6 +308,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "d67238146343d8bb35cb0f492a732be5504d380d",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -322,6 +334,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: true,
+        hash: "e1a4df36fc5789301e130c3dcc6aeb68fcd50992",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -347,6 +360,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "c4491b6aa5a419806543f7ba2ef24e3aa4c521f1",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -372,6 +386,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "17bceabc87271521b9f10147e0bba2281e1d0704",
       },
       {
         date: new Date("2004-07-04T22:16:41.000Z"),
@@ -390,6 +405,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "4caf61131b023cc841c9363200da4f09064ca8d3",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -415,6 +431,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "d9db3cf1a874b0d3e5efbecba7007daf107ab209",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -440,6 +457,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "ef95a56d449ea9fb546f265e5ca088a2a6d4941c",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -465,6 +483,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "08179525aeb804782566b2190baf1ca4916cd5df",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -490,6 +509,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "6ee5f0dbd9a0569b41644a4812489ca79b36119b",
       },
       {
         date: new Date("2004-07-04T22:16:41.000Z"),
@@ -508,6 +528,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "6ee5f0dbd9a0569b41644a4812489ca79b36119b",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -533,6 +554,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "e389c986e276a250c23662e07adcb09f065bec06",
       },
       {
         date: new Date("2004-07-04T22:16:41.000Z"),
@@ -551,6 +573,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "e389c986e276a250c23662e07adcb09f065bec06",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -576,6 +599,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "70fff7dc9c815a604ed6e7380f7fe326485c5b68",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -601,6 +625,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "916aece5cc0c9be7dab100afb5a736a16483eb40",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -626,6 +651,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "c55aecc714107dd367734c55bd3f2834bac24904",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -651,6 +677,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "38075bf702dfc827728bb79d54c94d822d71ad7f",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -676,6 +703,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "710d96a67bce1e775bbf53ee7e60f0d09bd62b1f",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -701,6 +729,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "9c73cfc8b80ab12b260e20611ad2664f40c3a3b7",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -726,6 +755,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "f5a7f70025e1ab5df7ce07c05582473a0a8f1d38",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -751,6 +781,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "b949e0d7ea1951d7ad99a25ac6681a797c0bfc35",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -776,6 +807,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "97e8d8e51122ca0da7856d5d76106ce46e00ec6f",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -801,6 +833,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "f9b2d221087110b4032de78e515944d9c68adac7",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -826,6 +859,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "66295b2fba44f55d580936e86b0d4fb6952d9a99",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -851,6 +885,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "37b4a7aa712634612ca748f5f6411be10b2b82f3",
       },
     ],
     deleteMessage: "- New backgrounds for 2.14 - Removed all old backgrounds - Release for",
@@ -876,6 +911,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "f5dcba64c62a6feab6484d75feb7bae1344fd081",
       },
       {
         date: new Date("2006-01-29T11:14:18.000Z"),
@@ -894,6 +930,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "a4bad4e9b2bf8af0768310c9ff27f2b8c403a89a",
       },
     ],
     deleteMessage: "Add new backgrounds from wallpaper contest, update to 2.23.0",
@@ -919,6 +956,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "ab735bb14445abb49ee2325a64b1e687b09f96e9",
       },
     ],
     deleteMessage: "Add new backgrounds from wallpaper contest, update to 2.23.0",
@@ -944,6 +982,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "dd8d9e8d73336d3c77367d388983598cd6a190bc",
       },
       {
         date: new Date("2006-01-28T12:19:48.000Z"),
@@ -962,6 +1001,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "362d937773ae98b6111a6938facd0c68098045fd",
       },
     ],
     deleteMessage: "Add new backgrounds from wallpaper contest, update to 2.23.0",
@@ -987,6 +1027,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "c8e852949fb3551d8376db529086d8290d1b680d",
       },
       {
         date: new Date("2006-02-13T23:17:07.000Z"),
@@ -1005,6 +1046,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "be75f8659a82d2d074e7ca6475cc3c199c696a10",
       },
       {
         date: new Date("2006-01-28T12:19:48.000Z"),
@@ -1023,6 +1065,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "4ab202326918680cdf8e898c885c0f778074dc60",
       },
     ],
     deleteMessage: "Add new backgrounds from wallpaper contest, update to 2.23.0",
@@ -1048,6 +1091,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "ea429eedbb64e06a0524e9dc01099a3e02c1298b",
       },
       {
         date: new Date("2005-08-23T17:03:55.000Z"),
@@ -1066,6 +1110,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "357eca2170d5d65484d4b1dc34e95abe9f519b61",
       },
     ],
     deleteMessage: "Add new backgrounds from wallpaper contest, update to 2.23.0",
@@ -1091,6 +1136,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "58ef4a93aa51a107dda2530c0ce712f461878118",
       },
     ],
     deleteMessage: "Add new backgrounds from wallpaper contest, update to 2.23.0",
@@ -1116,6 +1162,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "3b4821690ebdb8275b57242b4c471d8a00f3f628",
       },
       {
         date: new Date("2005-08-23T17:03:55.000Z"),
@@ -1134,6 +1181,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "08d033ee92ec4be1644302ec7669f61e9ecdd7e9",
       },
     ],
     deleteMessage: "Add new backgrounds from wallpaper contest, update to 2.23.0",
@@ -1159,6 +1207,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "cb78bf3076a7e1eeb02722025f8f9c81f57433f6",
       },
     ],
     deleteMessage: "Remove OpenFlower.jpg from SVN",
@@ -1184,6 +1233,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "64a58c5a48cc3ce505b618876602f73e11fe42c5",
       },
     ],
     deleteMessage: "New transparent versions of Gulp and Flow backgrounds from Hylke Bons",
@@ -1209,6 +1259,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "1679ae84e3be61bdd7383f40d94d203c2d7991c8",
       },
       {
         date: new Date("2008-07-22T16:51:23.000Z"),
@@ -1227,6 +1278,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "879fb86937f47d5ab268289bc24a189620499530",
       },
     ],
     deleteMessage: "start of 3 work",
@@ -1252,6 +1304,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "7d6fd3b35b3833a69d8e406fa0d25743a614900d",
       },
     ],
     deleteMessage: "start of 3 work",
@@ -1277,6 +1330,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "837b7b03122e3306c0e3317ae0cac82269a0d94c",
       },
       {
         date: new Date("2008-07-22T16:51:23.000Z"),
@@ -1295,6 +1349,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "5585bd979d498fdf4cfc6fa50053a0d2b9c3ca7a",
       },
     ],
     deleteMessage: "start of 3 work",
@@ -1320,6 +1375,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "9c3c15fc46eb011395b6498f65a7a478f8d50b08",
       },
     ],
     deleteMessage: "start of 3 work",
@@ -1345,6 +1401,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "52063726e8b1325c4c8440a4912c84e7912d9568",
       },
       {
         date: new Date("2008-07-22T16:51:23.000Z"),
@@ -1363,6 +1420,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "80b1701b1fa8efcbb679f32e84ba12e56aa24022",
       },
     ],
     deleteMessage: "start of 3 work",
@@ -1388,6 +1446,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "ba91a2e2f0772bed8dc6ddca5be9504641974342",
       },
     ],
     deleteMessage: "start of 3 work",
@@ -1413,6 +1472,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "77f308adc56fd8b062d8408546ef09840b0be684",
       },
       {
         date: new Date("2008-07-22T16:51:23.000Z"),
@@ -1431,6 +1491,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "202115fea3e057a3b62bc5f417b879bbbd1761b3",
       },
     ],
     deleteMessage: "start of 3 work",
@@ -1456,6 +1517,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "a9ea0878e96d5620fe1dfa0f0c6e3db5c4372d52",
       },
     ],
     deleteMessage: "start of 3 work",
@@ -1481,6 +1543,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "71ac821631688956473b9fe3306d0be4cbc27985",
       },
     ],
     deleteMessage: "start of 3 work",
@@ -1506,6 +1569,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "b8338c04e64fbbc63d3a076110d62108b55b42c5",
       },
       {
         date: new Date("2008-07-23T11:19:21.000Z"),
@@ -1524,6 +1588,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "2dce0c2cb3bcb7a6906f99d6ada451d0c4d33e8a",
       },
     ],
     deleteMessage: "start of 3 work",
@@ -1549,6 +1614,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "ac18bf4103f1f144ecd19fef36fbb3d47be63fe4",
       },
       {
         date: new Date("2008-07-23T11:19:21.000Z"),
@@ -1567,6 +1633,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "67ea293d778ed3d22603b4abf07a29f1f7040ee0",
       },
     ],
     deleteMessage: "start of 3 work",
@@ -1592,6 +1659,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "7e0f255ce3ef7c43704106c70049d77e9ef309cf",
       },
     ],
     deleteMessage: "start of 3 work",
@@ -1617,6 +1685,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "2c41d66a9b643389770a8a0e95f24aa5b8f6019c",
       },
     ],
     deleteMessage: "start of 3 work",
@@ -1642,6 +1711,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "100feec4e4f658118c5cf6ebb8019f68e00eea5b",
       },
     ],
     deleteMessage: "start of 3 work",
@@ -1667,6 +1737,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "7bd422af5cc1c31ca19f728a8c537955c3a0f03b",
       },
     ],
     deleteMessage: "start of 3 work",
@@ -1692,6 +1763,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "6afd0e7a5a34d95716d0c4a52424346458a1e96d",
       },
       {
         date: new Date("2008-07-23T11:19:21.000Z"),
@@ -1710,6 +1782,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "825b9c192a84d60cfc9acabb3bcec1cc53d1aed3",
       },
     ],
     deleteMessage: "start of 3 work",
@@ -1735,6 +1808,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "e7735ecdf5c711ea0aef30c69f24ca9e6d091e17",
       },
     ],
     deleteMessage: "start of 3 work",
@@ -1760,6 +1834,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "ad3db1ef7f67e685445d556c41a44b3da2cf182c",
       },
       {
         date: new Date("2008-07-23T11:19:21.000Z"),
@@ -1778,6 +1853,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "534b7fae1519fe019f674eac6020109a4a927ade",
       },
     ],
     deleteMessage: "start of 3 work",
@@ -1803,6 +1879,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "3f2569efa34d565f0fb80a8f9ffe82c6e74ba6dd",
       },
     ],
     deleteMessage: "start of 3 work",
@@ -1828,6 +1905,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "8958dd885074a40f553ab0a8182d910acf8ed4cd",
       },
     ],
     deleteMessage: "start of 3 work",
@@ -1853,6 +1931,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "ac18bf4103f1f144ecd19fef36fbb3d47be63fe4",
       },
       {
         date: new Date("2008-07-23T11:19:21.000Z"),
@@ -1871,6 +1950,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "67ea293d778ed3d22603b4abf07a29f1f7040ee0",
       },
     ],
     deleteMessage: "Remove a few nature shots",
@@ -1896,6 +1976,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "7bd422af5cc1c31ca19f728a8c537955c3a0f03b",
       },
     ],
     deleteMessage: "Remove a few nature shots",
@@ -1921,6 +2002,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "6afd0e7a5a34d95716d0c4a52424346458a1e96d",
       },
       {
         date: new Date("2008-07-23T11:19:21.000Z"),
@@ -1939,6 +2021,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "825b9c192a84d60cfc9acabb3bcec1cc53d1aed3",
       },
     ],
     deleteMessage: "Remove a few nature shots",
@@ -1964,6 +2047,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "e7735ecdf5c711ea0aef30c69f24ca9e6d091e17",
       },
     ],
     deleteMessage: "Remove a few nature shots",
@@ -1989,6 +2073,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "1679ae84e3be61bdd7383f40d94d203c2d7991c8",
       },
       {
         date: new Date("2008-07-22T16:51:23.000Z"),
@@ -2007,6 +2092,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "879fb86937f47d5ab268289bc24a189620499530",
       },
     ],
     deleteMessage: "Remove abstract backgrounds",
@@ -2032,6 +2118,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "7d6fd3b35b3833a69d8e406fa0d25743a614900d",
       },
     ],
     deleteMessage: "Remove abstract backgrounds",
@@ -2057,6 +2144,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "837b7b03122e3306c0e3317ae0cac82269a0d94c",
       },
       {
         date: new Date("2008-07-22T16:51:23.000Z"),
@@ -2075,6 +2163,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "5585bd979d498fdf4cfc6fa50053a0d2b9c3ca7a",
       },
     ],
     deleteMessage: "Remove abstract backgrounds",
@@ -2100,6 +2189,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "9c3c15fc46eb011395b6498f65a7a478f8d50b08",
       },
     ],
     deleteMessage: "Remove abstract backgrounds",
@@ -2125,6 +2215,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "52063726e8b1325c4c8440a4912c84e7912d9568",
       },
       {
         date: new Date("2008-07-22T16:51:23.000Z"),
@@ -2143,6 +2234,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "80b1701b1fa8efcbb679f32e84ba12e56aa24022",
       },
     ],
     deleteMessage: "Remove abstract backgrounds",
@@ -2168,6 +2260,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "ba91a2e2f0772bed8dc6ddca5be9504641974342",
       },
     ],
     deleteMessage: "Remove abstract backgrounds",
@@ -2193,6 +2286,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "77f308adc56fd8b062d8408546ef09840b0be684",
       },
       {
         date: new Date("2008-07-22T16:51:23.000Z"),
@@ -2211,6 +2305,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "202115fea3e057a3b62bc5f417b879bbbd1761b3",
       },
     ],
     deleteMessage: "Remove abstract backgrounds",
@@ -2236,6 +2331,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "a9ea0878e96d5620fe1dfa0f0c6e3db5c4372d52",
       },
     ],
     deleteMessage: "Remove abstract backgrounds",
@@ -2261,6 +2357,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "5de37cf7413c524b61ea7bcc05a20e41e05dc246",
       },
     ],
     deleteMessage: "Remove comet image",
@@ -2286,6 +2383,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "ddb1ebe4255c486d805cbe30f0a39cabc4b543e6",
       },
     ],
     deleteMessage: "Remove cosmos except for blue marble",
@@ -2311,6 +2409,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "1abefd2c263947e408c36d3972da15fca4790951",
       },
     ],
     deleteMessage: "Remove cosmos except for blue marble",
@@ -2336,6 +2435,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "46113b27ea1405b1c8c68fb9864c3293b548f786",
       },
     ],
     deleteMessage: "Remove cosmos except for blue marble",
@@ -2361,6 +2461,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "19f02b2b22f3df2a2720714d69b606b7453c5bf4",
       },
     ],
     deleteMessage: "Remove cosmos except for blue marble",
@@ -2386,6 +2487,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "396af3556668962986a936848a3b11ea23cbc786",
       },
     ],
     deleteMessage: "Remove cosmos except for blue marble",
@@ -2411,6 +2513,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "6d7d2ff8bbee3765af878dbe63fc76e5658b77af",
       },
     ],
     deleteMessage: "Remove cosmos except for blue marble",
@@ -2436,6 +2539,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "1b7378cc59622295f2d05a64674737f80b0412d5",
       },
     ],
     deleteMessage: "Remove cosmos except for blue marble",
@@ -2461,6 +2565,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "ed258e23cdec7100c7030053adfb50501134fe06",
       },
       {
         date: new Date("2011-03-22T01:24:27.000Z"),
@@ -2479,6 +2584,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "ed258e23cdec7100c7030053adfb50501134fe06",
       },
     ],
     deleteMessage: "Refreshed set of extra wallpapers for 3.6",
@@ -2504,6 +2610,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "71ac821631688956473b9fe3306d0be4cbc27985",
       },
       {
         date: new Date("2008-07-23T11:19:21.000Z"),
@@ -2522,6 +2629,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "71ac821631688956473b9fe3306d0be4cbc27985",
       },
     ],
     deleteMessage: "More cleanup for 3.6",
@@ -2547,6 +2655,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "7e0f255ce3ef7c43704106c70049d77e9ef309cf",
       },
       {
         date: new Date("2006-01-28T12:19:48.000Z"),
@@ -2565,6 +2674,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "7e0f255ce3ef7c43704106c70049d77e9ef309cf",
       },
     ],
     deleteMessage: "More cleanup for 3.6",
@@ -2590,6 +2700,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "2c41d66a9b643389770a8a0e95f24aa5b8f6019c",
       },
       {
         date: new Date("2008-07-23T11:19:21.000Z"),
@@ -2608,6 +2719,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "2c41d66a9b643389770a8a0e95f24aa5b8f6019c",
       },
     ],
     deleteMessage: "More cleanup for 3.6",
@@ -2633,6 +2745,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "100feec4e4f658118c5cf6ebb8019f68e00eea5b",
       },
       {
         date: new Date("2006-01-28T12:19:48.000Z"),
@@ -2651,6 +2764,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "100feec4e4f658118c5cf6ebb8019f68e00eea5b",
       },
     ],
     deleteMessage: "More cleanup for 3.6",
@@ -2676,6 +2790,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "07fdeb3f8e7f695dd9b0ee655acec61d59952b8b",
       },
       {
         date: new Date("2011-03-22T01:24:27.000Z"),
@@ -2694,6 +2809,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "07fdeb3f8e7f695dd9b0ee655acec61d59952b8b",
       },
     ],
     deleteMessage: "More cleanup for 3.6",
@@ -2719,6 +2835,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "8c3cef5daa92ee7fbc89d9a79c33ccdfabfa642d",
       },
       {
         date: new Date("2011-04-04T16:29:03.000Z"),
@@ -2737,6 +2854,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "f2acd85d850751a8bb16987508c1e2570e74e691",
       },
       {
         date: new Date("2011-03-22T02:31:18.000Z"),
@@ -2755,6 +2873,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "f2acd85d850751a8bb16987508c1e2570e74e691",
       },
     ],
     deleteMessage: "More cleanup for 3.6",
@@ -2780,6 +2899,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "84233c37c083e77c209e91a4bbc2049f9c9cc5e1",
       },
       {
         date: new Date("2011-03-22T01:24:27.000Z"),
@@ -2798,6 +2918,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "84233c37c083e77c209e91a4bbc2049f9c9cc5e1",
       },
     ],
     deleteMessage: "More cleanup for 3.6",
@@ -2823,6 +2944,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "77f5d551b73634025d8434715dfc34125a912084",
       },
       {
         date: new Date("2011-03-22T01:24:27.000Z"),
@@ -2841,6 +2963,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "77f5d551b73634025d8434715dfc34125a912084",
       },
     ],
     deleteMessage: "More cleanup for 3.6",
@@ -2866,6 +2989,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "ad3db1ef7f67e685445d556c41a44b3da2cf182c",
       },
       {
         date: new Date("2008-08-12T13:56:05.000Z"),
@@ -2884,6 +3008,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "ad3db1ef7f67e685445d556c41a44b3da2cf182c",
       },
       {
         date: new Date("2008-07-23T11:19:21.000Z"),
@@ -2902,6 +3027,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "534b7fae1519fe019f674eac6020109a4a927ade",
       },
     ],
     deleteMessage: "More cleanup for 3.6",
@@ -2927,6 +3053,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "8958dd885074a40f553ab0a8182d910acf8ed4cd",
       },
       {
         date: new Date("2008-07-23T11:19:21.000Z"),
@@ -2945,6 +3072,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "8958dd885074a40f553ab0a8182d910acf8ed4cd",
       },
     ],
     deleteMessage: "More cleanup for 3.6",
@@ -2970,6 +3098,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "291ec332081927cf39ff834203bd32d7a2c55526",
       },
       {
         date: new Date("2012-08-15T08:53:59.000Z"),
@@ -2988,6 +3117,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "ce3c8274352c81169f8299b145bc373cfb3235bc",
       },
       {
         date: new Date("2012-08-14T16:42:54.000Z"),
@@ -3006,6 +3136,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "d8dbf61bba6ad3228d390d7ed29fc5fcc4485527",
       },
     ],
     deleteMessage: "Replace stamps with a skyline to avoid offending anyone.",
@@ -3031,6 +3162,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "80d73b20e8c0e95c13d417487bd74a53118de83e",
       },
     ],
     deleteMessage: "Update Sunset, remove the gloomy grey Underlit.",
@@ -3056,6 +3188,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "948bba590aeb408f40db4a2e784521778aeebbde",
       },
       {
         date: new Date("2012-08-14T16:42:54.000Z"),
@@ -3074,6 +3207,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "5c4678f60ef4dfce36b03ff77e031c90f045bbf6",
       },
     ],
     deleteMessage: "Update Sunset, remove the gloomy grey Underlit.",
@@ -3099,6 +3233,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "7cd8be1721270e09e9c4fd5f22e63afad1c73682",
       },
       {
         date: new Date("2011-03-22T03:22:28.000Z"),
@@ -3117,6 +3252,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "7cd8be1721270e09e9c4fd5f22e63afad1c73682",
       },
       {
         date: new Date("2011-03-06T03:21:01.000Z"),
@@ -3135,6 +3271,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "7cd8be1721270e09e9c4fd5f22e63afad1c73682",
       },
     ],
     deleteMessage: "Backgrounds refresh for 3.10.1",
@@ -3160,6 +3297,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "1482541ba243ff1b8a8836c73150df95f683cf11",
       },
       {
         date: new Date("2011-03-22T01:24:27.000Z"),
@@ -3178,6 +3316,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "1482541ba243ff1b8a8836c73150df95f683cf11",
       },
     ],
     deleteMessage: "Backgrounds refresh for 3.10.1",
@@ -3203,6 +3342,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "c2278049fc0eaaf5357a9cc0ae41fdb0a2269775",
       },
     ],
     deleteMessage: "Backgrounds refresh for 3.10.1",
@@ -3228,6 +3368,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "d1d6a63c1c419dc4811b1d5d8b1904433c59323d",
       },
     ],
     deleteMessage: "Backgrounds refresh for 3.10.1",
@@ -3253,6 +3394,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "4fdcd496867e2c7c886d37ee629148b91d14b5bb",
       },
     ],
     deleteMessage: "Backgrounds refresh for 3.10.1",
@@ -3278,6 +3420,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "ee668a2347fd9c93de59238b21d7c214f26ee1b6",
       },
     ],
     deleteMessage: "Backgrounds refresh for 3.10.1",
@@ -3303,6 +3446,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "3f2569efa34d565f0fb80a8f9ffe82c6e74ba6dd",
       },
       {
         date: new Date("2008-07-23T11:19:21.000Z"),
@@ -3321,6 +3465,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "3f2569efa34d565f0fb80a8f9ffe82c6e74ba6dd",
       },
     ],
     deleteMessage: "Backgrounds refresh for 3.10.1",
@@ -3346,6 +3491,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "6f57a06ffb062882f36a2487084dedc31b8af5d6",
       },
     ],
     deleteMessage: "Backgrounds refresh for 3.10.1",
@@ -3371,6 +3517,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "ccac3c911057a99af38beaef726dd7c1e6a09507",
       },
     ],
     deleteMessage: "Update wallpapers",
@@ -3396,6 +3543,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "b8338c04e64fbbc63d3a076110d62108b55b42c5",
       },
       {
         date: new Date("2008-08-17T23:03:19.000Z"),
@@ -3414,6 +3562,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "b8338c04e64fbbc63d3a076110d62108b55b42c5",
       },
       {
         date: new Date("2008-07-23T11:19:21.000Z"),
@@ -3432,6 +3581,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "2dce0c2cb3bcb7a6906f99d6ada451d0c4d33e8a",
       },
     ],
     deleteMessage: "new backgrounds by Helena Bartosova",
@@ -3457,6 +3607,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "8d03582a5b7f88ce984d574e2c222b47a2ea7f33",
       },
       {
         date: new Date("2011-03-22T02:45:29.000Z"),
@@ -3475,6 +3626,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "8d03582a5b7f88ce984d574e2c222b47a2ea7f33",
       },
     ],
     deleteMessage: "new backgrounds by Helena Bartosova",
@@ -3500,6 +3652,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "eaf9f367c1aad474aa72df0701b3585146799b32",
       },
     ],
     deleteMessage: "symbolics-1: more resolution",
@@ -3525,6 +3678,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "d468921149eed643c5097298d10dd58d0b64c82f",
       },
     ],
     deleteMessage: "add endless shapes. remove some photos",
@@ -3550,6 +3704,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "a4d9d7c6aee359aeae2a72d7a91462448eeccf6b",
       },
     ],
     deleteMessage: "add endless shapes. remove some photos",
@@ -3575,6 +3730,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "1d203e901d2c5c324a799ff377ff090d0edd0bdc",
       },
       {
         date: new Date("2011-03-22T01:24:27.000Z"),
@@ -3593,6 +3749,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "1d203e901d2c5c324a799ff377ff090d0edd0bdc",
       },
     ],
     deleteMessage: "add endless shapes. remove some photos",
@@ -3618,6 +3775,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "5ffb8c1d21c0ef6ab7d14f324f3fd165c6c84a17",
       },
     ],
     deleteMessage: "add endless shapes. remove some photos",
@@ -3643,6 +3801,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "feb306144de3ebb19e53af7f8ba7374150cee37d",
       },
       {
         date: new Date("2017-07-11T18:01:35.000Z"),
@@ -3661,6 +3820,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "fc5a63eb885edceac151b57841ad35d54b33e019",
       },
       {
         date: new Date("2017-07-11T12:42:23.000Z"),
@@ -3679,6 +3839,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "67714d8e187011c6e9053655139bef885b2f8eff",
       },
       {
         date: new Date("2017-07-11T09:26:10.000Z"),
@@ -3697,6 +3858,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "78caf483a15c5404c0017fd58ada903c425d5bb3",
       },
       {
         date: new Date("2017-06-30T16:25:15.000Z"),
@@ -3715,6 +3877,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "16b45ed7ba9d80ea349b04df694a7e6b5cd1ec1b",
       },
       {
         date: new Date("2017-06-29T15:02:24.000Z"),
@@ -3733,6 +3896,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "62fa0ede223c15f222b2518a347f9ad823fb51de",
       },
       {
         date: new Date("2017-06-28T14:32:27.000Z"),
@@ -3751,6 +3915,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "1b871f42ffdaf38f2b58667f0a7b4b8d57b9a0d1",
       },
       {
         date: new Date("2017-01-25T17:36:28.000Z"),
@@ -3769,6 +3934,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "a0a1715d5ae6d47e319be8acf2d3060bcfdf07ca",
       },
       {
         date: new Date("2017-01-25T17:35:02.000Z"),
@@ -3787,6 +3953,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "05adbe7bd0af09dea4ff69becdac3cb8994a6b66",
       },
       {
         date: new Date("2017-01-25T11:59:52.000Z"),
@@ -3805,6 +3972,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "f7dedccfb3b6fa7b810106f0fe0ca345cf39c6fd",
       },
       {
         date: new Date("2017-01-04T13:13:52.000Z"),
@@ -3823,6 +3991,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "14f3268adcb084a1b43b531da8b6ddec760f34f0",
       },
       {
         date: new Date("2016-12-07T13:14:49.000Z"),
@@ -3841,6 +4010,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "b0a15eaf76ea1d49a16912f12c9e4324cab5b8fc",
       },
       {
         date: new Date("2016-07-09T22:27:23.000Z"),
@@ -3859,6 +4029,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "cc2ff1fbe9c0100db00a0657ac78388210f7b7e9",
       },
       {
         date: new Date("2015-10-27T09:32:37.000Z"),
@@ -3877,6 +4048,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "0460c8b73b43df487b067166a8b2955953d22210",
       },
       {
         date: new Date("2015-10-23T14:30:38.000Z"),
@@ -3895,6 +4067,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "b5f4e77c6a51aa9ef463316deb512830f0c9ecb0",
       },
       {
         date: new Date("2015-10-23T08:43:03.000Z"),
@@ -3913,6 +4086,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "3c3b0b5fc5faa5b095985d4dde0e5c4469f0e655",
       },
       {
         date: new Date("2015-10-22T09:26:50.000Z"),
@@ -3931,6 +4105,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "ac64219bbfa97ba3fcd0c40668b5c51ae12a62b6",
       },
       {
         date: new Date("2015-10-21T14:20:32.000Z"),
@@ -3949,6 +4124,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "96af9c658b26068f4f4d27e4facdd152f8d46ef4",
       },
       {
         date: new Date("2015-04-27T11:57:16.000Z"),
@@ -3967,6 +4143,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "6c6452dd24ccb1f77e3c2e9743371b63e7061b9b",
       },
       {
         date: new Date("2015-04-22T12:57:56.000Z"),
@@ -3985,6 +4162,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "602c13e8dd1ea88386074072c93d9ad3442b2511",
       },
       {
         date: new Date("2014-11-26T19:33:52.000Z"),
@@ -4003,6 +4181,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "5ccb1feeb5f8183f840bac67b0bf7d41d9aa7246",
       },
       {
         date: new Date("2014-08-06T15:31:32.000Z"),
@@ -4021,6 +4200,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "ec0383536d3b542ad15a2047bd536124705a7631",
       },
       {
         date: new Date("2014-01-18T08:51:38.000Z"),
@@ -4039,6 +4219,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "ec0383536d3b542ad15a2047bd536124705a7631",
       },
       {
         date: new Date("2014-01-18T01:06:24.000Z"),
@@ -4057,6 +4238,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "0600fc568ef33ca62bf42ff3f6521b0a9bce23dc",
       },
       {
         date: new Date("2014-01-17T14:05:07.000Z"),
@@ -4075,6 +4257,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "1ab903371fa23e3b099b588e9dda1a0ae303f87a",
       },
       {
         date: new Date("2014-01-17T12:48:28.000Z"),
@@ -4093,6 +4276,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "bb6a48406573e2310a9dc4ecd982d576fc1b130d",
       },
       {
         date: new Date("2014-01-13T00:44:39.000Z"),
@@ -4111,6 +4295,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "63273c2f8c3730d37f37bc9c49ea1d9413b8e733",
       },
       {
         date: new Date("2013-10-04T11:47:59.000Z"),
@@ -4129,6 +4314,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "33b94c397c731554c43b23a9aa1e1ecc634bd83e",
       },
     ],
     deleteMessage: "some cleanup",
@@ -4154,6 +4340,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "7d3ab480e6d4271a5dfed4c6ccdb5c3b423acbcc",
       },
     ],
     deleteMessage: "some cleanup",
@@ -4179,6 +4366,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "3cde7b327fee61006c5c7a7087324310bb7447a1",
       },
     ],
     deleteMessage: "supplemental additions",
@@ -4204,6 +4392,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "aa830f971adb57ee2943d39700603ca27ec1e708",
       },
     ],
     deleteMessage: "supplemental additions",
@@ -4229,6 +4418,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "5169a2f251d29c999884c0ee1b77d3cc191f0986",
       },
     ],
     deleteMessage: "more supplemental",
@@ -4254,6 +4444,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "e97c8d437bb0d25c07b7bfca80f0e105d78313fc",
       },
     ],
     deleteMessage: "more supplemental",
@@ -4279,6 +4470,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "8c57a9e78ad268a1b0ed4fbe6b2f2d5a069914bc",
       },
     ],
     deleteMessage: "more supplemental",
@@ -4304,6 +4496,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "054919d82c09752038688172b43566b8da7581a1",
       },
     ],
     deleteMessage: "cliche replacement",
@@ -4329,6 +4522,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "ec848d463f901aa05a2ab5807b53d6dbf362f259",
       },
     ],
     deleteMessage: "supplemental: replace oldie with colors",
@@ -4354,6 +4548,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "8a2ae9c54be42141fa48c701f2072f9de9164659",
       },
     ],
     deleteMessage: "supplemental: color strips replacing an oldie",
@@ -4379,6 +4574,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "d870c0db4d55cd839b88fb7034828149ad215694",
       },
     ],
     deleteMessage: "LightWaves: more generated bcgs",
@@ -4404,6 +4600,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "b4b59bda185758ebaa2735e4e9fc78a2f7277c64",
       },
     ],
     deleteMessage: "Photo updates",
@@ -4429,6 +4626,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "dfd1c30a90c964f7b9784a7f05f78f508a31ec78",
       },
     ],
     deleteMessage: "Icetwigs",
@@ -4454,6 +4652,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "3d3dde694bc8506f397faccba3c9428b551a72ce",
       },
       {
         date: new Date("2018-01-18T14:48:34.000Z"),
@@ -4472,6 +4671,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "539f8a5363b13b5f6e4a6155c03420734052629a",
       },
       {
         date: new Date("2018-01-05T13:11:47.000Z"),
@@ -4490,6 +4690,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "c6d8039f71876ffb8aa8ed87fec71f9f0cdbf93c",
       },
       {
         date: new Date("2012-08-17T19:21:30.000Z"),
@@ -4508,6 +4709,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "5e9367677dbe2d43ab0c93e9703cfdf1271dc9df",
       },
     ],
     deleteMessage: "Fabric: optimize for size",
@@ -4533,6 +4735,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "f266fc4882baaa9491e8e85a6ed328092a013da3",
       },
       {
         date: new Date("2017-11-08T18:09:18.000Z"),
@@ -4551,6 +4754,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "f266fc4882baaa9491e8e85a6ed328092a013da3",
       },
       {
         date: new Date("2017-11-03T16:02:04.000Z"),
@@ -4569,6 +4773,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "e7547cf7b20e2217d15e1bb109fe0cf2b0036a94",
       },
     ],
     deleteMessage: "symbolics update",
@@ -4594,6 +4799,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "e9bc0b646a22b0a6b716bfdd9949d20256b04ef6",
       },
       {
         date: new Date("2019-06-05T08:34:49.000Z"),
@@ -4612,6 +4818,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "4a9cc183903cc83a3d7348da347b583e10ddbadb",
       },
       {
         date: new Date("2017-11-01T20:41:06.000Z"),
@@ -4630,6 +4837,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "4a9cc183903cc83a3d7348da347b583e10ddbadb",
       },
     ],
     deleteMessage: "remove Symbolics2",
@@ -4655,6 +4863,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "700208070390f3eaf3bd978d861c1aba4879fb71",
       },
     ],
     deleteMessage: "Refresh some photos",
@@ -4680,6 +4889,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "70140479abcf51913eca764c686068c2e643a685",
       },
     ],
     deleteMessage: "Refresh some photos",
@@ -4705,6 +4915,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "3e1201ca63557ab68bcd43c8ce67745a7e1830d4",
       },
       {
         date: new Date("2020-06-05T10:11:04.000Z"),
@@ -4723,6 +4934,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "d82ba3e4c4b5f51cf062de4131d8a6868fda9fbd",
       },
       {
         date: new Date("2019-05-28T17:46:43.000Z"),
@@ -4741,6 +4953,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "924b0a0f117b6a2d709c9c73aca1fbf7ccf919e1",
       },
     ],
     deleteMessage: "Refresh some photos",
@@ -4766,6 +4979,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "aa422ff7289e3617adecf8df5349931de0992eab",
       },
       {
         date: new Date("2012-08-20T09:33:19.000Z"),
@@ -4784,6 +4998,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "a4aa657b04ef492fce0c53d63330965883951719",
       },
     ],
     deleteMessage: "two more moody photos",
@@ -4809,6 +5024,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "bddbeec1aa4d610ad644a7096551639e7dc3d600",
       },
     ],
     deleteMessage: "two more moody photos",
@@ -4834,6 +5050,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "57b8a9fb8ccb2566ea4b6f204e4d5adca2620c53",
       },
     ],
     deleteMessage: "replace darkness with light",
@@ -4859,6 +5076,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "96bc3f759a85ab67cb7df084b11cb70c0d448d3f",
       },
       {
         date: new Date("2020-06-03T12:44:14.000Z"),
@@ -4877,6 +5095,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "3f63c68caaeb76961f8b1c6928dc2dd1174a9c94",
       },
       {
         date: new Date("2020-03-09T10:46:27.000Z"),
@@ -4895,6 +5114,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "701ba200c2396ec4a63f88c57172fe2ec9fdc139",
       },
       {
         date: new Date("2019-05-28T17:53:47.000Z"),
@@ -4913,6 +5133,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "3409f3ef8073579e49f4e65f7461b3984da981d2",
       },
       {
         date: new Date("2019-05-28T17:39:10.000Z"),
@@ -4931,6 +5152,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "b348209a698313e6176195e27bd24b16ef2127da",
       },
     ],
     deleteMessage: "supplemental: added abstract lava shapes",
@@ -4956,6 +5178,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "254974c1b5082d5177b122d27f8ffe7a2413b795",
       },
       {
         date: new Date("2017-11-30T12:48:38.000Z"),
@@ -4974,6 +5197,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "254974c1b5082d5177b122d27f8ffe7a2413b795",
       },
       {
         date: new Date("2017-11-21T00:41:27.000Z"),
@@ -4992,6 +5216,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "01afb2b3c7ff0abd65d299eba293642689184ed0",
       },
     ],
     deleteMessage: "supplemental: one more abstract",
@@ -5017,6 +5242,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "05db9b99c93d0601780fcaa99ef038d8faa9c758",
       },
       {
         date: new Date("2020-07-17T21:14:46.000Z"),
@@ -5035,6 +5261,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "2c96df59fd99d2e2d0263fabeba47fcbd09f5cdf",
       },
       {
         date: new Date("2020-07-17T14:39:49.000Z"),
@@ -5053,6 +5280,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "d476b88d5ee0fde6dc542f466a9dd22cc0d2aa22",
       },
       {
         date: new Date("2020-06-11T13:38:15.000Z"),
@@ -5071,6 +5299,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "a6e4341f7ca018fbc2fc9ea6a74a01d93348e923",
       },
       {
         date: new Date("2020-06-11T11:09:06.000Z"),
@@ -5089,6 +5318,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "45b2eb1aa7233bb92bcf241a28ecf60acb683abd",
       },
       {
         date: new Date("2020-04-20T17:25:07.000Z"),
@@ -5107,6 +5337,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "7da432a4014ad6e841f072300644e2886f767f8a",
       },
       {
         date: new Date("2020-04-20T14:56:01.000Z"),
@@ -5125,6 +5356,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "009267642b78c998dee88676f1ea422c85b645a9",
       },
       {
         date: new Date("2019-10-01T22:56:45.000Z"),
@@ -5143,6 +5375,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "2bbb1133b6fa2650eed2aa7da60e32652f5cb52c",
       },
       {
         date: new Date("2019-09-27T16:08:35.000Z"),
@@ -5161,6 +5394,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "de5dc072b988c63a5e30015d3317a7d8d24c6f46",
       },
       {
         date: new Date("2019-09-25T19:39:19.000Z"),
@@ -5179,6 +5413,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "ed7cb73f8d2739a8c6449b0f7070bb7adca8d217",
       },
       {
         date: new Date("2019-09-24T19:50:00.000Z"),
@@ -5197,6 +5432,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "fb00ccba3d11cf951e65140e5a3fcff8b4f7ad48",
       },
       {
         date: new Date("2019-05-23T21:11:41.000Z"),
@@ -5215,6 +5451,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "7905208a17bbcf9a18aa6b34b9080405367ba804",
       },
       {
         date: new Date("2019-05-21T13:31:36.000Z"),
@@ -5233,6 +5470,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "acb1d1740631309f7577789a68349afd99e76bb6",
       },
       {
         date: new Date("2019-05-20T12:10:09.000Z"),
@@ -5251,6 +5489,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "d704c36d1016a165297990417f1242c3291813c9",
       },
       {
         date: new Date("2019-05-20T12:08:07.000Z"),
@@ -5269,6 +5508,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "409260d66d161ab0fdf22f9e8498717730741e59",
       },
       {
         date: new Date("2019-05-17T12:59:41.000Z"),
@@ -5287,6 +5527,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "a0866f8590b39719e161cc8435d67ca451f75d01",
       },
       {
         date: new Date("2019-05-17T12:24:54.000Z"),
@@ -5305,6 +5546,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "dafb4961d82291561bd1424bf0cd813784aa2249",
       },
       {
         date: new Date("2019-05-17T12:01:36.000Z"),
@@ -5323,6 +5565,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "6e79f3fc3dc9f9c230c19831cafb14f1d372ad49",
       },
       {
         date: new Date("2019-05-13T14:10:58.000Z"),
@@ -5341,6 +5584,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "6a140c8f106023c4eef9910919f6a1a42ec774d6",
       },
       {
         date: new Date("2019-05-10T10:34:15.000Z"),
@@ -5359,6 +5603,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "2412a64ac7752afef49ed7c54b17bde27ff3c78e",
       },
       {
         date: new Date("2019-05-10T10:03:12.000Z"),
@@ -5377,6 +5622,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "7d65c069eb7bddb3355db1fe399488028f71805b",
       },
       {
         date: new Date("2019-05-10T09:15:51.000Z"),
@@ -5395,6 +5641,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "ca97d274fe6f46b1997b020458981adb602ff873",
       },
       {
         date: new Date("2019-05-02T19:49:18.000Z"),
@@ -5413,6 +5660,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "55b57d7d2d4e0d54fe058d2ff432a44c77a84372",
       },
       {
         date: new Date("2019-05-02T15:46:00.000Z"),
@@ -5431,6 +5679,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "8d9e71cc89044eac96417119b800632aca97f991",
       },
       {
         date: new Date("2018-11-27T20:19:11.000Z"),
@@ -5449,6 +5698,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "a548f5de1e11c8993601f1c7fa01daedfcd3542a",
       },
       {
         date: new Date("2018-11-27T20:10:11.000Z"),
@@ -5467,6 +5717,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "5195e3cb12e604aa4b0a8b963c71a98d5db3557b",
       },
       {
         date: new Date("2018-11-22T16:42:55.000Z"),
@@ -5485,6 +5736,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "9176f4a1fd9954f5c12cc06551913f26f3632166",
       },
       {
         date: new Date("2018-07-31T16:05:27.000Z"),
@@ -5503,6 +5755,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "a6dae2f4eb454b41deaed4df1aba7ee9f94b281f",
       },
       {
         date: new Date("2018-07-31T15:38:57.000Z"),
@@ -5521,6 +5774,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "008448c30ff6038270c43808a15a99eb239e02ca",
       },
       {
         date: new Date("2018-07-24T13:42:03.000Z"),
@@ -5539,6 +5793,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "a3af01fa7b49d7318917c4815624ce326175a72b",
       },
       {
         date: new Date("2017-11-21T19:27:14.000Z"),
@@ -5557,6 +5812,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "a42ea352040551358d6111bf4619bf8ee982f374",
       },
       {
         date: new Date("2017-11-21T16:53:14.000Z"),
@@ -5575,6 +5831,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "58b7b2e6df3d2327547781f7666736abae26f9d3",
       },
       {
         date: new Date("2017-11-03T13:13:30.000Z"),
@@ -5593,6 +5850,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "647baa5414e53a55fc971218acdfdb8155eb6a2e",
       },
       {
         date: new Date("2017-11-02T23:09:01.000Z"),
@@ -5611,6 +5869,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "13ea40c1cbe05a83f9f9e7f87d2063d9d6369916",
       },
       {
         date: new Date("2017-11-01T20:41:06.000Z"),
@@ -5629,6 +5888,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "d163d484c337513fd60ab11180608016ad09a3e8",
       },
       {
         date: new Date("2017-07-12T14:11:15.000Z"),
@@ -5647,6 +5907,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "e7711dcca3583ef83ab483d36c341db567983e2d",
       },
       {
         date: new Date("2017-07-11T18:01:35.000Z"),
@@ -5665,6 +5926,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "4f46cdb5a0e7d7fdbe9d3258f12d124901dc80ca",
       },
       {
         date: new Date("2017-07-11T12:42:23.000Z"),
@@ -5683,6 +5945,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "c5acca681c54fc2a54cb4abc7e442abdc62b8b6b",
       },
       {
         date: new Date("2017-07-11T09:26:10.000Z"),
@@ -5701,6 +5964,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "0359764f07b76a10595288fd2d4369c98e706da4",
       },
       {
         date: new Date("2017-06-30T16:25:15.000Z"),
@@ -5719,6 +5983,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "c50f53f1ddaa2ec207dbfbf37c5ac1a0dc4e62e1",
       },
       {
         date: new Date("2017-06-29T15:02:24.000Z"),
@@ -5737,6 +6002,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "299407e0dec2a516b1e67866d5cdd23e50cd76bf",
       },
       {
         date: new Date("2017-06-28T17:12:49.000Z"),
@@ -5755,6 +6021,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "9a3275473645ef459ccece2a4264dfb63c093085",
       },
       {
         date: new Date("2017-06-28T14:32:27.000Z"),
@@ -5773,6 +6040,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "4f1cbc6e845ee0a59606c2671f856567f04b8efd",
       },
       {
         date: new Date("2017-01-04T13:13:52.000Z"),
@@ -5791,6 +6059,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "6ee7322c021765b8fc262d4384ac564fb5369b5b",
       },
       {
         date: new Date("2016-12-07T13:14:49.000Z"),
@@ -5809,6 +6078,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "26442d64f0cd2b4792376be994e34febedfb4549",
       },
       {
         date: new Date("2016-10-04T10:15:21.000Z"),
@@ -5827,6 +6097,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "d565adac697ad741d5b4ebc5c06de3af101ae261",
       },
       {
         date: new Date("2016-07-14T07:01:18.000Z"),
@@ -5845,6 +6116,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "7b8c9b0296de6ed61d9d5d5624aa5fbd38bdd420",
       },
       {
         date: new Date("2016-07-09T22:27:23.000Z"),
@@ -5863,6 +6135,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "1c3513404dc8969e94b6aa4220a427e6c3d98bbf",
       },
       {
         date: new Date("2015-10-26T17:51:06.000Z"),
@@ -5881,6 +6154,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "84bed0414be35668a88bc159b1b08e9fc59f4ad1",
       },
       {
         date: new Date("2015-10-22T09:26:50.000Z"),
@@ -5899,6 +6173,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "62266e28c51ed8e261d2527a7026ff5c592a0574",
       },
       {
         date: new Date("2015-10-21T14:20:32.000Z"),
@@ -5917,6 +6192,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "c21552deb6d758b7378ea33a1f7d3f5b39a7be06",
       },
       {
         date: new Date("2015-04-27T11:57:16.000Z"),
@@ -5935,6 +6211,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "2e19204184839499f19fbbc32d4d71be33623955",
       },
       {
         date: new Date("2015-04-22T12:57:56.000Z"),
@@ -5953,6 +6230,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "2b7330dd372d0335cb84db466dac90d1865f6f84",
       },
       {
         date: new Date("2014-11-26T19:33:52.000Z"),
@@ -5971,6 +6249,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "66164cdf2e9f5456d7789d2d5c307104b071403b",
       },
       {
         date: new Date("2014-08-06T15:31:32.000Z"),
@@ -5989,6 +6268,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "119ed5f822c33030e893d3e8d2953b07e24b4888",
       },
     ],
     deleteMessage: "first iteration of default 40",
@@ -6014,6 +6294,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "09e91f04c393e906b014324b510b225d673a8814",
       },
       {
         date: new Date("2020-07-20T22:03:34.000Z"),
@@ -6032,6 +6313,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "b6c718ebfe08e86572cc7a21b19d6d276f741995",
       },
       {
         date: new Date("2020-07-17T21:19:41.000Z"),
@@ -6050,6 +6332,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "cc8ca957309a455302468d4de0a60b701984c44e",
       },
       {
         date: new Date("2020-06-11T11:09:06.000Z"),
@@ -6068,6 +6351,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "c2a37fab15513386800914af281d9aca0873c7d7",
       },
       {
         date: new Date("2020-04-20T17:25:07.000Z"),
@@ -6086,6 +6370,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "ab66a8e21aac1386323485c6cbfc7961812ac941",
       },
       {
         date: new Date("2020-04-20T14:56:01.000Z"),
@@ -6104,6 +6389,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "7268ef6a282f5cd72e080dbd0523096bcd431304",
       },
       {
         date: new Date("2020-01-20T14:58:31.000Z"),
@@ -6122,6 +6408,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "38bd7d02edc1b0d0da6d66d4bac8b5dc8933db6c",
       },
       {
         date: new Date("2019-10-01T22:56:45.000Z"),
@@ -6140,6 +6427,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "89536638fa99ad20cc3abd543816440e874c3ebd",
       },
       {
         date: new Date("2019-09-27T16:08:35.000Z"),
@@ -6158,6 +6446,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "2c4a537f04858867a14c4b3c260dc7f4229f740c",
       },
       {
         date: new Date("2019-09-25T19:39:19.000Z"),
@@ -6176,6 +6465,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "1f77bd50a16d23d55240e4924868565cc158a347",
       },
       {
         date: new Date("2019-09-24T19:50:00.000Z"),
@@ -6194,6 +6484,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "f7a53e059ba2622660a6656911992f79fbd73075",
       },
       {
         date: new Date("2019-05-23T21:11:41.000Z"),
@@ -6212,6 +6503,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "690e0f5b3b9e4961b8e6fd80b1fce8f45bf24a2f",
       },
       {
         date: new Date("2019-05-21T13:31:36.000Z"),
@@ -6230,6 +6522,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "40e94f75aa8101452b1cb8ac9baf13d16f92fcd5",
       },
       {
         date: new Date("2019-05-20T12:10:09.000Z"),
@@ -6248,6 +6541,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "409260d66d161ab0fdf22f9e8498717730741e59",
       },
       {
         date: new Date("2019-05-17T12:59:41.000Z"),
@@ -6266,6 +6560,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "8aecef9db2c000247554a801ec09eecf656cf761",
       },
       {
         date: new Date("2019-05-17T12:24:54.000Z"),
@@ -6284,6 +6579,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "ac884f8d2ec656506720e4a9683f3098513e5ad0",
       },
       {
         date: new Date("2019-05-17T12:01:36.000Z"),
@@ -6302,6 +6598,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "fd2856f9aeccba8c4df479aab0a6cade2e8fbf68",
       },
       {
         date: new Date("2019-05-13T14:10:58.000Z"),
@@ -6320,6 +6617,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "2e0acd25d9752b916d64c812f5353cfe351f1792",
       },
       {
         date: new Date("2019-05-10T10:34:15.000Z"),
@@ -6338,6 +6636,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "c9a6de1ca2f5ac39db718511d6e272603dcabee2",
       },
       {
         date: new Date("2019-05-10T10:03:12.000Z"),
@@ -6356,6 +6655,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "8155e9829102d71fc6e83038534d1f77652aff27",
       },
       {
         date: new Date("2019-05-10T09:15:51.000Z"),
@@ -6374,6 +6674,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "b3a0b36713e1093f061b4908980027ab5c5f2230",
       },
       {
         date: new Date("2019-05-02T19:49:18.000Z"),
@@ -6392,6 +6693,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "20bc397e47731643a95dd31c420fb4f54cbd0b8f",
       },
       {
         date: new Date("2019-05-02T15:46:00.000Z"),
@@ -6410,6 +6712,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "5d21868f56d07edd65b830666a687f93dfb48cc2",
       },
       {
         date: new Date("2018-11-27T20:10:11.000Z"),
@@ -6428,6 +6731,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "89a66c65eb3e2c8eeb790e371586530e00e172ae",
       },
       {
         date: new Date("2018-11-22T16:42:55.000Z"),
@@ -6446,6 +6750,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "05ad49d06a3411bc358da14e9d65938799e92c19",
       },
       {
         date: new Date("2018-07-31T15:38:57.000Z"),
@@ -6464,6 +6769,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "2f0fa1be6783a1214eba45c17a75b3ebd7f063ce",
       },
       {
         date: new Date("2018-07-24T13:42:03.000Z"),
@@ -6482,6 +6788,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "ecc21e2ec893073b3fc1442baadc3acdbff170d5",
       },
       {
         date: new Date("2017-11-30T12:48:38.000Z"),
@@ -6500,6 +6807,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "08763e399914415feb0f969ca568d699fb8d6992",
       },
       {
         date: new Date("2017-11-21T19:27:14.000Z"),
@@ -6518,6 +6826,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "362ab62e3b3603d48138ffab113ed2289835d96f",
       },
       {
         date: new Date("2017-11-21T16:53:14.000Z"),
@@ -6536,6 +6845,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "059f5c6c1d0a5deebdb0d040090a213db312ce1f",
       },
       {
         date: new Date("2017-11-03T13:13:30.000Z"),
@@ -6554,6 +6864,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "5b5f63cabdc1fd9a072d459736cccd8dfe241e2a",
       },
       {
         date: new Date("2017-11-02T23:09:01.000Z"),
@@ -6572,6 +6883,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "b7b15d52f0a4166ed1e4d54176430c9986b7093a",
       },
       {
         date: new Date("2017-11-01T20:41:06.000Z"),
@@ -6590,6 +6902,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "b791559bd5f06b15bd0066710f4e6105db7db226",
       },
       {
         date: new Date("2017-07-12T14:11:15.000Z"),
@@ -6608,6 +6921,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "d6c1ff75df05aceefcf4053e5bd64e25fa70e984",
       },
       {
         date: new Date("2017-07-11T18:01:35.000Z"),
@@ -6626,6 +6940,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "8c53a1cb9128efb245ee831346ade53ff1f1632f",
       },
       {
         date: new Date("2017-07-11T12:42:23.000Z"),
@@ -6644,6 +6959,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "f944930fcb40dc9ab8045f6208d4fefa7ea49e59",
       },
       {
         date: new Date("2017-07-11T09:26:10.000Z"),
@@ -6662,6 +6978,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "37c040cff9b4a0cfe14c8061f53ef717b236a5af",
       },
       {
         date: new Date("2017-06-30T16:25:15.000Z"),
@@ -6680,6 +6997,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "78b0ac015ae947ca1fa6ba10dc6bb6b16440d1cd",
       },
       {
         date: new Date("2017-06-29T15:02:24.000Z"),
@@ -6698,6 +7016,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "d16b42aa8d89b100f8c7f4a3e590cd04075ec793",
       },
       {
         date: new Date("2017-06-28T14:32:27.000Z"),
@@ -6716,6 +7035,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "877e35ec61a04072384bc021f5cc8c5f6ac38932",
       },
       {
         date: new Date("2017-01-04T13:13:52.000Z"),
@@ -6734,6 +7054,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "99de31b60377d62c91673bb409a5fb5a05a1d7b1",
       },
       {
         date: new Date("2016-12-07T13:14:49.000Z"),
@@ -6752,6 +7073,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "b3e240f338f88e4c2bc9105fbfd48ff7a530c821",
       },
       {
         date: new Date("2016-07-14T07:01:18.000Z"),
@@ -6770,6 +7092,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "d72a83f359ccf78e02fc588101849222dff1fb25",
       },
       {
         date: new Date("2016-07-09T22:27:23.000Z"),
@@ -6788,6 +7111,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "cdc8d56c1ebfc271faad6c66489b5c05f425ff8e",
       },
       {
         date: new Date("2015-10-26T17:51:06.000Z"),
@@ -6806,6 +7130,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "ec7e9ef79436e8afc3670210b894032a3d93e720",
       },
       {
         date: new Date("2015-10-21T14:20:32.000Z"),
@@ -6824,6 +7149,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "ddc8d9abcb153e6aa7d828d9a13eb91a9825eacf",
       },
       {
         date: new Date("2015-04-27T11:57:16.000Z"),
@@ -6842,6 +7168,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "49cdbceb0bacce000ccea854cc8778b55c73b81d",
       },
       {
         date: new Date("2015-04-22T12:57:56.000Z"),
@@ -6860,6 +7187,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "3dddf176b518849aa4bce7fe3f219c4f16f1344d",
       },
       {
         date: new Date("2014-11-26T19:33:52.000Z"),
@@ -6878,6 +7206,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "367676a4383c64f4974691721a4da66ca612e7dc",
       },
       {
         date: new Date("2014-08-06T15:31:32.000Z"),
@@ -6896,6 +7225,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "96eeb3301e8c0a2fcc43a3da58a6f2a298980eb4",
       },
     ],
     deleteMessage: "first iteration of default 40",
@@ -6921,6 +7251,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "3d96a866c73d2cac0de63c6688678bb0bfb6c4b1",
       },
       {
         date: new Date("2020-07-20T22:03:34.000Z"),
@@ -6939,6 +7270,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "49c57623d7616cdf2ba12c547d4d8bcf9890f95b",
       },
       {
         date: new Date("2020-06-11T13:38:15.000Z"),
@@ -6957,6 +7289,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "cb3e7efc91be4a6e1d6360ceb4435ecf649abb0a",
       },
       {
         date: new Date("2020-06-11T11:09:06.000Z"),
@@ -6975,6 +7308,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "a755d56aed86ae1ed51ce1edf57d55e22330837f",
       },
       {
         date: new Date("2020-04-20T17:25:07.000Z"),
@@ -6993,6 +7327,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "b3d9ece683101d3a439bccbc097b38f18bef814d",
       },
       {
         date: new Date("2020-04-20T14:56:01.000Z"),
@@ -7011,6 +7346,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "2de83c3df9ea46e40b1446f33da48bbc91962f1d",
       },
       {
         date: new Date("2019-10-01T22:56:45.000Z"),
@@ -7029,6 +7365,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "a132386b574c77b059fec90745731bb2aefee543",
       },
       {
         date: new Date("2019-09-27T16:08:35.000Z"),
@@ -7047,6 +7384,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "42239c10534747876b3885227d847fbb34ef5d89",
       },
       {
         date: new Date("2019-09-25T19:39:19.000Z"),
@@ -7065,6 +7403,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "d42a8de3cc8182ccd64971bfad2db3a2e1875371",
       },
       {
         date: new Date("2019-09-24T19:50:00.000Z"),
@@ -7083,6 +7422,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "ad0ab78aa41e9509938e4dac524ca8720a8b5e7f",
       },
       {
         date: new Date("2019-05-23T21:11:41.000Z"),
@@ -7101,6 +7441,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "1ecaf8f37e184b5f50ad3c440b54cf289dd27a61",
       },
       {
         date: new Date("2019-05-21T13:31:36.000Z"),
@@ -7119,6 +7460,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "56bf6875ebcf24c018adb5dccf1e872d3ad4dcf2",
       },
       {
         date: new Date("2019-05-20T12:08:07.000Z"),
@@ -7137,6 +7479,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "f2b2acead1ea0aaf04e67c2db9a60977b4a05f61",
       },
       {
         date: new Date("2019-05-17T12:59:41.000Z"),
@@ -7155,6 +7498,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "9b4366eedecee0818cf2e6bd6835f2d4a8c1ec1c",
       },
       {
         date: new Date("2019-05-17T12:24:54.000Z"),
@@ -7173,6 +7517,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "662b69f7ec8aa8792327a57ea2b45294d6e384d1",
       },
       {
         date: new Date("2019-05-17T12:01:36.000Z"),
@@ -7191,6 +7536,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "c92717a4d08d0832899f1e195af133ffa153415f",
       },
       {
         date: new Date("2019-05-13T14:10:58.000Z"),
@@ -7209,6 +7555,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "94583e652bdf3efc6431f0351f068a2580645d51",
       },
       {
         date: new Date("2019-05-10T10:34:15.000Z"),
@@ -7227,6 +7574,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "3d1d6d29a643c5ade5e1c6404cb492b2167c2c5c",
       },
       {
         date: new Date("2019-05-10T10:03:12.000Z"),
@@ -7245,6 +7593,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "68c5ca1affa79175004aff9b6396aa6422b00424",
       },
       {
         date: new Date("2019-05-10T09:15:51.000Z"),
@@ -7263,6 +7612,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "9f571fe209a177e1bbd9daae78a30dd50147a15a",
       },
       {
         date: new Date("2019-05-02T19:49:18.000Z"),
@@ -7281,6 +7631,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "929ca6de74283ef641ba7e4442b5da679edf9cb7",
       },
       {
         date: new Date("2019-05-02T15:46:00.000Z"),
@@ -7299,6 +7650,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "fa781c67ca245f11f115160b380a24828543957f",
       },
       {
         date: new Date("2018-11-30T16:22:03.000Z"),
@@ -7317,6 +7669,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "7ea159098354b37ea7b4268c40b81e0246a0e49b",
       },
       {
         date: new Date("2018-11-27T20:10:11.000Z"),
@@ -7335,6 +7688,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "bacee9030b300659cce327aa9f7d32ef5c475a48",
       },
       {
         date: new Date("2018-11-22T16:42:55.000Z"),
@@ -7353,6 +7707,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "7ea159098354b37ea7b4268c40b81e0246a0e49b",
       },
       {
         date: new Date("2018-07-31T15:38:57.000Z"),
@@ -7371,6 +7726,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "7928e2ba4428b35ab3848e533f02973c22a59b49",
       },
       {
         date: new Date("2018-07-24T13:42:03.000Z"),
@@ -7389,6 +7745,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "5fc0470aa4b60c8c0eee1ae56a28816554465a6e",
       },
       {
         date: new Date("2017-11-30T12:48:38.000Z"),
@@ -7407,6 +7764,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "b091f0d681a71ea20db6d8c3a9e3599f83891734",
       },
       {
         date: new Date("2017-11-21T19:27:14.000Z"),
@@ -7425,6 +7783,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "c74ac724312d828a9e51c5f56dd423e2d34d455e",
       },
       {
         date: new Date("2017-11-21T16:53:14.000Z"),
@@ -7443,6 +7802,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "1f89039dcad0f75b7fa32fc0b1e4f75d447e3bb1",
       },
       {
         date: new Date("2017-11-03T13:13:30.000Z"),
@@ -7461,6 +7821,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "661ca0544448a6d069e3b0de6e40e51805152e5b",
       },
       {
         date: new Date("2017-11-02T23:09:01.000Z"),
@@ -7479,6 +7840,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "ef4568759900a6de858ddab7684b0ac81f64d32b",
       },
       {
         date: new Date("2017-11-01T20:41:06.000Z"),
@@ -7497,6 +7859,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "529f43af04fd91cf3ef33428f8722c8e55e0ac61",
       },
       {
         date: new Date("2017-07-12T14:11:15.000Z"),
@@ -7515,6 +7878,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "330c76871c318b84fa84bf9a0cacf6986fb201d3",
       },
       {
         date: new Date("2017-07-11T18:01:35.000Z"),
@@ -7533,6 +7897,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "304ae36dc7364b93e93bfbc5f91ffbf3c9fbc90f",
       },
       {
         date: new Date("2017-07-11T12:42:23.000Z"),
@@ -7551,6 +7916,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "eb5787ca0054af23862259b5c9e78994b0e709bd",
       },
       {
         date: new Date("2017-06-30T16:25:15.000Z"),
@@ -7569,6 +7935,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "266fd2c3e0311e21180f893aa87e15426be45344",
       },
       {
         date: new Date("2017-06-29T15:02:24.000Z"),
@@ -7587,6 +7954,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "7bdae4bfb4e8e157ebcd91abdeab5a2a3cf9b717",
       },
       {
         date: new Date("2017-06-28T17:12:49.000Z"),
@@ -7605,6 +7973,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "3ad5a91b249584c906377ff3b0e2e6d1a407d85c",
       },
       {
         date: new Date("2017-06-28T14:32:27.000Z"),
@@ -7623,6 +7992,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "8a71b7866755870b3fcedfdb2b5b83cb9d2fadd5",
       },
       {
         date: new Date("2017-01-04T13:13:52.000Z"),
@@ -7641,6 +8011,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "436f7c1456daa4f62ed724a834f906cb73c39e0b",
       },
       {
         date: new Date("2016-12-07T13:14:49.000Z"),
@@ -7659,6 +8030,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "871fc79724a601f767f6a11c00179287fd15fec9",
       },
       {
         date: new Date("2016-07-14T07:01:18.000Z"),
@@ -7677,6 +8049,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "fddab0f9d8c90f14b1e18ad559cdf1f4661826a7",
       },
       {
         date: new Date("2015-10-23T08:43:03.000Z"),
@@ -7695,6 +8068,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "8107f67ea4fccd062d11d3fcafe73f1e0a4d7a34",
       },
       {
         date: new Date("2015-10-22T09:26:50.000Z"),
@@ -7713,6 +8087,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "4852286efec775874dd469b4b785be5d2cd4147f",
       },
       {
         date: new Date("2015-10-21T14:20:32.000Z"),
@@ -7731,6 +8106,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "6171f21c87b3baec64ed91a3314c4ee38a947ae3",
       },
       {
         date: new Date("2015-04-27T11:57:16.000Z"),
@@ -7749,6 +8125,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "f09ab1ef54ff18562aa4c639382ff6c505452b7c",
       },
       {
         date: new Date("2015-04-22T12:57:56.000Z"),
@@ -7767,6 +8144,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "7719f8477ccf77686cf74fa9a10abfe3739720c4",
       },
       {
         date: new Date("2014-11-26T19:33:52.000Z"),
@@ -7785,6 +8163,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "7f77fdd68479af65f7f4ddbd1057cf7f194ac1c3",
       },
       {
         date: new Date("2014-08-06T15:31:32.000Z"),
@@ -7803,6 +8182,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "0fd83401d0ae6b309ae2c8a3016b6da9a8afa1c9",
       },
     ],
     deleteMessage: "first iteration of default 40",
@@ -7828,6 +8208,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "295a1462c42854824a3684cc398058add86df13e",
       },
     ],
     deleteMessage: "Lava: more colorful",
@@ -7853,6 +8234,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "79b7c565827df5bfbf6ac4c3b07b7262ac8f8023",
       },
     ],
     deleteMessage: "supplemental: Disco",
@@ -7878,6 +8260,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "dd7211b09de213e2ecbc23515ce9d67be8809bdd",
       },
       {
         date: new Date("2020-12-01T14:50:50.000Z"),
@@ -7896,6 +8279,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "05af1ef6b206d61bb4ad6e1c2864f4aef1c9770d",
       },
       {
         date: new Date("2020-11-10T13:24:01.000Z"),
@@ -7914,6 +8298,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "5627ae3dea220c8384ea09d166231199cfe43b5a",
       },
     ],
     deleteMessage: "DiscoHex: replace depth lava",
@@ -7939,6 +8324,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "bd0ec7d2548c715d044876e3bdcb3e1ee27731c0",
       },
     ],
     deleteMessage: "Brush Strokes",
@@ -7964,6 +8350,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "1b07d0ae371d1a4d8698a766a87c1a198ce1e519",
       },
     ],
     deleteMessage: "Frosty: refresh the cold theme",
@@ -7989,6 +8376,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "bb700c7a4f0cd1b179459f82e1ee29b4d58e66f1",
       },
     ],
     deleteMessage: "pixel icons as a wallpaper",
@@ -8014,6 +8402,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "917462cdd3ca9813748e191c37171fd6e5041f12",
       },
     ],
     deleteMessage: "dark/light variants of 42 wallpapers",
@@ -8039,6 +8428,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "83966a08d35bafcd0e4ed63f3a0286bf131f60d7",
       },
       {
         date: new Date("2021-04-15T08:02:56.000Z"),
@@ -8057,6 +8447,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "0f6376e956d00fed8ff3520aa984d7bc79133e55",
       },
     ],
     deleteMessage: "dark/light variants of 42 wallpapers",
@@ -8082,6 +8473,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "77ac84e26f362aa6394fd13afcecb19fc8b58c8d",
       },
       {
         date: new Date("2018-01-05T12:18:04.000Z"),
@@ -8100,6 +8492,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "a23795d3efaf7166f41c9d567949a9a7ba605389",
       },
     ],
     deleteMessage: "dark/light variants of 42 wallpapers",
@@ -8125,6 +8518,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "d4c0403a2f37143d80cfa6c38f9d62a33d19dfc7",
       },
     ],
     deleteMessage: "dark/light variants of 42 wallpapers",
@@ -8150,6 +8544,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "be628d6e5a11c7f53af08bcbbb1e7ec694012466",
       },
     ],
     deleteMessage: "dark/light variants of 42 wallpapers",
@@ -8175,6 +8570,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "ee614bc4841018af0381a0cb6f28715bd871ae70",
       },
     ],
     deleteMessage: "dark/light variants of 42 wallpapers",
@@ -8200,6 +8596,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "4f4183c2790c22eca2f0192af4635cefefd35db3",
       },
     ],
     deleteMessage: "dark/light variants of 42 wallpapers",
@@ -8225,6 +8622,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "bdd500412e62821257aa8ef73151963cee1db76a",
       },
     ],
     deleteMessage: "dark/light variants of 42 wallpapers",
@@ -8250,6 +8648,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "b298241901116631c5dc0ec5a516c4c359795cd6",
       },
       {
         date: new Date("2021-01-26T12:09:52.000Z"),
@@ -8268,6 +8667,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "24f14c4752c13eec50b1a01424a641b45c51e497",
       },
       {
         date: new Date("2020-10-15T14:55:53.000Z"),
@@ -8286,6 +8686,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "d2a0d23e90dcb8593e6422b64b8b27c28d7f6d97",
       },
       {
         date: new Date("2020-10-15T14:53:24.000Z"),
@@ -8304,6 +8705,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "3047f0b485c9ac1342662bbf785cd038eec6b7d9",
       },
       {
         date: new Date("2020-10-08T12:02:28.000Z"),
@@ -8322,6 +8724,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "511d6908802f123ae102751f2d8fb56f62e7ae8a",
       },
       {
         date: new Date("2020-10-06T11:55:48.000Z"),
@@ -8340,6 +8743,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "bf3b2891de409c8888da1f00dc891d3a3b107090",
       },
     ],
     deleteMessage: "dark/light variants of 42 wallpapers",
@@ -8365,6 +8769,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "32713e289c975be9ec88c6d152ff240b88e0d7e6",
       },
       {
         date: new Date("2020-06-05T10:11:04.000Z"),
@@ -8383,6 +8788,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "495ad0234fc8e7e62c0a0d78389ae9bf30184d98",
       },
       {
         date: new Date("2020-03-09T10:46:27.000Z"),
@@ -8401,6 +8807,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "e37f7f90eaef42001a63961ac62d1c22e450829f",
       },
       {
         date: new Date("2018-11-26T13:21:42.000Z"),
@@ -8419,6 +8826,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "6ede2c09c7ad899a680434a98fa91040bc0ee2f0",
       },
       {
         date: new Date("2018-01-05T12:18:04.000Z"),
@@ -8437,6 +8845,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "87a2c0eb8fe431f4ba1527d060161e54b2be9f33",
       },
     ],
     deleteMessage: "dark/light variants of 42 wallpapers",
@@ -8462,6 +8871,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "1c50dad2eaa931b5cfa37388e4c29e1ea58bf75a",
       },
       {
         date: new Date("2021-08-12T15:30:15.000Z"),
@@ -8480,6 +8890,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "206bb88a9e72f727f2eaca0ef06f59699cc93dd0",
       },
       {
         date: new Date("2021-07-15T09:35:11.000Z"),
@@ -8498,6 +8909,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "14facce3f6fc1b29396f42ad463fa39ba82cf477",
       },
       {
         date: new Date("2021-06-14T14:17:51.000Z"),
@@ -8516,6 +8928,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "67d5974df01e45d84eef35302eb3cc72eb86060b",
       },
       {
         date: new Date("2021-05-20T12:31:01.000Z"),
@@ -8534,6 +8947,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "b869fc24bfdf4dcb6154cdfa2cac61d8744629bb",
       },
       {
         date: new Date("2021-05-19T12:30:33.000Z"),
@@ -8552,6 +8966,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "f7c981a64fe0b7188fa517e84112a08ecde1ad37",
       },
       {
         date: new Date("2021-05-05T11:23:00.000Z"),
@@ -8570,6 +8985,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "d6c7169c8ac6d13ee91eed0b17d49c4bc3cc82e5",
       },
       {
         date: new Date("2021-01-26T15:37:06.000Z"),
@@ -8588,6 +9004,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "80296893b77fbfee94796b7f1e8fa712b87ee05f",
       },
       {
         date: new Date("2021-01-26T09:38:57.000Z"),
@@ -8606,6 +9023,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "e01063e2e957ae3007259da6a40ea9666b161780",
       },
       {
         date: new Date("2020-12-01T19:42:41.000Z"),
@@ -8624,6 +9042,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "9667cfefe07b0d8913afdd54446e93d1f27a202d",
       },
       {
         date: new Date("2020-12-01T12:11:25.000Z"),
@@ -8642,6 +9061,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: true,
         night: false,
         alt: false,
+        hash: "7564869bdffe7b63456200130243e44d5ccaa99e",
       },
     ],
     deleteMessage: "dark/light variants of 42 wallpapers",
@@ -8667,6 +9087,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "51351be92f8c983ec16e13a22ffdcd8e62537658",
       },
       {
         date: new Date("2021-10-04T14:12:14.000Z"),
@@ -8685,6 +9106,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "9faf93dddfbc1d5f1618ec04dda1a34810500acf",
       },
     ],
     deleteMessage: "dark/light variants of 42 wallpapers",
@@ -8710,6 +9132,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "c3ec61759fe68a99bc908583c59a8facdc30b064",
       },
     ],
     deleteMessage: "libadwaita rounded wallpaper",
@@ -8735,6 +9158,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "9abc0524fb9ecdfb227f2ec09e72a64dc1b36c54",
       },
     ],
     deleteMessage: "libadwaita rounded wallpaper",
@@ -8760,6 +9184,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "5e39d32fdf102ab0739bc7511246c9f9d80a6dee",
       },
       {
         date: new Date("2021-08-12T15:30:15.000Z"),
@@ -8778,6 +9203,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "5e39d32fdf102ab0739bc7511246c9f9d80a6dee",
       },
       {
         date: new Date("2021-06-14T14:17:51.000Z"),
@@ -8796,6 +9222,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "7108ebf743f4f2e24995d99c3a26354de423222e",
       },
       {
         date: new Date("2021-05-20T12:31:01.000Z"),
@@ -8814,6 +9241,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "da3cdea095fd2649a45a328ff4aabf36de1b084c",
       },
       {
         date: new Date("2021-05-19T12:30:33.000Z"),
@@ -8832,6 +9260,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "55392c0e45a754e2efc1c42a75e8c277d45ec0dd",
       },
       {
         date: new Date("2021-05-05T11:23:00.000Z"),
@@ -8850,6 +9279,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "d6c7169c8ac6d13ee91eed0b17d49c4bc3cc82e5",
       },
       {
         date: new Date("2021-01-26T15:37:06.000Z"),
@@ -8868,6 +9298,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "54a98472deef13f90f482d21d56191e60e86e4f4",
       },
       {
         date: new Date("2021-01-26T10:35:20.000Z"),
@@ -8886,6 +9317,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "abc592a01e9b8259873e0d5626955ac4b2e0ead5",
       },
       {
         date: new Date("2021-01-26T09:38:57.000Z"),
@@ -8904,6 +9336,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "a48ea38a5abac9774d14af97f15293d6d5128112",
       },
       {
         date: new Date("2020-12-01T19:42:41.000Z"),
@@ -8922,6 +9355,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "125b201c3b0f3dbaeb64107c8c44b2ea8f6fe0ca",
       },
       {
         date: new Date("2020-12-01T13:49:59.000Z"),
@@ -8940,6 +9374,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "74553a1aa3367545baa4ec9acc4fdd430c6d38a9",
       },
       {
         date: new Date("2020-12-01T12:11:25.000Z"),
@@ -8958,6 +9393,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: true,
         alt: false,
+        hash: "7d6f42b4151f94096edfc47ad08cb211f54ea46f",
       },
     ],
     deleteMessage: "first stab at the default",
@@ -8983,6 +9419,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "ec45f3e4aa8e4d6f588331236c8788993f8ab171",
       },
       {
         date: new Date("2021-08-12T15:30:15.000Z"),
@@ -9001,6 +9438,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "ec45f3e4aa8e4d6f588331236c8788993f8ab171",
       },
       {
         date: new Date("2021-07-15T09:35:11.000Z"),
@@ -9019,6 +9457,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "f403a8d5eea2f7fddaf49b616923e27f16240698",
       },
       {
         date: new Date("2021-06-14T14:17:51.000Z"),
@@ -9037,6 +9476,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "08cb8c220a6a2eb623de321bf96c4a62f1642e06",
       },
       {
         date: new Date("2021-05-20T12:31:01.000Z"),
@@ -9055,6 +9495,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "7dec637fe10e2320a3a3cb11b7f8e64e4a6ef714",
       },
       {
         date: new Date("2021-05-19T12:30:33.000Z"),
@@ -9073,6 +9514,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "147531ef14c27c134c902749fc5dcd86442925bf",
       },
       {
         date: new Date("2021-05-05T11:23:00.000Z"),
@@ -9091,6 +9533,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "d6c7169c8ac6d13ee91eed0b17d49c4bc3cc82e5",
       },
       {
         date: new Date("2021-01-26T15:37:06.000Z"),
@@ -9109,6 +9552,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "70f7b90f68a9d73a7a91adb26c0d133f2a8861c0",
       },
       {
         date: new Date("2021-01-26T12:16:30.000Z"),
@@ -9127,6 +9571,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "bca1a07309cc7c301438ac20bc2fad67351d302d",
       },
       {
         date: new Date("2020-12-01T19:42:41.000Z"),
@@ -9145,6 +9590,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "2160fd5d425ba97e3f3394f2dedcffd3d5071937",
       },
       {
         date: new Date("2020-12-01T12:11:25.000Z"),
@@ -9163,6 +9609,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "2d509ec8a0f5e960bf0435a87d60689cc2d6ead0",
       },
     ],
     deleteMessage: "first stab at the default",
@@ -9188,6 +9635,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "e9c6dc74a0126bdce2ac8fc9b0b1c958b221eeed",
       },
     ],
     deleteMessage: "replace frosty with truchet",
@@ -9213,6 +9661,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "e0cd1a9ee380d33ba23484efe5dff7f634051ac7",
       },
     ],
     deleteMessage: "replace frosty with truchet",
@@ -9238,6 +9687,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "7b454cf82b8594e776662122c33404c3f771ffd0",
       },
       {
         date: new Date("2021-10-05T11:38:49.000Z"),
@@ -9256,6 +9706,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "8df5f7b2975a60f8ad7e525af8b7e6ae176e54b3",
       },
     ],
     deleteMessage: "+dunes -blobs",
@@ -9281,6 +9732,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "8b6f8394d4e705fdcb8fe24ff49e14295fd6c3e8",
       },
       {
         date: new Date("2021-10-05T11:38:49.000Z"),
@@ -9299,6 +9751,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "58c6f1448adb4883c18852b570b9d44450a25c69",
       },
     ],
     deleteMessage: "+dunes -blobs",
@@ -9324,6 +9777,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "7a00e7d5f2fbf744f6888d5a634281ce7da9c671",
       },
     ],
     deleteMessage: "fields: simple fields",
@@ -9349,6 +9803,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "bbb2865e9631095fce974cf701d3d0c22226845f",
       },
     ],
     deleteMessage: "fields: simple fields",
@@ -9374,6 +9829,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "a6117838d8a8d2b0ab2144f25397f0e50ec678e3",
       },
       {
         date: new Date("2021-12-03T12:27:16.000Z"),
@@ -9392,6 +9848,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "6d571e37c4cc774d98cb906b0903552f859b09ea",
       },
       {
         date: new Date("2021-12-02T21:16:09.000Z"),
@@ -9410,6 +9867,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "82c42d1e5c1a7af70de8da168b0a30ad5805ad47",
       },
     ],
     deleteMessage: "grid: Dot grid",
@@ -9435,6 +9893,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "35bdc7ab84411e6b38006241972194ca353b8db2",
       },
       {
         date: new Date("2021-12-02T21:16:09.000Z"),
@@ -9453,6 +9912,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "662bb55bf8848a69c92a0974a94ec6e1d90f72d2",
       },
     ],
     deleteMessage: "grid: Dot grid",
@@ -9478,6 +9938,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "c354832c2a4a5bad0d765ec654d2e4d98265d202",
       },
     ],
     deleteMessage: "licorice: More sugar!",
@@ -9503,6 +9964,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "3430e7fead2f082e663419a208a99ddccc6ad00a",
       },
     ],
     deleteMessage: "licorice: More sugar!",
@@ -9528,6 +9990,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "7365ea9d4dccab09d886bc975c4f83b2496dccef",
       },
       {
         date: new Date("2022-01-24T16:00:08.000Z"),
@@ -9546,6 +10009,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "244543a4c87277ff82dfcf9b4592a722ace8ed91",
       },
       {
         date: new Date("2021-12-14T21:35:30.000Z"),
@@ -9564,6 +10028,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "e0927cb838e2b348a8bc3e0651891974bed7c7e7",
       },
       {
         date: new Date("2021-12-08T10:48:06.000Z"),
@@ -9582,6 +10047,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "019c61dddde4025731b83a204875d08afb4f0c0a",
       },
       {
         date: new Date("2021-12-07T13:29:35.000Z"),
@@ -9600,6 +10066,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "10ecca3e63daf65f80fcb590f7539f61e14bc070",
       },
       {
         date: new Date("2021-12-03T15:21:58.000Z"),
@@ -9618,6 +10085,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "bce7dcb9a69f205d945eef7a34f1026e8dfd890e",
       },
     ],
     deleteMessage: "experimental webp square format",
@@ -9643,6 +10111,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "a8aa630897c36ca532e327a6aeeac17c063f48fa",
       },
       {
         date: new Date("2021-12-07T13:29:35.000Z"),
@@ -9661,6 +10130,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "2875e2e0f008fcb13c799d04cfb69be4104434bc",
       },
       {
         date: new Date("2021-12-03T15:21:58.000Z"),
@@ -9679,6 +10149,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "6d79fd74627b42484f10448429c28b7d8e1cc35f",
       },
     ],
     deleteMessage: "experimental webp square format",
@@ -9704,6 +10175,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "2c2603286dc0e2c9fd0a1458a3018cbd859343e7",
       },
     ],
     deleteMessage: "symbolic: new icons, new layout",
@@ -9729,6 +10201,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "860889893d2e2aa333fb8934e6cf03bbc8af1c85",
       },
     ],
     deleteMessage: "symbolic: new icons, new layout",
@@ -9754,6 +10227,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "52b71a09667da57ff16ecd5453861ebdbb6a6dc2",
       },
     ],
     deleteMessage: "use JPEG-XL instead of WebP",
@@ -9779,6 +10253,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "bd1126dcc47e501a8c55984d859593e9dbe2c206",
       },
     ],
     deleteMessage: "use JPEG-XL instead of WebP",
@@ -9804,6 +10279,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "1edc7de3a53d808921a3cfc3e0384c84aeed205e",
       },
     ],
     deleteMessage: "use JPEG-XL instead of WebP",
@@ -9829,6 +10305,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "4ee448d05f88e957ccfc07c10721ecee82fbacfd",
       },
     ],
     deleteMessage: "use JPEG-XL instead of WebP",
@@ -9854,6 +10331,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "b21883e86cbe2531ac5a31712383c7041ae95538",
       },
     ],
     deleteMessage: "all in on 1:1 and JPEG-XL",
@@ -9879,6 +10357,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "4073346988aaf9dad1329cfb76fce9ed2f5ce35c",
       },
     ],
     deleteMessage: "all in on 1:1 and JPEG-XL",
@@ -9904,6 +10383,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "b15d003dc4c3fb435ce0480531709c1a648c3aaf",
       },
       {
         date: new Date("2022-05-06T08:13:44.000Z"),
@@ -9922,6 +10402,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "4cd1067cb7495d09f9c45398b78ff03a0f3cf7da",
       },
       {
         date: new Date("2022-05-06T07:28:41.000Z"),
@@ -9940,6 +10421,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "25a5cac9a603874bd4bb9bc492a9b9ab2caabeb9",
       },
       {
         date: new Date("2022-05-05T20:58:47.000Z"),
@@ -9958,6 +10440,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "23c914225e7c976c6796519b05b7bad93b95900b",
       },
     ],
     deleteMessage: "all in on 1:1 and JPEG-XL",
@@ -9983,6 +10466,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "4f7281ac76bdc819dc5504a6d3c28c5c906c0cc2",
       },
       {
         date: new Date("2022-05-06T08:13:44.000Z"),
@@ -10001,6 +10485,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "11c8a22625263ca729637f096bbdc240b044e05f",
       },
       {
         date: new Date("2022-05-06T07:28:41.000Z"),
@@ -10019,6 +10504,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "e1398366d449d935f84b6b1a0c7eaa566bdd805d",
       },
       {
         date: new Date("2022-05-05T20:58:47.000Z"),
@@ -10037,6 +10523,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "6709758c2077c205cbb9984032354af04375ab6a",
       },
     ],
     deleteMessage: "all in on 1:1 and JPEG-XL",
@@ -10062,6 +10549,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "9de1869af727ea46cefe83c743987a7d55f9cf54",
       },
       {
         date: new Date("2021-10-05T11:38:49.000Z"),
@@ -10080,6 +10568,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "fc67acd2188c22773a8467c85338240b1d77a6de",
       },
     ],
     deleteMessage: "all in on 1:1 and JPEG-XL",
@@ -10105,6 +10594,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "0f7a2ee2206173bbf531e0e73a1939db2783c511",
       },
       {
         date: new Date("2021-10-05T11:38:49.000Z"),
@@ -10123,6 +10613,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "54bd44726051b657e8f3d15fda4c948dfab3b25b",
       },
     ],
     deleteMessage: "all in on 1:1 and JPEG-XL",
@@ -10148,6 +10639,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "c8dc6781f73470cb8bf5395d2949a9033b528e0b",
       },
     ],
     deleteMessage: "all in on 1:1 and JPEG-XL",
@@ -10173,6 +10665,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "0c3da4820ebcae465739a51d8e542b54d38536f7",
       },
       {
         date: new Date("2022-01-19T08:43:08.000Z"),
@@ -10191,6 +10684,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "d7e9bef7aea74c28f54d92e93f7b0b30f9b71110",
       },
     ],
     deleteMessage: "all in on 1:1 and JPEG-XL",
@@ -10216,6 +10710,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "7d9432161002a7494ff05853bfacdf7b55277b74",
       },
     ],
     deleteMessage: "all in on 1:1 and JPEG-XL",
@@ -10241,6 +10736,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "7b5275895e40dd8b494c15e640964fcc7d525d21",
       },
       {
         date: new Date("2020-04-15T21:26:16.000Z"),
@@ -10259,6 +10755,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "7b5275895e40dd8b494c15e640964fcc7d525d21",
       },
     ],
     deleteMessage: "all in on 1:1 and JPEG-XL",
@@ -10284,6 +10781,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "f6e386ce0afaac4204fe6b1dde7a5d7fd4fbe72a",
       },
     ],
     deleteMessage: "all in on 1:1 and JPEG-XL",
@@ -10309,6 +10807,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "cd325c2b5bebb2e2b254dfb5a980807276e0b728",
       },
     ],
     deleteMessage: "all in on 1:1 and JPEG-XL",
@@ -10334,6 +10833,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "59216ca40553a262fd66ab0a16cac86cc0ee608c",
       },
       {
         date: new Date("2022-06-01T09:38:14.000Z"),
@@ -10352,6 +10852,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "04fb84ba332e9b62204c1e6e5f1e0449c4b665f6",
       },
       {
         date: new Date("2022-05-11T23:39:46.000Z"),
@@ -10370,6 +10871,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "72bf32708c8a8887c61b23f7e720d80dfa609fc5",
       },
     ],
     deleteMessage: "Switch from JXL to WebP",
@@ -10395,6 +10897,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "11847a8b1906d266a07a54a73c48adbb0351bdd9",
       },
       {
         date: new Date("2022-06-01T09:38:14.000Z"),
@@ -10413,6 +10916,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "f6c113426b27aa3a98b258154115931bfd3afe3b",
       },
       {
         date: new Date("2022-05-11T23:39:46.000Z"),
@@ -10431,6 +10935,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "051c038d74941b0a0ea023d21b9a7243df46efad",
       },
     ],
     deleteMessage: "Switch from JXL to WebP",
@@ -10456,6 +10961,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "d6d903b1c0a617a764c74f016006d35dfea3abc8",
       },
     ],
     deleteMessage: "Switch from JXL to WebP",
@@ -10481,6 +10987,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "6c475e3368172be467d58b324512b25cfd61de4a",
       },
     ],
     deleteMessage: "Switch from JXL to WebP",
@@ -10506,6 +11013,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "8d05cc9f75e3e46e786b5109e5b1576b8c29c74a",
       },
       {
         date: new Date("2022-05-16T20:11:16.000Z"),
@@ -10524,6 +11032,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "693f6540e351fe1403c20483752164542bd09b7c",
       },
       {
         date: new Date("2022-05-12T15:58:30.000Z"),
@@ -10542,6 +11051,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "4d6096ee2ccc390c9d4d9999e288d0985d71bba9",
       },
     ],
     deleteMessage: "Switch from JXL to WebP",
@@ -10567,6 +11077,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "ddbb26e73c85f96a3dbbbd311317886181210327",
       },
       {
         date: new Date("2022-05-16T20:11:16.000Z"),
@@ -10585,6 +11096,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "daec7a8dafe9a51ff23d4f1a0c6b6d0c1b52c52e",
       },
       {
         date: new Date("2022-05-12T15:58:30.000Z"),
@@ -10603,6 +11115,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "cb790529663717669934f2f90ef280a77abbc497",
       },
     ],
     deleteMessage: "Switch from JXL to WebP",
@@ -10628,6 +11141,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "4041c643cc0ce06c2ea001a21eb7a27fcf40f919",
       },
     ],
     deleteMessage: "Switch from JXL to WebP",
@@ -10653,6 +11167,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "7ea44c71a23c55b57d47dc83497f18cdad19d38f",
       },
     ],
     deleteMessage: "Switch from JXL to WebP",
@@ -10678,6 +11193,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "2c234918c92886e25d958ae5ac4909daf3ee601a",
       },
       {
         date: new Date("2022-05-11T23:39:46.000Z"),
@@ -10696,6 +11212,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "58c8d21ba787b0d36175229dd7eacca6cd186633",
       },
     ],
     deleteMessage: "Switch from JXL to WebP",
@@ -10721,6 +11238,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "fc55b642000c302ea1ea3e389f49002be9d7789d",
       },
       {
         date: new Date("2022-05-11T23:39:46.000Z"),
@@ -10739,6 +11257,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "dfe6d6c2d872202f5d7f8186c027e95ad40162da",
       },
     ],
     deleteMessage: "Switch from JXL to WebP",
@@ -10764,6 +11283,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "a76201564b264a93724a45f9cb7903a6f143a227",
       },
     ],
     deleteMessage: "Switch from JXL to WebP",
@@ -10789,6 +11309,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "664f7e521b831fbfe0da4b6c7511dd2ec22205a2",
       },
     ],
     deleteMessage: "Switch from JXL to WebP",
@@ -10814,6 +11335,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "bc4c6d541f75633125d58acb17abf772774e3bcb",
       },
     ],
     deleteMessage: "Switch from JXL to WebP",
@@ -10839,6 +11361,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "a4a56d6870d2f4daf42d421c44af0581dcf24b8a",
       },
     ],
     deleteMessage: "Switch from JXL to WebP",
@@ -10864,6 +11387,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "7072822c319fb685be8ff804d688aa6a14590bba",
       },
     ],
     deleteMessage: "Switch from JXL to WebP",
@@ -10889,6 +11413,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "d9749ac06a4af27e28c5f9d66819ce6ea0c9f123",
       },
     ],
     deleteMessage: "Switch from JXL to WebP",
@@ -10914,6 +11439,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "2c9470456466b2f9c99e2896db6c53a5e4075e89",
       },
     ],
     deleteMessage: "pills: don't do drugs!",
@@ -10939,6 +11465,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "7a0ca3a73d4f51e4413872a526ca66fea76df0fd",
       },
     ],
     deleteMessage: "pills: don't do drugs!",
@@ -10964,6 +11491,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "3968601f3379f412a898a66f618ebfe4ca6586da",
       },
     ],
     deleteMessage: "keys: oldschool keys of a POS",
@@ -10989,6 +11517,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "da6335c6ceb7f0756181ee08eed2644e42aa33a3",
       },
     ],
     deleteMessage: "keys: oldschool keys of a POS",
@@ -11014,6 +11543,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "50ef7c0ac52aaa8d902617faa45677f545d23a38",
       },
     ],
     deleteMessage: "design is rounded rectangles",
@@ -11039,6 +11569,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "73d2a6fc549043764a30c76d4d3d5f4b729ad9aa",
       },
     ],
     deleteMessage: "design is rounded rectangles",
@@ -11064,6 +11595,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "4058a4983c9adc9028d55df91bd28f7e934063c1",
       },
       {
         date: new Date("2022-05-12T15:58:30.000Z"),
@@ -11082,6 +11614,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "414fada4975b14d7d6785f7ff256dac753aa106e",
       },
       {
         date: new Date("2022-05-05T07:47:12.000Z"),
@@ -11100,6 +11633,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "b2c98292232a5332a7a1b0a5fe15b15864ea438e",
       },
       {
         date: new Date("2022-05-05T07:44:48.000Z"),
@@ -11118,6 +11652,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "ae875092194b217ec83bd99a634b7078b1c7f7b6",
       },
     ],
     deleteMessage: "fold: vivid colors, smooth gradients",
@@ -11143,6 +11678,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "2cd04e27349c93be9edc7953d5d46029cb254b2a",
       },
       {
         date: new Date("2022-05-12T15:58:30.000Z"),
@@ -11161,6 +11697,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "1d41c1f79baa42affe84c9f94f5938f2793c1de7",
       },
       {
         date: new Date("2022-05-05T07:47:12.000Z"),
@@ -11179,6 +11716,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "56308e5771af880b4a55ab83ff2c08820336ea68",
       },
       {
         date: new Date("2022-05-05T07:44:48.000Z"),
@@ -11197,6 +11735,7 @@ export const processedData: WallpaperWithHistory[] = [
         morning: false,
         night: false,
         alt: false,
+        hash: "caad06a7072a3e71d2c51d852e875020ed338a5f",
       },
     ],
     deleteMessage: "fold: vivid colors, smooth gradients",
