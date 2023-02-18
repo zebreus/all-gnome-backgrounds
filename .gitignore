@@ -23,5 +23,6 @@ configs.json
 light.json
 dark.json
 .next
-public
+public/*
 out
+!public/favicon.ico
