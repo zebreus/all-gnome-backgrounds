@@ -11,7 +11,8 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Gnome Backgrounds History</title>
+        <title>GNOME Backgrounds History</title>
+        <link rel="icon" href={(process.env["NEXT_PUBLIC_GITHUB_PAGES_BASE"] || "") + "/favicon.ico"}></link>
       </Head>
       <header>
         <Link href="/" passHref>

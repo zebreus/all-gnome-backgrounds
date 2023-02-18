@@ -10,7 +10,7 @@ mkdir -p "$RESULTS_DIR"
 mkdir -p "$IMAGES_DIR"
 
 if [ ! -d "$GNOME_BG_DIR" ]; then
-    echo Gnome backgroudns repo is missing. Clone it from https://gitlab.gnome.org/GNOME/gnome-backgrounds
+    echo GNOME backgroudns repo is missing. Clone it from https://gitlab.gnome.org/GNOME/gnome-backgrounds
     exit 1
 fi
 

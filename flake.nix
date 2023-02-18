@@ -1,5 +1,5 @@
 {
-  description = "All gnome backgrounds";
+  description = "All GNOME backgrounds";
 
   inputs = {
     nixpkgs.url = "nixpkgs/nixos-22.11";
