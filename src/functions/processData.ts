@@ -297,7 +297,7 @@ export const processData = (data: DataType[]): WallpaperWithHistory[] => {
     return result
   })
   const mergedWallpapers = removeDuplicateSnapshots(
-    sortWallpapersByDate(mergeWallpapersByFilename(mergeWallpapersByDisplayName(removeNonWallpapers(wallpapers))))
+    sortWallpapersByDate(mergeWallpapersByDisplayName(mergeWallpapersByFilename(removeNonWallpapers(wallpapers))))
   )
   return markCurrentWallpapers(mergedWallpapers)
 }
@@ -308,36 +308,38 @@ const sortSnapshotsByDate = <T extends Snapshot>(snapshots: T[]): T[] => {
   })
 }
 
-const sortWallpapersByDate = (snapshots: WallpaperWithHistory[]): WallpaperWithHistory[] => {
-  return [...snapshots].sort((a, b) => {
-    const timediff = b.deleted.getTime() - a.deleted.getTime()
-    if (timediff !== 0) {
-      return timediff
+const sortWallpapersByDate = (wallpapers: WallpaperWithHistory[]): WallpaperWithHistory[] => {
+  return [...wallpapers.map(wallpaper => ({ ...wallpaper, snapshots: sortSnapshotsByDate(wallpaper.snapshots) }))].sort(
+    (a, b) => {
+      const timediff = b.deleted.getTime() - a.deleted.getTime()
+      if (timediff !== 0) {
+        return timediff
+      }
+      const snapshotA = a.snapshots[0]
+      const snapshotB = b.snapshots[0]
+      if (!snapshotA || !snapshotB) {
+        return 0
+      }
+      const namediff =
+        snapshotA.name.toLowerCase() > snapshotB.name.toLowerCase()
+          ? 0.5
+          : snapshotA.name.toLowerCase() == snapshotB.name.toLowerCase()
+          ? 0
+          : -0.5
+      if (namediff !== 0) {
+        return namediff
+      }
+
+      const typeOrder = ["light", "dark", "alt"] as const
+
+      const typeA = typeOrder.indexOf(getSnapshotType(snapshotA))
+      const typeB = typeOrder.indexOf(getSnapshotType(snapshotB))
+
+      const typediff = typeA - typeB
+
+      return typediff
     }
-    const snapshotA = a.snapshots[0]
-    const snapshotB = b.snapshots[0]
-    if (!snapshotA || !snapshotB) {
-      return 0
-    }
-    const namediff =
-      snapshotA.name.toLowerCase() > snapshotB.name.toLowerCase()
-        ? 0.5
-        : snapshotA.name.toLowerCase() == snapshotB.name.toLowerCase()
-        ? 0
-        : -0.5
-    if (namediff !== 0) {
-      return namediff
-    }
-
-    const typeOrder = ["light", "dark", "alt"] as const
-
-    const typeA = typeOrder.indexOf(getSnapshotType(snapshotA))
-    const typeB = typeOrder.indexOf(getSnapshotType(snapshotB))
-
-    const typediff = typeA - typeB
-
-    return typediff
-  })
+  )
 }
 
 const removeNonWallpapers = (wallpapers: WallpaperWithHistory[]): WallpaperWithHistory[] => {
@@ -354,16 +356,22 @@ const mergeWallpapers = (
   wallpapers: WallpaperWithHistory[],
   checker: (a: WallpaperWithHistory, b: WallpaperWithHistory) => boolean
 ): WallpaperWithHistory[] => {
-  return wallpapers.reduce((merged, current) => {
-    const found = merged.find(mergedWallpaper => checker(mergedWallpaper, current))
-    if (found) {
-      found.snapshots = sortSnapshotsByDate([...found.snapshots, ...current.snapshots])
-      found.created = found.created < current.created ? found.created : current.created
-      found.deleted = found.deleted > current.deleted ? found.deleted : current.deleted
-      found.deleteMessage = found.deleteMessage || current.deleteMessage
+  return sortWallpapersByDate(wallpapers).reduce((merged, wallpaper) => {
+    const mergeIntos = merged.filter(futureWallpaper => checker(futureWallpaper, wallpaper))
+    for (const mergeInto of mergeIntos) {
+      const foundDeletedSignificantlyEarlierThanCurrentCreated =
+        mergeInto.created.getTime() - wallpaper.deleted.getTime() > 1000 * 60 * 60 * 24 * 30 * 6
+      if (foundDeletedSignificantlyEarlierThanCurrentCreated) {
+        continue
+      }
+
+      mergeInto.snapshots = sortSnapshotsByDate([...mergeInto.snapshots, ...wallpaper.snapshots])
+      mergeInto.created = mergeInto.created < wallpaper.created ? mergeInto.created : wallpaper.created
+      mergeInto.deleted = mergeInto.deleted > wallpaper.deleted ? mergeInto.deleted : wallpaper.deleted
+      mergeInto.deleteMessage = mergeInto.deleteMessage || wallpaper.deleteMessage
       return merged
     }
-    merged.push(current)
+    merged.push(wallpaper)
     return merged
   }, [] as WallpaperWithHistory[])
 }
@@ -381,10 +389,10 @@ const mergeWallpapersByDisplayName = (wallpapers: WallpaperWithHistory[]): Wallp
     }
 
     // Compare lowercase names. The -l suffix is removed, because light wallpapers were the default
-    const displayNamesA = a.snapshots
+    const displayNamesA = [snapshotA]
       .map(snapshot => snapshot.name.toLowerCase().replace(/-l$/, ""))
       .filter((name, index, self) => self.indexOf(name) === index)
-    const displayNamesB = b.snapshots
+    const displayNamesB = [snapshotB]
       .map(snapshot => snapshot.name.toLowerCase().replace(/-l$/, ""))
       .filter((name, index, self) => self.indexOf(name) === index)
     const displayNamesMatch = displayNamesA.some(nameA => displayNamesB.includes(nameA))
@@ -396,6 +404,26 @@ const mergeWallpapersByDisplayName = (wallpapers: WallpaperWithHistory[]): Wallp
   }
 
   return mergeWallpapers(wallpapers, checker)
+}
+
+// Mostly copied from fixDisplayName. Could be nicer with half the transformations
+export const normalizeFilename = (originalRepoPath: string) => {
+  const name = originalRepoPath.split("/").at(-1)?.split(".")[0]?.toLowerCase()
+  if (!name) throw new Error("No name found")
+  const removeDarkLightSuffix = name.replace(/-[d]$/g, "").replace(/-[l]$/g, "")
+  const removeTimeSuffix = removeDarkLightSuffix
+    .replace(/-morning$/g, "")
+    .replace(/-day$/g, "")
+    .replace(/-night$/g, "")
+  const removeAltSuffix = removeTimeSuffix.replace(/-alt$/g, "")
+  const splitAtDash = removeAltSuffix.replace(/-/g, " ")
+  const split = splitAtDash.replace(/([a-zI])([A-Z])/g, l => l[0] + " " + l[1])
+  const capitalized = split.replace(/((^| )[a-z])/g, l => l.toUpperCase())
+  const withAmpersand = capitalized.replace("&amp;", "&")
+  const removeBraces = withAmpersand.replace(/\(.*\)/g, "")
+  const removeTrailingNumbers = removeBraces.replace(/ [0-9]$/g, "")
+
+  return removeTrailingNumbers
 }
 
 const mergeWallpapersByFilename = (wallpapers: WallpaperWithHistory[]): WallpaperWithHistory[] => {
@@ -412,11 +440,11 @@ const mergeWallpapersByFilename = (wallpapers: WallpaperWithHistory[]): Wallpape
 
     // Compare lowercase names. The -l suffix is removed, because light wallpapers were the default
     const fileNamesA = a.snapshots
-      .map(snapshot => snapshot.originalFile.split("/").pop()?.split(".")[0]?.toLowerCase().replace(/-l$/, ""))
+      .map(snapshot => normalizeFilename(snapshot.originalFile))
       .flatMap(self => (self ? [self] : []))
       .filter((name, index, self) => self.indexOf(name) === index)
     const fileNamesB = b.snapshots
-      .map(snapshot => snapshot.originalFile.split("/").pop()?.split(".")[0]?.toLowerCase().replace(/-l$/, ""))
+      .map(snapshot => normalizeFilename(snapshot.originalFile))
       .flatMap(self => (self ? [self] : []))
       .filter((name, index, self) => self.indexOf(name) === index)
     const fileNamesMatch = fileNamesA.some(nameA => fileNamesB.includes(nameA))
