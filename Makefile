@@ -14,6 +14,7 @@ gnome-backgrounds.rev: gnome-backgrounds
 .SECONDARY: results
 results: gnome-backgrounds.rev
 	bash collect-backgrounds.sh
+	bash doublehash.sh results/images
 
 .PRECIOUS: data
 data: results

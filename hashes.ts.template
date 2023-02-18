@@ -1,0 +1,7 @@
+type FileHashes = {
+    file: string,
+    blockhash: string,
+    phash: string
+}
+
+export const hashes: FileHashes[] = 
