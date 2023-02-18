@@ -10,6 +10,7 @@ export const fixDisplayName = (name: string) => {
   const capitalized = split.replace(/((^| )[a-z])/g, l => l.toUpperCase())
   const withAmpersand = capitalized.replace("&amp;", "&")
   const removeBraces = withAmpersand.replace(/\(.*\)/g, "")
+  const removeTrailingNumbers = removeBraces.replace(/ [0-9]$/g, "")
 
-  return removeBraces
+  return removeTrailingNumbers
 }
