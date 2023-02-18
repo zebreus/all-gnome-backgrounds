@@ -8,7 +8,7 @@ type HistoryWallpaperProps = { snapshot: Required<Snapshot> }
 
 export const HistoryWallpaper = ({ snapshot }: HistoryWallpaperProps) => {
   return (
-    <Link href={getImageUrl(snapshot.url)} passHref>
+    <Link href={getImageUrl(snapshot.url, true)} passHref>
       <a
         css={css`
           margin-left: 2rem;

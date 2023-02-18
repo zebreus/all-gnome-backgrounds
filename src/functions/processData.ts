@@ -1,5 +1,6 @@
 import { DataType } from "dataType"
 import { fixDisplayName } from "functions/fixDisplayName"
+import { hashes } from "hashes"
 
 export type Snapshot = {
   date: Date
@@ -295,8 +296,8 @@ export const processData = (data: DataType[]): WallpaperWithHistory[] => {
     }
     return result
   })
-  const mergedWallpapers = sortWallpapersByDate(
-    mergeWallpapersByFilename(mergeWallpapersByDisplayName(removeNonWallpapers(wallpapers)))
+  const mergedWallpapers = removeDuplicateSnapshots(
+    sortWallpapersByDate(mergeWallpapersByFilename(mergeWallpapersByDisplayName(removeNonWallpapers(wallpapers))))
   )
   return markCurrentWallpapers(mergedWallpapers)
 }
@@ -442,5 +443,26 @@ const markCurrentWallpapers = (wallpapers: WallpaperWithHistory[]): WallpaperWit
       return wallpaper
     }
     return { ...wallpaper, current: true }
+  })
+}
+
+const getSnapshotHash = (snapshot: Snapshot): string => {
+  const hashElement = hashes.find(hash => hash.file === snapshot.url)
+  if (!hashElement) {
+    throw new Error(`No hash found for ${snapshot.url}`)
+  }
+  return `${hashElement.blockhash}.${hashElement.phash}`
+}
+
+const removeDuplicateSnapshots = (wallpapers: WallpaperWithHistory[]): WallpaperWithHistory[] => {
+  return wallpapers.map(wallpaper => {
+    const snapshots = wallpaper.snapshots
+      .reverse()
+      .filter((snapshot, index, self) => {
+        const alphaHash = getSnapshotHash(snapshot)
+        return self.findIndex(s => getSnapshotHash(s) === alphaHash) === index
+      })
+      .reverse()
+    return { ...wallpaper, snapshots }
   })
 }
