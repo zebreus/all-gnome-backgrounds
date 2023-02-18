@@ -42,7 +42,7 @@ export const HistoryWallpaper = ({ snapshot }: HistoryWallpaperProps) => {
             background-color: ${snapshot.primaryColor};
             cursor: pointer;
           `}
-          src={"../" + getImageUrl(snapshot.url)}
+          src={getImageUrl(snapshot.url)}
           alt={snapshot.name}
         />
         <section
