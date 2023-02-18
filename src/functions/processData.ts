@@ -17,6 +17,7 @@ export type Snapshot = {
   primaryColor?: string
   secondaryColor?: string
   shadeType?: "solid" | "horizontal-gradient" | "vertical-gradient"
+  hash: string
 }
 
 export type WallpaperWithHistory = {
@@ -94,6 +95,7 @@ const toSnapshot = (item: ConfigFixedDataType): Snapshot => {
     morning: morning as boolean,
     night: night as boolean,
     alt: alt as boolean,
+    hash: item.newFileHash,
   }
 }
 
@@ -279,3 +281,15 @@ export const processData = (data: DataType[]): WallpaperWithHistory[] => {
   })
   return wallpapers
 }
+
+// TODO: Combine data if the resulting filename is the same
+
+// const files = result.map(result => result.snapshots[0]?.originalFile)
+// const counted = files.reduce((acc, file) => {
+//   if (!file) return acc
+
+//   acc[file] = (acc[file] ?? 0) + 1
+
+//   return acc
+// }, {} as Record<string, number | undefined>)
+// console.log(counted)
