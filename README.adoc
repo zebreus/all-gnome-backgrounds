@@ -1,5 +1,21 @@
-# all-gnome-backgrounds
+= All GNOME Backgrounds
 
-All backgrounds that are or have been part of the https://gitlab.gnome.org/GNOME/gnome-backgrounds/-/tree/main[GNOME Backgrounds] repository.
+All GNOME Backgrounds is a website that showcases all versions of all wallpapers that have been included in the https://gitlab.gnome.org/GNOME/gnome-backgrounds[GNOME default backgrounds] in the past.
 
-The images are encoded as webp and can be found in the `data/images` directory. Some metadata about the images is available in json files in the `data` directory.
+The images are encoded as WebP and can be found in the `data/images` directory. The data directory also contains JSON files with some metadata about the images.
+
+== Building
+
+To build and run the website, you will need to install some dependencies. These dependencies can be obtained using the Nix package manager by running the command nix develop.
+
+Before running the website, you will need to prepare the data and images. To do so, run the following commands: `yarn prepareImages`, `yarn prepareThumbnails`, `yarn prepareJson`, and `yarn start`. This will create all the necessary files based on the GNOME Backgrounds data.
+
+Finally, to start the Next.js server, run yarn `next dev`.
+
+== Updating the data
+
+To update the data on the website with the latest content from the GNOME Backgrounds repository, run the command `make data`.
+
+== Additional Info
+
+You may have noticed that the authors of the backgrounds are not mentioned anywhere on the website. This is because it was not possible to reliably parse author information from the GNOME Backgrounds repository. Most of the newer backgrounds were created by Jakub Steiner, but I am unsure about the older ones. If you would like to fix this, feel free to open a PR.
