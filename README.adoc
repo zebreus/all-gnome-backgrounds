@@ -1,5 +1,7 @@
 = All GNOME Backgrounds
 
+https://zebreus.github.io/all-gnome-backgrounds/[View the website]
+
 All GNOME Backgrounds is a website that showcases all versions of all wallpapers that have been included in the https://gitlab.gnome.org/GNOME/gnome-backgrounds[GNOME default backgrounds] in the past.
 
 The images are encoded as WebP and can be found in the `data/images` directory. The data directory also contains JSON files with some metadata about the images.
