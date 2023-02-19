@@ -4,6 +4,10 @@ All GNOME Backgrounds is a website that showcases all versions of all wallpapers
 
 The images are encoded as WebP and can be found in the `data/images` directory. The data directory also contains JSON files with some metadata about the images.
 
+== Motivation
+
+I like a specific version of the https://zebreus.github.io/all-gnome-backgrounds/wallpaper/fc55b642000c302ea1ea3e389f49002be9d7789d#4a9cc183903cc83a3d7348da347b583e10ddbadb[Symbolic wallpaper] that was included in GNOME in the past, but I was not able to easily find it on the internet, because the gnome-backgrounds repository removes previous versions of the wallpapers. Searching through old commits is not very convenient, so I decided to create this website to make it easier to find the wallpapers.
+
 == Building
 
 To build and run the website, you will need to install some dependencies. These dependencies can be obtained using the Nix package manager by running the command nix develop.

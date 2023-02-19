@@ -60,6 +60,15 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         >
           Star this website on Github
         </a>
+        <a
+          css={css`
+            font-size: 0.9rem;
+            font-weight: 550;
+          `}
+          href="https://github.com/zebreus/all-gnome-backgrounds/blob/master/README.adoc"
+        >
+          About
+        </a>
       </footer>
     </>
   )

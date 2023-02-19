@@ -24,6 +24,7 @@ export const HistoryWallpaper = ({ snapshot }: HistoryWallpaperProps) => {
             margin-bottom: 1rem;
           }
         `}
+        id={snapshot.url.split(".")[0]?.split("-").at(-1)}
       >
         <img
           css={css`
