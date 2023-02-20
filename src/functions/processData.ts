@@ -31,6 +31,7 @@ export type WallpaperWithHistory = {
   current?: boolean
   deleteMessage: string
   snapshots: Required<Snapshot>[]
+  lastName?: string
 }
 
 export const getSnapshotType = (snapshot: Snapshot): "light" | "dark" | "alt" => {
@@ -225,7 +226,12 @@ const assertReasonableName = (name: string | undefined): string | undefined => {
 }
 
 /** Sometimes only some snapshots have metadata like the human readable name. This adds the missing data to snapshots. */
-const fillMissingInfo = (snapshots: Snapshot[]): Required<Snapshot>[] => {
+// Last name is used to override the name of the first snapshot. This is used to fix oceans, as the name is wrong until its deletion.
+const fillMissingInfo = (snapshots: Snapshot[], lastName?: string): Required<Snapshot>[] => {
+  if (!snapshots[0]) {
+    throw new Error("No snapshots found")
+  }
+  snapshots[0].originalName = lastName || (snapshots[0]?.originalName as string)
   let originalName: string =
     snapshots.find(snapshot => snapshot.originalName)?.originalName ||
     assertReasonableName(snapshots[0]?.originalFile.split("/")?.pop()?.split(".")?.[0]) ||
@@ -280,9 +286,11 @@ export const processData = (data: DataType[]): WallpaperWithHistory[] => {
   const wallpapers = deleted.map(lastChange => {
     const deletedDate = new Date(lastChange.date * 1000)
     const deleteMessage = lastChange.message
+    const lastName =
+      assertReasonableName(lastChange.config?.name) || (assertReasonableName(lastChange.config?._name) as string)
 
     const history = getHistory(lastChange, fixedData)
-    const snapshots = fillMissingInfo(history.map(toSnapshot))
+    const snapshots = fillMissingInfo(history.map(toSnapshot), lastName)
     const createdDate = snapshots[snapshots.length - 1]?.date
     if (!createdDate) {
       throw new Error("No created date found")
@@ -293,6 +301,7 @@ export const processData = (data: DataType[]): WallpaperWithHistory[] => {
       deleted: deletedDate,
       snapshots,
       deleteMessage,
+      lastName,
     }
     return result
   })
@@ -488,7 +497,17 @@ const removeDuplicateSnapshots = (wallpapers: WallpaperWithHistory[]): Wallpaper
       .reverse()
       .filter((snapshot, index, self) => {
         const alphaHash = getSnapshotHash(snapshot)
-        return self.findIndex(s => getSnapshotHash(s) === alphaHash) === index
+        const foundIndex = self.findIndex(s => getSnapshotHash(s) === alphaHash)
+        if (foundIndex === index) {
+          return true
+        }
+        const other = self[foundIndex]
+        if (!other) {
+          throw new Error("No other found. Should never happen")
+        }
+        other.originalName = snapshot.originalName
+        other.name = snapshot.name
+        return false
       })
       .reverse()
     return { ...wallpaper, snapshots }
