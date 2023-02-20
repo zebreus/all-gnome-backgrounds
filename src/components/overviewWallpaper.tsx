@@ -22,6 +22,9 @@ export const OverviewWallpaper = ({ wallpaper }: OverviewProps) => {
           height: fit-content;
           display: flex;
           flex-direction: column;
+          @media (max-width: 700px) {
+            margin-top: 0;
+          }
         `}
       >
         <img
@@ -49,8 +52,9 @@ export const OverviewWallpaper = ({ wallpaper }: OverviewProps) => {
               flex-basis: center;
               justify-content: center;
               align-items: baseline;
-              row-gap: 1rem;
-              gap: 1rem;
+              align-content: center;
+              column-gap: 1rem;
+              flex-wrap: wrap;
             }
           `}
         >
@@ -62,6 +66,9 @@ export const OverviewWallpaper = ({ wallpaper }: OverviewProps) => {
               cursor: inherit;
               margin-top: 0;
               margin-bottom: 0;
+              @media (max-width: 700px) {
+                text-align: center;
+              }
             `}
           >
             {fixDisplayName(latestSnapshot.name)}
@@ -85,7 +92,14 @@ export const OverviewWallpaper = ({ wallpaper }: OverviewProps) => {
               {wallpaper.current ? "present" : wallpaper.deleted.toLocaleDateString("de")}
             </span>
           </span>
-          <section>
+          <section
+            css={css`
+              @media (max-width: 500px) {
+                min-width: 100%;
+                text-align: center;
+              }
+            `}
+          >
             {latestSnapshot.dark ? <span>Dark</span> : null}
             {latestSnapshot.night ? <span>Night</span> : null}
             {latestSnapshot.day ? <span>Day</span> : null}
