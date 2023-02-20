@@ -1,5 +1,6 @@
 import { css } from "@emotion/react"
 import { getCssFit } from "functions/getCssFit"
+import { getImageBackground } from "functions/getImageBackground"
 import { getImageUrl } from "functions/getImageUrl"
 import { Snapshot } from "functions/processData"
 import Link from "next/link"
@@ -40,7 +41,7 @@ export const HistoryWallpaper = ({ snapshot }: HistoryWallpaperProps) => {
             //"stretched" | "zoom" | "scaled" | "wallpaper" | "fill"
 
             object-fit: ${getCssFit(snapshot.fillMode)};
-            background-color: ${snapshot.primaryColor};
+            background: ${getImageBackground(snapshot)};
             cursor: pointer;
           `}
           src={getImageUrl(snapshot.url)}
