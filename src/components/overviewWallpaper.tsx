@@ -1,7 +1,7 @@
 import { css } from "@emotion/react"
 import { fixDisplayName } from "functions/fixDisplayName"
 import { getCssFit } from "functions/getCssFit"
-import { getThumbnailUrl } from "functions/getImageUrl"
+import { getSmallThumbnailUrl, getThumbnailUrl } from "functions/getImageUrl"
 import { WallpaperWithHistory } from "functions/processData"
 import Link from "next/link"
 
@@ -25,6 +25,7 @@ export const OverviewWallpaper = ({ wallpaper }: OverviewProps) => {
           @media (max-width: 700px) {
             margin-top: 0;
           }
+          position: relative;
         `}
       >
         <img
@@ -40,6 +41,20 @@ export const OverviewWallpaper = ({ wallpaper }: OverviewProps) => {
           src={getThumbnailUrl(latestSnapshot.url)}
           alt={latestSnapshot.name}
         />
+        {latestSnapshot.fillMode === "wallpaper" ? (
+          <div
+            css={css`
+              position: absolute;
+              border-radius: 1rem;
+              width: 100%;
+              height: 309px;
+              pointer-events: none;
+              background-color: ${latestSnapshot.primaryColor};
+              background-image: url("${getSmallThumbnailUrl(latestSnapshot.url)}");
+              background-repeat: repeat;
+            `}
+          />
+        ) : null}
         <section
           css={css`
             width: auto;
