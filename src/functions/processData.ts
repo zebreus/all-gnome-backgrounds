@@ -95,6 +95,9 @@ const toSnapshot = (item: ConfigFixedDataType): Snapshot => {
   const night = item.name.endsWith("-night") || undefined
   const alt = item.name.endsWith("-alt") || undefined
 
+  const fillMode = (item.config?.options ||
+    (item.originalRepoPath.startsWith("tiles/") ? "wallpaper" : undefined)) as Required<Snapshot>["fillMode"]
+
   return {
     date: new Date(item.date * 1000),
     originalName: assertReasonableName(item.config?.name) || (assertReasonableName(item.config?._name) as string),
@@ -103,7 +106,7 @@ const toSnapshot = (item: ConfigFixedDataType): Snapshot => {
     originalFile: item.originalRepoPath,
     commit: item.commit,
     type: item.type,
-    fillMode: item.config?.options as Required<Snapshot>["fillMode"],
+    fillMode: fillMode,
     shadeType: item.config?.shade_type as Required<Snapshot>["shadeType"],
     primaryColor: item.config?.pcolor as string,
     secondaryColor: item.config?.scolor as string,

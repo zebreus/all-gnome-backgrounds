@@ -91,6 +91,9 @@ export const OverviewWallpaper = ({ wallpaper }: OverviewProps) => {
             {latestSnapshot.day ? <span>Day</span> : null}
             {latestSnapshot.morning ? <span>Morning</span> : null}
             {latestSnapshot.alt ? <span>Alternative</span> : null}
+            {latestSnapshot.fillMode === "wallpaper" ? (
+              <span title="Wallpaper is meant to be used as a repeating pattern">Tiling</span>
+            ) : null}
           </section>
         </section>
       </a>
