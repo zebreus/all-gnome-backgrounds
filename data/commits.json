@@ -7315,8 +7315,13 @@
     "subject": "prepare 44.beta release"
   },
   {
-    "hash": "da7adf84d4be45e5756bdb5123dec6eeb84775f6",
-    "date": 1676671116,
+    "hash": "92a63918e5ac0c49caae17998d12c05f5a1c9ac9",
+    "date": 1677248615,
+    "subject": "README: updated title"
+  },
+  {
+    "hash": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
+    "date": 1677458668,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
