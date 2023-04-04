@@ -12790,18 +12790,212 @@
     "configs": []
   },
   {
-    "commit": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
-    "date": 1677458668,
+    "commit": "01d78348b66b16475bb7b97b6d158d4e1e8927cc",
+    "date": 1680016523,
+    "newFileHash": "ae363658fa8d8ed19842368505dcb22a20e4120e",
+    "file": "images/ae363658fa8d8ed19842368505dcb22a20e4120e.webp",
+    "originalRepoPath": "backgrounds/adwaita-d.jpg",
+    "name": "adwaita-d",
+    "message": "45 default initial stab",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3071AE",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "01d78348b66b16475bb7b97b6d158d4e1e8927cc",
+    "date": 1680016523,
     "previousFileHash": "268b3cb44725594f86f17515786945d88bc1a1e7",
     "originalRepoPath": "backgrounds/adwaita-d.webp",
+    "name": "adwaita-d",
+    "message": "45 default initial stab",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "01d78348b66b16475bb7b97b6d158d4e1e8927cc",
+    "date": 1680016523,
+    "newFileHash": "7abfaf1f94ad0886e4f8e6c80bf524b6514d51f1",
+    "file": "images/7abfaf1f94ad0886e4f8e6c80bf524b6514d51f1.webp",
+    "originalRepoPath": "backgrounds/adwaita-l.jpg",
+    "name": "adwaita-l",
+    "message": "45 default initial stab",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3071AE",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "01d78348b66b16475bb7b97b6d158d4e1e8927cc",
+    "date": 1680016523,
+    "previousFileHash": "288bea2565b3f8063181dfb0390930d5d5c41684",
+    "originalRepoPath": "backgrounds/adwaita-l.webp",
+    "name": "adwaita-l",
+    "message": "45 default initial stab",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "6d3574e323838d82c4107e184d1ad30a4ac9fc20",
+    "date": 1680088676,
+    "previousFileHash": "ae363658fa8d8ed19842368505dcb22a20e4120e",
+    "newFileHash": "2c6b0dbc32f6844988fe947069686109986fd977",
+    "file": "images/2c6b0dbc32f6844988fe947069686109986fd977.webp",
+    "originalRepoPath": "backgrounds/adwaita-d.jpg",
+    "name": "adwaita-d",
+    "message": "default: more color hues",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3071AE",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "6d3574e323838d82c4107e184d1ad30a4ac9fc20",
+    "date": 1680088676,
+    "previousFileHash": "7abfaf1f94ad0886e4f8e6c80bf524b6514d51f1",
+    "newFileHash": "99bef2cb17a463b3435f6c6d60a8bb4e07a1f633",
+    "file": "images/99bef2cb17a463b3435f6c6d60a8bb4e07a1f633.webp",
+    "originalRepoPath": "backgrounds/adwaita-l.jpg",
+    "name": "adwaita-l",
+    "message": "default: more color hues",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3071AE",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "743bcde21bf3d517a7cb395038b6694f45e78b58",
+    "date": 1680518056,
+    "previousFileHash": "2c6b0dbc32f6844988fe947069686109986fd977",
+    "newFileHash": "0b1bf676294321021fb3d133b17929e6c6e801cc",
+    "file": "images/0b1bf676294321021fb3d133b17929e6c6e801cc.webp",
+    "originalRepoPath": "backgrounds/adwaita-d.jpg",
+    "name": "adwaita-d",
+    "message": "default: gotta tone down the hue variation",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3071AE",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "743bcde21bf3d517a7cb395038b6694f45e78b58",
+    "date": 1680518056,
+    "previousFileHash": "99bef2cb17a463b3435f6c6d60a8bb4e07a1f633",
+    "newFileHash": "9b9b8d4b9b47bbcb0cc585e87a479c3a5d1329f4",
+    "file": "images/9b9b8d4b9b47bbcb0cc585e87a479c3a5d1329f4.webp",
+    "originalRepoPath": "backgrounds/adwaita-l.jpg",
+    "name": "adwaita-l",
+    "message": "default: gotta tone down the hue variation",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3071AE",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "55eae451f99fc2bdc95cd5ec2a9d65fe968e7668",
+    "date": 1680519673,
+    "previousFileHash": "0b1bf676294321021fb3d133b17929e6c6e801cc",
+    "newFileHash": "ebee211cfcac7105b0b407b0b03ab2107f6e33be",
+    "file": "images/ebee211cfcac7105b0b407b0b03ab2107f6e33be.webp",
+    "originalRepoPath": "backgrounds/adwaita-d.jpg",
+    "name": "adwaita-d",
+    "message": "default: maybe smome more hues again",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3071AE",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "55eae451f99fc2bdc95cd5ec2a9d65fe968e7668",
+    "date": 1680519673,
+    "previousFileHash": "9b9b8d4b9b47bbcb0cc585e87a479c3a5d1329f4",
+    "newFileHash": "d6e5a3bc444173cf32ba50d6914dd6001642c65a",
+    "file": "images/d6e5a3bc444173cf32ba50d6914dd6001642c65a.webp",
+    "originalRepoPath": "backgrounds/adwaita-l.jpg",
+    "name": "adwaita-l",
+    "message": "default: maybe smome more hues again",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3071AE",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
+    "date": 1680612989,
+    "previousFileHash": "ebee211cfcac7105b0b407b0b03ab2107f6e33be",
+    "originalRepoPath": "backgrounds/adwaita-d.jpg",
     "name": "adwaita-d",
     "message": "Currently in gnome-backgrounds",
     "type": "delete",
     "configs": [
       {
         "name": "Default Background",
-        "filename": "@BACKGROUNDDIR@/adwaita-l.webp",
-        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.webp",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jpg",
         "options": "zoom",
         "shade_type": "solid",
         "pcolor": "#3071AE",
@@ -12810,18 +13004,18 @@
     ]
   },
   {
-    "commit": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
-    "date": 1677458668,
-    "previousFileHash": "288bea2565b3f8063181dfb0390930d5d5c41684",
-    "originalRepoPath": "backgrounds/adwaita-l.webp",
+    "commit": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
+    "date": 1680612989,
+    "previousFileHash": "d6e5a3bc444173cf32ba50d6914dd6001642c65a",
+    "originalRepoPath": "backgrounds/adwaita-l.jpg",
     "name": "adwaita-l",
     "message": "Currently in gnome-backgrounds",
     "type": "delete",
     "configs": [
       {
         "name": "Default Background",
-        "filename": "@BACKGROUNDDIR@/adwaita-l.webp",
-        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.webp",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jpg",
         "options": "zoom",
         "shade_type": "solid",
         "pcolor": "#3071AE",
@@ -12830,8 +13024,8 @@
     ]
   },
   {
-    "commit": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
-    "date": 1677458668,
+    "commit": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
+    "date": 1680612989,
     "previousFileHash": "e1f6382b140af6f8a43dc8c7e779d5c5a1c95364",
     "originalRepoPath": "backgrounds/blobs-d.svg",
     "name": "blobs-d",
@@ -12850,8 +13044,8 @@
     ]
   },
   {
-    "commit": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
-    "date": 1677458668,
+    "commit": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
+    "date": 1680612989,
     "previousFileHash": "b49caff1a7941d98b60902da64956ad85dfbe4f9",
     "originalRepoPath": "backgrounds/blobs-l.svg",
     "name": "blobs-l",
@@ -12870,8 +13064,8 @@
     ]
   },
   {
-    "commit": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
-    "date": 1677458668,
+    "commit": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
+    "date": 1680612989,
     "previousFileHash": "5522a9508c057ad45b59888a8c5302ab389a874c",
     "originalRepoPath": "backgrounds/design-is-rounded-rectangles-d.webp",
     "name": "design-is-rounded-rectangles-d",
@@ -12890,8 +13084,8 @@
     ]
   },
   {
-    "commit": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
-    "date": 1677458668,
+    "commit": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
+    "date": 1680612989,
     "previousFileHash": "40418ab2016be38df0f8d868250ffe484ca3d3ed",
     "originalRepoPath": "backgrounds/design-is-rounded-rectangles-l.webp",
     "name": "design-is-rounded-rectangles-l",
@@ -12910,8 +13104,8 @@
     ]
   },
   {
-    "commit": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
-    "date": 1677458668,
+    "commit": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
+    "date": 1680612989,
     "previousFileHash": "f6af478302e042a2ad6897801378e2fcab296746",
     "originalRepoPath": "backgrounds/drool-d.svg",
     "name": "drool-d",
@@ -12930,8 +13124,8 @@
     ]
   },
   {
-    "commit": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
-    "date": 1677458668,
+    "commit": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
+    "date": 1680612989,
     "previousFileHash": "10ff7555d08f6c12647b6320c89eff0febede374",
     "originalRepoPath": "backgrounds/drool-l.svg",
     "name": "drool-l",
@@ -12950,8 +13144,8 @@
     ]
   },
   {
-    "commit": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
-    "date": 1677458668,
+    "commit": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
+    "date": 1680612989,
     "previousFileHash": "5b1afd86e3d48e89b562399975debc014f5959c2",
     "originalRepoPath": "backgrounds/dune-d.svg",
     "name": "dune-d",
@@ -12970,8 +13164,8 @@
     ]
   },
   {
-    "commit": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
-    "date": 1677458668,
+    "commit": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
+    "date": 1680612989,
     "previousFileHash": "d858813e6311695d491eb50040f749da6050ecad",
     "originalRepoPath": "backgrounds/dune-l.svg",
     "name": "dune-l",
@@ -12990,8 +13184,8 @@
     ]
   },
   {
-    "commit": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
-    "date": 1677458668,
+    "commit": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
+    "date": 1680612989,
     "previousFileHash": "3e12aef83b22b80cb264cf2e68581de94723079b",
     "originalRepoPath": "backgrounds/fold-d.webp",
     "name": "fold-d",
@@ -13010,8 +13204,8 @@
     ]
   },
   {
-    "commit": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
-    "date": 1677458668,
+    "commit": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
+    "date": 1680612989,
     "previousFileHash": "d4080788e6e4fe629b211ef9e6f5a9dca75cf5c8",
     "originalRepoPath": "backgrounds/fold-l.webp",
     "name": "fold-l",
@@ -13030,8 +13224,8 @@
     ]
   },
   {
-    "commit": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
-    "date": 1677458668,
+    "commit": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
+    "date": 1680612989,
     "previousFileHash": "70f71731d489a01c3462fa60ef39300806e21756",
     "originalRepoPath": "backgrounds/keys-d.webp",
     "name": "keys-d",
@@ -13050,8 +13244,8 @@
     ]
   },
   {
-    "commit": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
-    "date": 1677458668,
+    "commit": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
+    "date": 1680612989,
     "previousFileHash": "03ad1e72085617fecd907654502ef0a16637b077",
     "originalRepoPath": "backgrounds/keys-l.webp",
     "name": "keys-l",
@@ -13070,8 +13264,8 @@
     ]
   },
   {
-    "commit": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
-    "date": 1677458668,
+    "commit": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
+    "date": 1680612989,
     "previousFileHash": "26daa7f1b008d6e9a20d2fafc09155d8b62bfcf7",
     "originalRepoPath": "backgrounds/oceans.svg",
     "name": "oceans",
@@ -13089,8 +13283,8 @@
     ]
   },
   {
-    "commit": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
-    "date": 1677458668,
+    "commit": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
+    "date": 1680612989,
     "previousFileHash": "33eef55755e1727d76d8efcef48c36de5ad2684e",
     "originalRepoPath": "backgrounds/pills-d.webp",
     "name": "pills-d",
@@ -13109,8 +13303,8 @@
     ]
   },
   {
-    "commit": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
-    "date": 1677458668,
+    "commit": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
+    "date": 1680612989,
     "previousFileHash": "202e205ed8ce290ec51af20e822d80172a5f0a9d",
     "originalRepoPath": "backgrounds/pills-l.webp",
     "name": "pills-l",
@@ -13129,8 +13323,8 @@
     ]
   },
   {
-    "commit": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
-    "date": 1677458668,
+    "commit": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
+    "date": 1680612989,
     "previousFileHash": "21ef59de08ae5fd402d8ae42ce509d06eadec4c8",
     "originalRepoPath": "backgrounds/pixels-d.webp",
     "name": "pixels-d",
@@ -13149,8 +13343,8 @@
     ]
   },
   {
-    "commit": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
-    "date": 1677458668,
+    "commit": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
+    "date": 1680612989,
     "previousFileHash": "76187eb3d32a4ff1747c42429898a08cd05d656f",
     "originalRepoPath": "backgrounds/pixels-l.webp",
     "name": "pixels-l",
@@ -13169,8 +13363,8 @@
     ]
   },
   {
-    "commit": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
-    "date": 1677458668,
+    "commit": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
+    "date": 1680612989,
     "previousFileHash": "1edc7de3a53d808921a3cfc3e0384c84aeed205e",
     "originalRepoPath": "backgrounds/symbolic-d.webp",
     "name": "symbolic-d",
@@ -13189,8 +13383,8 @@
     ]
   },
   {
-    "commit": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
-    "date": 1677458668,
+    "commit": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
+    "date": 1680612989,
     "previousFileHash": "4ee448d05f88e957ccfc07c10721ecee82fbacfd",
     "originalRepoPath": "backgrounds/symbolic-l.webp",
     "name": "symbolic-l",
@@ -13209,8 +13403,8 @@
     ]
   },
   {
-    "commit": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
-    "date": 1677458668,
+    "commit": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
+    "date": 1680612989,
     "previousFileHash": "cc9faf3462abf87684c9aeccb3be8907009ec1ca",
     "originalRepoPath": "backgrounds/truchet-d.webp",
     "name": "truchet-d",
@@ -13229,8 +13423,8 @@
     ]
   },
   {
-    "commit": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
-    "date": 1677458668,
+    "commit": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
+    "date": 1680612989,
     "previousFileHash": "b6fa1e6db104dd3e18a70061a3dad421b973ad2a",
     "originalRepoPath": "backgrounds/truchet-l.webp",
     "name": "truchet-l",
@@ -13249,8 +13443,8 @@
     ]
   },
   {
-    "commit": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
-    "date": 1677458668,
+    "commit": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
+    "date": 1680612989,
     "previousFileHash": "0c4f1c82acd9f81e46a4ef97ae5c3794cf5fb890",
     "originalRepoPath": "backgrounds/vnc-d.webp",
     "name": "vnc-d",
@@ -13269,8 +13463,8 @@
     ]
   },
   {
-    "commit": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
-    "date": 1677458668,
+    "commit": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
+    "date": 1680612989,
     "previousFileHash": "7507aee708276b988f3ed38d5c150e9dbafa34c9",
     "originalRepoPath": "backgrounds/vnc-l.webp",
     "name": "vnc-l",
@@ -13289,8 +13483,8 @@
     ]
   },
   {
-    "commit": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
-    "date": 1677458668,
+    "commit": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
+    "date": 1680612989,
     "previousFileHash": "c3d415d368b6a598c4e2848b0a085f19e6066b8a",
     "originalRepoPath": "badscaling.jpg",
     "name": "badscaling",
@@ -13299,8 +13493,8 @@
     "configs": []
   },
   {
-    "commit": "5904ba55a82791f6dc6cf2a498d7e9d2022d9a60",
-    "date": 1677458668,
+    "commit": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
+    "date": 1680612989,
     "previousFileHash": "7e1e750a9c4d3134089b03256a9c20cf88463896",
     "originalRepoPath": "defaults.webp",
     "name": "defaults",
