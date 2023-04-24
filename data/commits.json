@@ -7350,8 +7350,23 @@
     "subject": "default: maybe smome more hues again"
   },
   {
-    "hash": "5e8abe8177d7e9edba5681b0d504963d03edbecf",
-    "date": 1680612989,
+    "hash": "672f08721f0a86c2db902060de8e93bcd8ebd7d0",
+    "date": 1681733781,
+    "subject": "replace dune with pipes"
+  },
+  {
+    "hash": "de51465281e6ac9f14ac196792819ae6ca776f1b",
+    "date": 1681733997,
+    "subject": "unbreak build"
+  },
+  {
+    "hash": "2f463d858138e96d95795719d171c83fbf11b05f",
+    "date": 1681809361,
+    "subject": "pipes: simplify the design again"
+  },
+  {
+    "hash": "3262b05ecce0d2a7bef6a7d2f7856eb17057280d",
+    "date": 1682296834,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
