@@ -7385,8 +7385,23 @@
     "subject": "unbreak build"
   },
   {
-    "hash": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
+    "hash": "1b2f7fa505b2b66f68548202567bb2f16f701f67",
+    "date": 1689004339,
+    "subject": "pixels: update circle app icons"
+  },
+  {
+    "hash": "fb1eb39a83041a2bb4fdc07a6de533258605a598",
+    "date": 1689005060,
+    "subject": "truchet: update for 45"
+  },
+  {
+    "hash": "82d7361fac49395e26575fd4b5e9eb93a27d9d39",
+    "date": 1689021767,
+    "subject": "prepare for 45.beta release"
+  },
+  {
+    "hash": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
     "subject": "Currently in gnome-backgrounds"
   }
 ]

@@ -13186,8 +13186,96 @@
     "configs": []
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
+    "commit": "1b2f7fa505b2b66f68548202567bb2f16f701f67",
+    "date": 1689004339,
+    "previousFileHash": "21ef59de08ae5fd402d8ae42ce509d06eadec4c8",
+    "newFileHash": "94951ed02027e159e2c8f7d4e1ca6b6f9c7b6269",
+    "file": "images/94951ed02027e159e2c8f7d4e1ca6b6f9c7b6269.webp",
+    "originalRepoPath": "backgrounds/pixels-d.webp",
+    "name": "pixels-d",
+    "message": "pixels: update circle app icons",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Pixels",
+        "filename": "@BACKGROUNDDIR@/pixels-l.webp",
+        "filename-dark": "@BACKGROUNDDIR@/pixels-d.webp",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#967864",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "1b2f7fa505b2b66f68548202567bb2f16f701f67",
+    "date": 1689004339,
+    "previousFileHash": "76187eb3d32a4ff1747c42429898a08cd05d656f",
+    "newFileHash": "c5b6ee01a53ceec72d7d53db63d0745319240a11",
+    "file": "images/c5b6ee01a53ceec72d7d53db63d0745319240a11.webp",
+    "originalRepoPath": "backgrounds/pixels-l.webp",
+    "name": "pixels-l",
+    "message": "pixels: update circle app icons",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Pixels",
+        "filename": "@BACKGROUNDDIR@/pixels-l.webp",
+        "filename-dark": "@BACKGROUNDDIR@/pixels-d.webp",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#967864",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "fb1eb39a83041a2bb4fdc07a6de533258605a598",
+    "date": 1689005060,
+    "previousFileHash": "cc9faf3462abf87684c9aeccb3be8907009ec1ca",
+    "newFileHash": "89d023b6f6d3288ed972eb8d2d28588d6f3704d8",
+    "file": "images/89d023b6f6d3288ed972eb8d2d28588d6f3704d8.webp",
+    "originalRepoPath": "backgrounds/truchet-d.webp",
+    "name": "truchet-d",
+    "message": "truchet: update for 45",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Truchet",
+        "filename": "@BACKGROUNDDIR@/truchet-l.webp",
+        "filename-dark": "@BACKGROUNDDIR@/truchet-d.webp",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#ac5e0b",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "fb1eb39a83041a2bb4fdc07a6de533258605a598",
+    "date": 1689005060,
+    "previousFileHash": "b6fa1e6db104dd3e18a70061a3dad421b973ad2a",
+    "newFileHash": "3dd4eb3260ac289246e494fcfb33dcfdd29a1cc2",
+    "file": "images/3dd4eb3260ac289246e494fcfb33dcfdd29a1cc2.webp",
+    "originalRepoPath": "backgrounds/truchet-l.webp",
+    "name": "truchet-l",
+    "message": "truchet: update for 45",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Truchet",
+        "filename": "@BACKGROUNDDIR@/truchet-l.webp",
+        "filename-dark": "@BACKGROUNDDIR@/truchet-d.webp",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#ac5e0b",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
     "previousFileHash": "ebee211cfcac7105b0b407b0b03ab2107f6e33be",
     "originalRepoPath": "backgrounds/adwaita-d.jpg",
     "name": "adwaita-d",
@@ -13206,8 +13294,8 @@
     ]
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
     "previousFileHash": "d6e5a3bc444173cf32ba50d6914dd6001642c65a",
     "originalRepoPath": "backgrounds/adwaita-l.jpg",
     "name": "adwaita-l",
@@ -13226,8 +13314,8 @@
     ]
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
     "previousFileHash": "e1f6382b140af6f8a43dc8c7e779d5c5a1c95364",
     "originalRepoPath": "backgrounds/blobs-d.svg",
     "name": "blobs-d",
@@ -13246,8 +13334,8 @@
     ]
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
     "previousFileHash": "b49caff1a7941d98b60902da64956ad85dfbe4f9",
     "originalRepoPath": "backgrounds/blobs-l.svg",
     "name": "blobs-l",
@@ -13266,8 +13354,8 @@
     ]
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
     "previousFileHash": "5522a9508c057ad45b59888a8c5302ab389a874c",
     "originalRepoPath": "backgrounds/design-is-rounded-rectangles-d.webp",
     "name": "design-is-rounded-rectangles-d",
@@ -13286,8 +13374,8 @@
     ]
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
     "previousFileHash": "40418ab2016be38df0f8d868250ffe484ca3d3ed",
     "originalRepoPath": "backgrounds/design-is-rounded-rectangles-l.webp",
     "name": "design-is-rounded-rectangles-l",
@@ -13306,8 +13394,8 @@
     ]
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
     "previousFileHash": "f6af478302e042a2ad6897801378e2fcab296746",
     "originalRepoPath": "backgrounds/drool-d.svg",
     "name": "drool-d",
@@ -13326,8 +13414,8 @@
     ]
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
     "previousFileHash": "10ff7555d08f6c12647b6320c89eff0febede374",
     "originalRepoPath": "backgrounds/drool-l.svg",
     "name": "drool-l",
@@ -13346,8 +13434,8 @@
     ]
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
     "previousFileHash": "caf5c4c50ef4ae233c4c2238a2dcf9d5cb2d20ab",
     "originalRepoPath": "backgrounds/fold-d.webp",
     "name": "fold-d",
@@ -13366,8 +13454,8 @@
     ]
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
     "previousFileHash": "f154f236ba9536a1536c3021ad06b2bb177ac587",
     "originalRepoPath": "backgrounds/fold-l.webp",
     "name": "fold-l",
@@ -13386,8 +13474,8 @@
     ]
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
     "previousFileHash": "70f71731d489a01c3462fa60ef39300806e21756",
     "originalRepoPath": "backgrounds/keys-d.webp",
     "name": "keys-d",
@@ -13406,8 +13494,8 @@
     ]
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
     "previousFileHash": "03ad1e72085617fecd907654502ef0a16637b077",
     "originalRepoPath": "backgrounds/keys-l.webp",
     "name": "keys-l",
@@ -13426,8 +13514,8 @@
     ]
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
     "previousFileHash": "8af0649d6f468bab8e7239bb1ff29f7a5f0da1e5",
     "originalRepoPath": "backgrounds/morphogenesis-d.svg",
     "name": "morphogenesis-d",
@@ -13446,8 +13534,8 @@
     ]
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
     "previousFileHash": "4c59d4c5bb588ce97708dcf0da49bfb9bbdd6e5d",
     "originalRepoPath": "backgrounds/morphogenesis-l.svg",
     "name": "morphogenesis-l",
@@ -13466,8 +13554,8 @@
     ]
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
     "previousFileHash": "33eef55755e1727d76d8efcef48c36de5ad2684e",
     "originalRepoPath": "backgrounds/pills-d.webp",
     "name": "pills-d",
@@ -13486,8 +13574,8 @@
     ]
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
     "previousFileHash": "202e205ed8ce290ec51af20e822d80172a5f0a9d",
     "originalRepoPath": "backgrounds/pills-l.webp",
     "name": "pills-l",
@@ -13506,8 +13594,8 @@
     ]
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
     "previousFileHash": "b26250c36446d99557707b7bf398cdaed63fd013",
     "originalRepoPath": "backgrounds/pipes-d.jpg",
     "name": "pipes-d",
@@ -13526,8 +13614,8 @@
     ]
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
     "previousFileHash": "e73727edd83e58c7aaffacc56ce9a693216acc88",
     "originalRepoPath": "backgrounds/pipes-l.jpg",
     "name": "pipes-l",
@@ -13546,9 +13634,9 @@
     ]
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
-    "previousFileHash": "21ef59de08ae5fd402d8ae42ce509d06eadec4c8",
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
+    "previousFileHash": "94951ed02027e159e2c8f7d4e1ca6b6f9c7b6269",
     "originalRepoPath": "backgrounds/pixels-d.webp",
     "name": "pixels-d",
     "message": "Currently in gnome-backgrounds",
@@ -13566,9 +13654,9 @@
     ]
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
-    "previousFileHash": "76187eb3d32a4ff1747c42429898a08cd05d656f",
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
+    "previousFileHash": "c5b6ee01a53ceec72d7d53db63d0745319240a11",
     "originalRepoPath": "backgrounds/pixels-l.webp",
     "name": "pixels-l",
     "message": "Currently in gnome-backgrounds",
@@ -13586,8 +13674,8 @@
     ]
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
     "previousFileHash": "1edc7de3a53d808921a3cfc3e0384c84aeed205e",
     "originalRepoPath": "backgrounds/symbolic-d.webp",
     "name": "symbolic-d",
@@ -13606,8 +13694,8 @@
     ]
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
     "previousFileHash": "4ee448d05f88e957ccfc07c10721ecee82fbacfd",
     "originalRepoPath": "backgrounds/symbolic-l.webp",
     "name": "symbolic-l",
@@ -13626,9 +13714,9 @@
     ]
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
-    "previousFileHash": "cc9faf3462abf87684c9aeccb3be8907009ec1ca",
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
+    "previousFileHash": "89d023b6f6d3288ed972eb8d2d28588d6f3704d8",
     "originalRepoPath": "backgrounds/truchet-d.webp",
     "name": "truchet-d",
     "message": "Currently in gnome-backgrounds",
@@ -13646,9 +13734,9 @@
     ]
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
-    "previousFileHash": "b6fa1e6db104dd3e18a70061a3dad421b973ad2a",
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
+    "previousFileHash": "3dd4eb3260ac289246e494fcfb33dcfdd29a1cc2",
     "originalRepoPath": "backgrounds/truchet-l.webp",
     "name": "truchet-l",
     "message": "Currently in gnome-backgrounds",
@@ -13666,8 +13754,8 @@
     ]
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
     "previousFileHash": "0c4f1c82acd9f81e46a4ef97ae5c3794cf5fb890",
     "originalRepoPath": "backgrounds/vnc-d.webp",
     "name": "vnc-d",
@@ -13686,8 +13774,8 @@
     ]
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
     "previousFileHash": "7507aee708276b988f3ed38d5c150e9dbafa34c9",
     "originalRepoPath": "backgrounds/vnc-l.webp",
     "name": "vnc-l",
@@ -13706,8 +13794,8 @@
     ]
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
     "previousFileHash": "c3d415d368b6a598c4e2848b0a085f19e6066b8a",
     "originalRepoPath": "badscaling.jpg",
     "name": "badscaling",
@@ -13716,8 +13804,8 @@
     "configs": []
   },
   {
-    "commit": "a6094bfcbecabff326775acab0e505784898acfb",
-    "date": 1687135500,
+    "commit": "05ae5e394cce3cb050708da1503a87f2da4b811f",
+    "date": 1689555279,
     "previousFileHash": "7e1e750a9c4d3134089b03256a9c20cf88463896",
     "originalRepoPath": "defaults.webp",
     "name": "defaults",
