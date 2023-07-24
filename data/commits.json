@@ -7400,8 +7400,18 @@
     "subject": "prepare for 45.beta release"
   },
   {
-    "hash": "05ae5e394cce3cb050708da1503a87f2da4b811f",
-    "date": 1689555279,
+    "hash": "ccbdb7d2ea5dbd1f2b9de4be348dfa0ab286d76c",
+    "date": 1689937077,
+    "subject": "switch webp to jpeg-xl"
+  },
+  {
+    "hash": "366d240ccb7230716d1812b3a8c68daf08732056",
+    "date": 1689937929,
+    "subject": "fix build"
+  },
+  {
+    "hash": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
+    "date": 1690159468,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
