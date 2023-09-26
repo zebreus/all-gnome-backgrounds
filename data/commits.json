@@ -7410,8 +7410,93 @@
     "subject": "fix build"
   },
   {
-    "hash": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
+    "hash": "4af1796cb70ffabe2d63450a162da9ee8ab28e4a",
+    "date": 1690790461,
+    "subject": "default: re-sync with previous release"
+  },
+  {
+    "hash": "c34485585c90acd465ad7fc22a0f8d3c0aa976f3",
+    "date": 1690794098,
+    "subject": "default: switch JPG>JXL format"
+  },
+  {
+    "hash": "8636e972fe7854005b9a5be1f7bc7594832b2f73",
+    "date": 1690815538,
+    "subject": "default: revert to 44 colors"
+  },
+  {
+    "hash": "269437e064d1caf29b6221d812851890800478c9",
+    "date": 1690853402,
+    "subject": "amber: initial variant"
+  },
+  {
+    "hash": "524e73779b9299fdaab280a4aa9c5123366676ea",
+    "date": 1690898444,
+    "subject": "JPEG-XL optimalisations"
+  },
+  {
+    "hash": "1d1fbd998280d145f413a7e11c4df273a727226f",
+    "date": 1690853402,
+    "subject": "amber: initial variant"
+  },
+  {
+    "hash": "68fb7e27de9d0cd4595aec3055612e8ed52ca28a",
+    "date": 1690899401,
+    "subject": "Merge branch 'amber' into 'main'"
+  },
+  {
+    "hash": "de5df3d252ce74c720df5d54edf1693af4861489",
+    "date": 1690921739,
+    "subject": "morphogenesis: optimize for filesize"
+  },
+  {
+    "hash": "ead74c78fee4baa27f90dfa1c7433074c00d0bd1",
+    "date": 1691047764,
+    "subject": "use higher bit depth JXL"
+  },
+  {
+    "hash": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "subject": "Revert to oldschool formats for 45"
+  },
+  {
+    "hash": "ac07d14f609c4b86197feedb0dbae6c05eeb307b",
+    "date": 1692964412,
+    "subject": "Add Amber to meson.build"
+  },
+  {
+    "hash": "384dfa34cf4d48c6019e62ea906a1eb51956cf93",
+    "date": 1693762808,
+    "subject": "prepare for 45.rc"
+  },
+  {
+    "hash": "d6f68f843c4334b712c7e2ff4748a0842f4a7847",
+    "date": 1695034331,
+    "subject": "prepare for 45.0"
+  },
+  {
+    "hash": "b030b1f0a2eb6bf26553f40ca8cb399984069fb4",
+    "date": 1695071625,
+    "subject": "Merge branch 'add-amber-meson' into 'main'"
+  },
+  {
+    "hash": "57234642983e741c53e635a4e88f2d9fc48a564e",
+    "date": 1695674986,
+    "subject": "new JPEG-XL wallpaper"
+  },
+  {
+    "hash": "5559645cefba7cbaea88e5cc72c53460162df31d",
+    "date": 1695744307,
+    "subject": "stripes revival"
+  },
+  {
+    "hash": "0019ace113331268dd973197281b07e917cb5f8f",
+    "date": 1695745070,
+    "subject": "default: try Amber colors"
+  },
+  {
+    "hash": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
     "subject": "Currently in gnome-backgrounds"
   }
 ]

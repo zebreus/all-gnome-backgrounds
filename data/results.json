@@ -13832,9 +13832,1317 @@
     ]
   },
   {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
+    "commit": "4af1796cb70ffabe2d63450a162da9ee8ab28e4a",
+    "date": 1690790461,
     "previousFileHash": "ebee211cfcac7105b0b407b0b03ab2107f6e33be",
+    "newFileHash": "f77ab1edd77f9cd0fc5d88d9afea6b8187e267c6",
+    "file": "images/f77ab1edd77f9cd0fc5d88d9afea6b8187e267c6.webp",
+    "originalRepoPath": "backgrounds/adwaita-d.jpg",
+    "name": "adwaita-d",
+    "message": "default: re-sync with previous release",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3071AE",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "4af1796cb70ffabe2d63450a162da9ee8ab28e4a",
+    "date": 1690790461,
+    "previousFileHash": "d6e5a3bc444173cf32ba50d6914dd6001642c65a",
+    "newFileHash": "3347fa3f2b5de0ab0082efb597b5fb1d6d5bf775",
+    "file": "images/3347fa3f2b5de0ab0082efb597b5fb1d6d5bf775.webp",
+    "originalRepoPath": "backgrounds/adwaita-l.jpg",
+    "name": "adwaita-l",
+    "message": "default: re-sync with previous release",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3071AE",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "c34485585c90acd465ad7fc22a0f8d3c0aa976f3",
+    "date": 1690794098,
+    "previousFileHash": "f77ab1edd77f9cd0fc5d88d9afea6b8187e267c6",
+    "originalRepoPath": "backgrounds/adwaita-d.jpg",
+    "name": "adwaita-d",
+    "message": "default: switch JPG>JXL format",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "c34485585c90acd465ad7fc22a0f8d3c0aa976f3",
+    "date": 1690794098,
+    "newFileHash": "a66d78792168aac582966c438f49e6a5415bb269",
+    "file": "images/a66d78792168aac582966c438f49e6a5415bb269.webp",
+    "originalRepoPath": "backgrounds/adwaita-d.jxl",
+    "name": "adwaita-d",
+    "message": "default: switch JPG>JXL format",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3071AE",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "c34485585c90acd465ad7fc22a0f8d3c0aa976f3",
+    "date": 1690794098,
+    "previousFileHash": "3347fa3f2b5de0ab0082efb597b5fb1d6d5bf775",
+    "originalRepoPath": "backgrounds/adwaita-l.jpg",
+    "name": "adwaita-l",
+    "message": "default: switch JPG>JXL format",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "c34485585c90acd465ad7fc22a0f8d3c0aa976f3",
+    "date": 1690794098,
+    "newFileHash": "fe262f54129217c0cfe723233475c6b7a3e19f69",
+    "file": "images/fe262f54129217c0cfe723233475c6b7a3e19f69.webp",
+    "originalRepoPath": "backgrounds/adwaita-l.jxl",
+    "name": "adwaita-l",
+    "message": "default: switch JPG>JXL format",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3071AE",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "8636e972fe7854005b9a5be1f7bc7594832b2f73",
+    "date": 1690815538,
+    "previousFileHash": "fe262f54129217c0cfe723233475c6b7a3e19f69",
+    "newFileHash": "3041a0e47f942cb45778edf3b0493e9e75dffa87",
+    "file": "images/3041a0e47f942cb45778edf3b0493e9e75dffa87.webp",
+    "originalRepoPath": "backgrounds/adwaita-l.jxl",
+    "name": "adwaita-l",
+    "message": "default: revert to 44 colors",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3071AE",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "269437e064d1caf29b6221d812851890800478c9",
+    "date": 1690853402,
+    "newFileHash": "3a0614e3818d7ee2847064dc7ad9f8a0306c2f88",
+    "file": "images/3a0614e3818d7ee2847064dc7ad9f8a0306c2f88.webp",
+    "originalRepoPath": "backgrounds/amber-d.jxl",
+    "name": "amber-d",
+    "message": "amber: initial variant",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Amber",
+        "filename": "@BACKGROUNDDIR@/amber-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/amber-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#ff7800",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "269437e064d1caf29b6221d812851890800478c9",
+    "date": 1690853402,
+    "newFileHash": "caffd62501523cf09e381eee9f7c5a7415ab78ea",
+    "file": "images/caffd62501523cf09e381eee9f7c5a7415ab78ea.webp",
+    "originalRepoPath": "backgrounds/amber-l.jxl",
+    "name": "amber-l",
+    "message": "amber: initial variant",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Amber",
+        "filename": "@BACKGROUNDDIR@/amber-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/amber-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#ff7800",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "524e73779b9299fdaab280a4aa9c5123366676ea",
+    "date": 1690898444,
+    "previousFileHash": "a66d78792168aac582966c438f49e6a5415bb269",
+    "newFileHash": "ec141e3e490f1d7f66f3fe870eb745122525e3ed",
+    "file": "images/ec141e3e490f1d7f66f3fe870eb745122525e3ed.webp",
+    "originalRepoPath": "backgrounds/adwaita-d.jxl",
+    "name": "adwaita-d",
+    "message": "JPEG-XL optimalisations",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3071AE",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "524e73779b9299fdaab280a4aa9c5123366676ea",
+    "date": 1690898444,
+    "previousFileHash": "3041a0e47f942cb45778edf3b0493e9e75dffa87",
+    "newFileHash": "0c1e38adbe595ef822165eb40e0450adfa83d00c",
+    "file": "images/0c1e38adbe595ef822165eb40e0450adfa83d00c.webp",
+    "originalRepoPath": "backgrounds/adwaita-l.jxl",
+    "name": "adwaita-l",
+    "message": "JPEG-XL optimalisations",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3071AE",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "524e73779b9299fdaab280a4aa9c5123366676ea",
+    "date": 1690898444,
+    "previousFileHash": "659b02e00e7afe990e16d4fd7118ce92bd476168",
+    "newFileHash": "c2c35b02cf3ce636243c2164cba6eebad5e0aa3f",
+    "file": "images/c2c35b02cf3ce636243c2164cba6eebad5e0aa3f.webp",
+    "originalRepoPath": "backgrounds/fold-d.jxl",
+    "name": "fold-d",
+    "message": "JPEG-XL optimalisations",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/fold-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/fold-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#26a269",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "524e73779b9299fdaab280a4aa9c5123366676ea",
+    "date": 1690898444,
+    "previousFileHash": "d3705f99ad205cf87fbc97d60b04c23204259d32",
+    "newFileHash": "1c22c7b482ee7b4f07353ab320e510d1e8dc18d3",
+    "file": "images/1c22c7b482ee7b4f07353ab320e510d1e8dc18d3.webp",
+    "originalRepoPath": "backgrounds/fold-l.jxl",
+    "name": "fold-l",
+    "message": "JPEG-XL optimalisations",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/fold-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/fold-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#26a269",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "524e73779b9299fdaab280a4aa9c5123366676ea",
+    "date": 1690898444,
+    "previousFileHash": "851f09db3e9ca6e3490685a76bea7dc03d070c9c",
+    "newFileHash": "0ea7df8087af7bc0dd1b1764df8fb2272e816d1e",
+    "file": "images/0ea7df8087af7bc0dd1b1764df8fb2272e816d1e.webp",
+    "originalRepoPath": "backgrounds/pixels-d.jxl",
+    "name": "pixels-d",
+    "message": "JPEG-XL optimalisations",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Pixels",
+        "filename": "@BACKGROUNDDIR@/pixels-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/pixels-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#967864",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "524e73779b9299fdaab280a4aa9c5123366676ea",
+    "date": 1690898444,
+    "previousFileHash": "306e7645e74dd94cd2f8cdeb57bbf62e669b02f8",
+    "newFileHash": "0a9b5deacd27f094a281ce7468b1d486d359d999",
+    "file": "images/0a9b5deacd27f094a281ce7468b1d486d359d999.webp",
+    "originalRepoPath": "backgrounds/pixels-l.jxl",
+    "name": "pixels-l",
+    "message": "JPEG-XL optimalisations",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Pixels",
+        "filename": "@BACKGROUNDDIR@/pixels-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/pixels-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#967864",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "524e73779b9299fdaab280a4aa9c5123366676ea",
+    "date": 1690898444,
+    "previousFileHash": "e75abe3bd2f996f05949fe36671d2de1b0360581",
+    "newFileHash": "2acd72b2ab6c516ecb2fcfff9f7078d2f93e9325",
+    "file": "images/2acd72b2ab6c516ecb2fcfff9f7078d2f93e9325.webp",
+    "originalRepoPath": "backgrounds/truchet-d.jxl",
+    "name": "truchet-d",
+    "message": "JPEG-XL optimalisations",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Truchet",
+        "filename": "@BACKGROUNDDIR@/truchet-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/truchet-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#ac5e0b",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "524e73779b9299fdaab280a4aa9c5123366676ea",
+    "date": 1690898444,
+    "previousFileHash": "5dcfffbdfc54e008727b6ca2cebd1b22021610f0",
+    "newFileHash": "d66b068f791b10d98bb5b84d1ff1cb823ec74036",
+    "file": "images/d66b068f791b10d98bb5b84d1ff1cb823ec74036.webp",
+    "originalRepoPath": "backgrounds/truchet-l.jxl",
+    "name": "truchet-l",
+    "message": "JPEG-XL optimalisations",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Truchet",
+        "filename": "@BACKGROUNDDIR@/truchet-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/truchet-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#ac5e0b",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "1d1fbd998280d145f413a7e11c4df273a727226f",
+    "date": 1690853402,
+    "newFileHash": "3a0614e3818d7ee2847064dc7ad9f8a0306c2f88",
+    "file": "images/3a0614e3818d7ee2847064dc7ad9f8a0306c2f88.webp",
+    "originalRepoPath": "backgrounds/amber-d.jxl",
+    "name": "amber-d",
+    "message": "amber: initial variant",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Amber",
+        "filename": "@BACKGROUNDDIR@/amber-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/amber-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#ff7800",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "1d1fbd998280d145f413a7e11c4df273a727226f",
+    "date": 1690853402,
+    "newFileHash": "caffd62501523cf09e381eee9f7c5a7415ab78ea",
+    "file": "images/caffd62501523cf09e381eee9f7c5a7415ab78ea.webp",
+    "originalRepoPath": "backgrounds/amber-l.jxl",
+    "name": "amber-l",
+    "message": "amber: initial variant",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Amber",
+        "filename": "@BACKGROUNDDIR@/amber-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/amber-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#ff7800",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "de5df3d252ce74c720df5d54edf1693af4861489",
+    "date": 1690921739,
+    "previousFileHash": "8af0649d6f468bab8e7239bb1ff29f7a5f0da1e5",
+    "newFileHash": "d4207b7b21b8b6da35d5c43f48d8441012de8a6e",
+    "file": "images/d4207b7b21b8b6da35d5c43f48d8441012de8a6e.webp",
+    "originalRepoPath": "backgrounds/morphogenesis-d.svg",
+    "name": "morphogenesis-d",
+    "message": "morphogenesis: optimize for filesize",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Morphogenesis",
+        "filename": "@BACKGROUNDDIR@/morphogenesis-l.svg",
+        "filename-dark": "@BACKGROUNDDIR@/morphogenesis-d.svg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#e18477",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "de5df3d252ce74c720df5d54edf1693af4861489",
+    "date": 1690921739,
+    "previousFileHash": "4c59d4c5bb588ce97708dcf0da49bfb9bbdd6e5d",
+    "newFileHash": "b491162fb72dcc97d7f766d757fbe13b0580ac91",
+    "file": "images/b491162fb72dcc97d7f766d757fbe13b0580ac91.webp",
+    "originalRepoPath": "backgrounds/morphogenesis-l.svg",
+    "name": "morphogenesis-l",
+    "message": "morphogenesis: optimize for filesize",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Morphogenesis",
+        "filename": "@BACKGROUNDDIR@/morphogenesis-l.svg",
+        "filename-dark": "@BACKGROUNDDIR@/morphogenesis-d.svg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#e18477",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "ead74c78fee4baa27f90dfa1c7433074c00d0bd1",
+    "date": 1691047764,
+    "previousFileHash": "ec141e3e490f1d7f66f3fe870eb745122525e3ed",
+    "newFileHash": "10f4703a3a2aa4bf213f7dbe45cdebaa0d09cfd6",
+    "file": "images/10f4703a3a2aa4bf213f7dbe45cdebaa0d09cfd6.webp",
+    "originalRepoPath": "backgrounds/adwaita-d.jxl",
+    "name": "adwaita-d",
+    "message": "use higher bit depth JXL",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3071AE",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "ead74c78fee4baa27f90dfa1c7433074c00d0bd1",
+    "date": 1691047764,
+    "previousFileHash": "0c1e38adbe595ef822165eb40e0450adfa83d00c",
+    "newFileHash": "392bd8412280bd3750fb8f94109effad90a7f5a4",
+    "file": "images/392bd8412280bd3750fb8f94109effad90a7f5a4.webp",
+    "originalRepoPath": "backgrounds/adwaita-l.jxl",
+    "name": "adwaita-l",
+    "message": "use higher bit depth JXL",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3071AE",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "ead74c78fee4baa27f90dfa1c7433074c00d0bd1",
+    "date": 1691047764,
+    "previousFileHash": "c2c35b02cf3ce636243c2164cba6eebad5e0aa3f",
+    "newFileHash": "e5f8decdcff4dca8b26dda9b3dcd1e5f5fa6dfad",
+    "file": "images/e5f8decdcff4dca8b26dda9b3dcd1e5f5fa6dfad.webp",
+    "originalRepoPath": "backgrounds/fold-d.jxl",
+    "name": "fold-d",
+    "message": "use higher bit depth JXL",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/fold-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/fold-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#26a269",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "ead74c78fee4baa27f90dfa1c7433074c00d0bd1",
+    "date": 1691047764,
+    "previousFileHash": "1c22c7b482ee7b4f07353ab320e510d1e8dc18d3",
+    "newFileHash": "fc705b0c047688b3a2e3990ae8bdcc4213646e87",
+    "file": "images/fc705b0c047688b3a2e3990ae8bdcc4213646e87.webp",
+    "originalRepoPath": "backgrounds/fold-l.jxl",
+    "name": "fold-l",
+    "message": "use higher bit depth JXL",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/fold-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/fold-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#26a269",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "newFileHash": "b4b2a232aca95542eb3e1b2e5dec4e603068f263",
+    "file": "images/b4b2a232aca95542eb3e1b2e5dec4e603068f263.webp",
+    "originalRepoPath": "backgrounds/adwaita-d.jpg",
+    "name": "adwaita-d",
+    "message": "Revert to oldschool formats for 45",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3071AE",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "previousFileHash": "10f4703a3a2aa4bf213f7dbe45cdebaa0d09cfd6",
+    "originalRepoPath": "backgrounds/adwaita-d.jxl",
+    "name": "adwaita-d",
+    "message": "Revert to oldschool formats for 45",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "newFileHash": "6dbc2875e66ce32b922a6b46914bb3fa3e4c7313",
+    "file": "images/6dbc2875e66ce32b922a6b46914bb3fa3e4c7313.webp",
+    "originalRepoPath": "backgrounds/adwaita-l.jpg",
+    "name": "adwaita-l",
+    "message": "Revert to oldschool formats for 45",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3071AE",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "previousFileHash": "392bd8412280bd3750fb8f94109effad90a7f5a4",
+    "originalRepoPath": "backgrounds/adwaita-l.jxl",
+    "name": "adwaita-l",
+    "message": "Revert to oldschool formats for 45",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "newFileHash": "205fc9846726caf2169882546d06c1bfa41d5a33",
+    "file": "images/205fc9846726caf2169882546d06c1bfa41d5a33.webp",
+    "originalRepoPath": "backgrounds/amber-d.jpg",
+    "name": "amber-d",
+    "message": "Revert to oldschool formats for 45",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Amber",
+        "filename": "@BACKGROUNDDIR@/amber-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/amber-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#ff7800",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "previousFileHash": "3a0614e3818d7ee2847064dc7ad9f8a0306c2f88",
+    "originalRepoPath": "backgrounds/amber-d.jxl",
+    "name": "amber-d",
+    "message": "Revert to oldschool formats for 45",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "newFileHash": "492087aedbb7a4fbe5e997c88b1ac3568fc992fa",
+    "file": "images/492087aedbb7a4fbe5e997c88b1ac3568fc992fa.webp",
+    "originalRepoPath": "backgrounds/amber-l.jpg",
+    "name": "amber-l",
+    "message": "Revert to oldschool formats for 45",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Amber",
+        "filename": "@BACKGROUNDDIR@/amber-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/amber-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#ff7800",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "previousFileHash": "caffd62501523cf09e381eee9f7c5a7415ab78ea",
+    "originalRepoPath": "backgrounds/amber-l.jxl",
+    "name": "amber-l",
+    "message": "Revert to oldschool formats for 45",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "newFileHash": "69f13d88309faf4aedebd05e9ad0f5c12ab4ea4e",
+    "file": "images/69f13d88309faf4aedebd05e9ad0f5c12ab4ea4e.webp",
+    "originalRepoPath": "backgrounds/design-is-rounded-rectangles-d.jpg",
+    "name": "design-is-rounded-rectangles-d",
+    "message": "Revert to oldschool formats for 45",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Design is Rounded Rectangles",
+        "filename": "@BACKGROUNDDIR@/design-is-rounded-rectangles-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/design-is-rounded-rectangles-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#b75e5c",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "previousFileHash": "2799435de45bb52941afa0f64c1648ce5bc07e2b",
+    "originalRepoPath": "backgrounds/design-is-rounded-rectangles-d.jxl",
+    "name": "design-is-rounded-rectangles-d",
+    "message": "Revert to oldschool formats for 45",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "newFileHash": "1fc848cdeed5e3918f042321dfd5faf8127c7c82",
+    "file": "images/1fc848cdeed5e3918f042321dfd5faf8127c7c82.webp",
+    "originalRepoPath": "backgrounds/design-is-rounded-rectangles-l.jpg",
+    "name": "design-is-rounded-rectangles-l",
+    "message": "Revert to oldschool formats for 45",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Design is Rounded Rectangles",
+        "filename": "@BACKGROUNDDIR@/design-is-rounded-rectangles-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/design-is-rounded-rectangles-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#b75e5c",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "previousFileHash": "b08f39c4f66644798923e77022f4bb7134db53c2",
+    "originalRepoPath": "backgrounds/design-is-rounded-rectangles-l.jxl",
+    "name": "design-is-rounded-rectangles-l",
+    "message": "Revert to oldschool formats for 45",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "newFileHash": "e6a1341a4436cf166fcadf60f4a833cbf69c1f57",
+    "file": "images/e6a1341a4436cf166fcadf60f4a833cbf69c1f57.webp",
+    "originalRepoPath": "backgrounds/fold-d.jpg",
+    "name": "fold-d",
+    "message": "Revert to oldschool formats for 45",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/fold-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/fold-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#26a269",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "previousFileHash": "e5f8decdcff4dca8b26dda9b3dcd1e5f5fa6dfad",
+    "originalRepoPath": "backgrounds/fold-d.jxl",
+    "name": "fold-d",
+    "message": "Revert to oldschool formats for 45",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "newFileHash": "74d21c02ccdbf1c5176e392eee567bbbadecfd0e",
+    "file": "images/74d21c02ccdbf1c5176e392eee567bbbadecfd0e.webp",
+    "originalRepoPath": "backgrounds/fold-l.jpg",
+    "name": "fold-l",
+    "message": "Revert to oldschool formats for 45",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/fold-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/fold-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#26a269",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "previousFileHash": "fc705b0c047688b3a2e3990ae8bdcc4213646e87",
+    "originalRepoPath": "backgrounds/fold-l.jxl",
+    "name": "fold-l",
+    "message": "Revert to oldschool formats for 45",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "newFileHash": "65e33e56cb91fc3b79d997399d2b660fbad42c84",
+    "file": "images/65e33e56cb91fc3b79d997399d2b660fbad42c84.webp",
+    "originalRepoPath": "backgrounds/keys-d.jpg",
+    "name": "keys-d",
+    "message": "Revert to oldschool formats for 45",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Keys",
+        "filename": "@BACKGROUNDDIR@/keys-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/keys-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#aaaaaa",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "previousFileHash": "d468da388fdcec398b2391a2e925c9640679210a",
+    "originalRepoPath": "backgrounds/keys-d.jxl",
+    "name": "keys-d",
+    "message": "Revert to oldschool formats for 45",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "newFileHash": "0b7c3341ef701f27cf024df6918d168f17a6a433",
+    "file": "images/0b7c3341ef701f27cf024df6918d168f17a6a433.webp",
+    "originalRepoPath": "backgrounds/keys-l.jpg",
+    "name": "keys-l",
+    "message": "Revert to oldschool formats for 45",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Keys",
+        "filename": "@BACKGROUNDDIR@/keys-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/keys-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#aaaaaa",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "previousFileHash": "8a1f1f6e6c4b357e1a2d91a47518fc86813a75b7",
+    "originalRepoPath": "backgrounds/keys-l.jxl",
+    "name": "keys-l",
+    "message": "Revert to oldschool formats for 45",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "newFileHash": "21c9de8bcbc95d03072dbde21a76aa675000e1b1",
+    "file": "images/21c9de8bcbc95d03072dbde21a76aa675000e1b1.webp",
+    "originalRepoPath": "backgrounds/pills-d.jpg",
+    "name": "pills-d",
+    "message": "Revert to oldschool formats for 45",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Pills",
+        "filename": "@BACKGROUNDDIR@/pills-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/pills-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#d3a778",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "previousFileHash": "a5ccc1f6a159ab4c16abfe7d38adafad5477bf0d",
+    "originalRepoPath": "backgrounds/pills-d.jxl",
+    "name": "pills-d",
+    "message": "Revert to oldschool formats for 45",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "newFileHash": "4dde5506cc4888517e0dcc30fc3d267ce38674fe",
+    "file": "images/4dde5506cc4888517e0dcc30fc3d267ce38674fe.webp",
+    "originalRepoPath": "backgrounds/pills-l.jpg",
+    "name": "pills-l",
+    "message": "Revert to oldschool formats for 45",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Pills",
+        "filename": "@BACKGROUNDDIR@/pills-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/pills-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#d3a778",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "previousFileHash": "2953c455bda733a3781d56624149210ff90f477a",
+    "originalRepoPath": "backgrounds/pills-l.jxl",
+    "name": "pills-l",
+    "message": "Revert to oldschool formats for 45",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "previousFileHash": "f1d099a5ff89bbca714de01a1b6644892360794c",
+    "originalRepoPath": "backgrounds/pipes-d.jxl",
+    "name": "pipes-d",
+    "message": "Revert to oldschool formats for 45",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "previousFileHash": "aa8c59f67f65495465d6123d4989eef574a1d645",
+    "originalRepoPath": "backgrounds/pipes-l.jxl",
+    "name": "pipes-l",
+    "message": "Revert to oldschool formats for 45",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "newFileHash": "fe989648cbcfa4d089b5cf6e82eea7417526cca6",
+    "file": "images/fe989648cbcfa4d089b5cf6e82eea7417526cca6.webp",
+    "originalRepoPath": "backgrounds/pixels-d.jpg",
+    "name": "pixels-d",
+    "message": "Revert to oldschool formats for 45",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Pixels",
+        "filename": "@BACKGROUNDDIR@/pixels-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/pixels-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#967864",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "previousFileHash": "0ea7df8087af7bc0dd1b1764df8fb2272e816d1e",
+    "originalRepoPath": "backgrounds/pixels-d.jxl",
+    "name": "pixels-d",
+    "message": "Revert to oldschool formats for 45",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "newFileHash": "fdf1f5483ec85cc58f7d6c3fabbad597dc0004e4",
+    "file": "images/fdf1f5483ec85cc58f7d6c3fabbad597dc0004e4.webp",
+    "originalRepoPath": "backgrounds/pixels-l.jpg",
+    "name": "pixels-l",
+    "message": "Revert to oldschool formats for 45",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Pixels",
+        "filename": "@BACKGROUNDDIR@/pixels-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/pixels-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#967864",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "previousFileHash": "0a9b5deacd27f094a281ce7468b1d486d359d999",
+    "originalRepoPath": "backgrounds/pixels-l.jxl",
+    "name": "pixels-l",
+    "message": "Revert to oldschool formats for 45",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "previousFileHash": "7e125b7e8d82c018ed9924f96ce24022436e287a",
+    "originalRepoPath": "backgrounds/symbolic-d.jxl",
+    "name": "symbolic-d",
+    "message": "Revert to oldschool formats for 45",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "newFileHash": "011ea257dd6a35dc3832d3ebecaffff9d5563f2b",
+    "file": "images/011ea257dd6a35dc3832d3ebecaffff9d5563f2b.webp",
+    "originalRepoPath": "backgrounds/symbolic-d.png",
+    "name": "symbolic-d",
+    "message": "Revert to oldschool formats for 45",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Symbolics",
+        "filename": "@BACKGROUNDDIR@/symbolic-l.png",
+        "filename-dark": "@BACKGROUNDDIR@/symbolic-d.png",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#26a269",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "previousFileHash": "78bbac1ec110165937a050337e7fc40c12f3e2fd",
+    "originalRepoPath": "backgrounds/symbolic-l.jxl",
+    "name": "symbolic-l",
+    "message": "Revert to oldschool formats for 45",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "newFileHash": "d5c22d4165087943ffb153c057d6b0588dcec488",
+    "file": "images/d5c22d4165087943ffb153c057d6b0588dcec488.webp",
+    "originalRepoPath": "backgrounds/symbolic-l.png",
+    "name": "symbolic-l",
+    "message": "Revert to oldschool formats for 45",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Symbolics",
+        "filename": "@BACKGROUNDDIR@/symbolic-l.png",
+        "filename-dark": "@BACKGROUNDDIR@/symbolic-d.png",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#26a269",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "newFileHash": "58ed2f1609123203110e06bd7586708fccbea5ee",
+    "file": "images/58ed2f1609123203110e06bd7586708fccbea5ee.webp",
+    "originalRepoPath": "backgrounds/truchet-d.jpg",
+    "name": "truchet-d",
+    "message": "Revert to oldschool formats for 45",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Truchet",
+        "filename": "@BACKGROUNDDIR@/truchet-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/truchet-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#ac5e0b",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "previousFileHash": "2acd72b2ab6c516ecb2fcfff9f7078d2f93e9325",
+    "originalRepoPath": "backgrounds/truchet-d.jxl",
+    "name": "truchet-d",
+    "message": "Revert to oldschool formats for 45",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "newFileHash": "ee216c01a0934efd59e789f220864cf1a3b39407",
+    "file": "images/ee216c01a0934efd59e789f220864cf1a3b39407.webp",
+    "originalRepoPath": "backgrounds/truchet-l.jpg",
+    "name": "truchet-l",
+    "message": "Revert to oldschool formats for 45",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Truchet",
+        "filename": "@BACKGROUNDDIR@/truchet-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/truchet-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#ac5e0b",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "previousFileHash": "d66b068f791b10d98bb5b84d1ff1cb823ec74036",
+    "originalRepoPath": "backgrounds/truchet-l.jxl",
+    "name": "truchet-l",
+    "message": "Revert to oldschool formats for 45",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "previousFileHash": "e79df8a1bd472b5bd5624df0969021ef6fa684fb",
+    "originalRepoPath": "backgrounds/vnc-d.jxl",
+    "name": "vnc-d",
+    "message": "Revert to oldschool formats for 45",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "newFileHash": "7d9432161002a7494ff05853bfacdf7b55277b74",
+    "file": "images/7d9432161002a7494ff05853bfacdf7b55277b74.webp",
+    "originalRepoPath": "backgrounds/vnc-d.png",
+    "name": "vnc-d",
+    "message": "Revert to oldschool formats for 45",
+    "type": "add",
+    "configs": [
+      {
+        "name": "VNC",
+        "filename": "@BACKGROUNDDIR@/vnc-l.png",
+        "filename-dark": "@BACKGROUNDDIR@/vnc-d.png",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#77767B",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "previousFileHash": "44a639e3970e5f5e5c41e52a8e8adc18f19ddbac",
+    "originalRepoPath": "backgrounds/vnc-l.jxl",
+    "name": "vnc-l",
+    "message": "Revert to oldschool formats for 45",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "3fa3666d71c88e33e043d0322d56ba0667a30e86",
+    "date": 1691662124,
+    "newFileHash": "7b5275895e40dd8b494c15e640964fcc7d525d21",
+    "file": "images/7b5275895e40dd8b494c15e640964fcc7d525d21.webp",
+    "originalRepoPath": "backgrounds/vnc-l.png",
+    "name": "vnc-l",
+    "message": "Revert to oldschool formats for 45",
+    "type": "add",
+    "configs": [
+      {
+        "name": "VNC",
+        "filename": "@BACKGROUNDDIR@/vnc-l.png",
+        "filename-dark": "@BACKGROUNDDIR@/vnc-d.png",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#77767B",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "57234642983e741c53e635a4e88f2d9fc48a564e",
+    "date": 1695674986,
+    "newFileHash": "631c0d5dc587b38cb5f52469fa3a1060d3b7efe7",
+    "file": "images/631c0d5dc587b38cb5f52469fa3a1060d3b7efe7.webp",
+    "originalRepoPath": "backgrounds/tarka-d.jxl",
+    "name": "tarka-d",
+    "message": "new JPEG-XL wallpaper",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Truchet",
+        "filename": "@BACKGROUNDDIR@/tarka-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/tarka-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#bea7c1",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "57234642983e741c53e635a4e88f2d9fc48a564e",
+    "date": 1695674986,
+    "newFileHash": "5d487b1eec5d0db797d7ebd542c1152e838cfb9c",
+    "file": "images/5d487b1eec5d0db797d7ebd542c1152e838cfb9c.webp",
+    "originalRepoPath": "backgrounds/tarka-l.jxl",
+    "name": "tarka-l",
+    "message": "new JPEG-XL wallpaper",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Truchet",
+        "filename": "@BACKGROUNDDIR@/tarka-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/tarka-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#bea7c1",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "57234642983e741c53e635a4e88f2d9fc48a564e",
+    "date": 1695674986,
+    "previousFileHash": "58ed2f1609123203110e06bd7586708fccbea5ee",
+    "originalRepoPath": "backgrounds/truchet-d.jpg",
+    "name": "truchet-d",
+    "message": "new JPEG-XL wallpaper",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "57234642983e741c53e635a4e88f2d9fc48a564e",
+    "date": 1695674986,
+    "previousFileHash": "ee216c01a0934efd59e789f220864cf1a3b39407",
+    "originalRepoPath": "backgrounds/truchet-l.jpg",
+    "name": "truchet-l",
+    "message": "new JPEG-XL wallpaper",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "5559645cefba7cbaea88e5cc72c53460162df31d",
+    "date": 1695744307,
+    "newFileHash": "0250546403b2dc15342db961370f68084aacb4dd",
+    "file": "images/0250546403b2dc15342db961370f68084aacb4dd.webp",
+    "originalRepoPath": "backgrounds/stripes-d.jxl",
+    "name": "stripes-d",
+    "message": "stripes revival",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Truchet",
+        "filename": "@BACKGROUNDDIR@/stripes-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/stripes-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#2374a3",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "5559645cefba7cbaea88e5cc72c53460162df31d",
+    "date": 1695744307,
+    "newFileHash": "f79ca5b4064bce0900431c0abf7fb3c1a4f7d72f",
+    "file": "images/f79ca5b4064bce0900431c0abf7fb3c1a4f7d72f.webp",
+    "originalRepoPath": "backgrounds/stripes-l.jxl",
+    "name": "stripes-l",
+    "message": "stripes revival",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Truchet",
+        "filename": "@BACKGROUNDDIR@/stripes-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/stripes-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#2374a3",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "0019ace113331268dd973197281b07e917cb5f8f",
+    "date": 1695745070,
+    "previousFileHash": "b4b2a232aca95542eb3e1b2e5dec4e603068f263",
+    "newFileHash": "adaee580202ee33812740e0278b7f45a13cb8222",
+    "file": "images/adaee580202ee33812740e0278b7f45a13cb8222.webp",
+    "originalRepoPath": "backgrounds/adwaita-d.jpg",
+    "name": "adwaita-d",
+    "message": "default: try Amber colors",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3071AE",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "0019ace113331268dd973197281b07e917cb5f8f",
+    "date": 1695745070,
+    "previousFileHash": "6dbc2875e66ce32b922a6b46914bb3fa3e4c7313",
+    "newFileHash": "a00384d054860927dcb7f76eb668976874a8f0a4",
+    "file": "images/a00384d054860927dcb7f76eb668976874a8f0a4.webp",
+    "originalRepoPath": "backgrounds/adwaita-l.jpg",
+    "name": "adwaita-l",
+    "message": "default: try Amber colors",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3071AE",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
+    "previousFileHash": "adaee580202ee33812740e0278b7f45a13cb8222",
     "originalRepoPath": "backgrounds/adwaita-d.jpg",
     "name": "adwaita-d",
     "message": "Currently in gnome-backgrounds",
@@ -13852,9 +15160,9 @@
     ]
   },
   {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
-    "previousFileHash": "d6e5a3bc444173cf32ba50d6914dd6001642c65a",
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
+    "previousFileHash": "a00384d054860927dcb7f76eb668976874a8f0a4",
     "originalRepoPath": "backgrounds/adwaita-l.jpg",
     "name": "adwaita-l",
     "message": "Currently in gnome-backgrounds",
@@ -13872,8 +15180,48 @@
     ]
   },
   {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
+    "previousFileHash": "205fc9846726caf2169882546d06c1bfa41d5a33",
+    "originalRepoPath": "backgrounds/amber-d.jpg",
+    "name": "amber-d",
+    "message": "Currently in gnome-backgrounds",
+    "type": "delete",
+    "configs": [
+      {
+        "name": "Amber",
+        "filename": "@BACKGROUNDDIR@/amber-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/amber-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#ff7800",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
+    "previousFileHash": "492087aedbb7a4fbe5e997c88b1ac3568fc992fa",
+    "originalRepoPath": "backgrounds/amber-l.jpg",
+    "name": "amber-l",
+    "message": "Currently in gnome-backgrounds",
+    "type": "delete",
+    "configs": [
+      {
+        "name": "Amber",
+        "filename": "@BACKGROUNDDIR@/amber-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/amber-d.jpg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#ff7800",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
     "previousFileHash": "e1f6382b140af6f8a43dc8c7e779d5c5a1c95364",
     "originalRepoPath": "backgrounds/blobs-d.svg",
     "name": "blobs-d",
@@ -13892,8 +15240,8 @@
     ]
   },
   {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
     "previousFileHash": "b49caff1a7941d98b60902da64956ad85dfbe4f9",
     "originalRepoPath": "backgrounds/blobs-l.svg",
     "name": "blobs-l",
@@ -13912,18 +15260,18 @@
     ]
   },
   {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
-    "previousFileHash": "2799435de45bb52941afa0f64c1648ce5bc07e2b",
-    "originalRepoPath": "backgrounds/design-is-rounded-rectangles-d.jxl",
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
+    "previousFileHash": "69f13d88309faf4aedebd05e9ad0f5c12ab4ea4e",
+    "originalRepoPath": "backgrounds/design-is-rounded-rectangles-d.jpg",
     "name": "design-is-rounded-rectangles-d",
     "message": "Currently in gnome-backgrounds",
     "type": "delete",
     "configs": [
       {
         "name": "Design is Rounded Rectangles",
-        "filename": "@BACKGROUNDDIR@/design-is-rounded-rectangles-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/design-is-rounded-rectangles-d.jxl",
+        "filename": "@BACKGROUNDDIR@/design-is-rounded-rectangles-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/design-is-rounded-rectangles-d.jpg",
         "options": "zoom",
         "shade_type": "solid",
         "pcolor": "#b75e5c",
@@ -13932,18 +15280,18 @@
     ]
   },
   {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
-    "previousFileHash": "b08f39c4f66644798923e77022f4bb7134db53c2",
-    "originalRepoPath": "backgrounds/design-is-rounded-rectangles-l.jxl",
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
+    "previousFileHash": "1fc848cdeed5e3918f042321dfd5faf8127c7c82",
+    "originalRepoPath": "backgrounds/design-is-rounded-rectangles-l.jpg",
     "name": "design-is-rounded-rectangles-l",
     "message": "Currently in gnome-backgrounds",
     "type": "delete",
     "configs": [
       {
         "name": "Design is Rounded Rectangles",
-        "filename": "@BACKGROUNDDIR@/design-is-rounded-rectangles-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/design-is-rounded-rectangles-d.jxl",
+        "filename": "@BACKGROUNDDIR@/design-is-rounded-rectangles-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/design-is-rounded-rectangles-d.jpg",
         "options": "zoom",
         "shade_type": "solid",
         "pcolor": "#b75e5c",
@@ -13952,8 +15300,8 @@
     ]
   },
   {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
     "previousFileHash": "f6af478302e042a2ad6897801378e2fcab296746",
     "originalRepoPath": "backgrounds/drool-d.svg",
     "name": "drool-d",
@@ -13972,8 +15320,8 @@
     ]
   },
   {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
     "previousFileHash": "10ff7555d08f6c12647b6320c89eff0febede374",
     "originalRepoPath": "backgrounds/drool-l.svg",
     "name": "drool-l",
@@ -13992,18 +15340,18 @@
     ]
   },
   {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
-    "previousFileHash": "659b02e00e7afe990e16d4fd7118ce92bd476168",
-    "originalRepoPath": "backgrounds/fold-d.jxl",
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
+    "previousFileHash": "e6a1341a4436cf166fcadf60f4a833cbf69c1f57",
+    "originalRepoPath": "backgrounds/fold-d.jpg",
     "name": "fold-d",
     "message": "Currently in gnome-backgrounds",
     "type": "delete",
     "configs": [
       {
         "name": "Fold",
-        "filename": "@BACKGROUNDDIR@/fold-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/fold-d.jxl",
+        "filename": "@BACKGROUNDDIR@/fold-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/fold-d.jpg",
         "options": "zoom",
         "shade_type": "solid",
         "pcolor": "#26a269",
@@ -14012,18 +15360,18 @@
     ]
   },
   {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
-    "previousFileHash": "d3705f99ad205cf87fbc97d60b04c23204259d32",
-    "originalRepoPath": "backgrounds/fold-l.jxl",
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
+    "previousFileHash": "74d21c02ccdbf1c5176e392eee567bbbadecfd0e",
+    "originalRepoPath": "backgrounds/fold-l.jpg",
     "name": "fold-l",
     "message": "Currently in gnome-backgrounds",
     "type": "delete",
     "configs": [
       {
         "name": "Fold",
-        "filename": "@BACKGROUNDDIR@/fold-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/fold-d.jxl",
+        "filename": "@BACKGROUNDDIR@/fold-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/fold-d.jpg",
         "options": "zoom",
         "shade_type": "solid",
         "pcolor": "#26a269",
@@ -14032,18 +15380,18 @@
     ]
   },
   {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
-    "previousFileHash": "d468da388fdcec398b2391a2e925c9640679210a",
-    "originalRepoPath": "backgrounds/keys-d.jxl",
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
+    "previousFileHash": "65e33e56cb91fc3b79d997399d2b660fbad42c84",
+    "originalRepoPath": "backgrounds/keys-d.jpg",
     "name": "keys-d",
     "message": "Currently in gnome-backgrounds",
     "type": "delete",
     "configs": [
       {
         "name": "Keys",
-        "filename": "@BACKGROUNDDIR@/keys-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/keys-d.jxl",
+        "filename": "@BACKGROUNDDIR@/keys-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/keys-d.jpg",
         "options": "zoom",
         "shade_type": "solid",
         "pcolor": "#aaaaaa",
@@ -14052,18 +15400,18 @@
     ]
   },
   {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
-    "previousFileHash": "8a1f1f6e6c4b357e1a2d91a47518fc86813a75b7",
-    "originalRepoPath": "backgrounds/keys-l.jxl",
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
+    "previousFileHash": "0b7c3341ef701f27cf024df6918d168f17a6a433",
+    "originalRepoPath": "backgrounds/keys-l.jpg",
     "name": "keys-l",
     "message": "Currently in gnome-backgrounds",
     "type": "delete",
     "configs": [
       {
         "name": "Keys",
-        "filename": "@BACKGROUNDDIR@/keys-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/keys-d.jxl",
+        "filename": "@BACKGROUNDDIR@/keys-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/keys-d.jpg",
         "options": "zoom",
         "shade_type": "solid",
         "pcolor": "#aaaaaa",
@@ -14072,9 +15420,9 @@
     ]
   },
   {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
-    "previousFileHash": "8af0649d6f468bab8e7239bb1ff29f7a5f0da1e5",
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
+    "previousFileHash": "d4207b7b21b8b6da35d5c43f48d8441012de8a6e",
     "originalRepoPath": "backgrounds/morphogenesis-d.svg",
     "name": "morphogenesis-d",
     "message": "Currently in gnome-backgrounds",
@@ -14092,9 +15440,9 @@
     ]
   },
   {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
-    "previousFileHash": "4c59d4c5bb588ce97708dcf0da49bfb9bbdd6e5d",
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
+    "previousFileHash": "b491162fb72dcc97d7f766d757fbe13b0580ac91",
     "originalRepoPath": "backgrounds/morphogenesis-l.svg",
     "name": "morphogenesis-l",
     "message": "Currently in gnome-backgrounds",
@@ -14112,18 +15460,18 @@
     ]
   },
   {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
-    "previousFileHash": "a5ccc1f6a159ab4c16abfe7d38adafad5477bf0d",
-    "originalRepoPath": "backgrounds/pills-d.jxl",
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
+    "previousFileHash": "21c9de8bcbc95d03072dbde21a76aa675000e1b1",
+    "originalRepoPath": "backgrounds/pills-d.jpg",
     "name": "pills-d",
     "message": "Currently in gnome-backgrounds",
     "type": "delete",
     "configs": [
       {
         "name": "Pills",
-        "filename": "@BACKGROUNDDIR@/pills-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/pills-d.jxl",
+        "filename": "@BACKGROUNDDIR@/pills-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/pills-d.jpg",
         "options": "zoom",
         "shade_type": "solid",
         "pcolor": "#d3a778",
@@ -14132,18 +15480,18 @@
     ]
   },
   {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
-    "previousFileHash": "2953c455bda733a3781d56624149210ff90f477a",
-    "originalRepoPath": "backgrounds/pills-l.jxl",
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
+    "previousFileHash": "4dde5506cc4888517e0dcc30fc3d267ce38674fe",
+    "originalRepoPath": "backgrounds/pills-l.jpg",
     "name": "pills-l",
     "message": "Currently in gnome-backgrounds",
     "type": "delete",
     "configs": [
       {
         "name": "Pills",
-        "filename": "@BACKGROUNDDIR@/pills-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/pills-d.jxl",
+        "filename": "@BACKGROUNDDIR@/pills-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/pills-d.jpg",
         "options": "zoom",
         "shade_type": "solid",
         "pcolor": "#d3a778",
@@ -14152,58 +15500,18 @@
     ]
   },
   {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
-    "previousFileHash": "f1d099a5ff89bbca714de01a1b6644892360794c",
-    "originalRepoPath": "backgrounds/pipes-d.jxl",
-    "name": "pipes-d",
-    "message": "Currently in gnome-backgrounds",
-    "type": "delete",
-    "configs": [
-      {
-        "name": "Pipes",
-        "filename": "@BACKGROUNDDIR@/pipes-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/pipes-d.jxl",
-        "options": "zoom",
-        "shade_type": "solid",
-        "pcolor": "#f7a957",
-        "scolor": "#000000"
-      }
-    ]
-  },
-  {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
-    "previousFileHash": "aa8c59f67f65495465d6123d4989eef574a1d645",
-    "originalRepoPath": "backgrounds/pipes-l.jxl",
-    "name": "pipes-l",
-    "message": "Currently in gnome-backgrounds",
-    "type": "delete",
-    "configs": [
-      {
-        "name": "Pipes",
-        "filename": "@BACKGROUNDDIR@/pipes-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/pipes-d.jxl",
-        "options": "zoom",
-        "shade_type": "solid",
-        "pcolor": "#f7a957",
-        "scolor": "#000000"
-      }
-    ]
-  },
-  {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
-    "previousFileHash": "851f09db3e9ca6e3490685a76bea7dc03d070c9c",
-    "originalRepoPath": "backgrounds/pixels-d.jxl",
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
+    "previousFileHash": "fe989648cbcfa4d089b5cf6e82eea7417526cca6",
+    "originalRepoPath": "backgrounds/pixels-d.jpg",
     "name": "pixels-d",
     "message": "Currently in gnome-backgrounds",
     "type": "delete",
     "configs": [
       {
         "name": "Pixels",
-        "filename": "@BACKGROUNDDIR@/pixels-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/pixels-d.jxl",
+        "filename": "@BACKGROUNDDIR@/pixels-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/pixels-d.jpg",
         "options": "zoom",
         "shade_type": "solid",
         "pcolor": "#967864",
@@ -14212,18 +15520,18 @@
     ]
   },
   {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
-    "previousFileHash": "306e7645e74dd94cd2f8cdeb57bbf62e669b02f8",
-    "originalRepoPath": "backgrounds/pixels-l.jxl",
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
+    "previousFileHash": "fdf1f5483ec85cc58f7d6c3fabbad597dc0004e4",
+    "originalRepoPath": "backgrounds/pixels-l.jpg",
     "name": "pixels-l",
     "message": "Currently in gnome-backgrounds",
     "type": "delete",
     "configs": [
       {
         "name": "Pixels",
-        "filename": "@BACKGROUNDDIR@/pixels-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/pixels-d.jxl",
+        "filename": "@BACKGROUNDDIR@/pixels-l.jpg",
+        "filename-dark": "@BACKGROUNDDIR@/pixels-d.jpg",
         "options": "zoom",
         "shade_type": "solid",
         "pcolor": "#967864",
@@ -14232,18 +15540,58 @@
     ]
   },
   {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
-    "previousFileHash": "7e125b7e8d82c018ed9924f96ce24022436e287a",
-    "originalRepoPath": "backgrounds/symbolic-d.jxl",
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
+    "previousFileHash": "0250546403b2dc15342db961370f68084aacb4dd",
+    "originalRepoPath": "backgrounds/stripes-d.jxl",
+    "name": "stripes-d",
+    "message": "Currently in gnome-backgrounds",
+    "type": "delete",
+    "configs": [
+      {
+        "name": "Truchet",
+        "filename": "@BACKGROUNDDIR@/stripes-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/stripes-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#2374a3",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
+    "previousFileHash": "f79ca5b4064bce0900431c0abf7fb3c1a4f7d72f",
+    "originalRepoPath": "backgrounds/stripes-l.jxl",
+    "name": "stripes-l",
+    "message": "Currently in gnome-backgrounds",
+    "type": "delete",
+    "configs": [
+      {
+        "name": "Truchet",
+        "filename": "@BACKGROUNDDIR@/stripes-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/stripes-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#2374a3",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
+    "previousFileHash": "011ea257dd6a35dc3832d3ebecaffff9d5563f2b",
+    "originalRepoPath": "backgrounds/symbolic-d.png",
     "name": "symbolic-d",
     "message": "Currently in gnome-backgrounds",
     "type": "delete",
     "configs": [
       {
         "name": "Symbolics",
-        "filename": "@BACKGROUNDDIR@/symbolic-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/symbolic-d.jxl",
+        "filename": "@BACKGROUNDDIR@/symbolic-l.png",
+        "filename-dark": "@BACKGROUNDDIR@/symbolic-d.png",
         "options": "zoom",
         "shade_type": "solid",
         "pcolor": "#26a269",
@@ -14252,18 +15600,18 @@
     ]
   },
   {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
-    "previousFileHash": "78bbac1ec110165937a050337e7fc40c12f3e2fd",
-    "originalRepoPath": "backgrounds/symbolic-l.jxl",
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
+    "previousFileHash": "d5c22d4165087943ffb153c057d6b0588dcec488",
+    "originalRepoPath": "backgrounds/symbolic-l.png",
     "name": "symbolic-l",
     "message": "Currently in gnome-backgrounds",
     "type": "delete",
     "configs": [
       {
         "name": "Symbolics",
-        "filename": "@BACKGROUNDDIR@/symbolic-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/symbolic-d.jxl",
+        "filename": "@BACKGROUNDDIR@/symbolic-l.png",
+        "filename-dark": "@BACKGROUNDDIR@/symbolic-d.png",
         "options": "zoom",
         "shade_type": "solid",
         "pcolor": "#26a269",
@@ -14272,68 +15620,88 @@
     ]
   },
   {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
-    "previousFileHash": "e75abe3bd2f996f05949fe36671d2de1b0360581",
-    "originalRepoPath": "backgrounds/truchet-d.jxl",
-    "name": "truchet-d",
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
+    "previousFileHash": "631c0d5dc587b38cb5f52469fa3a1060d3b7efe7",
+    "originalRepoPath": "backgrounds/tarka-d.jxl",
+    "name": "tarka-d",
     "message": "Currently in gnome-backgrounds",
     "type": "delete",
     "configs": [
       {
         "name": "Truchet",
-        "filename": "@BACKGROUNDDIR@/truchet-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/truchet-d.jxl",
+        "filename": "@BACKGROUNDDIR@/tarka-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/tarka-d.jxl",
         "options": "zoom",
         "shade_type": "solid",
-        "pcolor": "#ac5e0b",
+        "pcolor": "#bea7c1",
         "scolor": "#000000"
       }
     ]
   },
   {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
-    "previousFileHash": "5dcfffbdfc54e008727b6ca2cebd1b22021610f0",
-    "originalRepoPath": "backgrounds/truchet-l.jxl",
-    "name": "truchet-l",
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
+    "previousFileHash": "5d487b1eec5d0db797d7ebd542c1152e838cfb9c",
+    "originalRepoPath": "backgrounds/tarka-l.jxl",
+    "name": "tarka-l",
     "message": "Currently in gnome-backgrounds",
     "type": "delete",
     "configs": [
       {
         "name": "Truchet",
-        "filename": "@BACKGROUNDDIR@/truchet-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/truchet-d.jxl",
+        "filename": "@BACKGROUNDDIR@/tarka-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/tarka-d.jxl",
         "options": "zoom",
         "shade_type": "solid",
-        "pcolor": "#ac5e0b",
+        "pcolor": "#bea7c1",
         "scolor": "#000000"
       }
     ]
   },
   {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
-    "previousFileHash": "e79df8a1bd472b5bd5624df0969021ef6fa684fb",
-    "originalRepoPath": "backgrounds/vnc-d.jxl",
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
+    "previousFileHash": "7d9432161002a7494ff05853bfacdf7b55277b74",
+    "originalRepoPath": "backgrounds/vnc-d.png",
     "name": "vnc-d",
     "message": "Currently in gnome-backgrounds",
     "type": "delete",
-    "configs": []
+    "configs": [
+      {
+        "name": "VNC",
+        "filename": "@BACKGROUNDDIR@/vnc-l.png",
+        "filename-dark": "@BACKGROUNDDIR@/vnc-d.png",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#77767B",
+        "scolor": "#000000"
+      }
+    ]
   },
   {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
-    "previousFileHash": "44a639e3970e5f5e5c41e52a8e8adc18f19ddbac",
-    "originalRepoPath": "backgrounds/vnc-l.jxl",
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
+    "previousFileHash": "7b5275895e40dd8b494c15e640964fcc7d525d21",
+    "originalRepoPath": "backgrounds/vnc-l.png",
     "name": "vnc-l",
     "message": "Currently in gnome-backgrounds",
     "type": "delete",
-    "configs": []
+    "configs": [
+      {
+        "name": "VNC",
+        "filename": "@BACKGROUNDDIR@/vnc-l.png",
+        "filename-dark": "@BACKGROUNDDIR@/vnc-d.png",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#77767B",
+        "scolor": "#000000"
+      }
+    ]
   },
   {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
     "previousFileHash": "c3d415d368b6a598c4e2848b0a085f19e6066b8a",
     "originalRepoPath": "badscaling.jpg",
     "name": "badscaling",
@@ -14342,8 +15710,8 @@
     "configs": []
   },
   {
-    "commit": "0ffa3752741a62dc83f8a1b0a2aa00e11aa48dad",
-    "date": 1690159468,
+    "commit": "bc921981267b9333ec720b2f6852ca5cffdc008b",
+    "date": 1695757668,
     "previousFileHash": "7e1e750a9c4d3134089b03256a9c20cf88463896",
     "originalRepoPath": "defaults.webp",
     "name": "defaults",
