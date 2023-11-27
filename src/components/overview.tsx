@@ -9,18 +9,6 @@ export type OverviewProps = {
 export const Overview = ({ wallpapers }: OverviewProps) => {
   return (
     <>
-      {/* <h1
-        css={css`
-          font-size: 0.9rem;
-          text-align: center;
-          padding-top: 0.75rem;
-          padding-bottom: 0.75rem;
-          background-color: #303030;
-          font-weight: 575;
-        `}
-      >
-        Wallpapers
-      </h1> */}
       <div
         css={css`
           display: grid;
