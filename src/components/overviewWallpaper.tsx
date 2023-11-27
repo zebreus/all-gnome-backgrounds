@@ -77,7 +77,6 @@ export const OverviewWallpaper = ({ wallpaper }: OverviewProps) => {
           <h2
             css={css`
               font-size: 2rem;
-              color: white;
               text-decoration: none !important;
               cursor: inherit;
               margin-top: 0;

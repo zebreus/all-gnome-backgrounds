@@ -1,5 +1,32 @@
+/* Colors set according to libadwaita: https://gnome.pages.gitlab.gnome.org/libadwaita/doc/main/named-colors.html#window-colors */
+
+@property --window_bg_color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #242424;
+}
+
+@property --window_fg_color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #ffffff;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --window_fg_color: rgba(0, 0, 0, 0.8);
+    --window_bg_color: #fafafa;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --window_fg_color: #ffffff;
+    --window_bg_color: #242424;
+  }
+}
+
 body {
-  background-color: #1e1e1e;
-  color: #fff;
+  background-color: var(--window_bg_color, #242424);
+  color: var(--window_fg_color, #ffffff);
   font-family: Cantarell, "Droid Sans", Ubuntu, "DejaVu Sans", Arial, sans-serif !important;
 }
