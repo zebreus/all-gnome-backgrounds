@@ -16066,9 +16066,141 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "4b62c9c0f7a7b614e3261919148e71a87718c8fd",
+    "date": 1704721790,
     "previousFileHash": "1ade8feed70c5a3929c6b2454d9a5fb5cc12c4d1",
+    "newFileHash": "f9db8660cbbd0cd5771b2cb3bdf759d21c16517b",
+    "file": "images/f9db8660cbbd0cd5771b2cb3bdf759d21c16517b.webp",
+    "originalRepoPath": "backgrounds/adwaita-d.jxl",
+    "name": "adwaita-d",
+    "message": "adwaita: eevee renders",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3071AE",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "4b62c9c0f7a7b614e3261919148e71a87718c8fd",
+    "date": 1704721790,
+    "previousFileHash": "55ddae38934be46a73cf4b7061188a8733785641",
+    "newFileHash": "aef717ace1738c305f4565afde7d540fcf73a327",
+    "file": "images/aef717ace1738c305f4565afde7d540fcf73a327.webp",
+    "originalRepoPath": "backgrounds/adwaita-l.jxl",
+    "name": "adwaita-l",
+    "message": "adwaita: eevee renders",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3071AE",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "da9bfc44171e15c0064deae823f37b0f8a41f018",
+    "date": 1704798916,
+    "previousFileHash": "f9db8660cbbd0cd5771b2cb3bdf759d21c16517b",
+    "newFileHash": "8cbc3556234160e126b6352489a13949b4efdc75",
+    "file": "images/8cbc3556234160e126b6352489a13949b4efdc75.webp",
+    "originalRepoPath": "backgrounds/adwaita-d.jxl",
+    "name": "adwaita-d",
+    "message": "adwaita: fine tune texture",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3071AE",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "da9bfc44171e15c0064deae823f37b0f8a41f018",
+    "date": 1704798916,
+    "previousFileHash": "aef717ace1738c305f4565afde7d540fcf73a327",
+    "newFileHash": "2a47bb131b818c17e5ccca2aa2939edebf984e30",
+    "file": "images/2a47bb131b818c17e5ccca2aa2939edebf984e30.webp",
+    "originalRepoPath": "backgrounds/adwaita-l.jxl",
+    "name": "adwaita-l",
+    "message": "adwaita: fine tune texture",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3071AE",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "4099ea4d6fd37585c7c29eef2020ac0f430ffdc6",
+    "date": 1704811769,
+    "previousFileHash": "8cbc3556234160e126b6352489a13949b4efdc75",
+    "newFileHash": "cf76a026608045e78d820ec82c8dbb6ea61b0aee",
+    "file": "images/cf76a026608045e78d820ec82c8dbb6ea61b0aee.webp",
+    "originalRepoPath": "backgrounds/adwaita-d.jxl",
+    "name": "adwaita-d",
+    "message": "adwaita: cycles render",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3071AE",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "4099ea4d6fd37585c7c29eef2020ac0f430ffdc6",
+    "date": 1704811769,
+    "previousFileHash": "2a47bb131b818c17e5ccca2aa2939edebf984e30",
+    "newFileHash": "ad16adc1f5429b225acdcc564e83a58c619e3527",
+    "file": "images/ad16adc1f5429b225acdcc564e83a58c619e3527.webp",
+    "originalRepoPath": "backgrounds/adwaita-l.jxl",
+    "name": "adwaita-l",
+    "message": "adwaita: cycles render",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3071AE",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
+    "previousFileHash": "cf76a026608045e78d820ec82c8dbb6ea61b0aee",
     "originalRepoPath": "backgrounds/adwaita-d.jxl",
     "name": "adwaita-d",
     "message": "Currently in gnome-backgrounds",
@@ -16086,9 +16218,9 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
-    "previousFileHash": "55ddae38934be46a73cf4b7061188a8733785641",
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
+    "previousFileHash": "ad16adc1f5429b225acdcc564e83a58c619e3527",
     "originalRepoPath": "backgrounds/adwaita-l.jxl",
     "name": "adwaita-l",
     "message": "Currently in gnome-backgrounds",
@@ -16106,8 +16238,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "1938c12fcd42b0c754886904c3465750f249831e",
     "originalRepoPath": "backgrounds/amber-d.jxl",
     "name": "amber-d",
@@ -16126,8 +16258,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "decf85d5adacd1bfdf0d16ac226a2026ac9ad9ac",
     "originalRepoPath": "backgrounds/amber-l.jxl",
     "name": "amber-l",
@@ -16146,8 +16278,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "e1f6382b140af6f8a43dc8c7e779d5c5a1c95364",
     "originalRepoPath": "backgrounds/blobs-d.svg",
     "name": "blobs-d",
@@ -16166,8 +16298,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "b49caff1a7941d98b60902da64956ad85dfbe4f9",
     "originalRepoPath": "backgrounds/blobs-l.svg",
     "name": "blobs-l",
@@ -16186,8 +16318,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "f6af478302e042a2ad6897801378e2fcab296746",
     "originalRepoPath": "backgrounds/drool-d.svg",
     "name": "drool-d",
@@ -16206,8 +16338,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "10ff7555d08f6c12647b6320c89eff0febede374",
     "originalRepoPath": "backgrounds/drool-l.svg",
     "name": "drool-l",
@@ -16226,8 +16358,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "daadc72c40adcc1261c0a42382a8e4b8966fdbb6",
     "originalRepoPath": "backgrounds/fold-d.jxl",
     "name": "fold-d",
@@ -16246,8 +16378,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "b8a4ea488b1f3e896ef46e498af728984f1d6888",
     "originalRepoPath": "backgrounds/fold-l.jxl",
     "name": "fold-l",
@@ -16266,8 +16398,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "ac8a06ea2ec077d8914c571ff9deb57ca3809992",
     "originalRepoPath": "backgrounds/geometrics-d.jxl",
     "name": "geometrics-d",
@@ -16286,8 +16418,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "fbc0bc6c805b55f08f35fa34cb2751f13309461a",
     "originalRepoPath": "backgrounds/geometrics-l.jxl",
     "name": "geometrics-l",
@@ -16306,8 +16438,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "03fe026cf3cd007c147ef4e9bff8e62420689059",
     "originalRepoPath": "backgrounds/glass-chip-d.jxl",
     "name": "glass-chip-d",
@@ -16326,8 +16458,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "d7cd83261a08a6b1b272874d62317af05a34bfc7",
     "originalRepoPath": "backgrounds/glass-chip-l.jxl",
     "name": "glass-chip-l",
@@ -16346,8 +16478,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "d4207b7b21b8b6da35d5c43f48d8441012de8a6e",
     "originalRepoPath": "backgrounds/morphogenesis-d.svg",
     "name": "morphogenesis-d",
@@ -16366,8 +16498,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "b491162fb72dcc97d7f766d757fbe13b0580ac91",
     "originalRepoPath": "backgrounds/morphogenesis-l.svg",
     "name": "morphogenesis-l",
@@ -16386,8 +16518,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "06d4d58298150da8d21f057cae641c964ae99d41",
     "originalRepoPath": "backgrounds/neogeo-d.jxl",
     "name": "neogeo-d",
@@ -16406,8 +16538,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "fe3b766a6b7759054915bfb49dd0f4db63a4346c",
     "originalRepoPath": "backgrounds/neogeo-l.jxl",
     "name": "neogeo-l",
@@ -16426,8 +16558,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "173a1ab4508ead00d637ef7b203b5b0d2d8c8c3c",
     "originalRepoPath": "backgrounds/pills-d.jxl",
     "name": "pills-d",
@@ -16446,8 +16578,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "0d772edc22cba523a4bd7148bcb5e95a33ff1655",
     "originalRepoPath": "backgrounds/pills-l.jxl",
     "name": "pills-l",
@@ -16466,8 +16598,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "fe989648cbcfa4d089b5cf6e82eea7417526cca6",
     "originalRepoPath": "backgrounds/pixels-d.jpg",
     "name": "pixels-d",
@@ -16486,8 +16618,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "fdf1f5483ec85cc58f7d6c3fabbad597dc0004e4",
     "originalRepoPath": "backgrounds/pixels-l.jpg",
     "name": "pixels-l",
@@ -16506,8 +16638,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "329491fabb05265ead49b60d75d196fb6d6a9306",
     "originalRepoPath": "backgrounds/ring-d.jxl",
     "name": "ring-d",
@@ -16526,8 +16658,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "f981451d0162f497b34796e9e65a36c4402fd73c",
     "originalRepoPath": "backgrounds/ring-l.jxl",
     "name": "ring-l",
@@ -16546,8 +16678,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "011ea257dd6a35dc3832d3ebecaffff9d5563f2b",
     "originalRepoPath": "backgrounds/symbolic-d.png",
     "name": "symbolic-d",
@@ -16566,8 +16698,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "d5c22d4165087943ffb153c057d6b0588dcec488",
     "originalRepoPath": "backgrounds/symbolic-l.png",
     "name": "symbolic-l",
@@ -16586,8 +16718,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "055d05cfd21d32bbf7fe97dd71b701a4080dfed8",
     "originalRepoPath": "backgrounds/tarka-d.jxl",
     "name": "tarka-d",
@@ -16606,8 +16738,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "904661df831230807981c6fa8465f012134956f2",
     "originalRepoPath": "backgrounds/tarka-l.jxl",
     "name": "tarka-l",
@@ -16626,8 +16758,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "7d9432161002a7494ff05853bfacdf7b55277b74",
     "originalRepoPath": "backgrounds/vnc-d.png",
     "name": "vnc-d",
@@ -16646,8 +16778,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "7b5275895e40dd8b494c15e640964fcc7d525d21",
     "originalRepoPath": "backgrounds/vnc-l.png",
     "name": "vnc-l",
@@ -16666,8 +16798,8 @@
     ]
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "c3d415d368b6a598c4e2848b0a085f19e6066b8a",
     "originalRepoPath": "badscaling.jpg",
     "name": "badscaling",
@@ -16676,8 +16808,8 @@
     "configs": []
   },
   {
-    "commit": "03dd0af47c3e93865d96cb3a074a55a73e9c1e38",
-    "date": 1704674454,
+    "commit": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
+    "date": 1705279343,
     "previousFileHash": "7e1e750a9c4d3134089b03256a9c20cf88463896",
     "originalRepoPath": "defaults.webp",
     "name": "defaults",
