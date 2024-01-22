@@ -7610,8 +7610,23 @@
     "subject": "prepare for a very late 46.alpha"
   },
   {
-    "hash": "06437ed29d86331e0c0b34a0019b6ab002b6ff37",
-    "date": 1705279343,
+    "hash": "4083e4d62f6ab65479f32ccd0441ca9d8dc4f94b",
+    "date": 1705593325,
+    "subject": "adwaita: tone down the lens distortion"
+  },
+  {
+    "hash": "42bc84ff2d42b9731202d68384522820390d3fce",
+    "date": 1705656421,
+    "subject": "glass chip: improve the quality a little"
+  },
+  {
+    "hash": "1cb29018ce979e6537d00e1a0503192bd820d671",
+    "date": 1705660843,
+    "subject": "symbolics: update icons"
+  },
+  {
+    "hash": "6d3588d688f905b4bad3a51f31a564d9dda04649",
+    "date": 1705884107,
     "subject": "Currently in gnome-backgrounds"
   }
 ]

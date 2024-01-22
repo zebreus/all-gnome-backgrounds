@@ -915,6 +915,11 @@
     "file": "adwaita-d-cf76a026608045e78d820ec82c8dbb6ea61b0aee.webp"
   },
   {
+    "blockhash": "0110c902bf47fffc20c043e33ff91ff097fc37e01fe007a01ffd17f0007d00f3",
+    "phash": "2309165989430631750",
+    "file": "adwaita-d-dd1106a0025de2959a99db242354ac9597d600fe.webp"
+  },
+  {
     "blockhash": "fb00fb00fe03fe03fc01fe03fe07bc04fe0e3c1e181f0c1ff83f007f007f007f",
     "phash": "725597460370210154",
     "file": "adwaita-d-e0927cb838e2b348a8bc3e0651891974bed7c7e7.webp"
@@ -1538,6 +1543,11 @@
     "blockhash": "03fd03fc07f00ff00fc01fe03ce130ff79ff1bef000f001efefefffc1d000000",
     "phash": "2482593228782758195",
     "file": "adwaita-l-d6e5a3bc444173cf32ba50d6914dd6001642c65a.webp"
+  },
+  {
+    "blockhash": "05102d00ff45fffc27c047e037e93fd03ffc1fc01fe007a01ffc1b7801fc00f3",
+    "phash": "2308885605375622438",
+    "file": "adwaita-l-e181a39df30ba6b532a611d1bdf8de63aea945d7.webp"
   },
   {
     "blockhash": "81fe81fe00fe00fe40fe00ff80fe80fe81ff00fe00fe01fe01fe01fe01fe05fc",
@@ -2900,6 +2910,16 @@
     "file": "glass-chip-d-03fe026cf3cd007c147ef4e9bff8e62420689059.webp"
   },
   {
+    "blockhash": "00ff00ff007f02ff00ff00fe01fe07fc0fe87e18fc10fce0ffc0ff80fe00fc00",
+    "phash": "7524189060621264141",
+    "file": "glass-chip-d-d2a88ba23ca2ac76007e13276ad697d2b951c4a2.webp"
+  },
+  {
+    "blockhash": "003d007f007ff8ff00ff00fe01fe07fc07f81ff01fe01fc0ffc0ff80fe00fc00",
+    "phash": "2912362471940286221",
+    "file": "glass-chip-l-ac37f0b884884aa66000571e5c2dedfb42a6aa76.webp"
+  },
+  {
     "blockhash": "003d007f007ff2ff00ff00fe01fe07fc07f81ff01fe01fc0ffc0ff80fe00fc00",
     "phash": "2912362478382737165",
     "file": "glass-chip-l-d7cd83261a08a6b1b272874d62317af05a34bfc7.webp"
@@ -3580,6 +3600,11 @@
     "file": "symbolic-d-7e125b7e8d82c018ed9924f96ce24022436e287a.webp"
   },
   {
+    "blockhash": "9a9aa17c53d5e2b0a8aa734555549cfa03a00ffc4774e7782b231a7459797ce8",
+    "phash": "2894246841219210026",
+    "file": "symbolic-d-952445a20c6104e7147f62f29daa5211824bb3b2.webp"
+  },
+  {
     "blockhash": "f38012ece2e78667fc7cfd41f023f400f75df8d1a096242542ac7fc58692233f",
     "phash": "732674016053722890",
     "file": "symbolic-l-4ee448d05f88e957ccfc07c10721ecee82fbacfd-source.webp"
@@ -3593,6 +3618,11 @@
     "blockhash": "f38012ecc2e78e67fc7cfd41f0237440d75df8d1b496042542ac7fc58692233f",
     "phash": "732674016053722890",
     "file": "symbolic-l-78bbac1ec110165937a050337e7fc40c12f3e2fd.webp"
+  },
+  {
+    "blockhash": "65655e83ac2a1d4f57558caaaaab7305fc5ff003b88b1887d4dce58ba6868317",
+    "phash": "732643230803983370",
+    "file": "symbolic-l-9b4d99ddf68c17df2143fe3621aaaf0330d9386f.webp"
   },
   {
     "blockhash": "7e93dc6dd521108becffb169f020a603ff7ff01fc0878001d49725aa0cea3f0e",
