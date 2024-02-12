@@ -7625,8 +7625,13 @@
     "subject": "symbolics: update icons"
   },
   {
-    "hash": "6d3588d688f905b4bad3a51f31a564d9dda04649",
-    "date": 1705884107,
+    "hash": "ec91f790ecef3b0cc6e1de9bb5573d81a63b0382",
+    "date": 1707494949,
+    "subject": "prepare for 46.beta"
+  },
+  {
+    "hash": "e91ef13a67ab26a8452d2f5b1b411e7dd3c05b46",
+    "date": 1707698291,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
