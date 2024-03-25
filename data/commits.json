@@ -7630,8 +7630,13 @@
     "subject": "prepare for 46.beta"
   },
   {
-    "hash": "e91ef13a67ab26a8452d2f5b1b411e7dd3c05b46",
-    "date": 1707698291,
+    "hash": "8f907c75fffa246695334e72e794e16efbf7dd87",
+    "date": 1710787799,
+    "subject": "prepare for 46.0"
+  },
+  {
+    "hash": "f65890c2863643398b0685aeac080e06613ef9d3",
+    "date": 1711327140,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
