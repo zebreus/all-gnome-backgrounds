@@ -7655,8 +7655,18 @@
     "subject": "drool: fix a corner pothole"
   },
   {
-    "hash": "5d2f243c79cb7663b70507cd54dccf9c2f5898db",
-    "date": 1716165630,
+    "hash": "f97711aeed079c10b2cde44ba770edbfd39960f4",
+    "date": 1716979172,
+    "subject": "Pills: relight for 47"
+  },
+  {
+    "hash": "1c8038f83c086236f10feb5025c10be1e1546067",
+    "date": 1717067366,
+    "subject": "Pills: more workspace shapes"
+  },
+  {
+    "hash": "d08ea273dc1648416a9008015e4f79045ec7d201",
+    "date": 1717375297,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
