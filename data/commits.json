@@ -7665,8 +7665,18 @@
     "subject": "Pills: more workspace shapes"
   },
   {
-    "hash": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "hash": "8260587ec0dee6d57dfb043aaf29863b72352ca9",
+    "date": 1717757311,
+    "subject": "Legacy"
+  },
+  {
+    "hash": "bf02898aa42bcf05b6ede05778af03136ff460a7",
+    "date": 1717763486,
+    "subject": "Legacy: denser distribution"
+  },
+  {
+    "hash": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "subject": "Currently in gnome-backgrounds"
   }
 ]

@@ -3080,6 +3080,26 @@
     "file": "leather_skin-resynth-hig-38075bf702dfc827728bb79d54c94d822d71ad7f.webp"
   },
   {
+    "blockhash": "1e380b88deb8c7f2c01bda6ba29f870726cfa9476043d5f1b20fdb3ffd182500",
+    "phash": "15970462215034451",
+    "file": "legacy-d-39f2bbbe2224c77de6a60218484c9e8079462bda.webp"
+  },
+  {
+    "blockhash": "1e64082aaa7ce67fc00ffc0fc02fa337c0df818fc117e12ffa8f963f983e5010",
+    "phash": "174144392509916940",
+    "file": "legacy-d-510943be17f2c08462da9b8e1600673f3958ad18.webp"
+  },
+  {
+    "blockhash": "f043f9088e8aeaddd099d062fa4be569dddfb1b3000f05279217904f353f053f",
+    "phash": "155654609837947658",
+    "file": "legacy-l-0c30db051745ad1eba07019ceec40886b92d91ba.webp"
+  },
+  {
+    "blockhash": "e400fd00fd82fde5f800de02fe11ea6ff84fd833402fa03f547f06df0077007f",
+    "phash": "153403222340467498",
+    "file": "legacy-l-5b31d06c2a30ae472ba56c55eed39c1d34b62111.webp"
+  },
+  {
     "blockhash": "1ff00ff01fe00fe01ff01ff00fe00fe01ff01ff00fe00fe03ff01ff03fe05c00",
     "phash": "3617291220771027770",
     "file": "libadwaita-d-6d571e37c4cc774d98cb906b0903552f859b09ea.webp"

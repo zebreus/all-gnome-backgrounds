@@ -16590,8 +16590,94 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "8260587ec0dee6d57dfb043aaf29863b72352ca9",
+    "date": 1717757311,
+    "newFileHash": "510943be17f2c08462da9b8e1600673f3958ad18",
+    "file": "images/510943be17f2c08462da9b8e1600673f3958ad18.webp",
+    "originalRepoPath": "backgrounds/legacy-d.jxl",
+    "name": "legacy-d",
+    "message": "Legacy",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/legacy-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/legacy-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#26a269",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "8260587ec0dee6d57dfb043aaf29863b72352ca9",
+    "date": 1717757311,
+    "newFileHash": "5b31d06c2a30ae472ba56c55eed39c1d34b62111",
+    "file": "images/5b31d06c2a30ae472ba56c55eed39c1d34b62111.webp",
+    "originalRepoPath": "backgrounds/legacy-l.jxl",
+    "name": "legacy-l",
+    "message": "Legacy",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/legacy-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/legacy-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#26a269",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "bf02898aa42bcf05b6ede05778af03136ff460a7",
+    "date": 1717763486,
+    "previousFileHash": "510943be17f2c08462da9b8e1600673f3958ad18",
+    "newFileHash": "39f2bbbe2224c77de6a60218484c9e8079462bda",
+    "file": "images/39f2bbbe2224c77de6a60218484c9e8079462bda.webp",
+    "originalRepoPath": "backgrounds/legacy-d.jxl",
+    "name": "legacy-d",
+    "message": "Legacy: denser distribution",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/legacy-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/legacy-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#26a269",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "bf02898aa42bcf05b6ede05778af03136ff460a7",
+    "date": 1717763486,
+    "previousFileHash": "5b31d06c2a30ae472ba56c55eed39c1d34b62111",
+    "newFileHash": "0c30db051745ad1eba07019ceec40886b92d91ba",
+    "file": "images/0c30db051745ad1eba07019ceec40886b92d91ba.webp",
+    "originalRepoPath": "backgrounds/legacy-l.jxl",
+    "name": "legacy-l",
+    "message": "Legacy: denser distribution",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/legacy-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/legacy-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#26a269",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "dd1106a0025de2959a99db242354ac9597d600fe",
     "originalRepoPath": "backgrounds/adwaita-d.jxl",
     "name": "adwaita-d",
@@ -16610,8 +16696,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "e181a39df30ba6b532a611d1bdf8de63aea945d7",
     "originalRepoPath": "backgrounds/adwaita-l.jxl",
     "name": "adwaita-l",
@@ -16630,8 +16716,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "1938c12fcd42b0c754886904c3465750f249831e",
     "originalRepoPath": "backgrounds/amber-d.jxl",
     "name": "amber-d",
@@ -16650,8 +16736,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "decf85d5adacd1bfdf0d16ac226a2026ac9ad9ac",
     "originalRepoPath": "backgrounds/amber-l.jxl",
     "name": "amber-l",
@@ -16670,8 +16756,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "e1f6382b140af6f8a43dc8c7e779d5c5a1c95364",
     "originalRepoPath": "backgrounds/blobs-d.svg",
     "name": "blobs-d",
@@ -16690,8 +16776,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "b49caff1a7941d98b60902da64956ad85dfbe4f9",
     "originalRepoPath": "backgrounds/blobs-l.svg",
     "name": "blobs-l",
@@ -16710,8 +16796,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "b1608556d649b5b943136ecc0df0fe1bc7ff644f",
     "originalRepoPath": "backgrounds/drool-d.svg",
     "name": "drool-d",
@@ -16730,8 +16816,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "95f4c6657e51f40d193e1c5ba6629216d8e38d5b",
     "originalRepoPath": "backgrounds/drool-l.svg",
     "name": "drool-l",
@@ -16750,8 +16836,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "daadc72c40adcc1261c0a42382a8e4b8966fdbb6",
     "originalRepoPath": "backgrounds/fold-d.jxl",
     "name": "fold-d",
@@ -16770,8 +16856,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "b8a4ea488b1f3e896ef46e498af728984f1d6888",
     "originalRepoPath": "backgrounds/fold-l.jxl",
     "name": "fold-l",
@@ -16790,8 +16876,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "ac8a06ea2ec077d8914c571ff9deb57ca3809992",
     "originalRepoPath": "backgrounds/geometrics-d.jxl",
     "name": "geometrics-d",
@@ -16810,8 +16896,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "fbc0bc6c805b55f08f35fa34cb2751f13309461a",
     "originalRepoPath": "backgrounds/geometrics-l.jxl",
     "name": "geometrics-l",
@@ -16830,8 +16916,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "d2a88ba23ca2ac76007e13276ad697d2b951c4a2",
     "originalRepoPath": "backgrounds/glass-chip-d.jxl",
     "name": "glass-chip-d",
@@ -16850,8 +16936,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "ac37f0b884884aa66000571e5c2dedfb42a6aa76",
     "originalRepoPath": "backgrounds/glass-chip-l.jxl",
     "name": "glass-chip-l",
@@ -16870,8 +16956,48 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
+    "previousFileHash": "39f2bbbe2224c77de6a60218484c9e8079462bda",
+    "originalRepoPath": "backgrounds/legacy-d.jxl",
+    "name": "legacy-d",
+    "message": "Currently in gnome-backgrounds",
+    "type": "delete",
+    "configs": [
+      {
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/legacy-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/legacy-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#26a269",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
+    "previousFileHash": "0c30db051745ad1eba07019ceec40886b92d91ba",
+    "originalRepoPath": "backgrounds/legacy-l.jxl",
+    "name": "legacy-l",
+    "message": "Currently in gnome-backgrounds",
+    "type": "delete",
+    "configs": [
+      {
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/legacy-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/legacy-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#26a269",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "d4207b7b21b8b6da35d5c43f48d8441012de8a6e",
     "originalRepoPath": "backgrounds/morphogenesis-d.svg",
     "name": "morphogenesis-d",
@@ -16890,8 +17016,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "b491162fb72dcc97d7f766d757fbe13b0580ac91",
     "originalRepoPath": "backgrounds/morphogenesis-l.svg",
     "name": "morphogenesis-l",
@@ -16910,8 +17036,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "06d4d58298150da8d21f057cae641c964ae99d41",
     "originalRepoPath": "backgrounds/neogeo-d.jxl",
     "name": "neogeo-d",
@@ -16930,8 +17056,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "fe3b766a6b7759054915bfb49dd0f4db63a4346c",
     "originalRepoPath": "backgrounds/neogeo-l.jxl",
     "name": "neogeo-l",
@@ -16950,8 +17076,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "c4d7c280edc704bcac39c49a74970a9bcfd01d72",
     "originalRepoPath": "backgrounds/pills-d.jxl",
     "name": "pills-d",
@@ -16970,8 +17096,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "08d0220c53c21b9cdb4981137021372e1d733fe2",
     "originalRepoPath": "backgrounds/pills-l.jxl",
     "name": "pills-l",
@@ -16990,8 +17116,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "fe989648cbcfa4d089b5cf6e82eea7417526cca6",
     "originalRepoPath": "backgrounds/pixels-d.jpg",
     "name": "pixels-d",
@@ -17010,8 +17136,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "fdf1f5483ec85cc58f7d6c3fabbad597dc0004e4",
     "originalRepoPath": "backgrounds/pixels-l.jpg",
     "name": "pixels-l",
@@ -17030,8 +17156,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "329491fabb05265ead49b60d75d196fb6d6a9306",
     "originalRepoPath": "backgrounds/ring-d.jxl",
     "name": "ring-d",
@@ -17050,8 +17176,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "f981451d0162f497b34796e9e65a36c4402fd73c",
     "originalRepoPath": "backgrounds/ring-l.jxl",
     "name": "ring-l",
@@ -17070,8 +17196,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "58ebe903e9b67027da9c98f53b0bc98983041b6f",
     "originalRepoPath": "backgrounds/swoosh-d.jxl",
     "name": "swoosh-d",
@@ -17090,8 +17216,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "a492d9ccee09d0bf4830e34eb6f883bec89c12c5",
     "originalRepoPath": "backgrounds/swoosh-l.jxl",
     "name": "swoosh-l",
@@ -17110,8 +17236,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "952445a20c6104e7147f62f29daa5211824bb3b2",
     "originalRepoPath": "backgrounds/symbolic-d.png",
     "name": "symbolic-d",
@@ -17130,8 +17256,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "9b4d99ddf68c17df2143fe3621aaaf0330d9386f",
     "originalRepoPath": "backgrounds/symbolic-l.png",
     "name": "symbolic-l",
@@ -17150,8 +17276,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "3e6170432590b0fed39a13a1adc441a7e5848fce",
     "originalRepoPath": "backgrounds/symbolic-soup-d.jxl",
     "name": "symbolic-soup-d",
@@ -17170,8 +17296,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "8f253976284362304d63195774df8f89d70df01a",
     "originalRepoPath": "backgrounds/symbolic-soup-l.jxl",
     "name": "symbolic-soup-l",
@@ -17190,8 +17316,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "055d05cfd21d32bbf7fe97dd71b701a4080dfed8",
     "originalRepoPath": "backgrounds/tarka-d.jxl",
     "name": "tarka-d",
@@ -17210,8 +17336,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "904661df831230807981c6fa8465f012134956f2",
     "originalRepoPath": "backgrounds/tarka-l.jxl",
     "name": "tarka-l",
@@ -17230,8 +17356,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "7d9432161002a7494ff05853bfacdf7b55277b74",
     "originalRepoPath": "backgrounds/vnc-d.png",
     "name": "vnc-d",
@@ -17250,8 +17376,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "7b5275895e40dd8b494c15e640964fcc7d525d21",
     "originalRepoPath": "backgrounds/vnc-l.png",
     "name": "vnc-l",
@@ -17270,8 +17396,8 @@
     ]
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "c3d415d368b6a598c4e2848b0a085f19e6066b8a",
     "originalRepoPath": "badscaling.jpg",
     "name": "badscaling",
@@ -17280,8 +17406,8 @@
     "configs": []
   },
   {
-    "commit": "d08ea273dc1648416a9008015e4f79045ec7d201",
-    "date": 1717375297,
+    "commit": "f1801600a911e698d450b8066250c119a434b72c",
+    "date": 1717980154,
     "previousFileHash": "7e1e750a9c4d3134089b03256a9c20cf88463896",
     "originalRepoPath": "defaults.webp",
     "name": "defaults",
