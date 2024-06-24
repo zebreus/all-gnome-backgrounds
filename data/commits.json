@@ -7690,8 +7690,13 @@
     "subject": "lcd: more dramatic angle"
   },
   {
-    "hash": "279227f1cfefb324759a857d73865358f1480c80",
-    "date": 1718584974,
+    "hash": "501aafe9e9f01ebe6cfe21c234eb89477a503397",
+    "date": 1718640502,
+    "subject": "LCD: replace accidental nazis"
+  },
+  {
+    "hash": "bfc14ee311a247023da1cf00cf847a7b6dd7cd1d",
+    "date": 1719189779,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
