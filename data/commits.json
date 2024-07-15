@@ -7750,8 +7750,38 @@
     "subject": "Remove legacy/tango icons"
   },
   {
-    "hash": "983dfd68aa1bcebc8dfa63e34bf51a6bf55ba0c3",
-    "date": 1720399483,
+    "hash": "0ef1099f76affb6f5664d485018269c3eb39ce31",
+    "date": 1720619723,
+    "subject": "pixels: update for 47"
+  },
+  {
+    "hash": "5cb4dc9f7426c94e4c9c3ff974acd97ad29aba9d",
+    "date": 1720630960,
+    "subject": "mollnar: remove filter"
+  },
+  {
+    "hash": "b92d852d1a0e021eca37a7a06513a3a004f419d3",
+    "date": 1720684238,
+    "subject": "LCD: color variants is not a thing"
+  },
+  {
+    "hash": "13e7a3c10983fff4ceeac7ad15f4b45536b6ac51",
+    "date": 1720687728,
+    "subject": "LCD rainbow: more colors"
+  },
+  {
+    "hash": "8a55377c562001302656211197d5e033c466a90f",
+    "date": 1720793321,
+    "subject": "default: 47 iteration kick off"
+  },
+  {
+    "hash": "d5ec54a3d85566ddfde5c096b20f09f0f9711d8e",
+    "date": 1720811652,
+    "subject": "default: try more depth"
+  },
+  {
+    "hash": "eafcf07c6c4f772491546dc70eb41cf6686c85ba",
+    "date": 1721004239,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
