@@ -7780,8 +7780,18 @@
     "subject": "default: try more depth"
   },
   {
-    "hash": "eafcf07c6c4f772491546dc70eb41cf6686c85ba",
-    "date": 1721004239,
+    "hash": "02b24983719dabaeda8304987534d78771e3e6c1",
+    "date": 1721129333,
+    "subject": "default: all in on DOF"
+  },
+  {
+    "hash": "5bb0b7a8d01f58db9e8b7b22b5b442c18e566ef8",
+    "date": 1721216300,
+    "subject": "default: improved fidelity"
+  },
+  {
+    "hash": "de29572d73e9e503c15467ce73a5c16f0805ccd0",
+    "date": 1721609077,
     "subject": "Currently in gnome-backgrounds"
   }
 ]

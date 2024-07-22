@@ -780,6 +780,11 @@
     "file": "adwaita-d-3bd91cc7eafefbf6c36e4fe020f5393f751775ca.webp"
   },
   {
+    "blockhash": "2e904ec07fc0bff01f901fa01fc03ff807fc379002fe00ff11ff0efc02ff021a",
+    "phash": "2898583435141631601",
+    "file": "adwaita-d-5067fe110306085b7ac78a39142c75b13cdc9151.webp"
+  },
+  {
     "blockhash": "01f00df807fc17fc07e007e107e317ef1dde0ebf003f003f26ff00ff007f003f",
     "phash": "7653767977921557549",
     "file": "adwaita-d-52b71a09667da57ff16ecd5453861ebdbb6a6dc2-source.webp"
@@ -898,6 +903,11 @@
     "blockhash": "01e001f00ffe1ffe07f803fc07fc01fc07ff17f80fe00f801ffc0fd8053e041f",
     "phash": "3055374660375590690",
     "file": "adwaita-d-b78b120a4d646767764fac2b76ca1bf07e5b9a17.webp"
+  },
+  {
+    "blockhash": "26904ec07fc0fff01f901fa01fc03ff807fc379002fe00ff11ff0efc02ff021a",
+    "phash": "2898583435141631601",
+    "file": "adwaita-d-b889cae3b2f97b803ae42911c1759dfbcb6ffb1c.webp"
   },
   {
     "blockhash": "01f003f807fc0ffe07fc07f80ff01f607fe07f007f00ff00ff803fc07fe00dc0",
@@ -1290,6 +1300,11 @@
     "file": "adwaita-day-fb00ccba3d11cf951e65140e5a3fcff8b4f7ad48.webp"
   },
   {
+    "blockhash": "01400ff03ff43ff81ff81fe80fc00ef04ffc379073ec10c4fbe68fe006e50613",
+    "phash": "2899744502491305523",
+    "file": "adwaita-l-04d4296f126ec1eef8b66c8d22539dbb4206d7b5.webp"
+  },
+  {
     "blockhash": "e200ef00edc0effc07800fe01ff0fff03f007f807f80ffc07fe03fe007f003f0",
     "phash": "2903391361986780970",
     "file": "adwaita-l-04ffeb195acd80e80f8cc2f6f24db4ff4a0b1f83-source.webp"
@@ -1338,6 +1353,11 @@
     "blockhash": "fb00ff00fcc0fec0300070e0bff0fff81ff81bf871f07060bc38f818fe80ff80",
     "phash": "2340635175377565223",
     "file": "adwaita-l-1e6b99460bc953ae715d2b7af49b439e6c6f1c0f.webp"
+  },
+  {
+    "blockhash": "01400ff03ff43ff81ff81fe80fc00ef04ffc379073ec10c4f3f68ff006e50213",
+    "phash": "2899744502491305523",
+    "file": "adwaita-l-2098e08c2ea98b0ba92956aa9063ae042b38cdac.webp"
   },
   {
     "blockhash": "1ff01ff81fc01f401ff01ff01fc01fc01fec1f9c5f141f007fb8fe380e30b620",
