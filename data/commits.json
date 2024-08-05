@@ -7790,8 +7790,13 @@
     "subject": "default: improved fidelity"
   },
   {
-    "hash": "de29572d73e9e503c15467ce73a5c16f0805ccd0",
-    "date": 1721609077,
+    "hash": "e209b2ee7d4f0e2cab55351c7027081ca8bf326e",
+    "date": 1722539402,
+    "subject": "default: adjust focus"
+  },
+  {
+    "hash": "3167300d04b6a22d20e0f10658d180a7a31f818f",
+    "date": 1722818694,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
