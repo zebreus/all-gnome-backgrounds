@@ -7795,8 +7795,13 @@
     "subject": "default: adjust focus"
   },
   {
-    "hash": "3167300d04b6a22d20e0f10658d180a7a31f818f",
-    "date": 1722818694,
+    "hash": "e6c327e208cbc634550916d6240011a587ee80cd",
+    "date": 1723030278,
+    "subject": "prepare for 47.beta"
+  },
+  {
+    "hash": "06024ce4db06b94ab93f0620679544f919e178e3",
+    "date": 1723423536,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
