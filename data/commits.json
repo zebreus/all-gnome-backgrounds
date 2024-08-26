@@ -7800,8 +7800,18 @@
     "subject": "prepare for 47.beta"
   },
   {
-    "hash": "06024ce4db06b94ab93f0620679544f919e178e3",
-    "date": 1723423536,
+    "hash": "3c8d03e2d9a55d850bdc3eefe8db9d7ddc208e0c",
+    "date": 1724008608,
+    "subject": "LCD rainbow: install background files"
+  },
+  {
+    "hash": "5685d8f74a0045af0b57eed56ee76b87024f4db1",
+    "date": 1724050127,
+    "subject": "Merge branch 'lcd-rainbow-install' into 'main'"
+  },
+  {
+    "hash": "f3864f6da59b0309c0c51b82accf5d7353e11572",
+    "date": 1724633137,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
