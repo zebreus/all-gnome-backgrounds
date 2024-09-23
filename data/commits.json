@@ -7810,8 +7810,13 @@
     "subject": "Merge branch 'lcd-rainbow-install' into 'main'"
   },
   {
-    "hash": "f3864f6da59b0309c0c51b82accf5d7353e11572",
-    "date": 1724633137,
+    "hash": "f1c1f85d5b059f57554e1c8c6c810110b80b2ca3",
+    "date": 1726478366,
+    "subject": "prepare 47.0"
+  },
+  {
+    "hash": "996a3e72e90a6c194cac420a6b6faf9f001d30e3",
+    "date": 1727052550,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
