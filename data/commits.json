@@ -7815,8 +7815,13 @@
     "subject": "prepare 47.0"
   },
   {
-    "hash": "996a3e72e90a6c194cac420a6b6faf9f001d30e3",
-    "date": 1727052550,
+    "hash": "4aa0ef641e09e4cb897c30161118483253f759f9",
+    "date": 1727173348,
+    "subject": "update attribution"
+  },
+  {
+    "hash": "ee5523e1120178af1b5c447faa62d47b355e5e61",
+    "date": 1727657492,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
