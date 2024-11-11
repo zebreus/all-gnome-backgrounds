@@ -7820,8 +7820,18 @@
     "subject": "update attribution"
   },
   {
-    "hash": "ee5523e1120178af1b5c447faa62d47b355e5e61",
-    "date": 1727657492,
+    "hash": "52920d151803de0c3650dcbea9126631958f1fba",
+    "date": 1730751681,
+    "subject": "default: old in new"
+  },
+  {
+    "hash": "a23b8c6e638cc25567e3776ae35b5d04705371c1",
+    "date": 1730803275,
+    "subject": "adwaita: Proper colors"
+  },
+  {
+    "hash": "6fcbb8a9be97eb4e42d85a334908e5003b33e319",
+    "date": 1731286291,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
