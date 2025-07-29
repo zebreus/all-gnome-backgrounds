@@ -78,6 +78,7 @@ jobs:
       - name: Install dependencies
         run: |
           yarn install --frozen-lockfile
+          yarn run tsc -v
       - name: Prepare data
         run: |
           nix develop -c yarn prepareImages
