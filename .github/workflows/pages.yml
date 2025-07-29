@@ -8,7 +8,7 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ["master"]
-    
+
   # Run every tuesday. Repo updates every monday
   schedule:
     - cron: "0 0 * * 2"
@@ -76,7 +76,8 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json', '**/yarn.lock') }}-
       - name: Install dependencies
-        run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
+        run: |
+          yarn install --frozen-lockfile
       - name: Prepare data
         run: |
           nix develop -c yarn prepareImages
