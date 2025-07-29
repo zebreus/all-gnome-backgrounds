@@ -35,7 +35,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Install Nix
-        uses: nixbuild/nix-quick-install-action@v21
+        uses: nixbuild/nix-quick-install-action@v32
         with:
           nix_conf: experimental-features = nix-command flakes
       - name: Detect package manager
@@ -56,15 +56,15 @@ jobs:
             exit 1
           fi
       - name: Setup Node
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: "18"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
       - name: Setup Pages
         id: configure-pages
-        uses: actions/configure-pages@v2
+        uses: actions/configure-pages@v5
       - name: Restore cache
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: |
             .next/cache
@@ -92,7 +92,7 @@ jobs:
           export NEXT_PUBLIC_GITHUB_PAGES_BASE=${{ steps.configure-pages.outputs.base_path }}
           ${{ steps.detect-package-manager.outputs.runner }} next export
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./out
 

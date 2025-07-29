@@ -12,4 +12,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: gautamkrishnar/keepalive-workflow@v1 # using the workflow with default settings
+      - uses: gautamkrishnar/keepalive-workflow@v2 # using the workflow with default settings

@@ -27,7 +27,7 @@ jobs:
           nix develop -c make gnome-backgrounds.rev
           nix develop -c make results
           nix develop -c make data
-      - uses: EndBug/add-and-commit@v9 # You can change this to use a specific version.
+      - uses: EndBug/add-and-commit@a94899bca583c204427a224a7af87c02f9b325d5 # You can change this to use a specific version.
         name: Commit data
         with:
           add: "data gnome-backgrounds.rev"
