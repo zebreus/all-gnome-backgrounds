@@ -5,10 +5,17 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
-
+  actions: write
+  id-token: write
+  pages: write
+  checks: write
+  pull-requests: write
+  deployments: write
+  repository-projects: write
+  statuses: write
 jobs:
   keepalive:
-    name: Create dummy commit to prevent github from suspending actions 
+    name: Create dummy commit to prevent github from suspending actions
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
