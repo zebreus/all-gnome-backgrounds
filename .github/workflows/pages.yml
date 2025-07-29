@@ -79,6 +79,8 @@ jobs:
         run: |
           yarn install --frozen-lockfile
           yarn run tsc -v
+          yarn --version
+          node --version
       - name: Prepare data
         run: |
           nix develop -c yarn prepareImages
