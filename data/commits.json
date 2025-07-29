@@ -7830,8 +7830,258 @@
     "subject": "adwaita: Proper colors"
   },
   {
-    "hash": "6fcbb8a9be97eb4e42d85a334908e5003b33e319",
-    "date": 1731286291,
+    "hash": "9d3cb8df5e80ed34dcefad97899b2f12c0bbf504",
+    "date": 1733168354,
+    "subject": "change default"
+  },
+  {
+    "hash": "836232aea53e4c49b9fb0a95830f48f565efe1f1",
+    "date": 1734641014,
+    "subject": "default: back to additive"
+  },
+  {
+    "hash": "34104b92b4459614dd94710df9ab4591383d2a08",
+    "date": 1735905861,
+    "subject": "adwaita: Update with some high freq detail - some color tweaks as well - remove roundhex as the revert to the old design for adwaita makes   it redundant."
+  },
+  {
+    "hash": "04ba2528f80da5ecef34eb5afb988979b2dc25f8",
+    "date": 1735908040,
+    "subject": "prepare for 48.alpha release"
+  },
+  {
+    "hash": "23f4c76952e3f3b9326fa931da585100816f20d2",
+    "date": 1736496175,
+    "subject": "default: reset direction"
+  },
+  {
+    "hash": "e8d996ab0c13e232139c367b7bde5f1b7b549432",
+    "date": 1736879125,
+    "subject": "default: hallow depth, better light"
+  },
+  {
+    "hash": "aba5419166f4c9ebd01e101377973c513e5c94a3",
+    "date": 1736939058,
+    "subject": "default: no warm tint for dark"
+  },
+  {
+    "hash": "485d74c26d3a1fc985555ded69a83f272bdc75ef",
+    "date": 1738685339,
+    "subject": "prepare for 48.beta"
+  },
+  {
+    "hash": "85c63cb0c231570ad2017c3b75b58fe79bad6792",
+    "date": 1740494566,
+    "subject": "default: revert to JPEG"
+  },
+  {
+    "hash": "79b0361b3d7ed0320bc602900429adf4f0d7b1bc",
+    "date": 1741334413,
+    "subject": "48.rc"
+  },
+  {
+    "hash": "18b9ea7c79456994a59bb2f350e791fc3d6bec37",
+    "date": 1741965073,
+    "subject": "prepare 48.0 release"
+  },
+  {
+    "hash": "c2182398d6cddc8f8fa7431a91a121bab81c926c",
+    "date": 1747321377,
+    "subject": "candy: refresh the candy wallpaper"
+  },
+  {
+    "hash": "eb7009d44f6c33e5692f10d8a0be0bd521a135a2",
+    "date": 1747322091,
+    "subject": "typo"
+  },
+  {
+    "hash": "e368695794747ffcb283be0df692c5f948d01cf1",
+    "date": 1747670193,
+    "subject": "Progress Rainbow"
+  },
+  {
+    "hash": "9e534de349db843e95ffd8623417572c22b850ce",
+    "date": 1747670325,
+    "subject": "typo in the meta filename"
+  },
+  {
+    "hash": "83fdc9c2959c3fb2477b603f98723c3d17f6130d",
+    "date": 1747747037,
+    "subject": "replace progress colors with pride palette"
+  },
+  {
+    "hash": "6eb58babe99683eede54f870b39171d8e1266f22",
+    "date": 1747751574,
+    "subject": "Pride: fix metadata"
+  },
+  {
+    "hash": "db39060e49311f6c138d59b865417c34ef0912f8",
+    "date": 1747809531,
+    "subject": "Pride: update for GNOME colors"
+  },
+  {
+    "hash": "31820ad0f5debd78cd24467635b5b5858bc9f6c1",
+    "date": 1747847167,
+    "subject": "Pride: Add back progress version"
+  },
+  {
+    "hash": "dc2b43cae3d97663e810c09b5f8271873baa41f5",
+    "date": 1747847199,
+    "subject": "Revert \"Pride: update for GNOME colors\""
+  },
+  {
+    "hash": "f7f2897c82be19faa78bf697d7e1f29be4fe0fbe",
+    "date": 1747847359,
+    "subject": "Prepare 48.1 release"
+  },
+  {
+    "hash": "5e26c3e9b08864e70218fe217ba665be9284c4d5",
+    "date": 1747898650,
+    "subject": "Revert \"Pride wallpapers\""
+  },
+  {
+    "hash": "1a905fe94feb23bdae57c805f48a61b6522c16b0",
+    "date": 1747899629,
+    "subject": "Pride Month Special"
+  },
+  {
+    "hash": "89c4e55147b611cf3013eae417d4f64b916e481b",
+    "date": 1748034696,
+    "subject": "progress: Fix wrong color order"
+  },
+  {
+    "hash": "e5ed20240d014f11c8266ccf84adb8d80c95c279",
+    "date": 1748101395,
+    "subject": "prepare a 48.2.1 release"
+  },
+  {
+    "hash": "ad7097ef0b9d8f328846212a126be8e1728bfc47",
+    "date": 1748260361,
+    "subject": "Candy Reborn: revert shading"
+  },
+  {
+    "hash": "0b50caa27811b884adc94f465fa0e51eaeec132f",
+    "date": 1748441203,
+    "subject": "Pixel Pusher: dot matrix colors"
+  },
+  {
+    "hash": "54c908b30e9b9596a77f5ebae29d76ecc5fa6fb2",
+    "date": 1748461195,
+    "subject": "Pixel Pusher: polish"
+  },
+  {
+    "hash": "4c3c10bff5bafb07c02463ddaf2232e641e0841d",
+    "date": 1748600480,
+    "subject": "Pixel Pusher: more contrast between light and dark"
+  },
+  {
+    "hash": "6e4e6ca1b5ac16296e6ecec90fc15680eff81d83",
+    "date": 1748623126,
+    "subject": "Tarkov Pills"
+  },
+  {
+    "hash": "061517d505c5412ad0b3b88eb7fd01fe407f570e",
+    "date": 1748958779,
+    "subject": "tarkov-pills: Fix file format"
+  },
+  {
+    "hash": "5b7ea826500fe464d254bde01d09a3eee6913d8a",
+    "date": 1748959705,
+    "subject": "Merge branch 'monster/file-format' into 'main'"
+  },
+  {
+    "hash": "6f891cf84f9d735be0e70187073be1d03f902568",
+    "date": 1750252505,
+    "subject": "pixel-pusher: wider gamut"
+  },
+  {
+    "hash": "1e0693c1a76b33261c6c15129d51c494ccbce861",
+    "date": 1750254481,
+    "subject": "pixel-pusher: use image magick for ICC conversion"
+  },
+  {
+    "hash": "6546b26bb802c58c4540c5d827a91fe35964daf0",
+    "date": 1750320634,
+    "subject": "tarkov-pills: wide gamut treatment"
+  },
+  {
+    "hash": "ce1c7501fd26dda8df5cfaae0915f62bd0f13dca",
+    "date": 1750321290,
+    "subject": "tarkov-pills: light tweaks"
+  },
+  {
+    "hash": "7491890f9cb6c9a7f7cc1d01ab3bad44dbb87687",
+    "date": 1750423758,
+    "subject": "remove symbolic soup"
+  },
+  {
+    "hash": "d53a3a5bd2b6462966752b519791277501438e28",
+    "date": 1750423832,
+    "subject": "remove mollnar"
+  },
+  {
+    "hash": "9bc3c1110cd05ad0d326bd1cac6be14a0b95736e",
+    "date": 1750424144,
+    "subject": "remove LCD"
+  },
+  {
+    "hash": "1def15cfbb007f8ca52f94f9be69d53cbd2b36f8",
+    "date": 1750425212,
+    "subject": "ring removed"
+  },
+  {
+    "hash": "b98b4354ed85f3ca99dde8a064fb0d8acdb95966",
+    "date": 1750436105,
+    "subject": "curvy"
+  },
+  {
+    "hash": "b029008f3992da5dfa52aac8aac32c7949c21ba2",
+    "date": 1750436412,
+    "subject": "curvy.xml.in"
+  },
+  {
+    "hash": "5ae7d62eb3b28bdc7b54c23b7150e22828d2df5a",
+    "date": 1752062977,
+    "subject": "adwaita: 49 default"
+  },
+  {
+    "hash": "3c679d3d32d3d6faffdb5132aec54f818d4d4526",
+    "date": 1752660014,
+    "subject": "adwaita: zoom in"
+  },
+  {
+    "hash": "f03deec53cbc121b8db14b8d4b1e95a5f5320d2e",
+    "date": 1753626357,
+    "subject": "dithered sun: new wallpaper"
+  },
+  {
+    "hash": "a702c6bdfb98e5de391c9ab1c80d11c7d27ceb46",
+    "date": 1753626886,
+    "subject": "candy-reborn: remove"
+  },
+  {
+    "hash": "dc228fc21e86c7f40b2d48abba5d5f60ee89983e",
+    "date": 1753629235,
+    "subject": "curvy: remove symbolics"
+  },
+  {
+    "hash": "1c6ff527b05cf82d74b783c110ce2f891d43a168",
+    "date": 1753631107,
+    "subject": "pixels: color updates"
+  },
+  {
+    "hash": "43c404e8642d4ac518e91ca5d48097de70a79b2d",
+    "date": 1753692131,
+    "subject": "Merge branch 'wip/jimmac/guadec-25-bertob' into 'main'"
+  },
+  {
+    "hash": "dc070e5df521bd9f1804885b1ce9f852920fa6e3",
+    "date": 1753707158,
+    "subject": "drool-d: tweak colors"
+  },
+  {
+    "hash": "263450a98722b97eec63cfea4b73d27fe41bb8bd",
+    "date": 1753825356,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
