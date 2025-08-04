@@ -8055,21 +8055,6 @@
     "subject": "dithered sun: new wallpaper"
   },
   {
-    "hash": "a702c6bdfb98e5de391c9ab1c80d11c7d27ceb46",
-    "date": 1753626886,
-    "subject": "candy-reborn: remove"
-  },
-  {
-    "hash": "dc228fc21e86c7f40b2d48abba5d5f60ee89983e",
-    "date": 1753629235,
-    "subject": "curvy: remove symbolics"
-  },
-  {
-    "hash": "1c6ff527b05cf82d74b783c110ce2f891d43a168",
-    "date": 1753631107,
-    "subject": "pixels: color updates"
-  },
-  {
     "hash": "43c404e8642d4ac518e91ca5d48097de70a79b2d",
     "date": 1753692131,
     "subject": "Merge branch 'wip/jimmac/guadec-25-bertob' into 'main'"
@@ -8080,8 +8065,68 @@
     "subject": "drool-d: tweak colors"
   },
   {
-    "hash": "263450a98722b97eec63cfea4b73d27fe41bb8bd",
-    "date": 1753825356,
+    "hash": "ffdc4a4bd8bc631b9b34dab46fdf86a2ff7145fc",
+    "date": 1753626886,
+    "subject": "candy-reborn: remove"
+  },
+  {
+    "hash": "8e2e48cf6bbbb4e7756fadc0c82e3725a69618f0",
+    "date": 1753629235,
+    "subject": "curvy: remove symbolics"
+  },
+  {
+    "hash": "63c4cfbf8f7c6ad967964cd4d6a191d812995177",
+    "date": 1753631107,
+    "subject": "pixels: color updates"
+  },
+  {
+    "hash": "2db38a1cb6253bdd63d9e328dbfb1d9c0215b22f",
+    "date": 1753876235,
+    "subject": "tarkov-pills: zoom in"
+  },
+  {
+    "hash": "f4d1302efcd1c740a63d9d0ade1b4284a076666d",
+    "date": 1753878072,
+    "subject": "adwaita: adjustments for 49"
+  },
+  {
+    "hash": "bc62aa232606db19dfd331afbacc8ddf96197ea0",
+    "date": 1753878506,
+    "subject": "Merge branch 'wip/jimmac/guadec-review' into 'main'"
+  },
+  {
+    "hash": "9958d61bb3899bc22fd5a92ea3a2a5de8b068b6b",
+    "date": 1753879357,
+    "subject": "dithered-sun: no JXL grain"
+  },
+  {
+    "hash": "2c9eb636d638bbbba60f1bc74030678aca930102",
+    "date": 1754039304,
+    "subject": "dithered-sun: Fix XML"
+  },
+  {
+    "hash": "2fa487b8da6aa5b399a00903e6707a60d927f5d9",
+    "date": 1754039346,
+    "subject": "progress: pride colors from 48.1"
+  },
+  {
+    "hash": "edc77663fc68b4d4eba946c70d5d9acd2f8de8b2",
+    "date": 1754049234,
+    "subject": "Merge branch 'dithered-sun' into 'main'"
+  },
+  {
+    "hash": "c926ec45e2c878ee0c61f5a22a5f22139ef413fb",
+    "date": 1754068079,
+    "subject": "16bit: use cICP rather than ICC profile"
+  },
+  {
+    "hash": "99cb7a542e8c835cdf0904cbbf356ea2a6f5e26f",
+    "date": 1754069474,
+    "subject": "dithered sun: flatten"
+  },
+  {
+    "hash": "d47d1517f4092f1155ecc390b7ee5ef2432e7bad",
+    "date": 1754269748,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
