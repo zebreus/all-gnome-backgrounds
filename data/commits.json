@@ -8125,8 +8125,28 @@
     "subject": "dithered sun: flatten"
   },
   {
-    "hash": "d47d1517f4092f1155ecc390b7ee5ef2432e7bad",
-    "date": 1754269748,
+    "hash": "122cfce8169484f098d9467bc6d8f68fb1825054",
+    "date": 1754323313,
+    "subject": "adwaita: avoid too much high frequency detail"
+  },
+  {
+    "hash": "b5d9e1c5cfb3d92236df5263ad4fc7c9cc1d6171",
+    "date": 1754324629,
+    "subject": "adwaita: bring back the thin ones"
+  },
+  {
+    "hash": "b2cdbd37b1d7b438a4f16574b11dafe566de8407",
+    "date": 1754332193,
+    "subject": "adwaita: Boost saturation for dark"
+  },
+  {
+    "hash": "88abd0431dfb0b71d6056438a0db7da13dafc7eb",
+    "date": 1754758959,
+    "subject": "Prepare 49.beta"
+  },
+  {
+    "hash": "c1f74b1b4b1bffc43c0060ae320a83e24a4b3194",
+    "date": 1754874311,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
