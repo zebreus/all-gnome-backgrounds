@@ -8150,8 +8150,13 @@
     "subject": "late 49.rc release"
   },
   {
-    "hash": "fb777ce7e10367ab41e7c100bdb596781aec5eba",
-    "date": 1757293027,
+    "hash": "21c6aa31bf0236a964f9ea25ef365979f9f19903",
+    "date": 1757677763,
+    "subject": "prepare for 49.0"
+  },
+  {
+    "hash": "f1fa74e336ab82301fa4cf6a6845c5541bfd3589",
+    "date": 1757897866,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
