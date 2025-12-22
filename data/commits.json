@@ -8155,8 +8155,23 @@
     "subject": "prepare for 49.0"
   },
   {
-    "hash": "f1fa74e336ab82301fa4cf6a6845c5541bfd3589",
-    "date": 1757897866,
+    "hash": "c5a83395d32c054a0a87c87034b190ae1c2f03be",
+    "date": 1765365589,
+    "subject": "initial stab at default 50"
+  },
+  {
+    "hash": "255bc97ccd81d51d9214c43e5add84f0400b2a03",
+    "date": 1765368802,
+    "subject": "default: better render"
+  },
+  {
+    "hash": "7aaf9843c646664e74b240d8ad1901298b0eb124",
+    "date": 1765977311,
+    "subject": "default: 512 samples"
+  },
+  {
+    "hash": "b0fc8e659fec3833d38e9c7742759736c2d681bf",
+    "date": 1766365439,
     "subject": "Currently in gnome-backgrounds"
   }
 ]

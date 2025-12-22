@@ -805,6 +805,11 @@
     "file": "adwaita-d-3dd95f6e407dd8784088ccb34db89114264b95e5.webp"
   },
   {
+    "blockhash": "018007f00ffc1fff07f80ff807f80fe00ff00fe03fe01fe0fffefff878000000",
+    "phash": "2918276556294379787",
+    "file": "adwaita-d-4de806c640f2d9c3d4ba2081c41d34dd8eed5ef7.webp"
+  },
+  {
     "blockhash": "07c00ff01ff01ff80ff00ff00ff00ff00ff80ff00ff00fe03ffc1ff80ff00500",
     "phash": "4485516590223485235",
     "file": "adwaita-d-4e6d5e499d81d57edc28fb469d2fce7d18af0beb.webp"
@@ -955,6 +960,11 @@
     "file": "adwaita-d-b4b2a232aca95542eb3e1b2e5dec4e603068f263.webp"
   },
   {
+    "blockhash": "018007e00ffe1fff07f80ff807f80fe00ff00fe03fe01fe0fffefff878000000",
+    "phash": "2918276556294379787",
+    "file": "adwaita-d-b6e3b357a3ba0f05a0bb33c4801f2e9cb3de9c01.webp"
+  },
+  {
     "blockhash": "01e001f00ffe1ffe07f803fc07fc01fc07ff17f80fe00f801ffc0fd8053e041f",
     "phash": "3055374660375590690",
     "file": "adwaita-d-b78b120a4d646767764fac2b76ca1bf07e5b9a17-source.webp"
@@ -1013,6 +1023,11 @@
     "blockhash": "0110c902bf47fffc20c043e33ff91ff097fc37e01fe007a01ffd17f0007d00f3",
     "phash": "2309165989430631750",
     "file": "adwaita-d-dd1106a0025de2959a99db242354ac9597d600fe.webp"
+  },
+  {
+    "blockhash": "018007f00ffc1fff07f80ff807f80fe00ff00fe03fe01fe0fffefff878000000",
+    "phash": "2918276556294379787",
+    "file": "adwaita-d-ded98127c9efaddd89ca0dd5cd97efa3ac29de92.webp"
   },
   {
     "blockhash": "fb00fb00fe03fe03fc01fe03fe07bc04fe0e3c1e181f0c1ff83f007f007f007f",
@@ -1385,6 +1400,11 @@
     "file": "adwaita-day-fb00ccba3d11cf951e65140e5a3fcff8b4f7ad48.webp"
   },
   {
+    "blockhash": "018007e00ffe1fff0ff80ff807f807e00ff00fe03fe01fe0fffefffc38000000",
+    "phash": "3057325202240625931",
+    "file": "adwaita-l-02972f5d8868e0fe51a9f733c848ae5483597c9f.webp"
+  },
+  {
     "blockhash": "03fc0fb91f1a3f10ff00ef80ff009f03fb07c414cf07af039f00f883fd877984",
     "phash": "30803337915822340",
     "file": "adwaita-l-045a051ed4b621071aec132116658c8a5f96eeef.webp"
@@ -1668,6 +1688,11 @@
     "blockhash": "04508900ff47fffc228047e137f93ff09ffc1fc01fe007a01ffc1b78007c02fb",
     "phash": "2311137405189322502",
     "file": "adwaita-l-ad16adc1f5429b225acdcc564e83a58c619e3527.webp"
+  },
+  {
+    "blockhash": "018007f00ffc1fff0ff80ff807f807e00ff00fe03fe01fe0fffefffc38000000",
+    "phash": "3057325202240625931",
+    "file": "adwaita-l-ad41ed0a6057784d065f368cc48c23bf05ebbe28.webp"
   },
   {
     "blockhash": "14109900ff45fffc01c067e13fe93fe017fc3fe01fe0033113fd017801fc03ff",
