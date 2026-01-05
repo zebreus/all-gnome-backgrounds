@@ -8170,8 +8170,18 @@
     "subject": "default: 512 samples"
   },
   {
-    "hash": "b0fc8e659fec3833d38e9c7742759736c2d681bf",
-    "date": 1766365439,
+    "hash": "1231cac037127dbbe778e5fae885f9f0e9978714",
+    "date": 1766056855,
+    "subject": "prune some dated/unpopular wallpapers"
+  },
+  {
+    "hash": "6c4d7bc386672b4b464326bfb49ec0c4f1a58d9b",
+    "date": 1767562468,
+    "subject": "blendpills"
+  },
+  {
+    "hash": "eb4c52e5cab1b5a02289567b9ffc4ad269df1fdc",
+    "date": 1767575329,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
