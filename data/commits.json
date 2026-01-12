@@ -8180,8 +8180,38 @@
     "subject": "blendpills"
   },
   {
-    "hash": "eb4c52e5cab1b5a02289567b9ffc4ad269df1fdc",
-    "date": 1767575329,
+    "hash": "a6385e173ccae53c0dae077d7de772094419d307",
+    "date": 1767814401,
+    "subject": "default: lighten up"
+  },
+  {
+    "hash": "49c20b06e4732a7d2c41ccc97e162857a2ea26e3",
+    "date": 1767815521,
+    "subject": "default: darken light"
+  },
+  {
+    "hash": "09b6dfc2d365e0e18253e13d44b9590cf6ab437c",
+    "date": 1767816674,
+    "subject": "default: more contrast"
+  },
+  {
+    "hash": "1c1a516f342351a1ee0f0df5ed249f5935d5ff27",
+    "date": 1767821256,
+    "subject": "balls: replacing geometrics"
+  },
+  {
+    "hash": "c7244c2c96e696fe4478e129db06ce103f4cf38c",
+    "date": 1767881782,
+    "subject": "default: iterations"
+  },
+  {
+    "hash": "45cede4365c886edcc024d0e83ea3ec481d18cb2",
+    "date": 1767896304,
+    "subject": "default: more samples"
+  },
+  {
+    "hash": "e88f1cb58dc773845adda305baf4b62f595030d2",
+    "date": 1768180006,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
