@@ -8210,8 +8210,23 @@
     "subject": "default: more samples"
   },
   {
-    "hash": "e88f1cb58dc773845adda305baf4b62f595030d2",
-    "date": 1768180006,
+    "hash": "0eca530c6dcaf5e981261bd48a5df1c59397b3f1",
+    "date": 1768811872,
+    "subject": "prepare for 50.alpha release"
+  },
+  {
+    "hash": "213e85bc16aa968ff40565e24136181524624895",
+    "date": 1769023908,
+    "subject": "adwaita: add detail to the lower right quarter"
+  },
+  {
+    "hash": "a6c1064f00577b23d4f31815085f12b75abbad7a",
+    "date": 1769372618,
+    "subject": "default: Add detail to lower right for dark"
+  },
+  {
+    "hash": "ce1c42865ddb0e9b3cf0b39df21582d03cc03636",
+    "date": 1769389683,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
