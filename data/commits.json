@@ -8270,8 +8270,13 @@
     "subject": "Glass chip: actually improve light/dark contrast"
   },
   {
-    "hash": "d8cf26f546092eceb46f63c3c7bd9187de4fe9ab",
-    "date": 1771809376,
+    "hash": "38302ace740b126da7807561898b5105392e5052",
+    "date": 1772778589,
+    "subject": "prepare for 50.rc release"
+  },
+  {
+    "hash": "ab0fe4cd91ee2622fcff88dd3e8dacd92d22db06",
+    "date": 1773015092,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
