@@ -8275,8 +8275,13 @@
     "subject": "prepare for 50.rc release"
   },
   {
-    "hash": "ab0fe4cd91ee2622fcff88dd3e8dacd92d22db06",
-    "date": 1773015092,
+    "hash": "b688c27680e968afe0c314ff3fe45d0b39fb5e2f",
+    "date": 1773761558,
+    "subject": "Prepare for 50.0"
+  },
+  {
+    "hash": "3174f6ad7b5749979f852bb5d8cd67d57560ec71",
+    "date": 1774224863,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
