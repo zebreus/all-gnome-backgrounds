@@ -8280,8 +8280,23 @@
     "subject": "Prepare for 50.0"
   },
   {
-    "hash": "3174f6ad7b5749979f852bb5d8cd67d57560ec71",
-    "date": 1774224863,
+    "hash": "d985d2c37763b33769543f4dd9de72599ea74b25",
+    "date": 1780334067,
+    "subject": "Glass stripes: new retro"
+  },
+  {
+    "hash": "aac6b93ded61b83f7869c1e984d3cdf652dab2f3",
+    "date": 1780390566,
+    "subject": "Glass Stripes: Sideways"
+  },
+  {
+    "hash": "95f4178796b27157f75664470d16bdcfa01b56af",
+    "date": 1780413613,
+    "subject": "tubes: Zoom in, shape/shading tweaks"
+  },
+  {
+    "hash": "1d1f00c5ad07411fd4cbea79d230bc4b9ee87c2b",
+    "date": 1780878871,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
