@@ -8305,8 +8305,18 @@
     "subject": "Prepare for 51.alpha.0"
   },
   {
-    "hash": "e15832dbc84ce7ba5fd1ef0652f6ca008108dd93",
-    "date": 1781483824,
+    "hash": "a0e2ae23b945adaf00d5af256d4249b1802dcef1",
+    "date": 1781522550,
+    "subject": "*.xml.in: update primary and secondary colors"
+  },
+  {
+    "hash": "95e6c0f3ce659f1f802cef1b0a6db912bfe0d364",
+    "date": 1781522840,
+    "subject": "update-colors.py: random sample wallpapers for pcolor"
+  },
+  {
+    "hash": "b9b2fce4780d885e2ed6b2a2ada6731cdadd341d",
+    "date": 1782088480,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
