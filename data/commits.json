@@ -8315,8 +8315,13 @@
     "subject": "update-colors.py: random sample wallpapers for pcolor"
   },
   {
-    "hash": "b9b2fce4780d885e2ed6b2a2ada6731cdadd341d",
-    "date": 1782088480,
+    "hash": "03d1ce2bb13bd2018d73f9f5e6d281bced97f2af",
+    "date": 1785161794,
+    "subject": "default: Add POI to the top right"
+  },
+  {
+    "hash": "1e0e1b656711260096d0d20f5032cf90f9ed0c5e",
+    "date": 1785716729,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
