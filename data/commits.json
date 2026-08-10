@@ -8320,8 +8320,18 @@
     "subject": "default: Add POI to the top right"
   },
   {
-    "hash": "1e0e1b656711260096d0d20f5032cf90f9ed0c5e",
-    "date": 1785716729,
+    "hash": "1218fe33130276f797c350996ca76ff380ef7d1d",
+    "date": 1785935031,
+    "subject": "Curvaturingster: Last minute addition"
+  },
+  {
+    "hash": "02d67a0d51ab88ac409e464f0534e69dba37ffad",
+    "date": 1785936121,
+    "subject": "Curvaturingster: Shape updates"
+  },
+  {
+    "hash": "34f31888cb247bbb4a30d441db234ec5c73838ef",
+    "date": 1786320704,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
