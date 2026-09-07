@@ -8340,8 +8340,23 @@
     "subject": "curvaturingster: 16bit and RGB"
   },
   {
-    "hash": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
+    "hash": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "subject": "metadata: Embed author and license in images"
+  },
+  {
+    "hash": "ea17709b400280c5d5d0b0491070163802ba4295",
+    "date": 1788183564,
+    "subject": "amber: Flatten to RGB"
+  },
+  {
+    "hash": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "subject": "jxl: Include a thubmail"
+  },
+  {
+    "hash": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
     "subject": "Currently in gnome-backgrounds"
   }
 ]

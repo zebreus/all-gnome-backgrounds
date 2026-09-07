@@ -18277,18 +18277,18 @@
     "type": "edit",
     "configs": [
       {
-        "name": "Pride",
-        "filename": "@BACKGROUNDDIR@/pride-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/pride-d.jxl",
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/progress-pride-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/progress-pride-d.jxl",
         "options": "zoom",
         "shade_type": "solid",
         "pcolor": "#26a269",
         "scolor": "#000000"
       },
       {
-        "name": "Fold",
-        "filename": "@BACKGROUNDDIR@/progress-pride-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/progress-pride-d.jxl",
+        "name": "Pride",
+        "filename": "@BACKGROUNDDIR@/pride-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/pride-d.jxl",
         "options": "zoom",
         "shade_type": "solid",
         "pcolor": "#26a269",
@@ -18308,18 +18308,18 @@
     "type": "edit",
     "configs": [
       {
-        "name": "Pride",
-        "filename": "@BACKGROUNDDIR@/pride-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/pride-d.jxl",
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/progress-pride-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/progress-pride-d.jxl",
         "options": "zoom",
         "shade_type": "solid",
         "pcolor": "#26a269",
         "scolor": "#000000"
       },
       {
-        "name": "Fold",
-        "filename": "@BACKGROUNDDIR@/progress-pride-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/progress-pride-d.jxl",
+        "name": "Pride",
+        "filename": "@BACKGROUNDDIR@/pride-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/pride-d.jxl",
         "options": "zoom",
         "shade_type": "solid",
         "pcolor": "#26a269",
@@ -20904,9 +20904,2105 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
     "previousFileHash": "d2617d269a24096c725f11d4b568e82dcddace9c",
+    "newFileHash": "bce7dcec389ebfb97ff9514a0ee6233c6a6ef8ab",
+    "file": "images/bce7dcec389ebfb97ff9514a0ee6233c6a6ef8ab.webp",
+    "originalRepoPath": "backgrounds/adwaita-d.jxl",
+    "name": "adwaita-d",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#044BFD",
+        "scolor": "#0234E5"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "fc21fc4bac8a67311ff1950c0909faaa611b2e00",
+    "newFileHash": "3572537226b0a44f51f160731f485ef571313320",
+    "file": "images/3572537226b0a44f51f160731f485ef571313320.webp",
+    "originalRepoPath": "backgrounds/adwaita-l.jxl",
+    "name": "adwaita-l",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#044BFD",
+        "scolor": "#0234E5"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "1938c12fcd42b0c754886904c3465750f249831e",
+    "newFileHash": "8be2adf4dc1b49fbe65082ce57d2ce967fa4a49c",
+    "file": "images/8be2adf4dc1b49fbe65082ce57d2ce967fa4a49c.webp",
+    "originalRepoPath": "backgrounds/amber-d.jxl",
+    "name": "amber-d",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Amber",
+        "filename": "@BACKGROUNDDIR@/amber-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/amber-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#F57511",
+        "scolor": "#DD4C38"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "decf85d5adacd1bfdf0d16ac226a2026ac9ad9ac",
+    "newFileHash": "a2eb97b53c83c38cc1ab0bce3c6769171ce6950c",
+    "file": "images/a2eb97b53c83c38cc1ab0bce3c6769171ce6950c.webp",
+    "originalRepoPath": "backgrounds/amber-l.jxl",
+    "name": "amber-l",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Amber",
+        "filename": "@BACKGROUNDDIR@/amber-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/amber-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#F57511",
+        "scolor": "#DD4C38"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "d92013f0b6777afc4396a6cbf05c73f458161aeb",
+    "newFileHash": "4723d504052883c3cfa6a66c52a27d967ac0d665",
+    "file": "images/4723d504052883c3cfa6a66c52a27d967ac0d665.webp",
+    "originalRepoPath": "backgrounds/balls-d.jxl",
+    "name": "balls-d",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Balls",
+        "filename": "@BACKGROUNDDIR@/balls-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/balls-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3C3635",
+        "scolor": "#E4DAC4"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "7a230dd847b66c74e8f48bedee14a18f80f51be3",
+    "newFileHash": "5689308a4ad7a4129442fae829202baf3bb8e22f",
+    "file": "images/5689308a4ad7a4129442fae829202baf3bb8e22f.webp",
+    "originalRepoPath": "backgrounds/balls-l.jxl",
+    "name": "balls-l",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Balls",
+        "filename": "@BACKGROUNDDIR@/balls-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/balls-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3C3635",
+        "scolor": "#E4DAC4"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "e62d6d96c2647912827b9140ebd137c109b88409",
+    "newFileHash": "8967944d175cde4067df3043ca87426056c12a1c",
+    "file": "images/8967944d175cde4067df3043ca87426056c12a1c.webp",
+    "originalRepoPath": "backgrounds/blendpills-d.jxl",
+    "name": "blendpills-d",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Blendpills",
+        "filename": "@BACKGROUNDDIR@/blendpills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/blendpills-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#BE9F4D",
+        "scolor": "#8A4B61"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "e56839afe710460c0ca70968dc07f818551098e3",
+    "newFileHash": "d095d39e20cde3afdff1d0b0fa0b3f4625bd7362",
+    "file": "images/d095d39e20cde3afdff1d0b0fa0b3f4625bd7362.webp",
+    "originalRepoPath": "backgrounds/blendpills-l.jxl",
+    "name": "blendpills-l",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Blendpills",
+        "filename": "@BACKGROUNDDIR@/blendpills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/blendpills-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#BE9F4D",
+        "scolor": "#8A4B61"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "e1f6382b140af6f8a43dc8c7e779d5c5a1c95364",
+    "newFileHash": "9b0f379f40dc50f0011807f521ea74df261a7713",
+    "file": "images/9b0f379f40dc50f0011807f521ea74df261a7713.webp",
+    "originalRepoPath": "backgrounds/blobs-d.svg",
+    "name": "blobs-d",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Blobs",
+        "filename": "@BACKGROUNDDIR@/blobs-l.svg",
+        "filename-dark": "@BACKGROUNDDIR@/blobs-d.svg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#322842",
+        "scolor": "#B82B4F"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "b49caff1a7941d98b60902da64956ad85dfbe4f9",
+    "newFileHash": "871ef5a20acced7fcbb321a5e3ecb7c04cd2d712",
+    "file": "images/871ef5a20acced7fcbb321a5e3ecb7c04cd2d712.webp",
+    "originalRepoPath": "backgrounds/blobs-l.svg",
+    "name": "blobs-l",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Blobs",
+        "filename": "@BACKGROUNDDIR@/blobs-l.svg",
+        "filename-dark": "@BACKGROUNDDIR@/blobs-d.svg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#322842",
+        "scolor": "#B82B4F"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "d870eaa4418f6a8c3e11a06b65c826253cf9ad69",
+    "newFileHash": "3fc413bd32e7ce5718ad50255102b4416abf2a85",
+    "file": "images/3fc413bd32e7ce5718ad50255102b4416abf2a85.webp",
+    "originalRepoPath": "backgrounds/curvaturingster-d.jxl",
+    "name": "curvaturingster-d",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Curvy",
+        "filename": "@BACKGROUNDDIR@/curvaturingster-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/curvaturingster-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#8B6571",
+        "scolor": "#A4818C"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "f58ab2dd89d352e243cf54d7caddb48917692709",
+    "newFileHash": "91bc600b09673f626932011c9aa8d99af85a7e02",
+    "file": "images/91bc600b09673f626932011c9aa8d99af85a7e02.webp",
+    "originalRepoPath": "backgrounds/curvaturingster-l.jxl",
+    "name": "curvaturingster-l",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Curvy",
+        "filename": "@BACKGROUNDDIR@/curvaturingster-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/curvaturingster-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#8B6571",
+        "scolor": "#A4818C"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "4f3580b4dba7eae88475c3a07887e707615a8a58",
+    "newFileHash": "9d27478868485b6618928480c2b4112b64dc6e13",
+    "file": "images/9d27478868485b6618928480c2b4112b64dc6e13.webp",
+    "originalRepoPath": "backgrounds/curvy-d.jxl",
+    "name": "curvy-d",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Curvy",
+        "filename": "@BACKGROUNDDIR@/curvy-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/curvy-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#8A8988",
+        "scolor": "#B8B7B6"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "f786482f649eb0e559f254a8347e3c5c034525f3",
+    "newFileHash": "cb560493a463cbe1d053007b559b0163e47fae76",
+    "file": "images/cb560493a463cbe1d053007b559b0163e47fae76.webp",
+    "originalRepoPath": "backgrounds/curvy-l.jxl",
+    "name": "curvy-l",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Curvy",
+        "filename": "@BACKGROUNDDIR@/curvy-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/curvy-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#8A8988",
+        "scolor": "#B8B7B6"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "c91150a0639dde24d287cd0b5053d8a1941d86cf",
+    "newFileHash": "259cb8a25d9daee8f1b6a87fe9a36abfab793494",
+    "file": "images/259cb8a25d9daee8f1b6a87fe9a36abfab793494.webp",
+    "originalRepoPath": "backgrounds/dithered-sun-d.jxl",
+    "name": "dithered-sun-d",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Dithered Sun",
+        "filename": "@BACKGROUNDDIR@/dithered-sun-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/dithered-sun-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#CCFCAF",
+        "scolor": "#7BDECB"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "8d4b474ab3a81457199d7f1e32adf120820b0223",
+    "newFileHash": "2ec04cff54b13e0e28a3e87e7f91071e1797c0e8",
+    "file": "images/2ec04cff54b13e0e28a3e87e7f91071e1797c0e8.webp",
+    "originalRepoPath": "backgrounds/dithered-sun-l.jxl",
+    "name": "dithered-sun-l",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Dithered Sun",
+        "filename": "@BACKGROUNDDIR@/dithered-sun-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/dithered-sun-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#CCFCAF",
+        "scolor": "#7BDECB"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "7ee48639d178c5db2682b4cd9c8e6599532a63e8",
+    "newFileHash": "5bd885564307827805defd4bf8d45a949daebf0a",
+    "file": "images/5bd885564307827805defd4bf8d45a949daebf0a.webp",
+    "originalRepoPath": "backgrounds/drool-d.svg",
+    "name": "drool-d",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Drool",
+        "filename": "@BACKGROUNDDIR@/drool-l.svg",
+        "filename-dark": "@BACKGROUNDDIR@/drool-d.svg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#89B7EF",
+        "scolor": "#3678C9"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "95f4c6657e51f40d193e1c5ba6629216d8e38d5b",
+    "newFileHash": "9616aa8aad2d5136b2eb044d95bbfee1ca43365e",
+    "file": "images/9616aa8aad2d5136b2eb044d95bbfee1ca43365e.webp",
+    "originalRepoPath": "backgrounds/drool-l.svg",
+    "name": "drool-l",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Drool",
+        "filename": "@BACKGROUNDDIR@/drool-l.svg",
+        "filename-dark": "@BACKGROUNDDIR@/drool-d.svg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#89B7EF",
+        "scolor": "#3678C9"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "daadc72c40adcc1261c0a42382a8e4b8966fdbb6",
+    "newFileHash": "73cee1abff0b62e053de13028dc83cfea997b45a",
+    "file": "images/73cee1abff0b62e053de13028dc83cfea997b45a.webp",
+    "originalRepoPath": "backgrounds/fold-d.jxl",
+    "name": "fold-d",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/fold-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/fold-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#EE9526",
+        "scolor": "#AE433B"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "b8a4ea488b1f3e896ef46e498af728984f1d6888",
+    "newFileHash": "30dbc14194c2f8efe2f469ef067a37163ee9f4ba",
+    "file": "images/30dbc14194c2f8efe2f469ef067a37163ee9f4ba.webp",
+    "originalRepoPath": "backgrounds/fold-l.jxl",
+    "name": "fold-l",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/fold-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/fold-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#EE9526",
+        "scolor": "#AE433B"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "c59de7d285156d7c95aa3f01769b95e234761b6d",
+    "newFileHash": "8d8289cc9d1859e47a922e19ccd06800bcafb28e",
+    "file": "images/8d8289cc9d1859e47a922e19ccd06800bcafb28e.webp",
+    "originalRepoPath": "backgrounds/glass-chip-d.jxl",
+    "name": "glass-chip-d",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/glass-chip-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/glass-chip-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#24364E",
+        "scolor": "#445171"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "d627736519b2946e29a42851204e702e22c05040",
+    "newFileHash": "cb66707cb514d4802d460ca2caab06dfec271265",
+    "file": "images/cb66707cb514d4802d460ca2caab06dfec271265.webp",
+    "originalRepoPath": "backgrounds/glass-chip-l.jxl",
+    "name": "glass-chip-l",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/glass-chip-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/glass-chip-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#24364E",
+        "scolor": "#445171"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "32ca79912ccd8937fea1e82642d7adea35328eb5",
+    "newFileHash": "9406057902a9f20143c4be55158491c13713d2c6",
+    "file": "images/9406057902a9f20143c4be55158491c13713d2c6.webp",
+    "originalRepoPath": "backgrounds/glass-stripes-d.jxl",
+    "name": "glass-stripes-d",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/glass-stripes-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/glass-stripes-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#EF9A49",
+        "scolor": "#B86A3F"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "399e916b6106593fc1a481c3c7e3253f7b6c258b",
+    "newFileHash": "ab93dd57494e51181a00bbdc46db77e73aba248e",
+    "file": "images/ab93dd57494e51181a00bbdc46db77e73aba248e.webp",
+    "originalRepoPath": "backgrounds/glass-stripes-l.jxl",
+    "name": "glass-stripes-l",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/glass-stripes-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/glass-stripes-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#EF9A49",
+        "scolor": "#B86A3F"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "dc739b15fe71d07823c3f73ce15b551c41a6ed2f",
+    "newFileHash": "57c3bead6565820d66514721c29b03c74d0e6f73",
+    "file": "images/57c3bead6565820d66514721c29b03c74d0e6f73.webp",
+    "originalRepoPath": "backgrounds/lcd-rainbow-d.jxl",
+    "name": "lcd-rainbow-d",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "LCD Rainbow",
+        "filename": "@BACKGROUNDDIR@/lcd-rainbow-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/lcd-rainbow-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#DBDBDB",
+        "scolor": "#E5E5E5"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "c82c0b97957714f31872d3694959bc4dd9f69a8c",
+    "newFileHash": "22977ec88259112901cc46a88131f04fd05feb97",
+    "file": "images/22977ec88259112901cc46a88131f04fd05feb97.webp",
+    "originalRepoPath": "backgrounds/lcd-rainbow-l.jxl",
+    "name": "lcd-rainbow-l",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "LCD Rainbow",
+        "filename": "@BACKGROUNDDIR@/lcd-rainbow-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/lcd-rainbow-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#DBDBDB",
+        "scolor": "#E5E5E5"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "3053f7f2a25e14f1dc41efa7e1e478896705af78",
+    "newFileHash": "4c61ccaa6b49f6e9147a8f97d991c1c605f59bd3",
+    "file": "images/4c61ccaa6b49f6e9147a8f97d991c1c605f59bd3.webp",
+    "originalRepoPath": "backgrounds/map-d.svg",
+    "name": "map-d",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Map",
+        "filename": "@BACKGROUNDDIR@/map-l.svg",
+        "filename-dark": "@BACKGROUNDDIR@/map-d.svg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#EFF5FF",
+        "scolor": "#35A975"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "9c935cc2ce38d81779018b7f73f20212b66dc2c7",
+    "newFileHash": "0a14246e3a5559dec059cd44b9266afbb3f2cb4b",
+    "file": "images/0a14246e3a5559dec059cd44b9266afbb3f2cb4b.webp",
+    "originalRepoPath": "backgrounds/map-l.svg",
+    "name": "map-l",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Map",
+        "filename": "@BACKGROUNDDIR@/map-l.svg",
+        "filename-dark": "@BACKGROUNDDIR@/map-d.svg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#EFF5FF",
+        "scolor": "#35A975"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "d4207b7b21b8b6da35d5c43f48d8441012de8a6e",
+    "newFileHash": "fe3297a3ed0cc3aee7057b330685f8cce2a8622c",
+    "file": "images/fe3297a3ed0cc3aee7057b330685f8cce2a8622c.webp",
+    "originalRepoPath": "backgrounds/morphogenesis-d.svg",
+    "name": "morphogenesis-d",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Morphogenesis",
+        "filename": "@BACKGROUNDDIR@/morphogenesis-l.svg",
+        "filename-dark": "@BACKGROUNDDIR@/morphogenesis-d.svg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#E48579",
+        "scolor": "#F5928A"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "b491162fb72dcc97d7f766d757fbe13b0580ac91",
+    "newFileHash": "efe306a44be3c21b69d53b90d8f350d48e73de65",
+    "file": "images/efe306a44be3c21b69d53b90d8f350d48e73de65.webp",
+    "originalRepoPath": "backgrounds/morphogenesis-l.svg",
+    "name": "morphogenesis-l",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Morphogenesis",
+        "filename": "@BACKGROUNDDIR@/morphogenesis-l.svg",
+        "filename-dark": "@BACKGROUNDDIR@/morphogenesis-d.svg",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#E48579",
+        "scolor": "#F5928A"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "c4d7c280edc704bcac39c49a74970a9bcfd01d72",
+    "newFileHash": "de008d60e05fcbde6aef051f33a7340cceb4bed4",
+    "file": "images/de008d60e05fcbde6aef051f33a7340cceb4bed4.webp",
+    "originalRepoPath": "backgrounds/pills-d.jxl",
+    "name": "pills-d",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Pills",
+        "filename": "@BACKGROUNDDIR@/pills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/pills-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#B03546",
+        "scolor": "#BE5960"
+      },
+      {
+        "name": "Tarkov Pills",
+        "filename": "@BACKGROUNDDIR@/tarkov-pills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/tarkov-pills-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#9997AC",
+        "scolor": "#605556"
+      },
+      {
+        "name": "Blendpills",
+        "filename": "@BACKGROUNDDIR@/blendpills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/blendpills-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#BE9F4D",
+        "scolor": "#8A4B61"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "08d0220c53c21b9cdb4981137021372e1d733fe2",
+    "newFileHash": "589c0ab68d02efbde5cbb82c14c8475cddba28b3",
+    "file": "images/589c0ab68d02efbde5cbb82c14c8475cddba28b3.webp",
+    "originalRepoPath": "backgrounds/pills-l.jxl",
+    "name": "pills-l",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Pills",
+        "filename": "@BACKGROUNDDIR@/pills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/pills-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#B03546",
+        "scolor": "#BE5960"
+      },
+      {
+        "name": "Tarkov Pills",
+        "filename": "@BACKGROUNDDIR@/tarkov-pills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/tarkov-pills-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#9997AC",
+        "scolor": "#605556"
+      },
+      {
+        "name": "Blendpills",
+        "filename": "@BACKGROUNDDIR@/blendpills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/blendpills-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#BE9F4D",
+        "scolor": "#8A4B61"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "21418f41680cca1388ab7da093862dba2f136466",
+    "newFileHash": "bc81d919edc12f34a3c4620e6896fd09dffef2f3",
+    "file": "images/bc81d919edc12f34a3c4620e6896fd09dffef2f3.webp",
+    "originalRepoPath": "backgrounds/pixel-pusher-d.jxl",
+    "name": "pixel-pusher-d",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Pixel Pusher",
+        "filename": "@BACKGROUNDDIR@/pixel-pusher-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/pixel-pusher-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#1A1427",
+        "scolor": "#6A0E1A"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "2cd23a63dde91195df37904bc53c9e66bb419ab9",
+    "newFileHash": "c22df91781a0a121ef3fd349e0528f04bd4c4cc1",
+    "file": "images/c22df91781a0a121ef3fd349e0528f04bd4c4cc1.webp",
+    "originalRepoPath": "backgrounds/pixel-pusher-l.jxl",
+    "name": "pixel-pusher-l",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Pixel Pusher",
+        "filename": "@BACKGROUNDDIR@/pixel-pusher-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/pixel-pusher-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#1A1427",
+        "scolor": "#6A0E1A"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "3dc80d06ff77ddcefca7830b00e97a61f8e4ed8f",
+    "newFileHash": "1d214f54b65a4d2ada44e08dc1d63191178650ea",
+    "file": "images/1d214f54b65a4d2ada44e08dc1d63191178650ea.webp",
+    "originalRepoPath": "backgrounds/pixels-d.jxl",
+    "name": "pixels-d",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Pixels",
+        "filename": "@BACKGROUNDDIR@/pixels-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/pixels-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#92B1F3",
+        "scolor": "#8AA5F6"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "4b5614d895a7bcd6904e43e47901077490f0f872",
+    "newFileHash": "9cae5dc6acae70ddff4cd3e73706920b070bb87b",
+    "file": "images/9cae5dc6acae70ddff4cd3e73706920b070bb87b.webp",
+    "originalRepoPath": "backgrounds/pixels-l.jxl",
+    "name": "pixels-l",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Pixels",
+        "filename": "@BACKGROUNDDIR@/pixels-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/pixels-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#92B1F3",
+        "scolor": "#8AA5F6"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "28111fc0b19ac793eeaff18b20eee088cd190067",
+    "newFileHash": "93722c96294f0e4f25b166348bf6d2ba84ac621f",
+    "file": "images/93722c96294f0e4f25b166348bf6d2ba84ac621f.webp",
+    "originalRepoPath": "backgrounds/progress-d.jxl",
+    "name": "progress-d",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Pixels",
+        "filename": "@BACKGROUNDDIR@/progress-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/progress-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#D3C9DF",
+        "scolor": "#E3823A"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "8313a64981b650c94df0565444a9b22f71acb7e9",
+    "newFileHash": "2c480e7dfed8bf30b8d4510602c9b1f8edc53f0b",
+    "file": "images/2c480e7dfed8bf30b8d4510602c9b1f8edc53f0b.webp",
+    "originalRepoPath": "backgrounds/progress-l.jxl",
+    "name": "progress-l",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Pixels",
+        "filename": "@BACKGROUNDDIR@/progress-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/progress-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#D3C9DF",
+        "scolor": "#E3823A"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "5a65efeb991752ee9942dd32d17beb9c2053362d",
+    "newFileHash": "2e6d2bf0ae68e4e3469a8eb2eefe980babb22c5b",
+    "file": "images/2e6d2bf0ae68e4e3469a8eb2eefe980babb22c5b.webp",
+    "originalRepoPath": "backgrounds/sheet-d.jxl",
+    "name": "sheet-d",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Swoosh",
+        "filename": "@BACKGROUNDDIR@/sheet-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/sheet-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#10499F",
+        "scolor": "#3849B9"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "5d7fe76bef197a9a84bbc7e15f014f471d42ae54",
+    "newFileHash": "9c595c7a0b6f5beb7cab7276df03f39eeb65eb81",
+    "file": "images/9c595c7a0b6f5beb7cab7276df03f39eeb65eb81.webp",
+    "originalRepoPath": "backgrounds/sheet-l.jxl",
+    "name": "sheet-l",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Swoosh",
+        "filename": "@BACKGROUNDDIR@/sheet-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/sheet-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#10499F",
+        "scolor": "#3849B9"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "098d9da8f070079fdcf9b5549145ab2850633a55",
+    "newFileHash": "72b9711035de88b0229fa18a705a8c38e29568a9",
+    "file": "images/72b9711035de88b0229fa18a705a8c38e29568a9.webp",
+    "originalRepoPath": "backgrounds/symbolic-d.jxl",
+    "name": "symbolic-d",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Symbolics",
+        "filename": "@BACKGROUNDDIR@/symbolic-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/symbolic-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#2C78CB",
+        "scolor": "#6D94C9"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "fb17fd40baceb359668bf80ca6649ba7fb6715de",
+    "newFileHash": "344b8904886161d7ca8bcb0e9dba5385726ed0f9",
+    "file": "images/344b8904886161d7ca8bcb0e9dba5385726ed0f9.webp",
+    "originalRepoPath": "backgrounds/symbolic-l.jxl",
+    "name": "symbolic-l",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Symbolics",
+        "filename": "@BACKGROUNDDIR@/symbolic-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/symbolic-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#2C78CB",
+        "scolor": "#6D94C9"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "055d05cfd21d32bbf7fe97dd71b701a4080dfed8",
+    "newFileHash": "dbf6dae9bc89a0883a740f70630029bbed2fb284",
+    "file": "images/dbf6dae9bc89a0883a740f70630029bbed2fb284.webp",
+    "originalRepoPath": "backgrounds/tarka-d.jxl",
+    "name": "tarka-d",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Truchet",
+        "filename": "@BACKGROUNDDIR@/tarka-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/tarka-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#B8B2B4",
+        "scolor": "#DDD6DB"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "904661df831230807981c6fa8465f012134956f2",
+    "newFileHash": "d4465c4b79ced4344ad11648140bd0bf02a61d61",
+    "file": "images/d4465c4b79ced4344ad11648140bd0bf02a61d61.webp",
+    "originalRepoPath": "backgrounds/tarka-l.jxl",
+    "name": "tarka-l",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Truchet",
+        "filename": "@BACKGROUNDDIR@/tarka-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/tarka-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#B8B2B4",
+        "scolor": "#DDD6DB"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "ac041198b69164b9ecac6e574dc9029795c6d88f",
+    "newFileHash": "241d50cdde5a712c204c79b171e68a4c22f1e819",
+    "file": "images/241d50cdde5a712c204c79b171e68a4c22f1e819.webp",
+    "originalRepoPath": "backgrounds/tarkov-pills-d.jxl",
+    "name": "tarkov-pills-d",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Tarkov Pills",
+        "filename": "@BACKGROUNDDIR@/tarkov-pills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/tarkov-pills-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#9997AC",
+        "scolor": "#605556"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "d14d654b3d05d49dcc8d799e5c7bea53cef28055",
+    "newFileHash": "6d6fd9a511b2d85aa81bc2c0a672be51078cae5a",
+    "file": "images/6d6fd9a511b2d85aa81bc2c0a672be51078cae5a.webp",
+    "originalRepoPath": "backgrounds/tarkov-pills-l.jxl",
+    "name": "tarkov-pills-l",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Tarkov Pills",
+        "filename": "@BACKGROUNDDIR@/tarkov-pills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/tarkov-pills-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#9997AC",
+        "scolor": "#605556"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "85523e3d57b00b96cd2eaee0c8e1095925180f4c",
+    "newFileHash": "a96a92279039067457ae361fedff76c51ab251ff",
+    "file": "images/a96a92279039067457ae361fedff76c51ab251ff.webp",
+    "originalRepoPath": "backgrounds/tubes-d.jxl",
+    "name": "tubes-d",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Series of Tubes",
+        "filename": "@BACKGROUNDDIR@/tubes-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/tubes-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#010000",
+        "scolor": "#270F06"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "8879808ee2818f6a18d0784f294f5b9b4bee6482",
+    "newFileHash": "8e0e27d1598915e727f17a97eeef0b9a46484e8a",
+    "file": "images/8e0e27d1598915e727f17a97eeef0b9a46484e8a.webp",
+    "originalRepoPath": "backgrounds/tubes-l.jxl",
+    "name": "tubes-l",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Series of Tubes",
+        "filename": "@BACKGROUNDDIR@/tubes-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/tubes-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#010000",
+        "scolor": "#270F06"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "7d9432161002a7494ff05853bfacdf7b55277b74",
+    "newFileHash": "382e2ed10cf31eacfc1579e82bbe912f432c4b5e",
+    "file": "images/382e2ed10cf31eacfc1579e82bbe912f432c4b5e.webp",
+    "originalRepoPath": "backgrounds/vnc-d.png",
+    "name": "vnc-d",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "VNC",
+        "filename": "@BACKGROUNDDIR@/vnc-l.png",
+        "filename-dark": "@BACKGROUNDDIR@/vnc-d.png",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#77767B",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "0e0489d8366c5ba813f82f4c5aefb36831f3a155",
+    "date": 1788180675,
+    "previousFileHash": "7b5275895e40dd8b494c15e640964fcc7d525d21",
+    "newFileHash": "c1965cbfe6a015b6a14997fa76fffac0cce423d0",
+    "file": "images/c1965cbfe6a015b6a14997fa76fffac0cce423d0.webp",
+    "originalRepoPath": "backgrounds/vnc-l.png",
+    "name": "vnc-l",
+    "message": "metadata: Embed author and license in images",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "VNC",
+        "filename": "@BACKGROUNDDIR@/vnc-l.png",
+        "filename-dark": "@BACKGROUNDDIR@/vnc-d.png",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#77767B",
+        "scolor": "#000000"
+      }
+    ]
+  },
+  {
+    "commit": "ea17709b400280c5d5d0b0491070163802ba4295",
+    "date": 1788183564,
+    "previousFileHash": "8be2adf4dc1b49fbe65082ce57d2ce967fa4a49c",
+    "newFileHash": "68b1362de4bdc7b4d7efb728631b45dfd946d6e2",
+    "file": "images/68b1362de4bdc7b4d7efb728631b45dfd946d6e2.webp",
+    "originalRepoPath": "backgrounds/amber-d.jxl",
+    "name": "amber-d",
+    "message": "amber: Flatten to RGB",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Amber",
+        "filename": "@BACKGROUNDDIR@/amber-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/amber-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#F57511",
+        "scolor": "#DD4C38"
+      }
+    ]
+  },
+  {
+    "commit": "ea17709b400280c5d5d0b0491070163802ba4295",
+    "date": 1788183564,
+    "previousFileHash": "a2eb97b53c83c38cc1ab0bce3c6769171ce6950c",
+    "newFileHash": "9d417b32b4f56f8280b59a7a01bb91a5f6768de4",
+    "file": "images/9d417b32b4f56f8280b59a7a01bb91a5f6768de4.webp",
+    "originalRepoPath": "backgrounds/amber-l.jxl",
+    "name": "amber-l",
+    "message": "amber: Flatten to RGB",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Amber",
+        "filename": "@BACKGROUNDDIR@/amber-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/amber-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#F57511",
+        "scolor": "#DD4C38"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "bce7dcec389ebfb97ff9514a0ee6233c6a6ef8ab",
+    "newFileHash": "d4d829c64ae65633ff93c33c222a370b37d771a3",
+    "file": "images/d4d829c64ae65633ff93c33c222a370b37d771a3.webp",
+    "originalRepoPath": "backgrounds/adwaita-d.jxl",
+    "name": "adwaita-d",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#044BFD",
+        "scolor": "#0234E5"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "3572537226b0a44f51f160731f485ef571313320",
+    "newFileHash": "71e1e91496d82cbe82b9bf9121d4fe23ac81bb21",
+    "file": "images/71e1e91496d82cbe82b9bf9121d4fe23ac81bb21.webp",
+    "originalRepoPath": "backgrounds/adwaita-l.jxl",
+    "name": "adwaita-l",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Default Background",
+        "filename": "@BACKGROUNDDIR@/adwaita-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/adwaita-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#044BFD",
+        "scolor": "#0234E5"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "68b1362de4bdc7b4d7efb728631b45dfd946d6e2",
+    "newFileHash": "3109a3b61c02be9f74696ae6f7ca26eb79883bb1",
+    "file": "images/3109a3b61c02be9f74696ae6f7ca26eb79883bb1.webp",
+    "originalRepoPath": "backgrounds/amber-d.jxl",
+    "name": "amber-d",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Amber",
+        "filename": "@BACKGROUNDDIR@/amber-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/amber-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#F57511",
+        "scolor": "#DD4C38"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "9d417b32b4f56f8280b59a7a01bb91a5f6768de4",
+    "newFileHash": "ef40398bf8b29156ed8dec143546e59e820bc23e",
+    "file": "images/ef40398bf8b29156ed8dec143546e59e820bc23e.webp",
+    "originalRepoPath": "backgrounds/amber-l.jxl",
+    "name": "amber-l",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Amber",
+        "filename": "@BACKGROUNDDIR@/amber-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/amber-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#F57511",
+        "scolor": "#DD4C38"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "4723d504052883c3cfa6a66c52a27d967ac0d665",
+    "newFileHash": "db7cc63331694574c2ab68ffe0213d72839b8395",
+    "file": "images/db7cc63331694574c2ab68ffe0213d72839b8395.webp",
+    "originalRepoPath": "backgrounds/balls-d.jxl",
+    "name": "balls-d",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Balls",
+        "filename": "@BACKGROUNDDIR@/balls-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/balls-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3C3635",
+        "scolor": "#E4DAC4"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "5689308a4ad7a4129442fae829202baf3bb8e22f",
+    "newFileHash": "77ea44a58ae4d4e835164ed0165e2a2f4a44a375",
+    "file": "images/77ea44a58ae4d4e835164ed0165e2a2f4a44a375.webp",
+    "originalRepoPath": "backgrounds/balls-l.jxl",
+    "name": "balls-l",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Balls",
+        "filename": "@BACKGROUNDDIR@/balls-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/balls-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#3C3635",
+        "scolor": "#E4DAC4"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "8967944d175cde4067df3043ca87426056c12a1c",
+    "newFileHash": "46c6074523779fc0a1c848589c9369c8a126d65f",
+    "file": "images/46c6074523779fc0a1c848589c9369c8a126d65f.webp",
+    "originalRepoPath": "backgrounds/blendpills-d.jxl",
+    "name": "blendpills-d",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Blendpills",
+        "filename": "@BACKGROUNDDIR@/blendpills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/blendpills-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#BE9F4D",
+        "scolor": "#8A4B61"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "d095d39e20cde3afdff1d0b0fa0b3f4625bd7362",
+    "newFileHash": "aa340272919b5be171dffa057a3c4799c26f2170",
+    "file": "images/aa340272919b5be171dffa057a3c4799c26f2170.webp",
+    "originalRepoPath": "backgrounds/blendpills-l.jxl",
+    "name": "blendpills-l",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Blendpills",
+        "filename": "@BACKGROUNDDIR@/blendpills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/blendpills-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#BE9F4D",
+        "scolor": "#8A4B61"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "3fc413bd32e7ce5718ad50255102b4416abf2a85",
+    "newFileHash": "4fc37fde9f120d4db65ab53b78e3c55802405e54",
+    "file": "images/4fc37fde9f120d4db65ab53b78e3c55802405e54.webp",
+    "originalRepoPath": "backgrounds/curvaturingster-d.jxl",
+    "name": "curvaturingster-d",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Curvy",
+        "filename": "@BACKGROUNDDIR@/curvaturingster-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/curvaturingster-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#8B6571",
+        "scolor": "#A4818C"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "91bc600b09673f626932011c9aa8d99af85a7e02",
+    "newFileHash": "64432dfc3a0fdd347977875740b7379cdc4e59d2",
+    "file": "images/64432dfc3a0fdd347977875740b7379cdc4e59d2.webp",
+    "originalRepoPath": "backgrounds/curvaturingster-l.jxl",
+    "name": "curvaturingster-l",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Curvy",
+        "filename": "@BACKGROUNDDIR@/curvaturingster-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/curvaturingster-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#8B6571",
+        "scolor": "#A4818C"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "9d27478868485b6618928480c2b4112b64dc6e13",
+    "newFileHash": "45e7118156caaf8bb28d750b96779c2c86d52245",
+    "file": "images/45e7118156caaf8bb28d750b96779c2c86d52245.webp",
+    "originalRepoPath": "backgrounds/curvy-d.jxl",
+    "name": "curvy-d",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Curvy",
+        "filename": "@BACKGROUNDDIR@/curvy-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/curvy-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#8A8988",
+        "scolor": "#B8B7B6"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "cb560493a463cbe1d053007b559b0163e47fae76",
+    "newFileHash": "b99ffaf5998976e125f82d7b75d13264d2e1dcf3",
+    "file": "images/b99ffaf5998976e125f82d7b75d13264d2e1dcf3.webp",
+    "originalRepoPath": "backgrounds/curvy-l.jxl",
+    "name": "curvy-l",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Curvy",
+        "filename": "@BACKGROUNDDIR@/curvy-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/curvy-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#8A8988",
+        "scolor": "#B8B7B6"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "259cb8a25d9daee8f1b6a87fe9a36abfab793494",
+    "newFileHash": "8a7cd03e79bf6f7b1665c92002bae9a06f69d0fc",
+    "file": "images/8a7cd03e79bf6f7b1665c92002bae9a06f69d0fc.webp",
+    "originalRepoPath": "backgrounds/dithered-sun-d.jxl",
+    "name": "dithered-sun-d",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Dithered Sun",
+        "filename": "@BACKGROUNDDIR@/dithered-sun-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/dithered-sun-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#CCFCAF",
+        "scolor": "#7BDECB"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "2ec04cff54b13e0e28a3e87e7f91071e1797c0e8",
+    "newFileHash": "83e759e57d5b5de5813b4a46ae565db5a3c02290",
+    "file": "images/83e759e57d5b5de5813b4a46ae565db5a3c02290.webp",
+    "originalRepoPath": "backgrounds/dithered-sun-l.jxl",
+    "name": "dithered-sun-l",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Dithered Sun",
+        "filename": "@BACKGROUNDDIR@/dithered-sun-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/dithered-sun-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#CCFCAF",
+        "scolor": "#7BDECB"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "73cee1abff0b62e053de13028dc83cfea997b45a",
+    "newFileHash": "dd53ce4dfd91f3c0e5f7828d9d766014f8354998",
+    "file": "images/dd53ce4dfd91f3c0e5f7828d9d766014f8354998.webp",
+    "originalRepoPath": "backgrounds/fold-d.jxl",
+    "name": "fold-d",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/fold-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/fold-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#EE9526",
+        "scolor": "#AE433B"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "30dbc14194c2f8efe2f469ef067a37163ee9f4ba",
+    "newFileHash": "058a8dedcbc04928944e35fca7592d2c9ee853ac",
+    "file": "images/058a8dedcbc04928944e35fca7592d2c9ee853ac.webp",
+    "originalRepoPath": "backgrounds/fold-l.jxl",
+    "name": "fold-l",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/fold-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/fold-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#EE9526",
+        "scolor": "#AE433B"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "8d8289cc9d1859e47a922e19ccd06800bcafb28e",
+    "newFileHash": "38e7df55477e40471af592f0b3575422bed5f8b6",
+    "file": "images/38e7df55477e40471af592f0b3575422bed5f8b6.webp",
+    "originalRepoPath": "backgrounds/glass-chip-d.jxl",
+    "name": "glass-chip-d",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/glass-chip-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/glass-chip-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#24364E",
+        "scolor": "#445171"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "cb66707cb514d4802d460ca2caab06dfec271265",
+    "newFileHash": "87ebd7cf3f747ccf0bc1460acaaa97d36ee5f31d",
+    "file": "images/87ebd7cf3f747ccf0bc1460acaaa97d36ee5f31d.webp",
+    "originalRepoPath": "backgrounds/glass-chip-l.jxl",
+    "name": "glass-chip-l",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/glass-chip-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/glass-chip-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#24364E",
+        "scolor": "#445171"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "9406057902a9f20143c4be55158491c13713d2c6",
+    "newFileHash": "aa4fb60ed327c441beb3d946a13151c07f38074d",
+    "file": "images/aa4fb60ed327c441beb3d946a13151c07f38074d.webp",
+    "originalRepoPath": "backgrounds/glass-stripes-d.jxl",
+    "name": "glass-stripes-d",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/glass-stripes-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/glass-stripes-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#EF9A49",
+        "scolor": "#B86A3F"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "ab93dd57494e51181a00bbdc46db77e73aba248e",
+    "newFileHash": "09fe9818054bc5cdecc5d896f8937a3251610022",
+    "file": "images/09fe9818054bc5cdecc5d896f8937a3251610022.webp",
+    "originalRepoPath": "backgrounds/glass-stripes-l.jxl",
+    "name": "glass-stripes-l",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/glass-stripes-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/glass-stripes-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#EF9A49",
+        "scolor": "#B86A3F"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "57c3bead6565820d66514721c29b03c74d0e6f73",
+    "newFileHash": "cbdb46fefe938bfdd95bfbbd58df025497a507f0",
+    "file": "images/cbdb46fefe938bfdd95bfbbd58df025497a507f0.webp",
+    "originalRepoPath": "backgrounds/lcd-rainbow-d.jxl",
+    "name": "lcd-rainbow-d",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "LCD Rainbow",
+        "filename": "@BACKGROUNDDIR@/lcd-rainbow-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/lcd-rainbow-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#DBDBDB",
+        "scolor": "#E5E5E5"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "22977ec88259112901cc46a88131f04fd05feb97",
+    "newFileHash": "247c508b6c9127ca5c2f82d9f182225374e31cab",
+    "file": "images/247c508b6c9127ca5c2f82d9f182225374e31cab.webp",
+    "originalRepoPath": "backgrounds/lcd-rainbow-l.jxl",
+    "name": "lcd-rainbow-l",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "LCD Rainbow",
+        "filename": "@BACKGROUNDDIR@/lcd-rainbow-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/lcd-rainbow-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#DBDBDB",
+        "scolor": "#E5E5E5"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "de008d60e05fcbde6aef051f33a7340cceb4bed4",
+    "newFileHash": "2240e27ecdbc540b9fd1f67dc892c612de91b326",
+    "file": "images/2240e27ecdbc540b9fd1f67dc892c612de91b326.webp",
+    "originalRepoPath": "backgrounds/pills-d.jxl",
+    "name": "pills-d",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Pills",
+        "filename": "@BACKGROUNDDIR@/pills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/pills-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#B03546",
+        "scolor": "#BE5960"
+      },
+      {
+        "name": "Tarkov Pills",
+        "filename": "@BACKGROUNDDIR@/tarkov-pills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/tarkov-pills-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#9997AC",
+        "scolor": "#605556"
+      },
+      {
+        "name": "Blendpills",
+        "filename": "@BACKGROUNDDIR@/blendpills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/blendpills-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#BE9F4D",
+        "scolor": "#8A4B61"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "589c0ab68d02efbde5cbb82c14c8475cddba28b3",
+    "newFileHash": "740a8e48a5f507781e0d80c03133f9c4397b2907",
+    "file": "images/740a8e48a5f507781e0d80c03133f9c4397b2907.webp",
+    "originalRepoPath": "backgrounds/pills-l.jxl",
+    "name": "pills-l",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Pills",
+        "filename": "@BACKGROUNDDIR@/pills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/pills-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#B03546",
+        "scolor": "#BE5960"
+      },
+      {
+        "name": "Tarkov Pills",
+        "filename": "@BACKGROUNDDIR@/tarkov-pills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/tarkov-pills-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#9997AC",
+        "scolor": "#605556"
+      },
+      {
+        "name": "Blendpills",
+        "filename": "@BACKGROUNDDIR@/blendpills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/blendpills-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#BE9F4D",
+        "scolor": "#8A4B61"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "bc81d919edc12f34a3c4620e6896fd09dffef2f3",
+    "newFileHash": "6d2c095cf607906b328612781cd68bbb65db387b",
+    "file": "images/6d2c095cf607906b328612781cd68bbb65db387b.webp",
+    "originalRepoPath": "backgrounds/pixel-pusher-d.jxl",
+    "name": "pixel-pusher-d",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Pixel Pusher",
+        "filename": "@BACKGROUNDDIR@/pixel-pusher-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/pixel-pusher-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#1A1427",
+        "scolor": "#6A0E1A"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "c22df91781a0a121ef3fd349e0528f04bd4c4cc1",
+    "newFileHash": "fc9c88f4cbd3f914b59ea34a742b04618778dfb9",
+    "file": "images/fc9c88f4cbd3f914b59ea34a742b04618778dfb9.webp",
+    "originalRepoPath": "backgrounds/pixel-pusher-l.jxl",
+    "name": "pixel-pusher-l",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Pixel Pusher",
+        "filename": "@BACKGROUNDDIR@/pixel-pusher-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/pixel-pusher-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#1A1427",
+        "scolor": "#6A0E1A"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "1d214f54b65a4d2ada44e08dc1d63191178650ea",
+    "newFileHash": "e386fa0f65a4e5ba4277f345076e4bbc12c6e8d6",
+    "file": "images/e386fa0f65a4e5ba4277f345076e4bbc12c6e8d6.webp",
+    "originalRepoPath": "backgrounds/pixels-d.jxl",
+    "name": "pixels-d",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Pixels",
+        "filename": "@BACKGROUNDDIR@/pixels-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/pixels-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#92B1F3",
+        "scolor": "#8AA5F6"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "9cae5dc6acae70ddff4cd3e73706920b070bb87b",
+    "newFileHash": "0234c8377ac83eb13c5f453dccb3244688798430",
+    "file": "images/0234c8377ac83eb13c5f453dccb3244688798430.webp",
+    "originalRepoPath": "backgrounds/pixels-l.jxl",
+    "name": "pixels-l",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Pixels",
+        "filename": "@BACKGROUNDDIR@/pixels-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/pixels-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#92B1F3",
+        "scolor": "#8AA5F6"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "93722c96294f0e4f25b166348bf6d2ba84ac621f",
+    "newFileHash": "c2e3657d2d00f2f3cc6ba8a2f216446033eddfba",
+    "file": "images/c2e3657d2d00f2f3cc6ba8a2f216446033eddfba.webp",
+    "originalRepoPath": "backgrounds/progress-d.jxl",
+    "name": "progress-d",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Pixels",
+        "filename": "@BACKGROUNDDIR@/progress-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/progress-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#D3C9DF",
+        "scolor": "#E3823A"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "2c480e7dfed8bf30b8d4510602c9b1f8edc53f0b",
+    "newFileHash": "4609d69678e5fb3e6a660f9b21f1ed0ebda310b4",
+    "file": "images/4609d69678e5fb3e6a660f9b21f1ed0ebda310b4.webp",
+    "originalRepoPath": "backgrounds/progress-l.jxl",
+    "name": "progress-l",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Pixels",
+        "filename": "@BACKGROUNDDIR@/progress-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/progress-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#D3C9DF",
+        "scolor": "#E3823A"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "2e6d2bf0ae68e4e3469a8eb2eefe980babb22c5b",
+    "newFileHash": "c2a5d31a576f0daaed7b06bcae324ffb1ee6ec89",
+    "file": "images/c2a5d31a576f0daaed7b06bcae324ffb1ee6ec89.webp",
+    "originalRepoPath": "backgrounds/sheet-d.jxl",
+    "name": "sheet-d",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Swoosh",
+        "filename": "@BACKGROUNDDIR@/sheet-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/sheet-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#10499F",
+        "scolor": "#3849B9"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "9c595c7a0b6f5beb7cab7276df03f39eeb65eb81",
+    "newFileHash": "1ecb36224935193841ba94860d0a586d31387deb",
+    "file": "images/1ecb36224935193841ba94860d0a586d31387deb.webp",
+    "originalRepoPath": "backgrounds/sheet-l.jxl",
+    "name": "sheet-l",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Swoosh",
+        "filename": "@BACKGROUNDDIR@/sheet-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/sheet-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#10499F",
+        "scolor": "#3849B9"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "72b9711035de88b0229fa18a705a8c38e29568a9",
+    "newFileHash": "c1c185233a7dfc9b188bdc77c202460927a2ab3c",
+    "file": "images/c1c185233a7dfc9b188bdc77c202460927a2ab3c.webp",
+    "originalRepoPath": "backgrounds/symbolic-d.jxl",
+    "name": "symbolic-d",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Symbolics",
+        "filename": "@BACKGROUNDDIR@/symbolic-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/symbolic-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#2C78CB",
+        "scolor": "#6D94C9"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "344b8904886161d7ca8bcb0e9dba5385726ed0f9",
+    "newFileHash": "03962aca9790edbf1fb4231d1e8af1206bd83e92",
+    "file": "images/03962aca9790edbf1fb4231d1e8af1206bd83e92.webp",
+    "originalRepoPath": "backgrounds/symbolic-l.jxl",
+    "name": "symbolic-l",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Symbolics",
+        "filename": "@BACKGROUNDDIR@/symbolic-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/symbolic-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#2C78CB",
+        "scolor": "#6D94C9"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "dbf6dae9bc89a0883a740f70630029bbed2fb284",
+    "newFileHash": "7d185741e3407d62e3f956cdca9d4865845e7c49",
+    "file": "images/7d185741e3407d62e3f956cdca9d4865845e7c49.webp",
+    "originalRepoPath": "backgrounds/tarka-d.jxl",
+    "name": "tarka-d",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Truchet",
+        "filename": "@BACKGROUNDDIR@/tarka-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/tarka-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#B8B2B4",
+        "scolor": "#DDD6DB"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "d4465c4b79ced4344ad11648140bd0bf02a61d61",
+    "newFileHash": "6a1ee1f4cca1c1321b9b4b4bdb3dd72ca208f7d6",
+    "file": "images/6a1ee1f4cca1c1321b9b4b4bdb3dd72ca208f7d6.webp",
+    "originalRepoPath": "backgrounds/tarka-l.jxl",
+    "name": "tarka-l",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Truchet",
+        "filename": "@BACKGROUNDDIR@/tarka-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/tarka-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#B8B2B4",
+        "scolor": "#DDD6DB"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "241d50cdde5a712c204c79b171e68a4c22f1e819",
+    "newFileHash": "2534556cf2facb9bdc7a9fd13e83ade9f71335b7",
+    "file": "images/2534556cf2facb9bdc7a9fd13e83ade9f71335b7.webp",
+    "originalRepoPath": "backgrounds/tarkov-pills-d.jxl",
+    "name": "tarkov-pills-d",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Tarkov Pills",
+        "filename": "@BACKGROUNDDIR@/tarkov-pills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/tarkov-pills-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#9997AC",
+        "scolor": "#605556"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "6d6fd9a511b2d85aa81bc2c0a672be51078cae5a",
+    "newFileHash": "ae0e3d334916c5ba02410a2b1b250a2fa00d90c0",
+    "file": "images/ae0e3d334916c5ba02410a2b1b250a2fa00d90c0.webp",
+    "originalRepoPath": "backgrounds/tarkov-pills-l.jxl",
+    "name": "tarkov-pills-l",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Tarkov Pills",
+        "filename": "@BACKGROUNDDIR@/tarkov-pills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/tarkov-pills-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#9997AC",
+        "scolor": "#605556"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "a96a92279039067457ae361fedff76c51ab251ff",
+    "newFileHash": "dc412ff5abd743c0bf15b8573d92539af8af6e0b",
+    "file": "images/dc412ff5abd743c0bf15b8573d92539af8af6e0b.webp",
+    "originalRepoPath": "backgrounds/tubes-d.jxl",
+    "name": "tubes-d",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Series of Tubes",
+        "filename": "@BACKGROUNDDIR@/tubes-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/tubes-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#010000",
+        "scolor": "#270F06"
+      }
+    ]
+  },
+  {
+    "commit": "08ae8363098e90dea839dc37c47a3d3cb8fa2102",
+    "date": 1788186835,
+    "previousFileHash": "8e0e27d1598915e727f17a97eeef0b9a46484e8a",
+    "newFileHash": "af3c800820d22eed60d9c24cbf6b3f36e286c06b",
+    "file": "images/af3c800820d22eed60d9c24cbf6b3f36e286c06b.webp",
+    "originalRepoPath": "backgrounds/tubes-l.jxl",
+    "name": "tubes-l",
+    "message": "jxl: Include a thubmail",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Series of Tubes",
+        "filename": "@BACKGROUNDDIR@/tubes-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/tubes-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#010000",
+        "scolor": "#270F06"
+      }
+    ]
+  },
+  {
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "d4d829c64ae65633ff93c33c222a370b37d771a3",
     "originalRepoPath": "backgrounds/adwaita-d.jxl",
     "name": "adwaita-d",
     "message": "Currently in gnome-backgrounds",
@@ -20924,9 +23020,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "fc21fc4bac8a67311ff1950c0909faaa611b2e00",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "71e1e91496d82cbe82b9bf9121d4fe23ac81bb21",
     "originalRepoPath": "backgrounds/adwaita-l.jxl",
     "name": "adwaita-l",
     "message": "Currently in gnome-backgrounds",
@@ -20944,9 +23040,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "1938c12fcd42b0c754886904c3465750f249831e",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "3109a3b61c02be9f74696ae6f7ca26eb79883bb1",
     "originalRepoPath": "backgrounds/amber-d.jxl",
     "name": "amber-d",
     "message": "Currently in gnome-backgrounds",
@@ -20964,9 +23060,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "decf85d5adacd1bfdf0d16ac226a2026ac9ad9ac",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "ef40398bf8b29156ed8dec143546e59e820bc23e",
     "originalRepoPath": "backgrounds/amber-l.jxl",
     "name": "amber-l",
     "message": "Currently in gnome-backgrounds",
@@ -20984,9 +23080,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "d92013f0b6777afc4396a6cbf05c73f458161aeb",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "db7cc63331694574c2ab68ffe0213d72839b8395",
     "originalRepoPath": "backgrounds/balls-d.jxl",
     "name": "balls-d",
     "message": "Currently in gnome-backgrounds",
@@ -21004,9 +23100,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "7a230dd847b66c74e8f48bedee14a18f80f51be3",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "77ea44a58ae4d4e835164ed0165e2a2f4a44a375",
     "originalRepoPath": "backgrounds/balls-l.jxl",
     "name": "balls-l",
     "message": "Currently in gnome-backgrounds",
@@ -21024,9 +23120,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "e62d6d96c2647912827b9140ebd137c109b88409",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "46c6074523779fc0a1c848589c9369c8a126d65f",
     "originalRepoPath": "backgrounds/blendpills-d.jxl",
     "name": "blendpills-d",
     "message": "Currently in gnome-backgrounds",
@@ -21044,9 +23140,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "e56839afe710460c0ca70968dc07f818551098e3",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "aa340272919b5be171dffa057a3c4799c26f2170",
     "originalRepoPath": "backgrounds/blendpills-l.jxl",
     "name": "blendpills-l",
     "message": "Currently in gnome-backgrounds",
@@ -21064,9 +23160,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "e1f6382b140af6f8a43dc8c7e779d5c5a1c95364",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "9b0f379f40dc50f0011807f521ea74df261a7713",
     "originalRepoPath": "backgrounds/blobs-d.svg",
     "name": "blobs-d",
     "message": "Currently in gnome-backgrounds",
@@ -21084,9 +23180,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "b49caff1a7941d98b60902da64956ad85dfbe4f9",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "871ef5a20acced7fcbb321a5e3ecb7c04cd2d712",
     "originalRepoPath": "backgrounds/blobs-l.svg",
     "name": "blobs-l",
     "message": "Currently in gnome-backgrounds",
@@ -21104,9 +23200,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "d870eaa4418f6a8c3e11a06b65c826253cf9ad69",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "4fc37fde9f120d4db65ab53b78e3c55802405e54",
     "originalRepoPath": "backgrounds/curvaturingster-d.jxl",
     "name": "curvaturingster-d",
     "message": "Currently in gnome-backgrounds",
@@ -21124,9 +23220,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "f58ab2dd89d352e243cf54d7caddb48917692709",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "64432dfc3a0fdd347977875740b7379cdc4e59d2",
     "originalRepoPath": "backgrounds/curvaturingster-l.jxl",
     "name": "curvaturingster-l",
     "message": "Currently in gnome-backgrounds",
@@ -21144,9 +23240,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "4f3580b4dba7eae88475c3a07887e707615a8a58",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "45e7118156caaf8bb28d750b96779c2c86d52245",
     "originalRepoPath": "backgrounds/curvy-d.jxl",
     "name": "curvy-d",
     "message": "Currently in gnome-backgrounds",
@@ -21164,9 +23260,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "f786482f649eb0e559f254a8347e3c5c034525f3",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "b99ffaf5998976e125f82d7b75d13264d2e1dcf3",
     "originalRepoPath": "backgrounds/curvy-l.jxl",
     "name": "curvy-l",
     "message": "Currently in gnome-backgrounds",
@@ -21184,9 +23280,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "c91150a0639dde24d287cd0b5053d8a1941d86cf",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "8a7cd03e79bf6f7b1665c92002bae9a06f69d0fc",
     "originalRepoPath": "backgrounds/dithered-sun-d.jxl",
     "name": "dithered-sun-d",
     "message": "Currently in gnome-backgrounds",
@@ -21204,9 +23300,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "8d4b474ab3a81457199d7f1e32adf120820b0223",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "83e759e57d5b5de5813b4a46ae565db5a3c02290",
     "originalRepoPath": "backgrounds/dithered-sun-l.jxl",
     "name": "dithered-sun-l",
     "message": "Currently in gnome-backgrounds",
@@ -21224,9 +23320,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "7ee48639d178c5db2682b4cd9c8e6599532a63e8",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "5bd885564307827805defd4bf8d45a949daebf0a",
     "originalRepoPath": "backgrounds/drool-d.svg",
     "name": "drool-d",
     "message": "Currently in gnome-backgrounds",
@@ -21244,9 +23340,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "95f4c6657e51f40d193e1c5ba6629216d8e38d5b",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "9616aa8aad2d5136b2eb044d95bbfee1ca43365e",
     "originalRepoPath": "backgrounds/drool-l.svg",
     "name": "drool-l",
     "message": "Currently in gnome-backgrounds",
@@ -21264,9 +23360,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "daadc72c40adcc1261c0a42382a8e4b8966fdbb6",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "dd53ce4dfd91f3c0e5f7828d9d766014f8354998",
     "originalRepoPath": "backgrounds/fold-d.jxl",
     "name": "fold-d",
     "message": "Currently in gnome-backgrounds",
@@ -21284,9 +23380,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "b8a4ea488b1f3e896ef46e498af728984f1d6888",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "058a8dedcbc04928944e35fca7592d2c9ee853ac",
     "originalRepoPath": "backgrounds/fold-l.jxl",
     "name": "fold-l",
     "message": "Currently in gnome-backgrounds",
@@ -21304,9 +23400,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "c59de7d285156d7c95aa3f01769b95e234761b6d",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "38e7df55477e40471af592f0b3575422bed5f8b6",
     "originalRepoPath": "backgrounds/glass-chip-d.jxl",
     "name": "glass-chip-d",
     "message": "Currently in gnome-backgrounds",
@@ -21324,9 +23420,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "d627736519b2946e29a42851204e702e22c05040",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "87ebd7cf3f747ccf0bc1460acaaa97d36ee5f31d",
     "originalRepoPath": "backgrounds/glass-chip-l.jxl",
     "name": "glass-chip-l",
     "message": "Currently in gnome-backgrounds",
@@ -21344,9 +23440,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "32ca79912ccd8937fea1e82642d7adea35328eb5",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "aa4fb60ed327c441beb3d946a13151c07f38074d",
     "originalRepoPath": "backgrounds/glass-stripes-d.jxl",
     "name": "glass-stripes-d",
     "message": "Currently in gnome-backgrounds",
@@ -21364,9 +23460,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "399e916b6106593fc1a481c3c7e3253f7b6c258b",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "09fe9818054bc5cdecc5d896f8937a3251610022",
     "originalRepoPath": "backgrounds/glass-stripes-l.jxl",
     "name": "glass-stripes-l",
     "message": "Currently in gnome-backgrounds",
@@ -21384,9 +23480,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "dc739b15fe71d07823c3f73ce15b551c41a6ed2f",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "cbdb46fefe938bfdd95bfbbd58df025497a507f0",
     "originalRepoPath": "backgrounds/lcd-rainbow-d.jxl",
     "name": "lcd-rainbow-d",
     "message": "Currently in gnome-backgrounds",
@@ -21404,9 +23500,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "c82c0b97957714f31872d3694959bc4dd9f69a8c",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "247c508b6c9127ca5c2f82d9f182225374e31cab",
     "originalRepoPath": "backgrounds/lcd-rainbow-l.jxl",
     "name": "lcd-rainbow-l",
     "message": "Currently in gnome-backgrounds",
@@ -21424,9 +23520,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "3053f7f2a25e14f1dc41efa7e1e478896705af78",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "4c61ccaa6b49f6e9147a8f97d991c1c605f59bd3",
     "originalRepoPath": "backgrounds/map-d.svg",
     "name": "map-d",
     "message": "Currently in gnome-backgrounds",
@@ -21444,9 +23540,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "9c935cc2ce38d81779018b7f73f20212b66dc2c7",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "0a14246e3a5559dec059cd44b9266afbb3f2cb4b",
     "originalRepoPath": "backgrounds/map-l.svg",
     "name": "map-l",
     "message": "Currently in gnome-backgrounds",
@@ -21464,9 +23560,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "d4207b7b21b8b6da35d5c43f48d8441012de8a6e",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "fe3297a3ed0cc3aee7057b330685f8cce2a8622c",
     "originalRepoPath": "backgrounds/morphogenesis-d.svg",
     "name": "morphogenesis-d",
     "message": "Currently in gnome-backgrounds",
@@ -21484,9 +23580,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "b491162fb72dcc97d7f766d757fbe13b0580ac91",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "efe306a44be3c21b69d53b90d8f350d48e73de65",
     "originalRepoPath": "backgrounds/morphogenesis-l.svg",
     "name": "morphogenesis-l",
     "message": "Currently in gnome-backgrounds",
@@ -21504,9 +23600,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "c4d7c280edc704bcac39c49a74970a9bcfd01d72",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "2240e27ecdbc540b9fd1f67dc892c612de91b326",
     "originalRepoPath": "backgrounds/pills-d.jxl",
     "name": "pills-d",
     "message": "Currently in gnome-backgrounds",
@@ -21522,15 +23618,6 @@
         "scolor": "#BE5960"
       },
       {
-        "name": "Blendpills",
-        "filename": "@BACKGROUNDDIR@/blendpills-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/blendpills-d.jxl",
-        "options": "zoom",
-        "shade_type": "solid",
-        "pcolor": "#BE9F4D",
-        "scolor": "#8A4B61"
-      },
-      {
         "name": "Tarkov Pills",
         "filename": "@BACKGROUNDDIR@/tarkov-pills-l.jxl",
         "filename-dark": "@BACKGROUNDDIR@/tarkov-pills-d.jxl",
@@ -21538,13 +23625,22 @@
         "shade_type": "solid",
         "pcolor": "#9997AC",
         "scolor": "#605556"
+      },
+      {
+        "name": "Blendpills",
+        "filename": "@BACKGROUNDDIR@/blendpills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/blendpills-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#BE9F4D",
+        "scolor": "#8A4B61"
       }
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "08d0220c53c21b9cdb4981137021372e1d733fe2",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "740a8e48a5f507781e0d80c03133f9c4397b2907",
     "originalRepoPath": "backgrounds/pills-l.jxl",
     "name": "pills-l",
     "message": "Currently in gnome-backgrounds",
@@ -21560,15 +23656,6 @@
         "scolor": "#BE5960"
       },
       {
-        "name": "Blendpills",
-        "filename": "@BACKGROUNDDIR@/blendpills-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/blendpills-d.jxl",
-        "options": "zoom",
-        "shade_type": "solid",
-        "pcolor": "#BE9F4D",
-        "scolor": "#8A4B61"
-      },
-      {
         "name": "Tarkov Pills",
         "filename": "@BACKGROUNDDIR@/tarkov-pills-l.jxl",
         "filename-dark": "@BACKGROUNDDIR@/tarkov-pills-d.jxl",
@@ -21576,13 +23663,22 @@
         "shade_type": "solid",
         "pcolor": "#9997AC",
         "scolor": "#605556"
+      },
+      {
+        "name": "Blendpills",
+        "filename": "@BACKGROUNDDIR@/blendpills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/blendpills-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#BE9F4D",
+        "scolor": "#8A4B61"
       }
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "21418f41680cca1388ab7da093862dba2f136466",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "6d2c095cf607906b328612781cd68bbb65db387b",
     "originalRepoPath": "backgrounds/pixel-pusher-d.jxl",
     "name": "pixel-pusher-d",
     "message": "Currently in gnome-backgrounds",
@@ -21600,9 +23696,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "2cd23a63dde91195df37904bc53c9e66bb419ab9",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "fc9c88f4cbd3f914b59ea34a742b04618778dfb9",
     "originalRepoPath": "backgrounds/pixel-pusher-l.jxl",
     "name": "pixel-pusher-l",
     "message": "Currently in gnome-backgrounds",
@@ -21620,9 +23716,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "3dc80d06ff77ddcefca7830b00e97a61f8e4ed8f",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "e386fa0f65a4e5ba4277f345076e4bbc12c6e8d6",
     "originalRepoPath": "backgrounds/pixels-d.jxl",
     "name": "pixels-d",
     "message": "Currently in gnome-backgrounds",
@@ -21640,9 +23736,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "4b5614d895a7bcd6904e43e47901077490f0f872",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "0234c8377ac83eb13c5f453dccb3244688798430",
     "originalRepoPath": "backgrounds/pixels-l.jxl",
     "name": "pixels-l",
     "message": "Currently in gnome-backgrounds",
@@ -21660,9 +23756,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "28111fc0b19ac793eeaff18b20eee088cd190067",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "c2e3657d2d00f2f3cc6ba8a2f216446033eddfba",
     "originalRepoPath": "backgrounds/progress-d.jxl",
     "name": "progress-d",
     "message": "Currently in gnome-backgrounds",
@@ -21680,9 +23776,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "8313a64981b650c94df0565444a9b22f71acb7e9",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "4609d69678e5fb3e6a660f9b21f1ed0ebda310b4",
     "originalRepoPath": "backgrounds/progress-l.jxl",
     "name": "progress-l",
     "message": "Currently in gnome-backgrounds",
@@ -21700,9 +23796,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "5a65efeb991752ee9942dd32d17beb9c2053362d",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "c2a5d31a576f0daaed7b06bcae324ffb1ee6ec89",
     "originalRepoPath": "backgrounds/sheet-d.jxl",
     "name": "sheet-d",
     "message": "Currently in gnome-backgrounds",
@@ -21720,9 +23816,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "5d7fe76bef197a9a84bbc7e15f014f471d42ae54",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "1ecb36224935193841ba94860d0a586d31387deb",
     "originalRepoPath": "backgrounds/sheet-l.jxl",
     "name": "sheet-l",
     "message": "Currently in gnome-backgrounds",
@@ -21740,9 +23836,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "098d9da8f070079fdcf9b5549145ab2850633a55",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "c1c185233a7dfc9b188bdc77c202460927a2ab3c",
     "originalRepoPath": "backgrounds/symbolic-d.jxl",
     "name": "symbolic-d",
     "message": "Currently in gnome-backgrounds",
@@ -21760,9 +23856,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "fb17fd40baceb359668bf80ca6649ba7fb6715de",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "03962aca9790edbf1fb4231d1e8af1206bd83e92",
     "originalRepoPath": "backgrounds/symbolic-l.jxl",
     "name": "symbolic-l",
     "message": "Currently in gnome-backgrounds",
@@ -21780,9 +23876,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "055d05cfd21d32bbf7fe97dd71b701a4080dfed8",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "7d185741e3407d62e3f956cdca9d4865845e7c49",
     "originalRepoPath": "backgrounds/tarka-d.jxl",
     "name": "tarka-d",
     "message": "Currently in gnome-backgrounds",
@@ -21800,9 +23896,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "904661df831230807981c6fa8465f012134956f2",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "6a1ee1f4cca1c1321b9b4b4bdb3dd72ca208f7d6",
     "originalRepoPath": "backgrounds/tarka-l.jxl",
     "name": "tarka-l",
     "message": "Currently in gnome-backgrounds",
@@ -21820,9 +23916,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "ac041198b69164b9ecac6e574dc9029795c6d88f",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "2534556cf2facb9bdc7a9fd13e83ade9f71335b7",
     "originalRepoPath": "backgrounds/tarkov-pills-d.jxl",
     "name": "tarkov-pills-d",
     "message": "Currently in gnome-backgrounds",
@@ -21840,9 +23936,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "d14d654b3d05d49dcc8d799e5c7bea53cef28055",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "ae0e3d334916c5ba02410a2b1b250a2fa00d90c0",
     "originalRepoPath": "backgrounds/tarkov-pills-l.jxl",
     "name": "tarkov-pills-l",
     "message": "Currently in gnome-backgrounds",
@@ -21860,9 +23956,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "85523e3d57b00b96cd2eaee0c8e1095925180f4c",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "dc412ff5abd743c0bf15b8573d92539af8af6e0b",
     "originalRepoPath": "backgrounds/tubes-d.jxl",
     "name": "tubes-d",
     "message": "Currently in gnome-backgrounds",
@@ -21880,9 +23976,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "8879808ee2818f6a18d0784f294f5b9b4bee6482",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "af3c800820d22eed60d9c24cbf6b3f36e286c06b",
     "originalRepoPath": "backgrounds/tubes-l.jxl",
     "name": "tubes-l",
     "message": "Currently in gnome-backgrounds",
@@ -21900,9 +23996,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "7d9432161002a7494ff05853bfacdf7b55277b74",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "382e2ed10cf31eacfc1579e82bbe912f432c4b5e",
     "originalRepoPath": "backgrounds/vnc-d.png",
     "name": "vnc-d",
     "message": "Currently in gnome-backgrounds",
@@ -21920,9 +24016,9 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
-    "previousFileHash": "7b5275895e40dd8b494c15e640964fcc7d525d21",
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
+    "previousFileHash": "c1965cbfe6a015b6a14997fa76fffac0cce423d0",
     "originalRepoPath": "backgrounds/vnc-l.png",
     "name": "vnc-l",
     "message": "Currently in gnome-backgrounds",
@@ -21940,8 +24036,8 @@
     ]
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
     "previousFileHash": "c3d415d368b6a598c4e2848b0a085f19e6066b8a",
     "originalRepoPath": "badscaling.jpg",
     "name": "badscaling",
@@ -21950,8 +24046,8 @@
     "configs": []
   },
   {
-    "commit": "fd683892a7180f9448a09b7485006005b9bdd603",
-    "date": 1788135207,
+    "commit": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
+    "date": 1788739987,
     "previousFileHash": "7e1e750a9c4d3134089b03256a9c20cf88463896",
     "originalRepoPath": "defaults.webp",
     "name": "defaults",
