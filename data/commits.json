@@ -8355,8 +8355,18 @@
     "subject": "jxl: Include a thubmail"
   },
   {
-    "hash": "50d56c2bd6bd2c583b40a76d952e64d53846f7df",
-    "date": 1788739987,
+    "hash": "0cb4513b90e3473c50d38f86fb3460f84a439918",
+    "date": 1789397408,
+    "subject": "Prepare for 51.0"
+  },
+  {
+    "hash": "3e0962c0184a6ddebb7af3ff632eae095edb778d",
+    "date": 1789763679,
+    "subject": "52: How about an early Christmas?"
+  },
+  {
+    "hash": "fa27579d2a2ba6c4b8456bf3546b96dd3254d669",
+    "date": 1789949610,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
