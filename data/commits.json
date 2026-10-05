@@ -8365,8 +8365,58 @@
     "subject": "52: How about an early Christmas?"
   },
   {
-    "hash": "fa27579d2a2ba6c4b8456bf3546b96dd3254d669",
-    "date": 1789949610,
+    "hash": "884d4e39754e994e291ad29e53f2c6f41d147f28",
+    "date": 1790705701,
+    "subject": "default: Adjust lighting"
+  },
+  {
+    "hash": "50c502f1922688d067d1c4f5c2268a58543d4117",
+    "date": 1790758424,
+    "subject": "Curvaturingster: Actually add to build"
+  },
+  {
+    "hash": "e2e7f0553df48c9c81e02eebaee4b9450952a31f",
+    "date": 1790758491,
+    "subject": "prepare for 52.0.1 build"
+  },
+  {
+    "hash": "d1a2dde546f054d7227c14bee62d12358a5571b3",
+    "date": 1790758424,
+    "subject": "Curvaturingster: Actually add to build"
+  },
+  {
+    "hash": "feb45ac014d5f9b193e49a87a758fc47e3c1bd93",
+    "date": 1790852684,
+    "subject": "backgrounds: Include thumbnails"
+  },
+  {
+    "hash": "93345e6abc54e089cf543341ce2be6c20ead0743",
+    "date": 1790856630,
+    "subject": "thumbnails: Increase the size"
+  },
+  {
+    "hash": "4734ab722ac85df24f03993fdb30ebd79bb64a61",
+    "date": 1790862476,
+    "subject": "Merge branch 'wip/jimmac/bring-your-own-thumbnails' into 'main'"
+  },
+  {
+    "hash": "4eb982404deed84120368a710b95fc4b6ce9d657",
+    "date": 1790960287,
+    "subject": "pixels: Replace with timed wallaper"
+  },
+  {
+    "hash": "e614deb29618209a7d1639193e1824318bd069b1",
+    "date": 1791055807,
+    "subject": "pixels: Layout adjustments"
+  },
+  {
+    "hash": "c0a665ed8e74f759757568f3c3eac9764d4630c7",
+    "date": 1791152652,
+    "subject": "pixels: Update angle + shallow dof"
+  },
+  {
+    "hash": "4f411f33614abee0781ec18feaf625b56a3acfb5",
+    "date": 1791169466,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
