@@ -8460,8 +8460,18 @@
     "subject": "pixels: Use depth fog to focus middle"
   },
   {
-    "hash": "1ad520f4a674a0493460f68f656c57d8f41bd4a4",
-    "date": 1791764852,
+    "hash": "bca68a40b322dc9882bf4c3866190831bf88da08",
+    "date": 1792233406,
+    "subject": "adwaita: Add some glass"
+  },
+  {
+    "hash": "76ad782dd3afd1e16b14022872a3aa9561577355",
+    "date": 1792343999,
+    "subject": "adwaita: More glass shader work"
+  },
+  {
+    "hash": "647ff7637baa25e3c4daff7d354abea6f940de9f",
+    "date": 1792368852,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
