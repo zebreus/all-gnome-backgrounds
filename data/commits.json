@@ -8470,8 +8470,13 @@
     "subject": "adwaita: More glass shader work"
   },
   {
-    "hash": "647ff7637baa25e3c4daff7d354abea6f940de9f",
-    "date": 1792368852,
+    "hash": "b50f78a8eadfd830747a1fe9420e4c07c44f0701",
+    "date": 1793086912,
+    "subject": "curvaturingster: Improved detail"
+  },
+  {
+    "hash": "ee517b61d32dbd21056aa01fc95766392eb9760a",
+    "date": 1793578182,
     "subject": "Currently in gnome-backgrounds"
   }
 ]
