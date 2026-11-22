@@ -49,7 +49,8 @@ for commit in `jq  -c '.[]' "$COMMITS_JSON"`; do
 
     XML_FILES=$( find $GNOME_BG_DIR -iname '*.xml.i*' )
 
-    for diff_tree_entry in `git  -C $GNOME_BG_DIR diff-tree --no-commit-id $hash -r --root | grep -P '((\.jpg)|(\.jpeg)|(\.tif)|(\.tiff)|(\.svg)|(\.jxl)|(\.gif)|(\.webp)|(\.webp)|(\.png))$'`; do
+    # Skip the *-thumbnail.png previews that upstream ships next to each wallpaper since 2026
+    for diff_tree_entry in `git  -C $GNOME_BG_DIR diff-tree --no-commit-id $hash -r --root | grep -P '((\.jpg)|(\.jpeg)|(\.tif)|(\.tiff)|(\.svg)|(\.jxl)|(\.gif)|(\.webp)|(\.webp)|(\.png))$' | grep -vP -- '-thumbnail\.[^/.]+$'`; do
         creation=`echo $diff_tree_entry | grep -Po '^:000000' || true`
         deletion=`echo $diff_tree_entry | grep -Po '^:...... 000000' | grep -Po '000000$' || true`
         before_hash=`echo $diff_tree_entry | grep -Po '^:...... ...... [^\s]+' | grep -Po '[^\s]+$'`

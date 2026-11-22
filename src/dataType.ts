@@ -7,6 +7,8 @@ export type ConfigType = {
   "filename"?: string
   /* The full filename for the dark version, contains garbage*/
   "filename-dark"?: string
+  /* The full filename of a small preview image, contains garbage*/
+  "thumbnail"?: string
   /* How to display the wallpaper */
   "options"?: "stretched" | "zoom" | "scaled" | "wallpaper" | "fill"
   /* idk */

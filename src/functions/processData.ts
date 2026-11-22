@@ -217,6 +217,64 @@ const fixDuplicateConfigs = (snapshots: DataType[]): ConfigFixedDataType[] => {
   })
 }
 
+/** Lowercase and strip everything except letters and digits, so "Brush Strokes" and "BrushStrokes" compare equal */
+const looseName = (name: string) => name.toLowerCase().replace(/[^a-z0-9]/g, "")
+
+/** Check if two strings are equal or differ by one inserted, removed or replaced character */
+const differByAtMostOneCharacter = (a: string, b: string) => {
+  if (Math.abs(a.length - b.length) > 1) {
+    return false
+  }
+  let start = 0
+  while (start < a.length && a[start] === b[start]) {
+    start++
+  }
+  let endA = a.length
+  let endB = b.length
+  while (endA > start && endB > start && a[endA - 1] === b[endB - 1]) {
+    endA--
+    endB--
+  }
+  return endA - start <= 1 && endB - start <= 1
+}
+
+/**
+ * Upstream often adds a new wallpaper by copying the XML file of an existing one without updating the name. For
+ * example geometrics.xml.in says "Fold" and tarka.xml.in says "Truchet". Such a borrowed name merges the new wallpaper
+ * into the history of the one it was copied from.
+ *
+ * A name counts as borrowed if it is the filename of another wallpaper but does not match the wallpaper's own filename.
+ * Borrowed names are removed, so the name is taken from the other snapshots or from the filename instead.
+ */
+const fixBorrowedNames = (snapshots: ConfigFixedDataType[]): ConfigFixedDataType[] => {
+  const filenames = new Set(snapshots.map(snapshot => looseName(normalizeFilename(snapshot.originalRepoPath))))
+
+  return snapshots.map(snapshot => {
+    if (!snapshot.config) {
+      return snapshot
+    }
+    const ownFilename = looseName(normalizeFilename(snapshot.originalRepoPath))
+    const isBorrowed = (name: string | undefined) => {
+      if (!name) {
+        return false
+      }
+      const looseConfigName = looseName(name)
+      // Allow small differences like "symbolic" vs "Symbolics"
+      const matchesOwnFilename = differByAtMostOneCharacter(ownFilename, looseConfigName)
+      return !matchesOwnFilename && filenames.has(looseConfigName)
+    }
+
+    const config = { ...snapshot.config }
+    if (isBorrowed(config.name)) {
+      delete config.name
+    }
+    if (isBorrowed(config._name)) {
+      delete config._name
+    }
+    return { ...snapshot, config }
+  })
+}
+
 /** Check if a name is reasonable, as sometimes numbers were used as names */
 const assertReasonableName = (name: string | undefined): string | undefined => {
   if (!name) {
@@ -284,7 +342,7 @@ const fillMissingInfo = (snapshots: Snapshot[], lastName?: string): Required<Sna
 }
 
 export const processData = (data: DataType[]): WallpaperWithHistory[] => {
-  const fixedData = fixModeChanges(fixMoves(fixDuplicateChanges(fixDuplicateConfigs(data))))
+  const fixedData = fixModeChanges(fixMoves(fixDuplicateChanges(fixBorrowedNames(fixDuplicateConfigs(data)))))
   const deleted = fixedData.filter(item => item.type === "delete")
   const wallpapers = deleted.map(lastChange => {
     const deletedDate = new Date(lastChange.date * 1000)
