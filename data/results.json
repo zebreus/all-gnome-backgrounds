@@ -18277,18 +18277,18 @@
     "type": "edit",
     "configs": [
       {
-        "name": "Pride",
-        "filename": "@BACKGROUNDDIR@/pride-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/pride-d.jxl",
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/progress-pride-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/progress-pride-d.jxl",
         "options": "zoom",
         "shade_type": "solid",
         "pcolor": "#26a269",
         "scolor": "#000000"
       },
       {
-        "name": "Fold",
-        "filename": "@BACKGROUNDDIR@/progress-pride-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/progress-pride-d.jxl",
+        "name": "Pride",
+        "filename": "@BACKGROUNDDIR@/pride-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/pride-d.jxl",
         "options": "zoom",
         "shade_type": "solid",
         "pcolor": "#26a269",
@@ -18308,18 +18308,18 @@
     "type": "edit",
     "configs": [
       {
-        "name": "Pride",
-        "filename": "@BACKGROUNDDIR@/pride-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/pride-d.jxl",
+        "name": "Fold",
+        "filename": "@BACKGROUNDDIR@/progress-pride-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/progress-pride-d.jxl",
         "options": "zoom",
         "shade_type": "solid",
         "pcolor": "#26a269",
         "scolor": "#000000"
       },
       {
-        "name": "Fold",
-        "filename": "@BACKGROUNDDIR@/progress-pride-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/progress-pride-d.jxl",
+        "name": "Pride",
+        "filename": "@BACKGROUNDDIR@/pride-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/pride-d.jxl",
         "options": "zoom",
         "shade_type": "solid",
         "pcolor": "#26a269",
@@ -21575,15 +21575,6 @@
     "type": "edit",
     "configs": [
       {
-        "name": "Tarkov Pills",
-        "filename": "@BACKGROUNDDIR@/tarkov-pills-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/tarkov-pills-d.jxl",
-        "options": "zoom",
-        "shade_type": "solid",
-        "pcolor": "#9997AC",
-        "scolor": "#605556"
-      },
-      {
         "name": "Blendpills",
         "filename": "@BACKGROUNDDIR@/blendpills-l.jxl",
         "filename-dark": "@BACKGROUNDDIR@/blendpills-d.jxl",
@@ -21600,6 +21591,15 @@
         "shade_type": "solid",
         "pcolor": "#B03546",
         "scolor": "#BE5960"
+      },
+      {
+        "name": "Tarkov Pills",
+        "filename": "@BACKGROUNDDIR@/tarkov-pills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/tarkov-pills-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#9997AC",
+        "scolor": "#605556"
       }
     ]
   },
@@ -21615,15 +21615,6 @@
     "type": "edit",
     "configs": [
       {
-        "name": "Tarkov Pills",
-        "filename": "@BACKGROUNDDIR@/tarkov-pills-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/tarkov-pills-d.jxl",
-        "options": "zoom",
-        "shade_type": "solid",
-        "pcolor": "#9997AC",
-        "scolor": "#605556"
-      },
-      {
         "name": "Blendpills",
         "filename": "@BACKGROUNDDIR@/blendpills-l.jxl",
         "filename-dark": "@BACKGROUNDDIR@/blendpills-d.jxl",
@@ -21640,6 +21631,15 @@
         "shade_type": "solid",
         "pcolor": "#B03546",
         "scolor": "#BE5960"
+      },
+      {
+        "name": "Tarkov Pills",
+        "filename": "@BACKGROUNDDIR@/tarkov-pills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/tarkov-pills-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#9997AC",
+        "scolor": "#605556"
       }
     ]
   },
@@ -22579,15 +22579,6 @@
     "type": "edit",
     "configs": [
       {
-        "name": "Tarkov Pills",
-        "filename": "@BACKGROUNDDIR@/tarkov-pills-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/tarkov-pills-d.jxl",
-        "options": "zoom",
-        "shade_type": "solid",
-        "pcolor": "#9997AC",
-        "scolor": "#605556"
-      },
-      {
         "name": "Blendpills",
         "filename": "@BACKGROUNDDIR@/blendpills-l.jxl",
         "filename-dark": "@BACKGROUNDDIR@/blendpills-d.jxl",
@@ -22604,6 +22595,15 @@
         "shade_type": "solid",
         "pcolor": "#B03546",
         "scolor": "#BE5960"
+      },
+      {
+        "name": "Tarkov Pills",
+        "filename": "@BACKGROUNDDIR@/tarkov-pills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/tarkov-pills-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#9997AC",
+        "scolor": "#605556"
       }
     ]
   },
@@ -22619,15 +22619,6 @@
     "type": "edit",
     "configs": [
       {
-        "name": "Tarkov Pills",
-        "filename": "@BACKGROUNDDIR@/tarkov-pills-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/tarkov-pills-d.jxl",
-        "options": "zoom",
-        "shade_type": "solid",
-        "pcolor": "#9997AC",
-        "scolor": "#605556"
-      },
-      {
         "name": "Blendpills",
         "filename": "@BACKGROUNDDIR@/blendpills-l.jxl",
         "filename-dark": "@BACKGROUNDDIR@/blendpills-d.jxl",
@@ -22644,6 +22635,15 @@
         "shade_type": "solid",
         "pcolor": "#B03546",
         "scolor": "#BE5960"
+      },
+      {
+        "name": "Tarkov Pills",
+        "filename": "@BACKGROUNDDIR@/tarkov-pills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/tarkov-pills-d.jxl",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#9997AC",
+        "scolor": "#605556"
       }
     ]
   },
@@ -23088,581 +23088,6 @@
     ]
   },
   {
-    "commit": "feb45ac014d5f9b193e49a87a758fc47e3c1bd93",
-    "date": 1790852684,
-    "newFileHash": "675362553a48c09fd96a7a302bce8c287e0353d1",
-    "file": "images/675362553a48c09fd96a7a302bce8c287e0353d1.webp",
-    "originalRepoPath": "backgrounds/adwaita-thumbnail.png",
-    "name": "adwaita-thumbnail",
-    "message": "backgrounds: Include thumbnails",
-    "type": "add",
-    "configs": []
-  },
-  {
-    "commit": "feb45ac014d5f9b193e49a87a758fc47e3c1bd93",
-    "date": 1790852684,
-    "newFileHash": "bc838f21abd4e5054c19d4cd8c64b2a0bdc426a9",
-    "file": "images/bc838f21abd4e5054c19d4cd8c64b2a0bdc426a9.webp",
-    "originalRepoPath": "backgrounds/amber-thumbnail.png",
-    "name": "amber-thumbnail",
-    "message": "backgrounds: Include thumbnails",
-    "type": "add",
-    "configs": []
-  },
-  {
-    "commit": "feb45ac014d5f9b193e49a87a758fc47e3c1bd93",
-    "date": 1790852684,
-    "newFileHash": "8d0b9a1a2f44ea5ec673e0ffadc144cc5d20e578",
-    "file": "images/8d0b9a1a2f44ea5ec673e0ffadc144cc5d20e578.webp",
-    "originalRepoPath": "backgrounds/balls-thumbnail.png",
-    "name": "balls-thumbnail",
-    "message": "backgrounds: Include thumbnails",
-    "type": "add",
-    "configs": []
-  },
-  {
-    "commit": "feb45ac014d5f9b193e49a87a758fc47e3c1bd93",
-    "date": 1790852684,
-    "newFileHash": "46d856048cbeaee51e84915a3139f666edc8a9c3",
-    "file": "images/46d856048cbeaee51e84915a3139f666edc8a9c3.webp",
-    "originalRepoPath": "backgrounds/blendpills-thumbnail.png",
-    "name": "blendpills-thumbnail",
-    "message": "backgrounds: Include thumbnails",
-    "type": "add",
-    "configs": []
-  },
-  {
-    "commit": "feb45ac014d5f9b193e49a87a758fc47e3c1bd93",
-    "date": 1790852684,
-    "newFileHash": "0deffa04de8242be2e95c8b49d5aa19118f38979",
-    "file": "images/0deffa04de8242be2e95c8b49d5aa19118f38979.webp",
-    "originalRepoPath": "backgrounds/blobs-thumbnail.png",
-    "name": "blobs-thumbnail",
-    "message": "backgrounds: Include thumbnails",
-    "type": "add",
-    "configs": []
-  },
-  {
-    "commit": "feb45ac014d5f9b193e49a87a758fc47e3c1bd93",
-    "date": 1790852684,
-    "newFileHash": "173b1cad7b46f4c17e566decb3c71c64e2cde895",
-    "file": "images/173b1cad7b46f4c17e566decb3c71c64e2cde895.webp",
-    "originalRepoPath": "backgrounds/curvaturingster-thumbnail.png",
-    "name": "curvaturingster-thumbnail",
-    "message": "backgrounds: Include thumbnails",
-    "type": "add",
-    "configs": []
-  },
-  {
-    "commit": "feb45ac014d5f9b193e49a87a758fc47e3c1bd93",
-    "date": 1790852684,
-    "newFileHash": "b1ad27a5eeaa663afe559d033cd84c6b54933769",
-    "file": "images/b1ad27a5eeaa663afe559d033cd84c6b54933769.webp",
-    "originalRepoPath": "backgrounds/curvy-thumbnail.png",
-    "name": "curvy-thumbnail",
-    "message": "backgrounds: Include thumbnails",
-    "type": "add",
-    "configs": []
-  },
-  {
-    "commit": "feb45ac014d5f9b193e49a87a758fc47e3c1bd93",
-    "date": 1790852684,
-    "newFileHash": "f24ba16a5abc6422626f2e664cf8ef40b339e9fd",
-    "file": "images/f24ba16a5abc6422626f2e664cf8ef40b339e9fd.webp",
-    "originalRepoPath": "backgrounds/dithered-sun-thumbnail.png",
-    "name": "dithered-sun-thumbnail",
-    "message": "backgrounds: Include thumbnails",
-    "type": "add",
-    "configs": []
-  },
-  {
-    "commit": "feb45ac014d5f9b193e49a87a758fc47e3c1bd93",
-    "date": 1790852684,
-    "newFileHash": "e29e7a6aa36799e5a071a05b55527c83a9885775",
-    "file": "images/e29e7a6aa36799e5a071a05b55527c83a9885775.webp",
-    "originalRepoPath": "backgrounds/drool-thumbnail.png",
-    "name": "drool-thumbnail",
-    "message": "backgrounds: Include thumbnails",
-    "type": "add",
-    "configs": []
-  },
-  {
-    "commit": "feb45ac014d5f9b193e49a87a758fc47e3c1bd93",
-    "date": 1790852684,
-    "newFileHash": "eb1614b8ac3263d3f6f034ec8219fe16bfa42ffb",
-    "file": "images/eb1614b8ac3263d3f6f034ec8219fe16bfa42ffb.webp",
-    "originalRepoPath": "backgrounds/fold-thumbnail.png",
-    "name": "fold-thumbnail",
-    "message": "backgrounds: Include thumbnails",
-    "type": "add",
-    "configs": []
-  },
-  {
-    "commit": "feb45ac014d5f9b193e49a87a758fc47e3c1bd93",
-    "date": 1790852684,
-    "newFileHash": "d8e369cc472339309ca0c68e1060e8ddd87531ac",
-    "file": "images/d8e369cc472339309ca0c68e1060e8ddd87531ac.webp",
-    "originalRepoPath": "backgrounds/glass-chip-thumbnail.png",
-    "name": "glass-chip-thumbnail",
-    "message": "backgrounds: Include thumbnails",
-    "type": "add",
-    "configs": []
-  },
-  {
-    "commit": "feb45ac014d5f9b193e49a87a758fc47e3c1bd93",
-    "date": 1790852684,
-    "newFileHash": "a115942d58ef640205ff35f8b30a65dba94a7f98",
-    "file": "images/a115942d58ef640205ff35f8b30a65dba94a7f98.webp",
-    "originalRepoPath": "backgrounds/glass-stripes-thumbnail.png",
-    "name": "glass-stripes-thumbnail",
-    "message": "backgrounds: Include thumbnails",
-    "type": "add",
-    "configs": []
-  },
-  {
-    "commit": "feb45ac014d5f9b193e49a87a758fc47e3c1bd93",
-    "date": 1790852684,
-    "newFileHash": "050a3badf962cc436d57953b861ef5cf070d6f75",
-    "file": "images/050a3badf962cc436d57953b861ef5cf070d6f75.webp",
-    "originalRepoPath": "backgrounds/lcd-rainbow-thumbnail.png",
-    "name": "lcd-rainbow-thumbnail",
-    "message": "backgrounds: Include thumbnails",
-    "type": "add",
-    "configs": []
-  },
-  {
-    "commit": "feb45ac014d5f9b193e49a87a758fc47e3c1bd93",
-    "date": 1790852684,
-    "newFileHash": "b480510aed5ffe13a25f7f5e75322bf01381d491",
-    "file": "images/b480510aed5ffe13a25f7f5e75322bf01381d491.webp",
-    "originalRepoPath": "backgrounds/map-thumbnail.png",
-    "name": "map-thumbnail",
-    "message": "backgrounds: Include thumbnails",
-    "type": "add",
-    "configs": []
-  },
-  {
-    "commit": "feb45ac014d5f9b193e49a87a758fc47e3c1bd93",
-    "date": 1790852684,
-    "newFileHash": "03239d95f54dac7fdae319f9a2a5dcc5bd391589",
-    "file": "images/03239d95f54dac7fdae319f9a2a5dcc5bd391589.webp",
-    "originalRepoPath": "backgrounds/morphogenesis-thumbnail.png",
-    "name": "morphogenesis-thumbnail",
-    "message": "backgrounds: Include thumbnails",
-    "type": "add",
-    "configs": []
-  },
-  {
-    "commit": "feb45ac014d5f9b193e49a87a758fc47e3c1bd93",
-    "date": 1790852684,
-    "newFileHash": "fb8cbc677971624fda9c1ee5505ba33ba3d44ce9",
-    "file": "images/fb8cbc677971624fda9c1ee5505ba33ba3d44ce9.webp",
-    "originalRepoPath": "backgrounds/pills-thumbnail.png",
-    "name": "pills-thumbnail",
-    "message": "backgrounds: Include thumbnails",
-    "type": "add",
-    "configs": []
-  },
-  {
-    "commit": "feb45ac014d5f9b193e49a87a758fc47e3c1bd93",
-    "date": 1790852684,
-    "newFileHash": "8c6fd3a92f4d98ddb19fc5fe6582b1939503b1a0",
-    "file": "images/8c6fd3a92f4d98ddb19fc5fe6582b1939503b1a0.webp",
-    "originalRepoPath": "backgrounds/pixel-pusher-thumbnail.png",
-    "name": "pixel-pusher-thumbnail",
-    "message": "backgrounds: Include thumbnails",
-    "type": "add",
-    "configs": []
-  },
-  {
-    "commit": "feb45ac014d5f9b193e49a87a758fc47e3c1bd93",
-    "date": 1790852684,
-    "newFileHash": "dff241017b79da9a7d0bfe768d9398d32557cdd3",
-    "file": "images/dff241017b79da9a7d0bfe768d9398d32557cdd3.webp",
-    "originalRepoPath": "backgrounds/pixels-thumbnail.png",
-    "name": "pixels-thumbnail",
-    "message": "backgrounds: Include thumbnails",
-    "type": "add",
-    "configs": []
-  },
-  {
-    "commit": "feb45ac014d5f9b193e49a87a758fc47e3c1bd93",
-    "date": 1790852684,
-    "newFileHash": "e6da4866ccbce3ca219663e7213f26f9a5da8408",
-    "file": "images/e6da4866ccbce3ca219663e7213f26f9a5da8408.webp",
-    "originalRepoPath": "backgrounds/progress-thumbnail.png",
-    "name": "progress-thumbnail",
-    "message": "backgrounds: Include thumbnails",
-    "type": "add",
-    "configs": []
-  },
-  {
-    "commit": "feb45ac014d5f9b193e49a87a758fc47e3c1bd93",
-    "date": 1790852684,
-    "newFileHash": "3ddc9102d141891a4c4db338abd21b6e5c782f70",
-    "file": "images/3ddc9102d141891a4c4db338abd21b6e5c782f70.webp",
-    "originalRepoPath": "backgrounds/sheet-thumbnail.png",
-    "name": "sheet-thumbnail",
-    "message": "backgrounds: Include thumbnails",
-    "type": "add",
-    "configs": []
-  },
-  {
-    "commit": "feb45ac014d5f9b193e49a87a758fc47e3c1bd93",
-    "date": 1790852684,
-    "newFileHash": "39f5b1922c01ae20a2b6dc3b531022cf162f1dd0",
-    "file": "images/39f5b1922c01ae20a2b6dc3b531022cf162f1dd0.webp",
-    "originalRepoPath": "backgrounds/symbolic-thumbnail.png",
-    "name": "symbolic-thumbnail",
-    "message": "backgrounds: Include thumbnails",
-    "type": "add",
-    "configs": []
-  },
-  {
-    "commit": "feb45ac014d5f9b193e49a87a758fc47e3c1bd93",
-    "date": 1790852684,
-    "newFileHash": "c38701e1c6d3bd13dd70e44ca8dd5d659d8a0106",
-    "file": "images/c38701e1c6d3bd13dd70e44ca8dd5d659d8a0106.webp",
-    "originalRepoPath": "backgrounds/tarka-thumbnail.png",
-    "name": "tarka-thumbnail",
-    "message": "backgrounds: Include thumbnails",
-    "type": "add",
-    "configs": []
-  },
-  {
-    "commit": "feb45ac014d5f9b193e49a87a758fc47e3c1bd93",
-    "date": 1790852684,
-    "newFileHash": "039d06efb9d6bafc1a91324405e746e24181a6e4",
-    "file": "images/039d06efb9d6bafc1a91324405e746e24181a6e4.webp",
-    "originalRepoPath": "backgrounds/tarkov-pills-thumbnail.png",
-    "name": "tarkov-pills-thumbnail",
-    "message": "backgrounds: Include thumbnails",
-    "type": "add",
-    "configs": []
-  },
-  {
-    "commit": "feb45ac014d5f9b193e49a87a758fc47e3c1bd93",
-    "date": 1790852684,
-    "newFileHash": "054afb09e07b26f368b9d6a0f69eab912db0ce87",
-    "file": "images/054afb09e07b26f368b9d6a0f69eab912db0ce87.webp",
-    "originalRepoPath": "backgrounds/tubes-thumbnail.png",
-    "name": "tubes-thumbnail",
-    "message": "backgrounds: Include thumbnails",
-    "type": "add",
-    "configs": []
-  },
-  {
-    "commit": "feb45ac014d5f9b193e49a87a758fc47e3c1bd93",
-    "date": 1790852684,
-    "newFileHash": "715474cf7899e7b9de852d3ecb9a8a8112082dfe",
-    "file": "images/715474cf7899e7b9de852d3ecb9a8a8112082dfe.webp",
-    "originalRepoPath": "backgrounds/vnc-thumbnail.png",
-    "name": "vnc-thumbnail",
-    "message": "backgrounds: Include thumbnails",
-    "type": "add",
-    "configs": []
-  },
-  {
-    "commit": "93345e6abc54e089cf543341ce2be6c20ead0743",
-    "date": 1790856630,
-    "previousFileHash": "675362553a48c09fd96a7a302bce8c287e0353d1",
-    "newFileHash": "2b8983efea2ef054858d9ada5853042785e1e3bc",
-    "file": "images/2b8983efea2ef054858d9ada5853042785e1e3bc.webp",
-    "originalRepoPath": "backgrounds/adwaita-thumbnail.png",
-    "name": "adwaita-thumbnail",
-    "message": "thumbnails: Increase the size",
-    "type": "edit",
-    "configs": []
-  },
-  {
-    "commit": "93345e6abc54e089cf543341ce2be6c20ead0743",
-    "date": 1790856630,
-    "previousFileHash": "bc838f21abd4e5054c19d4cd8c64b2a0bdc426a9",
-    "newFileHash": "827ab73dfde685e69798fd92d5a6bf72d2e440e1",
-    "file": "images/827ab73dfde685e69798fd92d5a6bf72d2e440e1.webp",
-    "originalRepoPath": "backgrounds/amber-thumbnail.png",
-    "name": "amber-thumbnail",
-    "message": "thumbnails: Increase the size",
-    "type": "edit",
-    "configs": []
-  },
-  {
-    "commit": "93345e6abc54e089cf543341ce2be6c20ead0743",
-    "date": 1790856630,
-    "previousFileHash": "8d0b9a1a2f44ea5ec673e0ffadc144cc5d20e578",
-    "newFileHash": "ecdda5e8d76256d3085f168b6c0842ab40c37271",
-    "file": "images/ecdda5e8d76256d3085f168b6c0842ab40c37271.webp",
-    "originalRepoPath": "backgrounds/balls-thumbnail.png",
-    "name": "balls-thumbnail",
-    "message": "thumbnails: Increase the size",
-    "type": "edit",
-    "configs": []
-  },
-  {
-    "commit": "93345e6abc54e089cf543341ce2be6c20ead0743",
-    "date": 1790856630,
-    "previousFileHash": "46d856048cbeaee51e84915a3139f666edc8a9c3",
-    "newFileHash": "6917e6ae2af2c29122ef79cde97d0fd886f75492",
-    "file": "images/6917e6ae2af2c29122ef79cde97d0fd886f75492.webp",
-    "originalRepoPath": "backgrounds/blendpills-thumbnail.png",
-    "name": "blendpills-thumbnail",
-    "message": "thumbnails: Increase the size",
-    "type": "edit",
-    "configs": []
-  },
-  {
-    "commit": "93345e6abc54e089cf543341ce2be6c20ead0743",
-    "date": 1790856630,
-    "previousFileHash": "0deffa04de8242be2e95c8b49d5aa19118f38979",
-    "newFileHash": "6123253af9439b376a4f270fe864f18f56c7f984",
-    "file": "images/6123253af9439b376a4f270fe864f18f56c7f984.webp",
-    "originalRepoPath": "backgrounds/blobs-thumbnail.png",
-    "name": "blobs-thumbnail",
-    "message": "thumbnails: Increase the size",
-    "type": "edit",
-    "configs": []
-  },
-  {
-    "commit": "93345e6abc54e089cf543341ce2be6c20ead0743",
-    "date": 1790856630,
-    "previousFileHash": "173b1cad7b46f4c17e566decb3c71c64e2cde895",
-    "newFileHash": "8a0d238a130191ba75b491e6e28a966174fb187a",
-    "file": "images/8a0d238a130191ba75b491e6e28a966174fb187a.webp",
-    "originalRepoPath": "backgrounds/curvaturingster-thumbnail.png",
-    "name": "curvaturingster-thumbnail",
-    "message": "thumbnails: Increase the size",
-    "type": "edit",
-    "configs": []
-  },
-  {
-    "commit": "93345e6abc54e089cf543341ce2be6c20ead0743",
-    "date": 1790856630,
-    "previousFileHash": "b1ad27a5eeaa663afe559d033cd84c6b54933769",
-    "newFileHash": "81d1c8536ed738af0225b9b005e0e38ba4cf15af",
-    "file": "images/81d1c8536ed738af0225b9b005e0e38ba4cf15af.webp",
-    "originalRepoPath": "backgrounds/curvy-thumbnail.png",
-    "name": "curvy-thumbnail",
-    "message": "thumbnails: Increase the size",
-    "type": "edit",
-    "configs": []
-  },
-  {
-    "commit": "93345e6abc54e089cf543341ce2be6c20ead0743",
-    "date": 1790856630,
-    "previousFileHash": "f24ba16a5abc6422626f2e664cf8ef40b339e9fd",
-    "newFileHash": "4c98bd12c84ac88d606cf238318d04e1484ba0b9",
-    "file": "images/4c98bd12c84ac88d606cf238318d04e1484ba0b9.webp",
-    "originalRepoPath": "backgrounds/dithered-sun-thumbnail.png",
-    "name": "dithered-sun-thumbnail",
-    "message": "thumbnails: Increase the size",
-    "type": "edit",
-    "configs": []
-  },
-  {
-    "commit": "93345e6abc54e089cf543341ce2be6c20ead0743",
-    "date": 1790856630,
-    "previousFileHash": "e29e7a6aa36799e5a071a05b55527c83a9885775",
-    "newFileHash": "3b09d37fa2fbb0c8cd572ec1132888be5eaf97c0",
-    "file": "images/3b09d37fa2fbb0c8cd572ec1132888be5eaf97c0.webp",
-    "originalRepoPath": "backgrounds/drool-thumbnail.png",
-    "name": "drool-thumbnail",
-    "message": "thumbnails: Increase the size",
-    "type": "edit",
-    "configs": []
-  },
-  {
-    "commit": "93345e6abc54e089cf543341ce2be6c20ead0743",
-    "date": 1790856630,
-    "previousFileHash": "eb1614b8ac3263d3f6f034ec8219fe16bfa42ffb",
-    "newFileHash": "9baeb2c51c09f6d5fd0e9183e9f399184fdc4b31",
-    "file": "images/9baeb2c51c09f6d5fd0e9183e9f399184fdc4b31.webp",
-    "originalRepoPath": "backgrounds/fold-thumbnail.png",
-    "name": "fold-thumbnail",
-    "message": "thumbnails: Increase the size",
-    "type": "edit",
-    "configs": []
-  },
-  {
-    "commit": "93345e6abc54e089cf543341ce2be6c20ead0743",
-    "date": 1790856630,
-    "previousFileHash": "d8e369cc472339309ca0c68e1060e8ddd87531ac",
-    "newFileHash": "8cee5d18d962309122436dd2b15d58b2bcc7fef3",
-    "file": "images/8cee5d18d962309122436dd2b15d58b2bcc7fef3.webp",
-    "originalRepoPath": "backgrounds/glass-chip-thumbnail.png",
-    "name": "glass-chip-thumbnail",
-    "message": "thumbnails: Increase the size",
-    "type": "edit",
-    "configs": []
-  },
-  {
-    "commit": "93345e6abc54e089cf543341ce2be6c20ead0743",
-    "date": 1790856630,
-    "previousFileHash": "a115942d58ef640205ff35f8b30a65dba94a7f98",
-    "newFileHash": "b6df873e06a2b490b88a280d1dc123afe1abb94d",
-    "file": "images/b6df873e06a2b490b88a280d1dc123afe1abb94d.webp",
-    "originalRepoPath": "backgrounds/glass-stripes-thumbnail.png",
-    "name": "glass-stripes-thumbnail",
-    "message": "thumbnails: Increase the size",
-    "type": "edit",
-    "configs": []
-  },
-  {
-    "commit": "93345e6abc54e089cf543341ce2be6c20ead0743",
-    "date": 1790856630,
-    "previousFileHash": "050a3badf962cc436d57953b861ef5cf070d6f75",
-    "newFileHash": "ad9ac14a0217e0ab7065fcaffad90e662d6de9b4",
-    "file": "images/ad9ac14a0217e0ab7065fcaffad90e662d6de9b4.webp",
-    "originalRepoPath": "backgrounds/lcd-rainbow-thumbnail.png",
-    "name": "lcd-rainbow-thumbnail",
-    "message": "thumbnails: Increase the size",
-    "type": "edit",
-    "configs": []
-  },
-  {
-    "commit": "93345e6abc54e089cf543341ce2be6c20ead0743",
-    "date": 1790856630,
-    "previousFileHash": "b480510aed5ffe13a25f7f5e75322bf01381d491",
-    "newFileHash": "59ee33543a001b3fd5a2e4111e24593b94bc61a1",
-    "file": "images/59ee33543a001b3fd5a2e4111e24593b94bc61a1.webp",
-    "originalRepoPath": "backgrounds/map-thumbnail.png",
-    "name": "map-thumbnail",
-    "message": "thumbnails: Increase the size",
-    "type": "edit",
-    "configs": []
-  },
-  {
-    "commit": "93345e6abc54e089cf543341ce2be6c20ead0743",
-    "date": 1790856630,
-    "previousFileHash": "03239d95f54dac7fdae319f9a2a5dcc5bd391589",
-    "newFileHash": "f48e64be00f523c3f77e19f57ddc5530445dee3d",
-    "file": "images/f48e64be00f523c3f77e19f57ddc5530445dee3d.webp",
-    "originalRepoPath": "backgrounds/morphogenesis-thumbnail.png",
-    "name": "morphogenesis-thumbnail",
-    "message": "thumbnails: Increase the size",
-    "type": "edit",
-    "configs": []
-  },
-  {
-    "commit": "93345e6abc54e089cf543341ce2be6c20ead0743",
-    "date": 1790856630,
-    "previousFileHash": "fb8cbc677971624fda9c1ee5505ba33ba3d44ce9",
-    "newFileHash": "1f3640102c3822979a257c962e190ad03d88b984",
-    "file": "images/1f3640102c3822979a257c962e190ad03d88b984.webp",
-    "originalRepoPath": "backgrounds/pills-thumbnail.png",
-    "name": "pills-thumbnail",
-    "message": "thumbnails: Increase the size",
-    "type": "edit",
-    "configs": []
-  },
-  {
-    "commit": "93345e6abc54e089cf543341ce2be6c20ead0743",
-    "date": 1790856630,
-    "previousFileHash": "8c6fd3a92f4d98ddb19fc5fe6582b1939503b1a0",
-    "newFileHash": "cb78f0473e692b21b7d63a4ad8af7f85bcc8f21f",
-    "file": "images/cb78f0473e692b21b7d63a4ad8af7f85bcc8f21f.webp",
-    "originalRepoPath": "backgrounds/pixel-pusher-thumbnail.png",
-    "name": "pixel-pusher-thumbnail",
-    "message": "thumbnails: Increase the size",
-    "type": "edit",
-    "configs": []
-  },
-  {
-    "commit": "93345e6abc54e089cf543341ce2be6c20ead0743",
-    "date": 1790856630,
-    "previousFileHash": "dff241017b79da9a7d0bfe768d9398d32557cdd3",
-    "newFileHash": "36f18c20b8e637f52ff087679ef37555fb7f1efc",
-    "file": "images/36f18c20b8e637f52ff087679ef37555fb7f1efc.webp",
-    "originalRepoPath": "backgrounds/pixels-thumbnail.png",
-    "name": "pixels-thumbnail",
-    "message": "thumbnails: Increase the size",
-    "type": "edit",
-    "configs": []
-  },
-  {
-    "commit": "93345e6abc54e089cf543341ce2be6c20ead0743",
-    "date": 1790856630,
-    "previousFileHash": "e6da4866ccbce3ca219663e7213f26f9a5da8408",
-    "newFileHash": "9198775b51bf06f43e28f7b2d0a7ec5e984b0877",
-    "file": "images/9198775b51bf06f43e28f7b2d0a7ec5e984b0877.webp",
-    "originalRepoPath": "backgrounds/progress-thumbnail.png",
-    "name": "progress-thumbnail",
-    "message": "thumbnails: Increase the size",
-    "type": "edit",
-    "configs": []
-  },
-  {
-    "commit": "93345e6abc54e089cf543341ce2be6c20ead0743",
-    "date": 1790856630,
-    "previousFileHash": "3ddc9102d141891a4c4db338abd21b6e5c782f70",
-    "newFileHash": "462a130ea10c02c5f3102fa1bad668bae302b0f9",
-    "file": "images/462a130ea10c02c5f3102fa1bad668bae302b0f9.webp",
-    "originalRepoPath": "backgrounds/sheet-thumbnail.png",
-    "name": "sheet-thumbnail",
-    "message": "thumbnails: Increase the size",
-    "type": "edit",
-    "configs": []
-  },
-  {
-    "commit": "93345e6abc54e089cf543341ce2be6c20ead0743",
-    "date": 1790856630,
-    "previousFileHash": "39f5b1922c01ae20a2b6dc3b531022cf162f1dd0",
-    "newFileHash": "5bfa7b578878404327dc6d3236bbfde973927b3d",
-    "file": "images/5bfa7b578878404327dc6d3236bbfde973927b3d.webp",
-    "originalRepoPath": "backgrounds/symbolic-thumbnail.png",
-    "name": "symbolic-thumbnail",
-    "message": "thumbnails: Increase the size",
-    "type": "edit",
-    "configs": []
-  },
-  {
-    "commit": "93345e6abc54e089cf543341ce2be6c20ead0743",
-    "date": 1790856630,
-    "previousFileHash": "c38701e1c6d3bd13dd70e44ca8dd5d659d8a0106",
-    "newFileHash": "c1abec96f52a545f95147e358e13f6d99063d51c",
-    "file": "images/c1abec96f52a545f95147e358e13f6d99063d51c.webp",
-    "originalRepoPath": "backgrounds/tarka-thumbnail.png",
-    "name": "tarka-thumbnail",
-    "message": "thumbnails: Increase the size",
-    "type": "edit",
-    "configs": []
-  },
-  {
-    "commit": "93345e6abc54e089cf543341ce2be6c20ead0743",
-    "date": 1790856630,
-    "previousFileHash": "039d06efb9d6bafc1a91324405e746e24181a6e4",
-    "newFileHash": "751e5fce6d80beb8f6c15b4cad944fe8974c8212",
-    "file": "images/751e5fce6d80beb8f6c15b4cad944fe8974c8212.webp",
-    "originalRepoPath": "backgrounds/tarkov-pills-thumbnail.png",
-    "name": "tarkov-pills-thumbnail",
-    "message": "thumbnails: Increase the size",
-    "type": "edit",
-    "configs": []
-  },
-  {
-    "commit": "93345e6abc54e089cf543341ce2be6c20ead0743",
-    "date": 1790856630,
-    "previousFileHash": "054afb09e07b26f368b9d6a0f69eab912db0ce87",
-    "newFileHash": "cc8b7e3ad1dca90f46286584f52293fcd9747b24",
-    "file": "images/cc8b7e3ad1dca90f46286584f52293fcd9747b24.webp",
-    "originalRepoPath": "backgrounds/tubes-thumbnail.png",
-    "name": "tubes-thumbnail",
-    "message": "thumbnails: Increase the size",
-    "type": "edit",
-    "configs": []
-  },
-  {
-    "commit": "93345e6abc54e089cf543341ce2be6c20ead0743",
-    "date": 1790856630,
-    "previousFileHash": "715474cf7899e7b9de852d3ecb9a8a8112082dfe",
-    "newFileHash": "cc6506c3b40aedd99dfeab666125874f0b69a0e8",
-    "file": "images/cc6506c3b40aedd99dfeab666125874f0b69a0e8.webp",
-    "originalRepoPath": "backgrounds/vnc-thumbnail.png",
-    "name": "vnc-thumbnail",
-    "message": "thumbnails: Increase the size",
-    "type": "edit",
-    "configs": []
-  },
-  {
     "commit": "4eb982404deed84120368a710b95fc4b6ce9d657",
     "date": 1790960287,
     "newFileHash": "ca40bf158a3b3d0fb83fef8c4e903c798d51b989",
@@ -23768,16 +23193,6 @@
     "name": "pixels-red",
     "message": "pixels: Replace with timed wallaper",
     "type": "add",
-    "configs": []
-  },
-  {
-    "commit": "4eb982404deed84120368a710b95fc4b6ce9d657",
-    "date": 1790960287,
-    "previousFileHash": "36f18c20b8e637f52ff087679ef37555fb7f1efc",
-    "originalRepoPath": "backgrounds/pixels-thumbnail.png",
-    "name": "pixels-thumbnail",
-    "message": "pixels: Replace with timed wallaper",
-    "type": "delete",
     "configs": []
   },
   {
@@ -24437,16 +23852,6 @@
     "name": "pixels-red",
     "message": "pixels: Replace with timed wallaper",
     "type": "add",
-    "configs": []
-  },
-  {
-    "commit": "67ab81ddbace912da3986a4e94a15bfc8f0f7e94",
-    "date": 1790960287,
-    "previousFileHash": "36f18c20b8e637f52ff087679ef37555fb7f1efc",
-    "originalRepoPath": "backgrounds/pixels-thumbnail.png",
-    "name": "pixels-thumbnail",
-    "message": "pixels: Replace with timed wallaper",
-    "type": "delete",
     "configs": []
   },
   {
@@ -25047,18 +24452,6 @@
     ]
   },
   {
-    "commit": "bca68a40b322dc9882bf4c3866190831bf88da08",
-    "date": 1792233406,
-    "previousFileHash": "2b8983efea2ef054858d9ada5853042785e1e3bc",
-    "newFileHash": "a7bdd57bb5b737bb1fd7a564b1ccbbbbca2fca25",
-    "file": "images/a7bdd57bb5b737bb1fd7a564b1ccbbbbca2fca25.webp",
-    "originalRepoPath": "backgrounds/adwaita-thumbnail.png",
-    "name": "adwaita-thumbnail",
-    "message": "adwaita: Add some glass",
-    "type": "edit",
-    "configs": []
-  },
-  {
     "commit": "76ad782dd3afd1e16b14022872a3aa9561577355",
     "date": 1792343999,
     "previousFileHash": "1ae715a167a3c609aaa7df4fc4e8f7d29e77c35b",
@@ -25103,18 +24496,6 @@
         "scolor": "#7C9DC3"
       }
     ]
-  },
-  {
-    "commit": "76ad782dd3afd1e16b14022872a3aa9561577355",
-    "date": 1792343999,
-    "previousFileHash": "a7bdd57bb5b737bb1fd7a564b1ccbbbbca2fca25",
-    "newFileHash": "c65898c7ff0c5acc51f89a603c99ab1533ddd370",
-    "file": "images/c65898c7ff0c5acc51f89a603c99ab1533ddd370.webp",
-    "originalRepoPath": "backgrounds/adwaita-thumbnail.png",
-    "name": "adwaita-thumbnail",
-    "message": "adwaita: More glass shader work",
-    "type": "edit",
-    "configs": []
   },
   {
     "commit": "b50f78a8eadfd830747a1fe9420e4c07c44f0701",
@@ -25163,20 +24544,118 @@
     ]
   },
   {
-    "commit": "b50f78a8eadfd830747a1fe9420e4c07c44f0701",
-    "date": 1793086912,
-    "previousFileHash": "8a0d238a130191ba75b491e6e28a966174fb187a",
-    "newFileHash": "9c82ece2a98d54c6f270a5fadf72c097407b2803",
-    "file": "images/9c82ece2a98d54c6f270a5fadf72c097407b2803.webp",
-    "originalRepoPath": "backgrounds/curvaturingster-thumbnail.png",
-    "name": "curvaturingster-thumbnail",
-    "message": "curvaturingster: Improved detail",
-    "type": "edit",
+    "commit": "1632e44cde199f6226414f1c545771151d835b43",
+    "date": 1794827287,
+    "newFileHash": "cc6e14b5a573ceababc9744bacd5182be8c9c9a0",
+    "file": "images/cc6e14b5a573ceababc9744bacd5182be8c9c9a0.webp",
+    "originalRepoPath": "backgrounds/progressive-trout-d.jxl",
+    "name": "progressive-trout-d",
+    "message": "Progresive trout: colorful design replacement",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Progressive Trout",
+        "filename": "@BACKGROUNDDIR@/progressive-trout-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/progressive-trout-d.jxl",
+        "thumbnail": "@BACKGROUNDDIR@/progressive-trout-thumbnail.png",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#27401F",
+        "scolor": "#27401F"
+      }
+    ]
+  },
+  {
+    "commit": "1632e44cde199f6226414f1c545771151d835b43",
+    "date": 1794827287,
+    "newFileHash": "e1aea22a15d3ba88c4713c2531ae2efd24fe6479",
+    "file": "images/e1aea22a15d3ba88c4713c2531ae2efd24fe6479.webp",
+    "originalRepoPath": "backgrounds/progressive-trout-l.jxl",
+    "name": "progressive-trout-l",
+    "message": "Progresive trout: colorful design replacement",
+    "type": "add",
+    "configs": [
+      {
+        "name": "Progressive Trout",
+        "filename": "@BACKGROUNDDIR@/progressive-trout-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/progressive-trout-d.jxl",
+        "thumbnail": "@BACKGROUNDDIR@/progressive-trout-thumbnail.png",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#27401F",
+        "scolor": "#27401F"
+      }
+    ]
+  },
+  {
+    "commit": "1632e44cde199f6226414f1c545771151d835b43",
+    "date": 1794827287,
+    "previousFileHash": "dc412ff5abd743c0bf15b8573d92539af8af6e0b",
+    "originalRepoPath": "backgrounds/tubes-d.jxl",
+    "name": "tubes-d",
+    "message": "Progresive trout: colorful design replacement",
+    "type": "delete",
     "configs": []
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "1632e44cde199f6226414f1c545771151d835b43",
+    "date": 1794827287,
+    "previousFileHash": "af3c800820d22eed60d9c24cbf6b3f36e286c06b",
+    "originalRepoPath": "backgrounds/tubes-l.jxl",
+    "name": "tubes-l",
+    "message": "Progresive trout: colorful design replacement",
+    "type": "delete",
+    "configs": []
+  },
+  {
+    "commit": "600c5348d674a24f12c11902225f2a630fe4594f",
+    "date": 1794934863,
+    "previousFileHash": "cc6e14b5a573ceababc9744bacd5182be8c9c9a0",
+    "newFileHash": "ae89a8ab0850df9ebb0ea63cd8c7e8ca95bf3bd3",
+    "file": "images/ae89a8ab0850df9ebb0ea63cd8c7e8ca95bf3bd3.webp",
+    "originalRepoPath": "backgrounds/progressive-trout-d.jxl",
+    "name": "progressive-trout-d",
+    "message": "Progressive trout: iterations",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Progressive Trout",
+        "filename": "@BACKGROUNDDIR@/progressive-trout-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/progressive-trout-d.jxl",
+        "thumbnail": "@BACKGROUNDDIR@/progressive-trout-thumbnail.png",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#27401F",
+        "scolor": "#27401F"
+      }
+    ]
+  },
+  {
+    "commit": "600c5348d674a24f12c11902225f2a630fe4594f",
+    "date": 1794934863,
+    "previousFileHash": "e1aea22a15d3ba88c4713c2531ae2efd24fe6479",
+    "newFileHash": "38d7f81291f0d071c5ae1c94dfb3f3bb69476006",
+    "file": "images/38d7f81291f0d071c5ae1c94dfb3f3bb69476006.webp",
+    "originalRepoPath": "backgrounds/progressive-trout-l.jxl",
+    "name": "progressive-trout-l",
+    "message": "Progressive trout: iterations",
+    "type": "edit",
+    "configs": [
+      {
+        "name": "Progressive Trout",
+        "filename": "@BACKGROUNDDIR@/progressive-trout-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/progressive-trout-d.jxl",
+        "thumbnail": "@BACKGROUNDDIR@/progressive-trout-thumbnail.png",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#27401F",
+        "scolor": "#27401F"
+      }
+    ]
+  },
+  {
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "a0ac45cb3d2c8694a88b686c6fd0b11eec57cead",
     "originalRepoPath": "backgrounds/adwaita-d.jxl",
     "name": "adwaita-d",
@@ -25196,8 +24675,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "e70de5e6e4fc496161268be58372357c4259464a",
     "originalRepoPath": "backgrounds/adwaita-l.jxl",
     "name": "adwaita-l",
@@ -25217,18 +24696,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
-    "previousFileHash": "c65898c7ff0c5acc51f89a603c99ab1533ddd370",
-    "originalRepoPath": "backgrounds/adwaita-thumbnail.png",
-    "name": "adwaita-thumbnail",
-    "message": "Currently in gnome-backgrounds",
-    "type": "delete",
-    "configs": []
-  },
-  {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "3109a3b61c02be9f74696ae6f7ca26eb79883bb1",
     "originalRepoPath": "backgrounds/amber-d.jxl",
     "name": "amber-d",
@@ -25248,8 +24717,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "ef40398bf8b29156ed8dec143546e59e820bc23e",
     "originalRepoPath": "backgrounds/amber-l.jxl",
     "name": "amber-l",
@@ -25269,18 +24738,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
-    "previousFileHash": "827ab73dfde685e69798fd92d5a6bf72d2e440e1",
-    "originalRepoPath": "backgrounds/amber-thumbnail.png",
-    "name": "amber-thumbnail",
-    "message": "Currently in gnome-backgrounds",
-    "type": "delete",
-    "configs": []
-  },
-  {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "db7cc63331694574c2ab68ffe0213d72839b8395",
     "originalRepoPath": "backgrounds/balls-d.jxl",
     "name": "balls-d",
@@ -25300,8 +24759,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "77ea44a58ae4d4e835164ed0165e2a2f4a44a375",
     "originalRepoPath": "backgrounds/balls-l.jxl",
     "name": "balls-l",
@@ -25321,18 +24780,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
-    "previousFileHash": "ecdda5e8d76256d3085f168b6c0842ab40c37271",
-    "originalRepoPath": "backgrounds/balls-thumbnail.png",
-    "name": "balls-thumbnail",
-    "message": "Currently in gnome-backgrounds",
-    "type": "delete",
-    "configs": []
-  },
-  {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "46c6074523779fc0a1c848589c9369c8a126d65f",
     "originalRepoPath": "backgrounds/blendpills-d.jxl",
     "name": "blendpills-d",
@@ -25352,8 +24801,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "aa340272919b5be171dffa057a3c4799c26f2170",
     "originalRepoPath": "backgrounds/blendpills-l.jxl",
     "name": "blendpills-l",
@@ -25373,18 +24822,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
-    "previousFileHash": "6917e6ae2af2c29122ef79cde97d0fd886f75492",
-    "originalRepoPath": "backgrounds/blendpills-thumbnail.png",
-    "name": "blendpills-thumbnail",
-    "message": "Currently in gnome-backgrounds",
-    "type": "delete",
-    "configs": []
-  },
-  {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "9b0f379f40dc50f0011807f521ea74df261a7713",
     "originalRepoPath": "backgrounds/blobs-d.svg",
     "name": "blobs-d",
@@ -25404,8 +24843,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "871ef5a20acced7fcbb321a5e3ecb7c04cd2d712",
     "originalRepoPath": "backgrounds/blobs-l.svg",
     "name": "blobs-l",
@@ -25425,18 +24864,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
-    "previousFileHash": "6123253af9439b376a4f270fe864f18f56c7f984",
-    "originalRepoPath": "backgrounds/blobs-thumbnail.png",
-    "name": "blobs-thumbnail",
-    "message": "Currently in gnome-backgrounds",
-    "type": "delete",
-    "configs": []
-  },
-  {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "c65b79adeba9d96a4de139a5c4a676c49861219c",
     "originalRepoPath": "backgrounds/curvaturingster-d.jxl",
     "name": "curvaturingster-d",
@@ -25456,8 +24885,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "e7b4cef7ffd8f404394b30c83e61cdb2c22df24e",
     "originalRepoPath": "backgrounds/curvaturingster-l.jxl",
     "name": "curvaturingster-l",
@@ -25477,18 +24906,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
-    "previousFileHash": "9c82ece2a98d54c6f270a5fadf72c097407b2803",
-    "originalRepoPath": "backgrounds/curvaturingster-thumbnail.png",
-    "name": "curvaturingster-thumbnail",
-    "message": "Currently in gnome-backgrounds",
-    "type": "delete",
-    "configs": []
-  },
-  {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "45e7118156caaf8bb28d750b96779c2c86d52245",
     "originalRepoPath": "backgrounds/curvy-d.jxl",
     "name": "curvy-d",
@@ -25508,8 +24927,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "b99ffaf5998976e125f82d7b75d13264d2e1dcf3",
     "originalRepoPath": "backgrounds/curvy-l.jxl",
     "name": "curvy-l",
@@ -25529,18 +24948,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
-    "previousFileHash": "81d1c8536ed738af0225b9b005e0e38ba4cf15af",
-    "originalRepoPath": "backgrounds/curvy-thumbnail.png",
-    "name": "curvy-thumbnail",
-    "message": "Currently in gnome-backgrounds",
-    "type": "delete",
-    "configs": []
-  },
-  {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "8a7cd03e79bf6f7b1665c92002bae9a06f69d0fc",
     "originalRepoPath": "backgrounds/dithered-sun-d.jxl",
     "name": "dithered-sun-d",
@@ -25560,8 +24969,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "83e759e57d5b5de5813b4a46ae565db5a3c02290",
     "originalRepoPath": "backgrounds/dithered-sun-l.jxl",
     "name": "dithered-sun-l",
@@ -25581,18 +24990,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
-    "previousFileHash": "4c98bd12c84ac88d606cf238318d04e1484ba0b9",
-    "originalRepoPath": "backgrounds/dithered-sun-thumbnail.png",
-    "name": "dithered-sun-thumbnail",
-    "message": "Currently in gnome-backgrounds",
-    "type": "delete",
-    "configs": []
-  },
-  {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "5bd885564307827805defd4bf8d45a949daebf0a",
     "originalRepoPath": "backgrounds/drool-d.svg",
     "name": "drool-d",
@@ -25612,8 +25011,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "9616aa8aad2d5136b2eb044d95bbfee1ca43365e",
     "originalRepoPath": "backgrounds/drool-l.svg",
     "name": "drool-l",
@@ -25633,18 +25032,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
-    "previousFileHash": "3b09d37fa2fbb0c8cd572ec1132888be5eaf97c0",
-    "originalRepoPath": "backgrounds/drool-thumbnail.png",
-    "name": "drool-thumbnail",
-    "message": "Currently in gnome-backgrounds",
-    "type": "delete",
-    "configs": []
-  },
-  {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "dd53ce4dfd91f3c0e5f7828d9d766014f8354998",
     "originalRepoPath": "backgrounds/fold-d.jxl",
     "name": "fold-d",
@@ -25664,8 +25053,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "058a8dedcbc04928944e35fca7592d2c9ee853ac",
     "originalRepoPath": "backgrounds/fold-l.jxl",
     "name": "fold-l",
@@ -25685,18 +25074,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
-    "previousFileHash": "9baeb2c51c09f6d5fd0e9183e9f399184fdc4b31",
-    "originalRepoPath": "backgrounds/fold-thumbnail.png",
-    "name": "fold-thumbnail",
-    "message": "Currently in gnome-backgrounds",
-    "type": "delete",
-    "configs": []
-  },
-  {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "38e7df55477e40471af592f0b3575422bed5f8b6",
     "originalRepoPath": "backgrounds/glass-chip-d.jxl",
     "name": "glass-chip-d",
@@ -25716,8 +25095,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "87ebd7cf3f747ccf0bc1460acaaa97d36ee5f31d",
     "originalRepoPath": "backgrounds/glass-chip-l.jxl",
     "name": "glass-chip-l",
@@ -25737,18 +25116,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
-    "previousFileHash": "8cee5d18d962309122436dd2b15d58b2bcc7fef3",
-    "originalRepoPath": "backgrounds/glass-chip-thumbnail.png",
-    "name": "glass-chip-thumbnail",
-    "message": "Currently in gnome-backgrounds",
-    "type": "delete",
-    "configs": []
-  },
-  {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "aa4fb60ed327c441beb3d946a13151c07f38074d",
     "originalRepoPath": "backgrounds/glass-stripes-d.jxl",
     "name": "glass-stripes-d",
@@ -25768,8 +25137,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "09fe9818054bc5cdecc5d896f8937a3251610022",
     "originalRepoPath": "backgrounds/glass-stripes-l.jxl",
     "name": "glass-stripes-l",
@@ -25789,18 +25158,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
-    "previousFileHash": "b6df873e06a2b490b88a280d1dc123afe1abb94d",
-    "originalRepoPath": "backgrounds/glass-stripes-thumbnail.png",
-    "name": "glass-stripes-thumbnail",
-    "message": "Currently in gnome-backgrounds",
-    "type": "delete",
-    "configs": []
-  },
-  {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "cbdb46fefe938bfdd95bfbbd58df025497a507f0",
     "originalRepoPath": "backgrounds/lcd-rainbow-d.jxl",
     "name": "lcd-rainbow-d",
@@ -25820,8 +25179,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "247c508b6c9127ca5c2f82d9f182225374e31cab",
     "originalRepoPath": "backgrounds/lcd-rainbow-l.jxl",
     "name": "lcd-rainbow-l",
@@ -25841,18 +25200,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
-    "previousFileHash": "ad9ac14a0217e0ab7065fcaffad90e662d6de9b4",
-    "originalRepoPath": "backgrounds/lcd-rainbow-thumbnail.png",
-    "name": "lcd-rainbow-thumbnail",
-    "message": "Currently in gnome-backgrounds",
-    "type": "delete",
-    "configs": []
-  },
-  {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "4c61ccaa6b49f6e9147a8f97d991c1c605f59bd3",
     "originalRepoPath": "backgrounds/map-d.svg",
     "name": "map-d",
@@ -25872,8 +25221,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "0a14246e3a5559dec059cd44b9266afbb3f2cb4b",
     "originalRepoPath": "backgrounds/map-l.svg",
     "name": "map-l",
@@ -25893,18 +25242,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
-    "previousFileHash": "59ee33543a001b3fd5a2e4111e24593b94bc61a1",
-    "originalRepoPath": "backgrounds/map-thumbnail.png",
-    "name": "map-thumbnail",
-    "message": "Currently in gnome-backgrounds",
-    "type": "delete",
-    "configs": []
-  },
-  {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "fe3297a3ed0cc3aee7057b330685f8cce2a8622c",
     "originalRepoPath": "backgrounds/morphogenesis-d.svg",
     "name": "morphogenesis-d",
@@ -25924,8 +25263,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "efe306a44be3c21b69d53b90d8f350d48e73de65",
     "originalRepoPath": "backgrounds/morphogenesis-l.svg",
     "name": "morphogenesis-l",
@@ -25945,18 +25284,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
-    "previousFileHash": "f48e64be00f523c3f77e19f57ddc5530445dee3d",
-    "originalRepoPath": "backgrounds/morphogenesis-thumbnail.png",
-    "name": "morphogenesis-thumbnail",
-    "message": "Currently in gnome-backgrounds",
-    "type": "delete",
-    "configs": []
-  },
-  {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "2240e27ecdbc540b9fd1f67dc892c612de91b326",
     "originalRepoPath": "backgrounds/pills-d.jxl",
     "name": "pills-d",
@@ -25964,16 +25293,6 @@
     "type": "delete",
     "configs": [
       {
-        "name": "Tarkov Pills",
-        "filename": "@BACKGROUNDDIR@/tarkov-pills-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/tarkov-pills-d.jxl",
-        "thumbnail": "@BACKGROUNDDIR@/tarkov-pills-thumbnail.png",
-        "options": "zoom",
-        "shade_type": "solid",
-        "pcolor": "#9997AC",
-        "scolor": "#605556"
-      },
-      {
         "name": "Blendpills",
         "filename": "@BACKGROUNDDIR@/blendpills-l.jxl",
         "filename-dark": "@BACKGROUNDDIR@/blendpills-d.jxl",
@@ -25992,12 +25311,22 @@
         "shade_type": "solid",
         "pcolor": "#B03546",
         "scolor": "#BE5960"
+      },
+      {
+        "name": "Tarkov Pills",
+        "filename": "@BACKGROUNDDIR@/tarkov-pills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/tarkov-pills-d.jxl",
+        "thumbnail": "@BACKGROUNDDIR@/tarkov-pills-thumbnail.png",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#9997AC",
+        "scolor": "#605556"
       }
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "740a8e48a5f507781e0d80c03133f9c4397b2907",
     "originalRepoPath": "backgrounds/pills-l.jxl",
     "name": "pills-l",
@@ -26005,16 +25334,6 @@
     "type": "delete",
     "configs": [
       {
-        "name": "Tarkov Pills",
-        "filename": "@BACKGROUNDDIR@/tarkov-pills-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/tarkov-pills-d.jxl",
-        "thumbnail": "@BACKGROUNDDIR@/tarkov-pills-thumbnail.png",
-        "options": "zoom",
-        "shade_type": "solid",
-        "pcolor": "#9997AC",
-        "scolor": "#605556"
-      },
-      {
         "name": "Blendpills",
         "filename": "@BACKGROUNDDIR@/blendpills-l.jxl",
         "filename-dark": "@BACKGROUNDDIR@/blendpills-d.jxl",
@@ -26033,22 +25352,22 @@
         "shade_type": "solid",
         "pcolor": "#B03546",
         "scolor": "#BE5960"
+      },
+      {
+        "name": "Tarkov Pills",
+        "filename": "@BACKGROUNDDIR@/tarkov-pills-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/tarkov-pills-d.jxl",
+        "thumbnail": "@BACKGROUNDDIR@/tarkov-pills-thumbnail.png",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#9997AC",
+        "scolor": "#605556"
       }
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
-    "previousFileHash": "1f3640102c3822979a257c962e190ad03d88b984",
-    "originalRepoPath": "backgrounds/pills-thumbnail.png",
-    "name": "pills-thumbnail",
-    "message": "Currently in gnome-backgrounds",
-    "type": "delete",
-    "configs": []
-  },
-  {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "6d2c095cf607906b328612781cd68bbb65db387b",
     "originalRepoPath": "backgrounds/pixel-pusher-d.jxl",
     "name": "pixel-pusher-d",
@@ -26068,8 +25387,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "fc9c88f4cbd3f914b59ea34a742b04618778dfb9",
     "originalRepoPath": "backgrounds/pixel-pusher-l.jxl",
     "name": "pixel-pusher-l",
@@ -26089,18 +25408,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
-    "previousFileHash": "cb78f0473e692b21b7d63a4ad8af7f85bcc8f21f",
-    "originalRepoPath": "backgrounds/pixel-pusher-thumbnail.png",
-    "name": "pixel-pusher-thumbnail",
-    "message": "Currently in gnome-backgrounds",
-    "type": "delete",
-    "configs": []
-  },
-  {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "5182bc92bc7258b8136c52bbe4bcb22234fd8121",
     "originalRepoPath": "backgrounds/pixels-blue.jxl",
     "name": "pixels-blue",
@@ -26109,8 +25418,8 @@
     "configs": []
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "c9510ceccfe0306475936242ac6f800967854c74",
     "originalRepoPath": "backgrounds/pixels-brown.jxl",
     "name": "pixels-brown",
@@ -26119,8 +25428,8 @@
     "configs": []
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "3594ececaa7f57165857b328444f5a7b70d20224",
     "originalRepoPath": "backgrounds/pixels-dark.jxl",
     "name": "pixels-dark",
@@ -26129,8 +25438,8 @@
     "configs": []
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "81df1b5643fe3d9dd7bc28ea8638b4a3440dea8b",
     "originalRepoPath": "backgrounds/pixels-green.jxl",
     "name": "pixels-green",
@@ -26139,8 +25448,8 @@
     "configs": []
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "f3c6d798fa66a83f1f063f13b19d78692f89c11f",
     "originalRepoPath": "backgrounds/pixels-light.jxl",
     "name": "pixels-light",
@@ -26149,8 +25458,8 @@
     "configs": []
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "98aaabd5710fad029742928b5ce02c324ebb40a2",
     "originalRepoPath": "backgrounds/pixels-orange.jxl",
     "name": "pixels-orange",
@@ -26159,8 +25468,8 @@
     "configs": []
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "d739e77d10d61cdd5809b6cdc39f15063988b49c",
     "originalRepoPath": "backgrounds/pixels-purple.jxl",
     "name": "pixels-purple",
@@ -26169,8 +25478,8 @@
     "configs": []
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "7e6b6855bd425d99726783f790671ef1558824bc",
     "originalRepoPath": "backgrounds/pixels-red.jxl",
     "name": "pixels-red",
@@ -26179,8 +25488,8 @@
     "configs": []
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "64b60ab49a0f98339704928024247d481afa0be9",
     "originalRepoPath": "backgrounds/pixels-yellow.jxl",
     "name": "pixels-yellow",
@@ -26189,8 +25498,8 @@
     "configs": []
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "c2e3657d2d00f2f3cc6ba8a2f216446033eddfba",
     "originalRepoPath": "backgrounds/progress-d.jxl",
     "name": "progress-d",
@@ -26210,8 +25519,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "4609d69678e5fb3e6a660f9b21f1ed0ebda310b4",
     "originalRepoPath": "backgrounds/progress-l.jxl",
     "name": "progress-l",
@@ -26231,18 +25540,50 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
-    "previousFileHash": "9198775b51bf06f43e28f7b2d0a7ec5e984b0877",
-    "originalRepoPath": "backgrounds/progress-thumbnail.png",
-    "name": "progress-thumbnail",
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
+    "previousFileHash": "ae89a8ab0850df9ebb0ea63cd8c7e8ca95bf3bd3",
+    "originalRepoPath": "backgrounds/progressive-trout-d.jxl",
+    "name": "progressive-trout-d",
     "message": "Currently in gnome-backgrounds",
     "type": "delete",
-    "configs": []
+    "configs": [
+      {
+        "name": "Progressive Trout",
+        "filename": "@BACKGROUNDDIR@/progressive-trout-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/progressive-trout-d.jxl",
+        "thumbnail": "@BACKGROUNDDIR@/progressive-trout-thumbnail.png",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#27401F",
+        "scolor": "#27401F"
+      }
+    ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
+    "previousFileHash": "38d7f81291f0d071c5ae1c94dfb3f3bb69476006",
+    "originalRepoPath": "backgrounds/progressive-trout-l.jxl",
+    "name": "progressive-trout-l",
+    "message": "Currently in gnome-backgrounds",
+    "type": "delete",
+    "configs": [
+      {
+        "name": "Progressive Trout",
+        "filename": "@BACKGROUNDDIR@/progressive-trout-l.jxl",
+        "filename-dark": "@BACKGROUNDDIR@/progressive-trout-d.jxl",
+        "thumbnail": "@BACKGROUNDDIR@/progressive-trout-thumbnail.png",
+        "options": "zoom",
+        "shade_type": "solid",
+        "pcolor": "#27401F",
+        "scolor": "#27401F"
+      }
+    ]
+  },
+  {
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "c2a5d31a576f0daaed7b06bcae324ffb1ee6ec89",
     "originalRepoPath": "backgrounds/sheet-d.jxl",
     "name": "sheet-d",
@@ -26262,8 +25603,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "1ecb36224935193841ba94860d0a586d31387deb",
     "originalRepoPath": "backgrounds/sheet-l.jxl",
     "name": "sheet-l",
@@ -26283,18 +25624,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
-    "previousFileHash": "462a130ea10c02c5f3102fa1bad668bae302b0f9",
-    "originalRepoPath": "backgrounds/sheet-thumbnail.png",
-    "name": "sheet-thumbnail",
-    "message": "Currently in gnome-backgrounds",
-    "type": "delete",
-    "configs": []
-  },
-  {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "c1c185233a7dfc9b188bdc77c202460927a2ab3c",
     "originalRepoPath": "backgrounds/symbolic-d.jxl",
     "name": "symbolic-d",
@@ -26314,8 +25645,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "03962aca9790edbf1fb4231d1e8af1206bd83e92",
     "originalRepoPath": "backgrounds/symbolic-l.jxl",
     "name": "symbolic-l",
@@ -26335,18 +25666,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
-    "previousFileHash": "5bfa7b578878404327dc6d3236bbfde973927b3d",
-    "originalRepoPath": "backgrounds/symbolic-thumbnail.png",
-    "name": "symbolic-thumbnail",
-    "message": "Currently in gnome-backgrounds",
-    "type": "delete",
-    "configs": []
-  },
-  {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "7d185741e3407d62e3f956cdca9d4865845e7c49",
     "originalRepoPath": "backgrounds/tarka-d.jxl",
     "name": "tarka-d",
@@ -26366,8 +25687,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "6a1ee1f4cca1c1321b9b4b4bdb3dd72ca208f7d6",
     "originalRepoPath": "backgrounds/tarka-l.jxl",
     "name": "tarka-l",
@@ -26387,18 +25708,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
-    "previousFileHash": "c1abec96f52a545f95147e358e13f6d99063d51c",
-    "originalRepoPath": "backgrounds/tarka-thumbnail.png",
-    "name": "tarka-thumbnail",
-    "message": "Currently in gnome-backgrounds",
-    "type": "delete",
-    "configs": []
-  },
-  {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "2534556cf2facb9bdc7a9fd13e83ade9f71335b7",
     "originalRepoPath": "backgrounds/tarkov-pills-d.jxl",
     "name": "tarkov-pills-d",
@@ -26418,8 +25729,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "ae0e3d334916c5ba02410a2b1b250a2fa00d90c0",
     "originalRepoPath": "backgrounds/tarkov-pills-l.jxl",
     "name": "tarkov-pills-l",
@@ -26439,70 +25750,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
-    "previousFileHash": "751e5fce6d80beb8f6c15b4cad944fe8974c8212",
-    "originalRepoPath": "backgrounds/tarkov-pills-thumbnail.png",
-    "name": "tarkov-pills-thumbnail",
-    "message": "Currently in gnome-backgrounds",
-    "type": "delete",
-    "configs": []
-  },
-  {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
-    "previousFileHash": "dc412ff5abd743c0bf15b8573d92539af8af6e0b",
-    "originalRepoPath": "backgrounds/tubes-d.jxl",
-    "name": "tubes-d",
-    "message": "Currently in gnome-backgrounds",
-    "type": "delete",
-    "configs": [
-      {
-        "name": "Series of Tubes",
-        "filename": "@BACKGROUNDDIR@/tubes-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/tubes-d.jxl",
-        "thumbnail": "@BACKGROUNDDIR@/tubes-thumbnail.png",
-        "options": "zoom",
-        "shade_type": "solid",
-        "pcolor": "#010000",
-        "scolor": "#270F06"
-      }
-    ]
-  },
-  {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
-    "previousFileHash": "af3c800820d22eed60d9c24cbf6b3f36e286c06b",
-    "originalRepoPath": "backgrounds/tubes-l.jxl",
-    "name": "tubes-l",
-    "message": "Currently in gnome-backgrounds",
-    "type": "delete",
-    "configs": [
-      {
-        "name": "Series of Tubes",
-        "filename": "@BACKGROUNDDIR@/tubes-l.jxl",
-        "filename-dark": "@BACKGROUNDDIR@/tubes-d.jxl",
-        "thumbnail": "@BACKGROUNDDIR@/tubes-thumbnail.png",
-        "options": "zoom",
-        "shade_type": "solid",
-        "pcolor": "#010000",
-        "scolor": "#270F06"
-      }
-    ]
-  },
-  {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
-    "previousFileHash": "cc8b7e3ad1dca90f46286584f52293fcd9747b24",
-    "originalRepoPath": "backgrounds/tubes-thumbnail.png",
-    "name": "tubes-thumbnail",
-    "message": "Currently in gnome-backgrounds",
-    "type": "delete",
-    "configs": []
-  },
-  {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "382e2ed10cf31eacfc1579e82bbe912f432c4b5e",
     "originalRepoPath": "backgrounds/vnc-d.png",
     "name": "vnc-d",
@@ -26522,8 +25771,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "c1965cbfe6a015b6a14997fa76fffac0cce423d0",
     "originalRepoPath": "backgrounds/vnc-l.png",
     "name": "vnc-l",
@@ -26543,18 +25792,8 @@
     ]
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
-    "previousFileHash": "cc6506c3b40aedd99dfeab666125874f0b69a0e8",
-    "originalRepoPath": "backgrounds/vnc-thumbnail.png",
-    "name": "vnc-thumbnail",
-    "message": "Currently in gnome-backgrounds",
-    "type": "delete",
-    "configs": []
-  },
-  {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "c3d415d368b6a598c4e2848b0a085f19e6066b8a",
     "originalRepoPath": "badscaling.jpg",
     "name": "badscaling",
@@ -26563,8 +25802,8 @@
     "configs": []
   },
   {
-    "commit": "ee517b61d32dbd21056aa01fc95766392eb9760a",
-    "date": 1793578182,
+    "commit": "5100761b4eed63b5624493bae19ef43dc0903b9c",
+    "date": 1795352801,
     "previousFileHash": "7e1e750a9c4d3134089b03256a9c20cf88463896",
     "originalRepoPath": "defaults.webp",
     "name": "defaults",
